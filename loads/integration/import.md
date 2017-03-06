@@ -1,5 +1,21 @@
 # Import
 
-The import API provides a way to upload the complex load structure in a denormalized format. There are many moving parts to a load care needs to be taken when building an integration to ensure a reliable and robust result.
+## Introduction
+
+The import API provides a way to upload the complex load structure in a denormalized format. There are many moving parts to a load and care should be taken when building an integration to ensure a reliable and robust result.
 
 Each message represents a single load along with all of its associated data. Once initial validation has been performed on the message the load is dispatched asynchrnously to be processed by the server. This means that the load may not be available immediately after a 200 response code is received. A web hook can be registered to notify you once the upload is complete.
+
+## Validation
+
+The message you construct and send goes through a series of validation steps. The first phase does basic type checking and ensures that reuired fields have been provide. The next phase checks the referential integrity of the message. Lookup data is scanned for duplicates and lookup references are checked for consistency. If any failures are detected the API will response with a "400 Bad Request" http status code. Details of the failure will be contained in the resposne message.
+
+## Data Ownership
+
+The data ownership component of the message is an important mechanism which give you control over the ownership of various elements of the message. Using the data ownership component you are able to configure the behavior of the API for create, update and delete operations of the supported areas. The options for the operations are as follows:
+
+- Accept - This will instruct the API to accept changes sent within the message and overwrite any data which already exists in the Trackmatic system. Using this option makes your system the owner of the data area.
+
+- Throw Error - This option will instruct the api to throw an error in the operation is attempted. This is useful when debugging or if you are not certain of the affect that the message will have on the data.
+
+- Ignore - When using this option the api will ignore any data sent by you if the data already exists in trackmatic. This effectively makes Trackmatic the owner of the data area since one a component is created any further changes made by this api call will be ignored. This is usefull for when you need to allow chanegs to me made through the Trackmatic user interface and not have then overwritten by the integration.
