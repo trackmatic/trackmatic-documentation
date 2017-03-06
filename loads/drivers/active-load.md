@@ -25,4 +25,4 @@ The planned path represents the travel path to be taken from the previous stop t
 
 ## Activities
 
-The activities describe what the driver needs to do when he/she arrives at a stop. A stop is made up of 0 or more activities. The activities are intended to be executed in the order in which they appear in the list. Each activity has 0 or more requiremnts. A requirements defines the workflow and data which shoud be captured for every activity.
+The activities describe what the driver needs to do when he/she arrives at a stop. A stop is made up of 0 or more activities. The activities are intended to be executed in the order in which they appear in the list. Each activity has 0 or more requiremnts. A requirement defines the workflow and data which shoud be captured for every activity.
