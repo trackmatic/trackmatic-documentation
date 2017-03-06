@@ -6,14 +6,14 @@ Each message represents a single load along with all of its associated data. Onc
 
 ## Validation
 
-The message you construct and send goes through a series of validation steps. The first phase does basic type checking and ensures that reuired fields have been provide. The next phase checks the referential integrity of the message. Lookup data is scanned for duplicates and lookup references are checked for consistency. If any failures are detected the API will response with a "400 Bad Request" http status code. Details of the failure will be contained in the resposne message.
+The message you construct and send goes through a series of validation steps. The first phase does basic type checking and ensures that required fields have been provide. The next phase checks the referential integrity of the message. Lookup data is scanned for duplicates and lookup references are checked for consistency. If any failures are detected the API will respond with a "400 Bad Request" http status code. Details of the failure will be contained in the response message.
 
 ## Data Ownership
 
-The data ownership component of the message is an important mechanism which give you control over the ownership of various elements of the message. Using the data ownership component you are able to configure the behavior of the API for create, update and delete operations of the supported areas. The options for the operations are as follows:
+The data ownership component of the message is an important mechanism providing control over the ownership of various elements of the message. Using the data ownership component you are able to configure the behavior of the API for create, update and delete operations of the supported areas. The options for the operations are as follows:
 
 - Accept - This will instruct the API to accept changes sent within the message and overwrite any data which already exists in the Trackmatic system. Using this option makes your system the owner of the data area.
 
-- Throw Error - This option will instruct the api to throw an error in the operation is attempted. This is useful when debugging or if you are not certain of the affect that the message will have on the data.
+- Throw Error - This option will instruct the api to throw an error if the operation is attempted. This is useful when debugging or if you are not certain of the effect that the message will have on the data.
 
-- Ignore - When using this option the api will ignore any data sent by you if the data already exists in trackmatic. This effectively makes Trackmatic the owner of the data area since one a component is created any further changes made by this api call will be ignored. This is usefull for when you need to allow chanegs to me made through the Trackmatic user interface and not have then overwritten by the integration.
+- Ignore - When using this option the api will ignore any data sent by you if the data already exists in Trackmatic. This effectively makes Trackmatic the owner of the data area since once a component is created any further changes made by this api call will be ignored. This is usefull for when you need to allow chanegs to me made through the Trackmatic user interface and not have them overwritten by the integration.
