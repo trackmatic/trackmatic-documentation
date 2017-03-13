@@ -17,3 +17,52 @@ The data ownership component of the message is an important mechanism providing 
 - Throw Error - This option will instruct the api to throw an error if the operation is attempted. This is useful when debugging or if you are not certain of the effect that the message will have on the data.
 
 - Ignore - When using this option the api will ignore any data sent by you if the data already exists in Trackmatic. This effectively makes Trackmatic the owner of the data area since once a component is created any further changes made by this api call will be ignored. This is usefull for when you need to allow chanegs to me made through the Trackmatic user interface and not have them overwritten by the integration.
+
+## References
+
+The various components are linked together by their respective references within the payload. The reference fields are intended to be populated with your business keys for the various elements of the payload. The reference number will follow the data through into the webhooks which will allow you to correlate the data in the webhook messages. The pattern is used throughout the message structure. 
+
+This process helps with deduplicating data within the payload. For example, when uploading a consignment with an associated entity, shipping address and geofence the payload would appear as follows:
+
+```
+
+  "geofences": [
+    {
+      "reference": "geofence1"
+    }
+  ],
+
+  "shipping_addresses": [
+    {
+      "reference": "shippingAddress1",
+      "geofence_reference": "geofence1"
+
+      ...
+    }
+  ],
+  "entities": [
+    {
+      "reference": "entity1"
+
+      ...
+    }
+  ],
+  "consignments": [
+    {
+      "reference": "consignment1",
+      "dropoffs": [
+        {
+          "entity_reference": "entity1",
+          "shipping_address_reference": "shippingAddress1",
+          "reference": "dropoff1"
+          ...
+        }
+      ]
+
+      ...
+    }
+  ]
+
+  ...
+
+``` 
