@@ -33,4 +33,8 @@ PUT /{organiastionId}/sessions{sessionId}/revoke
 
 ## Closing a session
 
-Sessions are closed automatically by the system as a result of some other action such as closing a route. The driver does not have the ability to explicitly close a session.
+A session shoud be closed only once all data has been flushed from the store and forward mechanism. Closing a session before that could result in data loss.
+
+```
+PUT /{organiastionId}/sessions{sessionId}/close
+```

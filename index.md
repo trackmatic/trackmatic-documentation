@@ -12,3 +12,5 @@
 
 - [**Loads Integration Api**](https://secure.trackmatic.co.za/documentation/?url=https://rest.trackmatic.co.za/api/v2/loads/integration/docs/latest)
 
+- [**Blob Storage Api**](https://secure.trackmatic.co.za/documentation/?url=https://rest.trackmatic.co.za/api/v2/blob-storage/docs/latest)
+
