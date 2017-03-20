@@ -1,16 +1,16 @@
 # Trackmatic Api Index
 
-- [**Account Api**](https://secure.trackmatic.co.za/documentation/?url=https://rest.trackmatic.co.za/api/v2/account/docs/latest)
+- [**Account Api**](http://secure.trackmatic.co.za/documentation/account.html)
 
-- [**Organisations Api**](https://secure.trackmatic.co.za/documentation/?url=https://rest.trackmatic.co.za/api/v2/organisations/docs/latest)
+- [**Organisations Api**](http://secure.trackmatic.co.za/documentation/organisations.html)
 
-- [**Fleet Api**](https://secure.trackmatic.co.za/documentation/?url=https://rest.trackmatic.co.za/api/v2/fleet/docs/latest)
+- [**Fleet Api**](http://secure.trackmatic.co.za/documentation/fleet.html)
 
-- [**Tracking Api**](https://secure.trackmatic.co.za/documentation/?url=https://rest.trackmatic.co.za/api/v2/tracking/docs/latest)
+- [**Tracking Api**](http://secure.trackmatic.co.za/documentation/tracking.html)
 
-- [**Loads Drivers Api**](https://secure.trackmatic.co.za/documentation/?url=https://rest.trackmatic.co.za/api/v2/loads/drivers/docs/latest)
+- [**Loads Drivers Api**](http://secure.trackmatic.co.za/documentation/loads-drivers.html)
 
-- [**Loads Integration Api**](https://secure.trackmatic.co.za/documentation/?url=https://rest.trackmatic.co.za/api/v2/loads/integration/docs/latest)
+- [**Loads Integration Api**](http://secure.trackmatic.co.za/documentation/loads-integration.html)
 
-- [**Blob Storage Api**](https://secure.trackmatic.co.za/documentation/?url=https://rest.trackmatic.co.za/api/v2/blob-storage/docs/latest)
+- [**Blob Storage Api**](http://secure.trackmatic.co.za/documentation/blob-storage.html)
 
