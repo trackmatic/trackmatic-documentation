@@ -30,7 +30,7 @@
 }
 ```
 
-## Pickup Strated `load.pickup.started`
+## Pickup Started `load.pickup.started`
 
 ```
 ```
