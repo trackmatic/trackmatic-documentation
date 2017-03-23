@@ -10,3 +10,4 @@
 |Loads (Integration)|Load planning and execution|[read more](http://secure.trackmatic.co.za/documentation/loads-integration.html)|
 |Blob Storage|Unstructured data storage and retrieval (File, Images etc)|[read more](http://secure.trackmatic.co.za/documentation/blob-storage.html)|
 |Web Hooks|Webhook subscriptions and management tools|[read more](http://secure.trackmatic.co.za/documentation/webhooks.html)|
+|Devices|Device management and tracking|[read more](http://secure.trackmatic.co.za/documentation/devices.html)|
