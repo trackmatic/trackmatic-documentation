@@ -22,6 +22,7 @@ Web Hooks             Webhook subscriptions and management tools                
 .. toctree::
    :caption: Table of Contents
    :name: mastertoc
+   :numbered:
 
    loads/drivers/loads/active-load
    blob-storage/blob-storage
