@@ -11,7 +11,7 @@ Validation
 
 The message you construct and send goes through a series of validation steps. The first phase does basic type checking and ensures that required fields have been provide. The next phase checks the referential integrity of the message. Lookup data is scanned for duplicates and lookup references are checked for consistency. If any failures are detected the API will respond with a "400 Bad Request" http status code. Details of the failure will be contained in the response message.
 
-Validation
+Data Ownership
 ==========
 
 The data ownership component of the message is an important mechanism providing control over the ownership of various elements of the message. Using the data ownership component you are able to configure the behavior of the API for create, update and delete operations of the supported areas. The options for the operations are as follows:
@@ -29,7 +29,7 @@ The various components are linked together by their respective references within
 
 This process helps with deduplicating data within the payload. For example, when uploading a consignment with an associated entity, shipping address and geofence the payload would appear as follows:
 
-.. code-block::
+.. code-block:: C#
 
   "geofences": [
     {

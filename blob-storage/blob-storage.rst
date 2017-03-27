@@ -17,7 +17,7 @@ To store a file you need to perform an HTTP post with the Content-Type header se
 
 Supported Content types
 ------------------------
-.. code-block::
+.. code-block:: C#
 
   "application/xml",
   "application/pdf",

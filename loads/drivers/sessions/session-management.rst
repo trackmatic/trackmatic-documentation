@@ -14,7 +14,7 @@ Creating a session
 
 The following api call will allow you to create a new session which binds the currently logged in user to the asset and device provided. Any attempt to create a new session with any combination of the below will cause an error to be thrown.
 
-.. code-block:: 
+.. code-block:: C#
 
  POST /{organiastionId}/sessions
 
@@ -29,7 +29,7 @@ Revoking a session
 If a session was created by mistake or the driver wishes to manually release the session you can do this via the following api call. A reason for revoking the session must be provided.
 
 
-.. code-block:: 
+.. code-block:: C#
 
  PUT /{organiastionId}/sessions{sessionId}/revoke
 
