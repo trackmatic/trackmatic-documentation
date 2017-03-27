@@ -16,7 +16,7 @@ Web Hooks             Webhook subscriptions and management tools                
 ====================  ============================================================  ====================
 
 **************
-**Trackmatic**
+**Trackmaticx**
 **************
 
 .. toctree::
