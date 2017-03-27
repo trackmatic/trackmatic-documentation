@@ -148,7 +148,7 @@ When returning an error code it is accompanied by an explanation of the error in
 - Code - A unique error code which represents the error being generated
 - Key - Used to link the error to a specific field. Can be used for validation responses.
 
-> Note - The response is always be an array of error messages
+> Note - The response is always an array of error messages
 
 ## Timezones
 
