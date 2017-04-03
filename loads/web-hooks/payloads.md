@@ -38,7 +38,7 @@
       }
     }
   },
-  "when": "2017-03-27T21:11:42.0417001Z",
+  "when": "2017-04-03T14:45:42.0145849Z",
   "where": [
     0.0,
     0.0
@@ -49,7 +49,7 @@
 ## Stop Arrived `load.stop.arrived`
 ```
 {
-  "when": "2017-03-27T21:11:42.0412004Z",
+  "when": "2017-04-03T14:45:42.0135815Z",
   "where": [
     0.0,
     0.0
@@ -97,7 +97,7 @@
 ## Stop Departed `load.stop.departed`
 ```
 {
-  "when": "2017-03-27T21:11:42.0412004Z",
+  "when": "2017-04-03T14:45:42.0145849Z",
   "where": [
     0.0,
     0.0
@@ -145,7 +145,7 @@
 ## Dropoff Started `load.dropoff.started`
 ```
 {
-  "when": "2017-03-27T21:11:42.0417001Z",
+  "when": "2017-04-03T14:45:42.0145849Z",
   "where": [
     0.0,
     0.0
@@ -202,7 +202,7 @@
   },
   "dropoff": {
     "reference": "string",
-    "due_at": "2017-03-27T21:11:42.0422005Z",
+    "due_at": "2017-04-03T14:45:42.0145849Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -256,7 +256,7 @@
 ## Dropoff Completed `load.dropoff.completed`
 ```
 {
-  "when": "2017-03-27T21:11:42.0427018Z",
+  "when": "2017-04-03T14:45:42.0155854Z",
   "where": [
     0.0,
     0.0
@@ -313,7 +313,7 @@
   },
   "dropoff": {
     "reference": "string",
-    "due_at": "2017-03-27T21:11:42.0427018Z",
+    "due_at": "2017-04-03T14:45:42.0155854Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -385,7 +385,7 @@
     ],
     "document_scans": [
       {
-        "image_ids": [
+        "image_urls": [
           "string"
         ],
         "comment": "string",
@@ -397,7 +397,7 @@
     ],
     "images": [
       {
-        "image_ids": [
+        "image_urls": [
           "string"
         ],
         "comments": "string",
@@ -480,7 +480,7 @@
 ## Pickup Started `load.pickup.started`
 ```
 {
-  "when": "2017-03-27T21:11:42.0427018Z",
+  "when": "2017-04-03T14:45:42.0155854Z",
   "where": [
     0.0,
     0.0
@@ -537,7 +537,7 @@
   },
   "pickup": {
     "reference": "string",
-    "due_at": "2017-03-27T21:11:42.0427018Z",
+    "due_at": "2017-04-03T14:45:42.0155854Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -591,7 +591,7 @@
 ## Pickup Completed `load.pickup.completed`
 ```
 {
-  "when": "2017-03-27T21:11:42.0427018Z",
+  "when": "2017-04-03T14:45:42.0165674Z",
   "where": [
     0.0,
     0.0
@@ -648,7 +648,7 @@
   },
   "pickup": {
     "reference": "string",
-    "due_at": "2017-03-27T21:11:42.0437121Z",
+    "due_at": "2017-04-03T14:45:42.0165674Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -720,7 +720,7 @@
     ],
     "document_scans": [
       {
-        "image_ids": [
+        "image_urls": [
           "string"
         ],
         "comment": "string",
@@ -732,7 +732,7 @@
     ],
     "images": [
       {
-        "image_ids": [
+        "image_urls": [
           "string"
         ],
         "comments": "string",
@@ -815,7 +815,7 @@
 ## Rest Stop `rest_stop`
 ```
 {
-  "when": "2017-03-27T21:11:42.0447106Z",
+  "when": "2017-04-03T14:45:42.0175667Z",
   "where": [
     0.0,
     0.0
@@ -883,7 +883,7 @@
     ],
     "document_scans": [
       {
-        "image_ids": [
+        "image_urls": [
           "string"
         ],
         "comment": "string",
@@ -895,7 +895,7 @@
     ],
     "images": [
       {
-        "image_ids": [
+        "image_urls": [
           "string"
         ],
         "comments": "string",
@@ -978,7 +978,7 @@
 ## Border Crossing `border_crossing`
 ```
 {
-  "when": "2017-03-27T21:11:42.0437121Z",
+  "when": "2017-04-03T14:45:42.0165674Z",
   "where": [
     0.0,
     0.0
@@ -1042,7 +1042,7 @@
     ],
     "document_scans": [
       {
-        "image_ids": [
+        "image_urls": [
           "string"
         ],
         "comment": "string",
@@ -1054,7 +1054,7 @@
     ],
     "images": [
       {
-        "image_ids": [
+        "image_urls": [
           "string"
         ],
         "comments": "string",
@@ -1141,7 +1141,7 @@
 ## Fuel Stop `fuel_stop`
 ```
 {
-  "when": "2017-03-27T21:11:42.0437121Z",
+  "when": "2017-04-03T14:45:42.0165674Z",
   "where": [
     0.0,
     0.0
@@ -1205,7 +1205,7 @@
     ],
     "document_scans": [
       {
-        "image_ids": [
+        "image_urls": [
           "string"
         ],
         "comment": "string",
@@ -1217,7 +1217,7 @@
     ],
     "images": [
       {
-        "image_ids": [
+        "image_urls": [
           "string"
         ],
         "comments": "string",
@@ -1302,7 +1302,7 @@
       "cost": 0.0,
       "full_tank": false,
       "asset_id": "string",
-      "odomter_reading": 0.0
+      "odometer_reading": 0.0
     }
   ]
 }
@@ -1311,7 +1311,7 @@
 ## Odometer `odometer`
 ```
 {
-  "when": "2017-03-27T21:11:42.0447106Z",
+  "when": "2017-04-03T14:45:42.0175667Z",
   "where": [
     0.0,
     0.0
@@ -1377,7 +1377,7 @@
     ],
     "document_scans": [
       {
-        "image_ids": [
+        "image_urls": [
           "string"
         ],
         "comment": "string",
@@ -1389,7 +1389,7 @@
     ],
     "images": [
       {
-        "image_ids": [
+        "image_urls": [
           "string"
         ],
         "comments": "string",
@@ -1472,7 +1472,7 @@
 ## Weighbridge `weighbridge`
 ```
 {
-  "when": "2017-03-27T21:11:42.0447106Z",
+  "when": "2017-04-03T14:45:42.0175667Z",
   "where": [
     0.0,
     0.0
@@ -1536,7 +1536,7 @@
     ],
     "document_scans": [
       {
-        "image_ids": [
+        "image_urls": [
           "string"
         ],
         "comment": "string",
@@ -1548,7 +1548,7 @@
     ],
     "images": [
       {
-        "image_ids": [
+        "image_urls": [
           "string"
         ],
         "comments": "string",
