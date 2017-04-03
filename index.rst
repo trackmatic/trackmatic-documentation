@@ -19,6 +19,20 @@ Web Hooks             Webhook subscriptions and management tools                
 **Trackmatic**
 **************
 
+.. _OldTable_docs:
+.. toctree::
+   :caption: Table of Contents
+   :name: mastertoc
+   :hidden:
+   :numbered:
+
+   loads/drivers/loads/active-load
+   blob-storage/blob-storage
+   loads/integration/import
+   loads/drivers/sessions/session-management
+   loads/web-hooks/payloads
+   webhooks/web-hooks
+
 .. _Loads_docs:
 .. toctree::
    :caption: Loads
