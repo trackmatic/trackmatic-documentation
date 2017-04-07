@@ -92,4 +92,15 @@ Access token authentication can be used to define an endpoint which needs to be 
 
 The access token configuration allows you to specify a uri where an access token can be retrived, along with the name of the http header where the retrieved token will be attached for subsequent requests.
 
-The respsonse from your access token endpoint must place the access token in the header with the specified header name. The webhook system will extract the header from the response and append it to the suesequent webhook request.
+The respsonse from your access token endpoint must place the access token in the header with the specified header name. The webhook system will extract the header from the response and append it to the subsequent webhook request.
+
+```
+{
+  ...
+
+  "access_token_authentication": {
+    "uri": "http://accesstokens.com?key=secret",
+    "header": "Authorization"
+  }
+}
+```
