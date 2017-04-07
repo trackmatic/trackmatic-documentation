@@ -13,7 +13,13 @@ A subscription lets you tell Trackmatic which Http endpoint to call when one or 
   "is_active": true,
   "events": [
     "string"
-  ]
+  ],
+  "basic_authentication": {
+    ...
+  },
+  "access_token_authentication": {
+    ...
+  }
 }
 ```
 
@@ -39,7 +45,6 @@ The format of the payload is specific to each event type. Http headers are appen
 |x-tm-organisation-id|Indicates which organisation the event was raised on|yes|
 |x-tm-aggregate-id|The id of the entity which raised the event. The entity type can be inffered from the event name|yes|
 
-
 ## Failures and Retries
 
 The webhook system is designed to be fault tolerant with at least one delivery of a given payload. Depending on the failure condition it is possible a a message to be delivered more than once and you application will need to deal with this eventuality.
@@ -59,3 +64,32 @@ All callbacks and dispatch attempts are logged and can be retrieved via `api/v2/
 The logs are useful for determining if an event was raised for a given subscription, what the payload being sent was and what the response from your system was.
 
 The response from the logging endpoint is intentionally unstructured since the request and payload information can be different depending on the event type.
+
+# Security & Authentication
+
+It is considered best practice to use Https transport on your webhook receiving endpoint however http is currently supported.
+
+Authentication can be achieved using IP restrictions or implementing an api key style authentication where the token can be embedded in the url. Where this is not possible we do support 2 simple authentication mechanisms.
+
+## Basic Http Authentication
+
+Basic http authentication can be used by configuring a username and password on your subscription
+
+```
+{
+  ...
+
+  "basic_authentication": {
+    "username": "bob",
+    "password": "secret"
+  }
+}
+```
+
+## Access Token Authentication
+
+Access token authentication can be used to define an endpoint which needs to be called first in order to obtain an access token to be used on the web hook request.
+
+The access token configuration allows you to specify a uri where an access token can be retrived, along with the name of the http header where the retrieved token will be attached for subsequent requests.
+
+The respsonse from your access token endpoint must place the access token in the header with the specified header name. The webhook system will extract the header from the response and append it to the suesequent webhook request.
