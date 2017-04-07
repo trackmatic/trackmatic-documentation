@@ -65,13 +65,13 @@ The logs are useful for determining if an event was raised for a given subscript
 
 The response from the logging endpoint is intentionally unstructured since the request and payload information can be different depending on the event type.
 
-# Security & Authentication
+## Security & Authentication
 
 It is considered best practice to use Https transport on your webhook receiving endpoint however http is currently supported.
 
 Authentication can be achieved using IP restrictions or implementing an api key style authentication where the token can be embedded in the url. Where this is not possible we do support 2 simple authentication mechanisms.
 
-## Basic Http Authentication
+### Basic Http Authentication
 
 Basic http authentication can be used by configuring a username and password on your subscription
 
@@ -86,7 +86,7 @@ Basic http authentication can be used by configuring a username and password on 
 }
 ```
 
-## Access Token Authentication
+### Access Token Authentication
 
 Access token authentication can be used to define an endpoint which needs to be called first in order to obtain an access token to be used on the web hook request.
 
