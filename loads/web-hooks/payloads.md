@@ -1,27 +1,27 @@
 # Webhook Payloads
-
 ## Load Activated `load.activated`
 ```
 {
   "load": {
     "id": null,
-    "reference": null,
+    "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "reference": null,
     "allocation": {
       "driver": {
         "id": "string",
         "name": "string",
-        "reference": "string"
+        "integration_key": "string"
       },
       "vehicle": {
         "id": "string",
-        "reference": "string",
+        "integration_key": "string",
         "registration": "string",
         "fleet_number": "string"
       },
       "assets": [
         {
-          "reference": "string",
+          "integration_key": "string",
           "asset_id": "string",
           "fleet_number": "string",
           "odometer": {
@@ -38,7 +38,7 @@
       }
     }
   },
-  "when": "2017-04-03T14:45:42.0145849Z",
+  "when": "2017-04-07T09:07:47.46775Z",
   "where": [
     0.0,
     0.0
@@ -49,30 +49,31 @@
 ## Stop Arrived `load.stop.arrived`
 ```
 {
-  "when": "2017-04-03T14:45:42.0135815Z",
+  "when": "2017-04-07T09:07:47.4672503Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
-    "reference": null,
+    "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "reference": null,
     "allocation": {
       "driver": {
         "id": "string",
         "name": "string",
-        "reference": "string"
+        "integration_key": "string"
       },
       "vehicle": {
         "id": "string",
-        "reference": "string",
+        "integration_key": "string",
         "registration": "string",
         "fleet_number": "string"
       },
       "assets": [
         {
-          "reference": "string",
+          "integration_key": "string",
           "asset_id": "string",
           "fleet_number": "string",
           "odometer": {
@@ -90,37 +91,38 @@
     }
   },
   "travel_plan_poi_id": "string",
-  "reference": "string"
+  "integration_key": "string"
 }
 ```
 
 ## Stop Departed `load.stop.departed`
 ```
 {
-  "when": "2017-04-03T14:45:42.0145849Z",
+  "when": "2017-04-07T09:07:47.46775Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
-    "reference": null,
+    "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "reference": null,
     "allocation": {
       "driver": {
         "id": "string",
         "name": "string",
-        "reference": "string"
+        "integration_key": "string"
       },
       "vehicle": {
         "id": "string",
-        "reference": "string",
+        "integration_key": "string",
         "registration": "string",
         "fleet_number": "string"
       },
       "assets": [
         {
-          "reference": "string",
+          "integration_key": "string",
           "asset_id": "string",
           "fleet_number": "string",
           "odometer": {
@@ -138,37 +140,38 @@
     }
   },
   "travel_plan_poi_id": "string",
-  "reference": "string"
+  "integration_key": "string"
 }
 ```
 
 ## Dropoff Started `load.dropoff.started`
 ```
 {
-  "when": "2017-04-03T14:45:42.0145849Z",
+  "when": "2017-04-07T09:07:47.4682496Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
-    "reference": null,
+    "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "reference": null,
     "allocation": {
       "driver": {
         "id": "string",
         "name": "string",
-        "reference": "string"
+        "integration_key": "string"
       },
       "vehicle": {
         "id": "string",
-        "reference": "string",
+        "integration_key": "string",
         "registration": "string",
         "fleet_number": "string"
       },
       "assets": [
         {
-          "reference": "string",
+          "integration_key": "string",
           "asset_id": "string",
           "fleet_number": "string",
           "odometer": {
@@ -188,21 +191,22 @@
   "consignment": {
     "id": "string",
     "cargo_type": "string",
-    "reference": "string",
+    "integration_key": "string",
+    "reference": null,
     "consignor": {
       "entity_id": "string",
       "name": "string",
-      "reference": "string"
+      "integration_key": "string"
     },
     "consignee": {
       "entity_id": "string",
       "name": "string",
-      "reference": "string"
+      "integration_key": "string"
     }
   },
   "dropoff": {
-    "reference": "string",
-    "due_at": "2017-04-03T14:45:42.0145849Z",
+    "integration_key": "string",
+    "due_at": "2017-04-07T09:07:47.4687476Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -211,10 +215,11 @@
     "entity": {
       "entity_id": "string",
       "name": "string",
-      "reference": "string"
+      "integration_key": "string",
+      "reference": null
     },
     "shipping_address": {
-      "reference": "string",
+      "integration_key": "string",
       "shipping_address_id": "string",
       "unit_no": "string",
       "building_name": "string",
@@ -227,7 +232,7 @@
       "postal_code": "string",
       "map_code": "string",
       "geofence": {
-        "reference": "string",
+        "integration_key": "string",
         "name": "string",
         "entrance": [
           0.0,
@@ -256,30 +261,31 @@
 ## Dropoff Completed `load.dropoff.completed`
 ```
 {
-  "when": "2017-04-03T14:45:42.0155854Z",
+  "when": "2017-04-07T09:07:47.4687476Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
-    "reference": null,
+    "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "reference": null,
     "allocation": {
       "driver": {
         "id": "string",
         "name": "string",
-        "reference": "string"
+        "integration_key": "string"
       },
       "vehicle": {
         "id": "string",
-        "reference": "string",
+        "integration_key": "string",
         "registration": "string",
         "fleet_number": "string"
       },
       "assets": [
         {
-          "reference": "string",
+          "integration_key": "string",
           "asset_id": "string",
           "fleet_number": "string",
           "odometer": {
@@ -299,21 +305,22 @@
   "consignment": {
     "id": "string",
     "cargo_type": "string",
-    "reference": "string",
+    "integration_key": "string",
+    "reference": null,
     "consignor": {
       "entity_id": "string",
       "name": "string",
-      "reference": "string"
+      "integration_key": "string"
     },
     "consignee": {
       "entity_id": "string",
       "name": "string",
-      "reference": "string"
+      "integration_key": "string"
     }
   },
   "dropoff": {
-    "reference": "string",
-    "due_at": "2017-04-03T14:45:42.0155854Z",
+    "integration_key": "string",
+    "due_at": "2017-04-07T09:07:47.4692505Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -322,10 +329,11 @@
     "entity": {
       "entity_id": "string",
       "name": "string",
-      "reference": "string"
+      "integration_key": "string",
+      "reference": null
     },
     "shipping_address": {
-      "reference": "string",
+      "integration_key": "string",
       "shipping_address_id": "string",
       "unit_no": "string",
       "building_name": "string",
@@ -338,7 +346,7 @@
       "postal_code": "string",
       "map_code": "string",
       "geofence": {
-        "reference": "string",
+        "integration_key": "string",
         "name": "string",
         "entrance": [
           0.0,
@@ -367,7 +375,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -378,7 +386,7 @@
         "received_by_driver": false,
         "valid_proof_of_payment_provided": false,
         "customer_reference": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -390,7 +398,7 @@
         ],
         "comment": "string",
         "type": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -401,7 +409,7 @@
           "string"
         ],
         "comments": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -411,7 +419,7 @@
         "type": "string",
         "value": "string",
         "comment": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -424,7 +432,7 @@
           "type": "string",
           "identifier": "string"
         },
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -434,7 +442,7 @@
         "qty_transfered": 0,
         "transfer_reference": "string",
         "comment": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -444,7 +452,7 @@
         "document_references": [
           "string"
         ],
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -453,7 +461,7 @@
       {
         "unit": "string",
         "value": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -462,13 +470,13 @@
       {
         "fields": [
           {
-            "reference": "string",
+            "integration_key": "string",
             "label": "string",
             "value": "string",
             "data_type": "string"
           }
         ],
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -480,30 +488,31 @@
 ## Pickup Started `load.pickup.started`
 ```
 {
-  "when": "2017-04-03T14:45:42.0155854Z",
+  "when": "2017-04-07T09:07:47.4692505Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
-    "reference": null,
+    "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "reference": null,
     "allocation": {
       "driver": {
         "id": "string",
         "name": "string",
-        "reference": "string"
+        "integration_key": "string"
       },
       "vehicle": {
         "id": "string",
-        "reference": "string",
+        "integration_key": "string",
         "registration": "string",
         "fleet_number": "string"
       },
       "assets": [
         {
-          "reference": "string",
+          "integration_key": "string",
           "asset_id": "string",
           "fleet_number": "string",
           "odometer": {
@@ -523,21 +532,22 @@
   "consignment": {
     "id": "string",
     "cargo_type": "string",
-    "reference": "string",
+    "integration_key": "string",
+    "reference": null,
     "consignor": {
       "entity_id": "string",
       "name": "string",
-      "reference": "string"
+      "integration_key": "string"
     },
     "consignee": {
       "entity_id": "string",
       "name": "string",
-      "reference": "string"
+      "integration_key": "string"
     }
   },
   "pickup": {
-    "reference": "string",
-    "due_at": "2017-04-03T14:45:42.0155854Z",
+    "integration_key": "string",
+    "due_at": "2017-04-07T09:07:47.4692505Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -546,10 +556,11 @@
     "entity": {
       "entity_id": "string",
       "name": "string",
-      "reference": "string"
+      "integration_key": "string",
+      "reference": null
     },
     "shipping_address": {
-      "reference": "string",
+      "integration_key": "string",
       "shipping_address_id": "string",
       "unit_no": "string",
       "building_name": "string",
@@ -562,7 +573,7 @@
       "postal_code": "string",
       "map_code": "string",
       "geofence": {
-        "reference": "string",
+        "integration_key": "string",
         "name": "string",
         "entrance": [
           0.0,
@@ -591,30 +602,31 @@
 ## Pickup Completed `load.pickup.completed`
 ```
 {
-  "when": "2017-04-03T14:45:42.0165674Z",
+  "when": "2017-04-07T09:07:47.4697501Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
-    "reference": null,
+    "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "reference": null,
     "allocation": {
       "driver": {
         "id": "string",
         "name": "string",
-        "reference": "string"
+        "integration_key": "string"
       },
       "vehicle": {
         "id": "string",
-        "reference": "string",
+        "integration_key": "string",
         "registration": "string",
         "fleet_number": "string"
       },
       "assets": [
         {
-          "reference": "string",
+          "integration_key": "string",
           "asset_id": "string",
           "fleet_number": "string",
           "odometer": {
@@ -634,21 +646,22 @@
   "consignment": {
     "id": "string",
     "cargo_type": "string",
-    "reference": "string",
+    "integration_key": "string",
+    "reference": null,
     "consignor": {
       "entity_id": "string",
       "name": "string",
-      "reference": "string"
+      "integration_key": "string"
     },
     "consignee": {
       "entity_id": "string",
       "name": "string",
-      "reference": "string"
+      "integration_key": "string"
     }
   },
   "pickup": {
-    "reference": "string",
-    "due_at": "2017-04-03T14:45:42.0165674Z",
+    "integration_key": "string",
+    "due_at": "2017-04-07T09:07:47.4697501Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -657,10 +670,11 @@
     "entity": {
       "entity_id": "string",
       "name": "string",
-      "reference": "string"
+      "integration_key": "string",
+      "reference": null
     },
     "shipping_address": {
-      "reference": "string",
+      "integration_key": "string",
       "shipping_address_id": "string",
       "unit_no": "string",
       "building_name": "string",
@@ -673,7 +687,7 @@
       "postal_code": "string",
       "map_code": "string",
       "geofence": {
-        "reference": "string",
+        "integration_key": "string",
         "name": "string",
         "entrance": [
           0.0,
@@ -702,7 +716,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -713,7 +727,7 @@
         "received_by_driver": false,
         "valid_proof_of_payment_provided": false,
         "customer_reference": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -725,7 +739,7 @@
         ],
         "comment": "string",
         "type": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -736,7 +750,7 @@
           "string"
         ],
         "comments": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -746,7 +760,7 @@
         "type": "string",
         "value": "string",
         "comment": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -759,7 +773,7 @@
           "type": "string",
           "identifier": "string"
         },
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -769,7 +783,7 @@
         "qty_transfered": 0,
         "transfer_reference": "string",
         "comment": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -779,7 +793,7 @@
         "document_references": [
           "string"
         ],
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -788,7 +802,7 @@
       {
         "unit": "string",
         "value": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -797,13 +811,13 @@
       {
         "fields": [
           {
-            "reference": "string",
+            "integration_key": "string",
             "label": "string",
             "value": "string",
             "data_type": "string"
           }
         ],
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -815,30 +829,31 @@
 ## Rest Stop `rest_stop`
 ```
 {
-  "when": "2017-04-03T14:45:42.0175667Z",
+  "when": "2017-04-07T09:07:47.470749Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
-    "reference": null,
+    "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "reference": null,
     "allocation": {
       "driver": {
         "id": "string",
         "name": "string",
-        "reference": "string"
+        "integration_key": "string"
       },
       "vehicle": {
         "id": "string",
-        "reference": "string",
+        "integration_key": "string",
         "registration": "string",
         "fleet_number": "string"
       },
       "assets": [
         {
-          "reference": "string",
+          "integration_key": "string",
           "asset_id": "string",
           "fleet_number": "string",
           "odometer": {
@@ -865,7 +880,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -876,7 +891,7 @@
         "received_by_driver": false,
         "valid_proof_of_payment_provided": false,
         "customer_reference": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -888,7 +903,7 @@
         ],
         "comment": "string",
         "type": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -899,7 +914,7 @@
           "string"
         ],
         "comments": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -909,7 +924,7 @@
         "type": "string",
         "value": "string",
         "comment": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -922,7 +937,7 @@
           "type": "string",
           "identifier": "string"
         },
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -932,7 +947,7 @@
         "qty_transfered": 0,
         "transfer_reference": "string",
         "comment": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -942,7 +957,7 @@
         "document_references": [
           "string"
         ],
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -951,7 +966,7 @@
       {
         "unit": "string",
         "value": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -960,13 +975,13 @@
       {
         "fields": [
           {
-            "reference": "string",
+            "integration_key": "string",
             "label": "string",
             "value": "string",
             "data_type": "string"
           }
         ],
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -978,30 +993,31 @@
 ## Border Crossing `border_crossing`
 ```
 {
-  "when": "2017-04-03T14:45:42.0165674Z",
+  "when": "2017-04-07T09:07:47.4697501Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
-    "reference": null,
+    "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "reference": null,
     "allocation": {
       "driver": {
         "id": "string",
         "name": "string",
-        "reference": "string"
+        "integration_key": "string"
       },
       "vehicle": {
         "id": "string",
-        "reference": "string",
+        "integration_key": "string",
         "registration": "string",
         "fleet_number": "string"
       },
       "assets": [
         {
-          "reference": "string",
+          "integration_key": "string",
           "asset_id": "string",
           "fleet_number": "string",
           "odometer": {
@@ -1024,7 +1040,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -1035,7 +1051,7 @@
         "received_by_driver": false,
         "valid_proof_of_payment_provided": false,
         "customer_reference": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -1047,7 +1063,7 @@
         ],
         "comment": "string",
         "type": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -1058,7 +1074,7 @@
           "string"
         ],
         "comments": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -1068,7 +1084,7 @@
         "type": "string",
         "value": "string",
         "comment": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -1081,7 +1097,7 @@
           "type": "string",
           "identifier": "string"
         },
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -1091,7 +1107,7 @@
         "qty_transfered": 0,
         "transfer_reference": "string",
         "comment": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -1101,7 +1117,7 @@
         "document_references": [
           "string"
         ],
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -1110,7 +1126,7 @@
       {
         "unit": "string",
         "value": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -1119,13 +1135,13 @@
       {
         "fields": [
           {
-            "reference": "string",
+            "integration_key": "string",
             "label": "string",
             "value": "string",
             "data_type": "string"
           }
         ],
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -1141,30 +1157,31 @@
 ## Fuel Stop `fuel_stop`
 ```
 {
-  "when": "2017-04-03T14:45:42.0165674Z",
+  "when": "2017-04-07T09:07:47.4702498Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
-    "reference": null,
+    "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "reference": null,
     "allocation": {
       "driver": {
         "id": "string",
         "name": "string",
-        "reference": "string"
+        "integration_key": "string"
       },
       "vehicle": {
         "id": "string",
-        "reference": "string",
+        "integration_key": "string",
         "registration": "string",
         "fleet_number": "string"
       },
       "assets": [
         {
-          "reference": "string",
+          "integration_key": "string",
           "asset_id": "string",
           "fleet_number": "string",
           "odometer": {
@@ -1187,7 +1204,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -1198,7 +1215,7 @@
         "received_by_driver": false,
         "valid_proof_of_payment_provided": false,
         "customer_reference": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -1210,7 +1227,7 @@
         ],
         "comment": "string",
         "type": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -1221,7 +1238,7 @@
           "string"
         ],
         "comments": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -1231,7 +1248,7 @@
         "type": "string",
         "value": "string",
         "comment": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -1244,7 +1261,7 @@
           "type": "string",
           "identifier": "string"
         },
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -1254,7 +1271,7 @@
         "qty_transfered": 0,
         "transfer_reference": "string",
         "comment": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -1264,7 +1281,7 @@
         "document_references": [
           "string"
         ],
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -1273,7 +1290,7 @@
       {
         "unit": "string",
         "value": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -1282,13 +1299,13 @@
       {
         "fields": [
           {
-            "reference": "string",
+            "integration_key": "string",
             "label": "string",
             "value": "string",
             "data_type": "string"
           }
         ],
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -1311,30 +1328,31 @@
 ## Odometer `odometer`
 ```
 {
-  "when": "2017-04-03T14:45:42.0175667Z",
+  "when": "2017-04-07T09:07:47.4712503Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
-    "reference": null,
+    "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "reference": null,
     "allocation": {
       "driver": {
         "id": "string",
         "name": "string",
-        "reference": "string"
+        "integration_key": "string"
       },
       "vehicle": {
         "id": "string",
-        "reference": "string",
+        "integration_key": "string",
         "registration": "string",
         "fleet_number": "string"
       },
       "assets": [
         {
-          "reference": "string",
+          "integration_key": "string",
           "asset_id": "string",
           "fleet_number": "string",
           "odometer": {
@@ -1359,7 +1377,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -1370,7 +1388,7 @@
         "received_by_driver": false,
         "valid_proof_of_payment_provided": false,
         "customer_reference": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -1382,7 +1400,7 @@
         ],
         "comment": "string",
         "type": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -1393,7 +1411,7 @@
           "string"
         ],
         "comments": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -1403,7 +1421,7 @@
         "type": "string",
         "value": "string",
         "comment": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -1416,7 +1434,7 @@
           "type": "string",
           "identifier": "string"
         },
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -1426,7 +1444,7 @@
         "qty_transfered": 0,
         "transfer_reference": "string",
         "comment": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -1436,7 +1454,7 @@
         "document_references": [
           "string"
         ],
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -1445,7 +1463,7 @@
       {
         "unit": "string",
         "value": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -1454,13 +1472,13 @@
       {
         "fields": [
           {
-            "reference": "string",
+            "integration_key": "string",
             "label": "string",
             "value": "string",
             "data_type": "string"
           }
         ],
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -1472,30 +1490,31 @@
 ## Weighbridge `weighbridge`
 ```
 {
-  "when": "2017-04-03T14:45:42.0175667Z",
+  "when": "2017-04-07T09:07:47.4717524Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
-    "reference": null,
+    "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "reference": null,
     "allocation": {
       "driver": {
         "id": "string",
         "name": "string",
-        "reference": "string"
+        "integration_key": "string"
       },
       "vehicle": {
         "id": "string",
-        "reference": "string",
+        "integration_key": "string",
         "registration": "string",
         "fleet_number": "string"
       },
       "assets": [
         {
-          "reference": "string",
+          "integration_key": "string",
           "asset_id": "string",
           "fleet_number": "string",
           "odometer": {
@@ -1518,7 +1537,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -1529,7 +1548,7 @@
         "received_by_driver": false,
         "valid_proof_of_payment_provided": false,
         "customer_reference": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -1541,7 +1560,7 @@
         ],
         "comment": "string",
         "type": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -1552,7 +1571,7 @@
           "string"
         ],
         "comments": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -1562,7 +1581,7 @@
         "type": "string",
         "value": "string",
         "comment": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -1575,7 +1594,7 @@
           "type": "string",
           "identifier": "string"
         },
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -1585,7 +1604,7 @@
         "qty_transfered": 0,
         "transfer_reference": "string",
         "comment": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -1595,7 +1614,7 @@
         "document_references": [
           "string"
         ],
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -1604,7 +1623,7 @@
       {
         "unit": "string",
         "value": "string",
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
@@ -1613,13 +1632,13 @@
       {
         "fields": [
           {
-            "reference": "string",
+            "integration_key": "string",
             "label": "string",
             "value": "string",
             "data_type": "string"
           }
         ],
-        "reference": "string",
+        "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
