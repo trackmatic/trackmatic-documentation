@@ -59,7 +59,7 @@ The retry mechnism works as follows:
 
 ## Logging & Debugging
 
-All callbacks and dispatch attempts are logged and can be retrieved via `api/v2/webhooks/{organisation_id}/subscriptions/logs?take=128&skip=0`
+All callbacks and dispatch attempts are logged and can be retrieved via `api/v2/webhooks/{organisation_id}/subscriptions/{subscriptionId}/logs?take=128&skip=0`
 
 The logs are useful for determining if an event was raised for a given subscription, what the payload being sent was and what the response from your system was.
 
