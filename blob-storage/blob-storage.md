@@ -41,3 +41,13 @@ A file can be retrieved via an Http GET to the same URL used in the upload. A va
 ```
 GET /api/v2/blob-storage/{organisationId}/{fileId}
 ```
+
+## Error Codes
+
+|Http Status Code|Error Code|Description|
+|----------------|----------|-----------|
+|400|1|File already exists|
+|400|2|No file supplied|
+|400|3|Content type not provided|
+|400|4|Content type not supported|
+
