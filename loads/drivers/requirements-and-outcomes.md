@@ -5,6 +5,8 @@ Requirements and outcomes and the building blocks of an activity. The requiremen
 - [Odometers](#odometers)
 - [Forms](#forms)
 - [Service Ratings](#service-ratings)
+- [Weights](#weights)
+- [Images](#images)
 
 ### Execution Sequence
 
@@ -176,3 +178,73 @@ Service ratings provide a way to capture questionaire information from the drive
 |----|-----------|
 |value|The numeric value representing the rating value, see types above|
 |comment|Optional free form comment field|
+
+## Weights
+The weights requirement instructs the driver to capture the outcome from a weighbridge. This is indepent of the Weigh Bridge activity which is meant to capture the outcome of a municipal weigh bridge.
+
+### Requirement
+
+There is no additional configuration for this requirement.
+
+```
+{
+    "integration_key": "string",
+    "label": "string",
+    "is_optional": true
+}
+```
+
+### Outcome
+
+```
+{
+    "unit": "string",
+    "value": "string",
+    "integration_key": "string",
+    "status": "Success",
+    "status_reason": "string"
+}
+```
+
+|Type|Description|
+|----|-----------|
+|unit|Represents the unit of measure being used and must be one of `tons` or `metric_tons`|
+|value|The numerical value captured at the weightbridge|
+
+## Images
+
+Instructs the driver to capture one or more images with the camera of the phone. The images should be uploaded to blob storage while the image url should be sent back in the outcome.
+
+### Requirement
+
+```
+{
+    "multiple": true,
+    "integration_key": "string",
+    "label": "string",
+    "is_optional": true
+}
+```
+
+|Type|Description|
+|----|-----------|
+|multiple|When `true` the driver should be allowed to capture multiple images for the same outcome|
+
+### Outcome
+
+```
+{
+    "image_urls": [
+        "string"
+    ],
+    "comment": "string",
+    "integration_key": "string",
+    "status": "Success",
+    "status_reason": "string"
+}
+```
+
+|Type|Description|
+|----|-----------|
+|image_urls|One or more images urls representing the blob storage url|
+|comment|Optional free form text comment|
