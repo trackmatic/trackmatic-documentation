@@ -2,9 +2,9 @@
 
 Requirements and outcomes and the building blocks of an activity. The requirements are used to instruct the driver what information to gather once they have completed any activity. The outcomes are what are sent back to the server and hold the data captured by the driver. There are a number of reuqirements and associated outcomes. The remainder of this section will detail each one.
 
-|Index|
-|-----|
-|[Odometers](#odometers)|
+- [Odometers](#odometers)
+- [Forms](#forms)
+- [Service Ratings](#service-ratings)
 
 ### Execution Sequence
 
@@ -137,3 +137,42 @@ A form consists of one or more fields. Each field has an `integration_key` prope
 |--------|-----------|
 |data_type|Describes the data-type to be captured. Can be one of `date`, `number`, `text` or `boolean`. Must be the same as the original requirement|
 |value|The captured value in the string representation of the `data_type`|
+
+## Service Ratings
+
+Service ratings provide a way to capture questionaire information from the driver and/or the customer. Currently the system specifies 3 service rating types.
+
+### Requirement
+
+```
+{
+  "type": "string",
+  "integration_key": "string",
+  "label": "string",
+  "is_optional": true
+}
+```
+
+|Type|Description|
+|----|-----------|
+|star|Should display 5 stars. 1 is the lowest while 5 is the highest|
+|smiley|Should display 3 smiley faces. Dissatisfied (1), neutral (2) and satisfied (3)|
+|simple|Should display thumbs down (1) and thumbs up (2)|
+
+### Outcome
+
+```
+{
+  "type": "string",
+  "value": "string",
+  "comment": "string",
+  "integration_key": "string",
+  "status": "Success",
+  "status_reason": "string"
+}
+```
+
+|Property|Description|
+|----|-----------|
+|value|The numeric value representing the rating value, see types above|
+|comment|Optional free form comment field|
