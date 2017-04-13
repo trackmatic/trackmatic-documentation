@@ -156,7 +156,7 @@ All date-time values MUST be provided as ISO 8601 UTC date-times and all respons
 
 ## Time spans
 
-Time spans (Durations) are represents in the ASP.NET styel time spans
+Time spans (Durations) are represents in the ASP.NET style time spans
 
 ```
 1.23:59:59.999 [days.hours:minutes:seconds:milliseconds]
