@@ -4,8 +4,7 @@
 
 |API Name|Description|   |
 |--------|-----------|---|
-|Account|Authentication, authorization and account managment.|[read more](http://secure.trackmatic.co.za/documentation/account.html)|
-|Organisations|Organisation configuration and management|[read more](./organistations/index.md)|
+|Organisations|Organisation configuration and management|[read more](./organisations/index.md)|
 |Fleet|Asset and operator management|[read more](http://secure.trackmatic.co.za/documentation/fleet.html)|
 |Tracking|Live and historical asset tracking|[read more](http://secure.trackmatic.co.za/documentation/tracking.html)|
 |Loads (driver)|Load planning and execution|[read more](http://secure.trackmatic.co.za/documentation/loads-drivers.html)|
@@ -14,7 +13,10 @@
 |Web Hooks|Webhook subscriptions and management tools|[read more](http://secure.trackmatic.co.za/documentation/webhooks.html)|
 |Devices|Device management and tracking|[read more](http://secure.trackmatic.co.za/documentation/devices.html)|
 
-## Authentication & Authorization
+## Authentication & Authorization 
+
+### Technical Documentation
+For more information on available calls and messages structure [goto the open api docs](http://secure.trackmatic.co.za/documentation/account.html)
 
 Authentication and authorization is achieved using [JSON web tokens](https://jwt.io/). A token can be be obtained in 3 ways:
 
