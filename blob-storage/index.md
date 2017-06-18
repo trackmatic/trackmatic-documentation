@@ -2,6 +2,9 @@
 
 The blob storage api provides a mechanism for callers to store or retrieve arbitrary unstructured data.
 
+## Technical Documentation
+For more information on available calls and messages structure [goto the open api docs](http://secure.trackmatic.co.za/documentation/blob-storage.html)
+
 ## Storing a file
 
 To store a file you need to perform an HTTP post with the Content-Type header set to "multipart/form-data". The endpoint expects one file per request. The file id must be provided by the caller. The following is required for a successfull upload

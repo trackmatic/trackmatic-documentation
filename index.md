@@ -5,13 +5,12 @@
 |API Name|Description|   |
 |--------|-----------|---|
 |Organisations|Organisation configuration and management|[read more](./organisations/index.md)|
-|Fleet|Asset and operator management|[read more](http://secure.trackmatic.co.za/documentation/fleet.html)|
-|Tracking|Live and historical asset tracking|[read more](http://secure.trackmatic.co.za/documentation/tracking.html)|
-|Loads (driver)|Load planning and execution|[read more](http://secure.trackmatic.co.za/documentation/loads-drivers.html)|
-|Loads (Integration)|Load planning and execution|[read more](http://secure.trackmatic.co.za/documentation/loads-integration.html)|
-|Blob Storage|Unstructured data storage and retrieval (File, Images etc)|[read more](http://secure.trackmatic.co.za/documentation/blob-storage.html)|
-|Web Hooks|Webhook subscriptions and management tools|[read more](http://secure.trackmatic.co.za/documentation/webhooks.html)|
-|Devices|Device management and tracking|[read more](http://secure.trackmatic.co.za/documentation/devices.html)|
+|Fleet|Asset and operator management|[read more](./fleet/index.md)|
+|Tracking|Live and historical asset tracking|[read more](./tracking/index.md)|
+|Loads|Load planning and execution|[read more](./loads/index.md)|
+|Blob Storage|Unstructured data storage and retrieval (File, Images etc)|[read more](./blob-storage/index.md)|
+|Web Hooks|Webhook subscriptions and management tools|[read more](./webhooks/index.md)|
+|Devices|Device management and tracking|[read more](./devices/index.md)|
 
 ## Authentication & Authorization 
 
