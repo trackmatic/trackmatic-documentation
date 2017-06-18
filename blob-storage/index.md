@@ -1,4 +1,4 @@
-# Blob Storage
+# Blob Storage Api
 
 The blob storage api provides a mechanism for callers to store or retrieve arbitrary unstructured data.
 
