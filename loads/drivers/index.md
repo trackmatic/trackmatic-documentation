@@ -58,6 +58,21 @@ When an asset is either scanned or manually selected via search, and an asset ty
 
 If `asset_id` or `asset_type` has not been provided the system should accept what ever the driver selects.
 
+## Money
+
+When a driver is required to capture money for an outcome or an activity, it is possible that they they are dealing with multiple currencies.
+
+A list of available currencies will be provided in these instances. If only one currency is provided that should be automatically selected.
+
+The list of currencies are provided with an id and a symbol. The id is what should be posted back on the ourcome or activity. The symbol must be used to display to the user.
+
+```
+  {
+    "id": "ZAR",
+    "symbol": "R"
+  }
+```
+
 ## Requirements & Outcomes
 
 Requirements and outcomes and the building blocks of an activity. The requirements are used to instruct the driver what information to gather once they have completed any activity. The outcomes are what are sent back to the server and hold the data captured by the driver. There are a number of reuqirements and associated outcomes. The remainder of this section will detail each one.
@@ -308,12 +323,6 @@ Instructs the driver to capture one or more images with the camera of the phone.
 |----|-----------|
 |image_urls|One or more images urls representing the blob storage url|
 |comment|Optional free form text comment|
-
-## Activities
-
-### Fuel stop
-
-- Valid Currencies - A list of currencies will be provided. If there is more than one the driver will be required to select one. If there is only one currency provided it must be automatically selected. This field works in conjunction with the cost field
 
 ## Session Management
 
