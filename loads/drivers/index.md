@@ -36,6 +36,28 @@ The activities describe what the driver needs to do when he/she arrives at a sto
 
 A requirement defines the workflow and data which shoud be captured for every activity. The workflow for each activity should be built up from this metadata. The execution sequence contains a list of the requirement reference numbers and describes the order in which the requirements should be executed.
 
+## Asset Selection
+
+There are a number of outcomes and activities which require the driver to select the related asset.
+
+The system must support 2 methods of capture, the first must allow the driver to scan a QR Code, the second must allow him to manually search through a list of assets.
+
+The list of assests used for the selection process will come from one of two places. When on an active load the driver must be presented with a list of assets obtained from the allocation section of the load. When not on a load the driver must be presented with a list of pre-fectehd assets from the assets endpoint.
+
+### Asset Validation
+
+The purpose of the asset validation is to ensure that the driver is capturing information for the correct asset.
+
+For requirements or activities which allow for asset selection there are two fields which can be provided which describes the nescessary asset validation. These two fields are `asset_id` and `asset_type`
+
+When `asset_id` has been supplied, the selected asset id must match the provided asset id exactly.
+
+When `asset_type` has been supplied the selected asset must be of the same type.
+
+When an asset is either scanned or manually selected via search, and an asset type has been provided, the above validations must be applied.
+
+If `asset_id` or `asset_type` has not been provided the system should accept what ever the driver selects.
+
 ## Requirements & Outcomes
 
 Requirements and outcomes and the building blocks of an activity. The requirements are used to instruct the driver what information to gather once they have completed any activity. The outcomes are what are sent back to the server and hold the data captured by the driver. There are a number of reuqirements and associated outcomes. The remainder of this section will detail each one.
@@ -287,6 +309,12 @@ Instructs the driver to capture one or more images with the camera of the phone.
 |image_urls|One or more images urls representing the blob storage url|
 |comment|Optional free form text comment|
 
+## Activities
+
+### Fuel stop
+
+- Valid Currencies - A list of currencies will be provided. If there is more than one the driver will be required to select one. If there is only one currency provided it must be automatically selected. This field works in conjunction with the cost field
+
 ## Session Management
 
 A driver must obtain a session before being able to perform any actions on the api. The session is used to bind the driver, asset and device together so the system knows Which device is being used to track which driver and asset.
@@ -327,4 +355,3 @@ A session shoud be closed only once all data has been flushed from the store and
 ```
 PUT /{organiastionId}/sessions{sessionId}/close
 ```
-
