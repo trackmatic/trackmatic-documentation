@@ -168,3 +168,7 @@ Shorter representations can be used when days and milliseconds are not applicabl
 ```
 23:59:59 [hours:minutes:seconds]
 ```
+
+## Geospatial Coordinates
+
+GPS coordinates are represented by an array of float values where the first item is the longitude and the second value is the latitude `[longitude, latitude]`. Each item in the array is in the decimal degrees (DD) format. See [GEOJson RFC](https://tools.ietf.org/html/rfc7946#section-3.1.1) for further details.
