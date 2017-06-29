@@ -38,7 +38,7 @@
       }
     }
   },
-  "when": "2017-06-29T13:19:02.9443854Z",
+  "when": "2017-06-29T13:28:46.5009937Z",
   "where": [
     0.0,
     0.0
@@ -49,7 +49,7 @@
 ## Stop Arrived `load.stop.arrived`
 ```
 {
-  "when": "2017-06-29T13:19:02.9433853Z",
+  "when": "2017-06-29T13:28:46.4999953Z",
   "where": [
     0.0,
     0.0
@@ -98,7 +98,7 @@
 ## Stop Departed `load.stop.departed`
 ```
 {
-  "when": "2017-06-29T13:19:02.9433853Z",
+  "when": "2017-06-29T13:28:46.5009937Z",
   "where": [
     0.0,
     0.0
@@ -147,7 +147,7 @@
 ## Dropoff Started `load.dropoff.started`
 ```
 {
-  "when": "2017-06-29T13:19:02.9443854Z",
+  "when": "2017-06-29T13:28:46.5019938Z",
   "where": [
     0.0,
     0.0
@@ -206,7 +206,7 @@
   },
   "dropoff": {
     "integration_key": "string",
-    "due_at": "2017-06-29T13:19:02.9443854Z",
+    "due_at": "2017-06-29T13:28:46.5019938Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -261,7 +261,7 @@
 ## Dropoff Completed `load.dropoff.completed`
 ```
 {
-  "when": "2017-06-29T13:19:02.9453859Z",
+  "when": "2017-06-29T13:28:46.5029964Z",
   "where": [
     0.0,
     0.0
@@ -320,7 +320,7 @@
   },
   "dropoff": {
     "integration_key": "string",
-    "due_at": "2017-06-29T13:19:02.9453859Z",
+    "due_at": "2017-06-29T13:28:46.5029964Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -487,7 +487,7 @@
 ## Dropoff Failed `load.dropoff.failed`
 ```
 {
-  "when": "2017-06-29T13:19:02.9453859Z",
+  "when": "2017-06-29T13:28:46.5049941Z",
   "where": [
     0.0,
     0.0
@@ -546,7 +546,7 @@
   },
   "dropoff": {
     "integration_key": "string",
-    "due_at": "2017-06-29T13:19:02.9453859Z",
+    "due_at": "2017-06-29T13:28:46.5059967Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -714,7 +714,7 @@
 ## Pickup Started `load.pickup.started`
 ```
 {
-  "when": "2017-06-29T13:19:02.9453859Z",
+  "when": "2017-06-29T13:28:46.5059967Z",
   "where": [
     0.0,
     0.0
@@ -773,7 +773,7 @@
   },
   "pickup": {
     "integration_key": "string",
-    "due_at": "2017-06-29T13:19:02.9453859Z",
+    "due_at": "2017-06-29T13:28:46.5059967Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -828,7 +828,7 @@
 ## Pickup Completed `load.pickup.completed`
 ```
 {
-  "when": "2017-06-29T13:19:02.946386Z",
+  "when": "2017-06-29T13:28:46.5069968Z",
   "where": [
     0.0,
     0.0
@@ -887,7 +887,7 @@
   },
   "pickup": {
     "integration_key": "string",
-    "due_at": "2017-06-29T13:19:02.946386Z",
+    "due_at": "2017-06-29T13:28:46.5069968Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -1054,7 +1054,7 @@
 ## Pickup Failed `load.pickup.failed`
 ```
 {
-  "when": "2017-06-29T13:19:02.946386Z",
+  "when": "2017-06-29T13:28:46.5069968Z",
   "where": [
     0.0,
     0.0
@@ -1113,7 +1113,7 @@
   },
   "pickup": {
     "integration_key": "string",
-    "due_at": "2017-06-29T13:19:02.946386Z",
+    "due_at": "2017-06-29T13:28:46.5079965Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -1281,7 +1281,7 @@
 ## Rest Stop Started `rest_stop.started`
 ```
 {
-  "when": "2017-06-29T13:19:02.9473869Z",
+  "when": "2017-06-29T13:28:46.5099962Z",
   "where": [
     0.0,
     0.0
@@ -1331,7 +1331,7 @@
 ## Rest Stop Completed `rest_stop.completed`
 ```
 {
-  "when": "2017-06-29T13:19:02.9483854Z",
+  "when": "2017-06-29T13:28:46.5109963Z",
   "where": [
     0.0,
     0.0
@@ -1394,7 +1394,7 @@
 ## Rest Stop Failed `rest_stop.failed`
 ```
 {
-  "when": "2017-06-29T13:19:02.9483854Z",
+  "when": "2017-06-29T13:28:46.5109963Z",
   "where": [
     0.0,
     0.0
@@ -1554,7 +1554,7 @@
 ## Border Crossing `border_crossing`
 ```
 {
-  "when": "2017-06-29T13:19:02.946386Z",
+  "when": "2017-06-29T13:28:46.5079965Z",
   "where": [
     0.0,
     0.0
@@ -1717,7 +1717,7 @@
 ## Border Crossing Failed `border_crossing.failed`
 ```
 {
-  "when": "2017-06-29T13:19:02.946386Z",
+  "when": "2017-06-29T13:28:46.5079965Z",
   "where": [
     0.0,
     0.0
@@ -1874,10 +1874,66 @@
 }
 ```
 
-## Fuel Stop `fuel_stop.completed`
+## Fuel Stop Started `fuel_stop.started`
 ```
 {
-  "when": "2017-06-29T13:19:02.9473869Z",
+  "when": "2017-06-29T13:28:46.5089957Z",
+  "where": [
+    0.0,
+    0.0
+  ],
+  "load": {
+    "id": null,
+    "integration_key": null,
+    "requested_date": "0001-01-01T00:00:00",
+    "reference": null,
+    "allocation": {
+      "driver": {
+        "id": "string",
+        "name": "string",
+        "integration_key": "string"
+      },
+      "vehicle": {
+        "id": "string",
+        "integration_key": "string",
+        "registration": "string",
+        "fleet_number": "string"
+      },
+      "assets": [
+        {
+          "integration_key": "string",
+          "asset_id": "string",
+          "fleet_number": "string",
+          "odometer": {
+            "meter_type": "string",
+            "current_reading": 0.0
+          },
+          "type": "string"
+        }
+      ],
+      "accessories": {
+        "pallet_jack": "string",
+        "load_lock_rails": 0,
+        "fuel_card": "string"
+      }
+    }
+  },
+  "activity_id": null,
+  "driver_id": null,
+  "vehicle_id": null,
+  "was_planned": false,
+  "authorized_location_geofence_id": null,
+  "vehicle_integration_key": null,
+  "driver_integration_key": null,
+  "activity_integration_key": null,
+  "authorized_location_geofence_integration_key": null
+}
+```
+
+## Fuel Stop Completed `fuel_stop.completed`
+```
+{
+  "when": "2017-06-29T13:28:46.5089957Z",
   "where": [
     0.0,
     0.0
@@ -2060,7 +2116,7 @@
 ## Fuel Stop Failed `fuel_stop.failed`
 ```
 {
-  "when": "2017-06-29T13:19:02.9473869Z",
+  "when": "2017-06-29T13:28:46.5099962Z",
   "where": [
     0.0,
     0.0
@@ -2220,7 +2276,7 @@
 ## Odometer `odometer`
 ```
 {
-  "when": "2017-06-29T13:19:02.9483854Z",
+  "when": "2017-06-29T13:28:46.5109963Z",
   "where": [
     0.0,
     0.0
@@ -2383,7 +2439,7 @@
 ## Odometer Failed `odometer.failed`
 ```
 {
-  "when": "2017-06-29T13:19:02.9493851Z",
+  "when": "2017-06-29T13:28:46.5119968Z",
   "where": [
     0.0,
     0.0
@@ -2540,10 +2596,65 @@
 }
 ```
 
-## Weighbridge `weighbridge.completed`
+## Weighbridge Started `weighbridge.started`
 ```
 {
-  "when": "2017-06-29T13:19:02.9493851Z",
+  "when": "2017-06-29T13:28:46.5119968Z",
+  "where": [
+    0.0,
+    0.0
+  ],
+  "load": {
+    "id": null,
+    "integration_key": null,
+    "requested_date": "0001-01-01T00:00:00",
+    "reference": null,
+    "allocation": {
+      "driver": {
+        "id": "string",
+        "name": "string",
+        "integration_key": "string"
+      },
+      "vehicle": {
+        "id": "string",
+        "integration_key": "string",
+        "registration": "string",
+        "fleet_number": "string"
+      },
+      "assets": [
+        {
+          "integration_key": "string",
+          "asset_id": "string",
+          "fleet_number": "string",
+          "odometer": {
+            "meter_type": "string",
+            "current_reading": 0.0
+          },
+          "type": "string"
+        }
+      ],
+      "accessories": {
+        "pallet_jack": "string",
+        "load_lock_rails": 0,
+        "fuel_card": "string"
+      }
+    }
+  },
+  "activity_id": "string",
+  "driver_id": "string",
+  "vehicle_id": "string",
+  "was_planned": false,
+  "weighbridge_name": "string",
+  "vehicle_integration_key": "string",
+  "driver_integration_key": "string",
+  "activity_integration_key": "string"
+}
+```
+
+## Weighbridge Completed `weighbridge.completed`
+```
+{
+  "when": "2017-06-29T13:28:46.5129965Z",
   "where": [
     0.0,
     0.0
@@ -2718,7 +2829,7 @@
 ## Weighbridge Failed `weighbridge.failed`
 ```
 {
-  "when": "2017-06-29T13:19:02.9503852Z",
+  "when": "2017-06-29T13:28:46.5139958Z",
   "where": [
     0.0,
     0.0
@@ -2878,7 +2989,7 @@
 ## Off Route `off_route`
 ```
 {
-  "when": "2017-06-29T13:19:02.9503852Z",
+  "when": "2017-06-29T13:28:46.5139958Z",
   "where": [
     0.0,
     0.0
@@ -2922,10 +3033,10 @@
 }
 ```
 
-## Rest Stop `off_route`
+## Breakdown `breakdown`
 ```
 {
-  "when": "2017-06-29T13:19:02.9503852Z",
+  "when": "2017-06-29T13:28:46.5139958Z",
   "where": [
     0.0,
     0.0
@@ -2965,7 +3076,15 @@
         "fuel_card": "string"
       }
     }
-  }
+  },
+  "reason": null,
+  "description": null,
+  "outcomes": null,
+  "driver_id": null,
+  "vehicle_id": null,
+  "vehicle_integration_key": null,
+  "driver_integration_key": null,
+  "activity_id": null
 }
 ```
 
