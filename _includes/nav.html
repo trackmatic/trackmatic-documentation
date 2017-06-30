@@ -2,16 +2,16 @@
   <!-- Docs Nav -->
   {% for section in site.data.nav %}
     <div class="nav-docs-section">
-      <h3><a href="/">{{ section.title }}</a></h3>
+      <h3><a href="/ | prepend: site.github.url">{{ section.title }}</a></h3>
       <ul>
         {% for item in section.items %}
           <li>
-            <a href="{{item.url}}">{{ item.title }}</a>
+            <a href="{{item.url | prepend: site.github.url}}">{{ item.title }}</a>
             {% if item.subitems %}
               <ul>
                 {% for subitem in item.subitems %}
                   <li>
-                    <a href="{{subitem.url}}">{{ subitem.title }}</a>
+                    <a href="{{subitem.url | prepend: site.github.url}}">{{ subitem.title }}</a>
                   </li>
                 {% endfor %}
               </ul>
