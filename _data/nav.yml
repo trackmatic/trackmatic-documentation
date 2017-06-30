@@ -32,7 +32,7 @@
       title: Devices
       url: /devices
 - title: Webhook Documentation
-  url: /webhooks
+  url: /webhook.html
   items:
     - id: loads
       title: Loads
