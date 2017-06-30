@@ -2,7 +2,7 @@
   <!-- Docs Nav -->
   {% for section in site.data.nav %}
     <div class="nav-docs-section">
-      <h3><a href="/ | prepend: site.github.url">{{ section.title }}</a></h3>
+      <h3><a href="{{'/' | prepend: site.github.url}}">{{ section.title }}</a></h3>
       <ul>
         {% for item in section.items %}
           <li>
