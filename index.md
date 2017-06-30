@@ -1,16 +1,4 @@
-# Trackmatic API
-
-## Api Index
-
-|API Name|Description|   |
-|--------|-----------|---|
-|Organisations|Organisation configuration and management|[read more](./organisations/index.md)|
-|Fleet|Asset and operator management|[read more](./fleet/index.md)|
-|Tracking|Live and historical asset tracking|[read more](./tracking/index.md)|
-|Loads|Load planning and execution|[read more](./loads/index.md)|
-|Blob Storage|Unstructured data storage and retrieval (File, Images etc)|[read more](./blob-storage/index.md)|
-|Web Hooks|Webhook subscriptions and management tools|[read more](./webhooks/index.md)|
-|Devices|Device management and tracking|[read more](./devices/index.md)|
+# REST Api Documentation
 
 ## Authentication & Authorization 
 
