@@ -29,3 +29,8 @@
     - id: devices
       title: Devices
       url: /devices
+- title: Webhook Documentation
+  items:
+    - id: loads
+      title: Loads
+      url: /loads/webhooks
