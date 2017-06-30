@@ -26,5 +26,6 @@
       title: Blob Storage
     - id: web-hooks
       title: Webhooks
-    - id: Devices
-      title: devices
+    - id: devices
+      title: Devices
+      url: /devices
