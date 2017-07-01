@@ -3,28 +3,68 @@
 
 @import "{{ site.theme }}";
 
+@font-face {
+  font-family: 'robotolight';
+  src: url('../fonts/roboto-light-webfont.woff2') format('woff2'),
+       url('../fonts/roboto-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotoregular';
+  src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+       url('../fonts/roboto-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotomedium';
+  src: url('../fonts/roboto-medium-webfont.woff2') format('woff2'),
+       url('../fonts/roboto-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotobold';
+  src: url('../fonts/roboto-bold-webfont.woff2') format('woff2'),
+       url('../fonts/roboto-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin font-light {
+  font-family: 'robotolight', 'arial', 'sans-serif';
+}
+@mixin font-regular {
+  font-family: 'robotoregular', 'arial', 'sans-serif';
+}
+@mixin font-medium {
+  font-family: 'robotomedium', 'arial', 'sans-serif';
+}
+@mixin font-bold {
+  font-family: 'robotobold', 'arial', 'sans-serif';
+}
+
+.font-light {
+  @include font-light;
+}
+.font-regular {
+  @include font-regular;
+}
+.font-medium {
+  @include font-medium;
+}
+.font-bold {
+  @include font-bold;
+}
+
 // Breakpoints
 $bp-large: 960px;
 $bp-medium: 640px;
 $bp-small: 480px;
-
-@mixin bp-small {
-  @media (max-width: $bp-small) {
-    @content;
-  }
-}
-
-@mixin bp-medium {
-  @media (max-width: $bp-medium) {
-    @content;
-  }
-}
-
-@mixin bp-large {
-  @media (max-width: $bp-large) {
-    @content;
-  }
-}
 
 $primary: #cc7a6f;
 $linkColor: darken($primary, 9%);
@@ -47,6 +87,24 @@ $buttonBlueTop: #77a3d2;
 $buttonBlueBottom: #4783c2;
 $buttonGreyTop: #9a9a9a;
 $buttonGreyBottom: #646464;
+
+@mixin bp-small {
+  @media (max-width: $bp-small) {
+    @content;
+  }
+}
+
+@mixin bp-medium {
+  @media (max-width: $bp-medium) {
+    @content;
+  }
+}
+
+@mixin bp-large {
+  @media (max-width: $bp-large) {
+    @content;
+  }
+}
 
 nav {
   width: 270px;
@@ -106,6 +164,10 @@ nav {
     font-size:12pt;
     color:#444;
   }
+}
+
+body {  
+  @include font-regular;
 }
 
 .nav-docs {
