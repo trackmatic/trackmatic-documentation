@@ -3,6 +3,9 @@
 - title: REST Api
   url: /rest
   items:
+    - id: authentication
+      title: Authentication
+      url: /rest
     - id: organisations
       title: Organisations
       url: /rest/organisations
