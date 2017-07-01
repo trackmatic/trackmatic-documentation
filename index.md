@@ -10,7 +10,7 @@ The Trackmatic ecosystem is divided into a number of modules. Each module provid
 
 The purpose of the organisation module is to allow users to manage master data and access control to the other modules of the system.
 
-When working with the various Trackmatic apis the first thing you will need to know is which organisation you are working with. The organisation represents a tenant of the trackmatic system. Accessing an organisation requires an [access token](/rest) for that organisation.
+When working with the various Trackmatic apis the first thing you will need to know is which organisation you are working with. The organisation represents a tenant of the trackmatic system. Accessing an organisation requires an [access token](rest) for that organisation.
 
 
 ### [Fleet](rest/fleet)
