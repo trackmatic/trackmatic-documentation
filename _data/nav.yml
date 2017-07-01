@@ -4,7 +4,7 @@
   url: /rest
   items:
     - id: organisations
-      title: Organistions
+      title: Organisations
       url: /rest/organisations
     - id: fleet
       title: Fleet
