@@ -37,3 +37,6 @@
     - id: loads
       title: Loads
       url: /loads/webhooks.html
+    - id: fleet
+      title: Fleet
+      url: /fleet/webhooks.html
