@@ -2,7 +2,7 @@
 
 ## Authentication & Authorization 
 
-### Technical Documentation
+### Open Api Documentation
 For more information on available calls and messages structure [goto the open api docs](http://secure.trackmatic.co.za/documentation/account.html)
 
 Authentication and authorization is achieved using [JSON web tokens](https://jwt.io/). A token can be be obtained in 3 ways:

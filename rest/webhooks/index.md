@@ -2,7 +2,7 @@
 
 The webhooks api allows you to subscribe to events which occur within the various modules of the Trackmatic system. An Http POST is performed against the provided URI when an event occurs which matches your provided subscription details.
 
-## Technical Documentation
+## Open Api Documentation
 For more information on available calls and messages structure [goto the open api docs](http://secure.trackmatic.co.za/documentation/webhooks.html)
 
 ## Subscriptions

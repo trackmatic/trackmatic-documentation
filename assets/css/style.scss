@@ -106,13 +106,6 @@ $buttonGreyBottom: #646464;
   }
 }
 
-nav {
-  width: 270px;
-  float:left;
-  position:fixed;
-  -webkit-font-smoothing:subpixel-antialiased;
-}
-
 @media print, screen and (max-width: 960px) {
 
   div.wrapper {
@@ -168,6 +161,13 @@ nav {
 
 body {  
   @include font-regular;
+}
+
+nav {
+  width: 270px;
+  float:left;
+  position:fixed;
+  -webkit-font-smoothing:subpixel-antialiased;
 }
 
 .nav-docs {
