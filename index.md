@@ -1,162 +1,29 @@
-# REST Api Documentation
+# Welcome
 
-## Authentication & Authorization 
+Welcome to the Trackmatic technical guide. This guide will take you through various business and technical concepts which you will need to successfully integrate to the Trackmatic backend systems.
 
-### Technical Documentation
-For more information on available calls and messages structure [goto the open api docs](http://secure.trackmatic.co.za/documentation/account.html)
+## Modules
 
-Authentication and authorization is achieved using [JSON web tokens](https://jwt.io/). A token can be be obtained in 3 ways:
+The Trackmatic ecosystem is divided into a number of modules. Each module provides functionality for a specific use case of the Trackmatic system. The remainder of this section will provide a high level over of each module.
 
-### Username & Password
+### [Organisations](/rest/organisations)
 
-By default when a user is created a password request will be sent to the user via email. Once a password has been set a user can use that password to authenticate against the api.
+The purpose of the organisation module is to allow users to manage master data and access control to the other modules of the system.
 
-```
-POST /account/auth
+When working with the various Trackmatic apis the first thing you will need to know is which organisation you are working with. The organisation represents a tenant of the trackmatic system. Accessing an organisation requires an [access token](/rest) for that organisation.
 
-{
-    "username": "string",
-    "password": "string"
-}
-```
 
-### Username & Pin
+### [Fleet](/rest/fleet)
 
-When a pin has been set a user can use the pin in place of their password. The same api call can be used as per above.
+The fleet module provides users with the ability to perform various fleet management tasks. The are two fundamental components of the fleet module which are used by other modules of the system:
 
-```
-POST /account/auth
+- Assets - An asset represents the physical asset managed by a fleet manager. An asset can be a vehicle, trailer or forklift.
+- Operators - An operator is a person who operates an asset. An operator can be either a driver, crew member or both.
 
-{
-    "username": "string",
-    "password": "string"
-}
-```
+### [Tracking](/rest/tracking)
 
-### Api Key
+The tracking module provides visibility into the movement of the fleet. This is done using real time dashboards which represent the geospatial position of an asset on a map in relation to predefined locations and zones.
 
-For integrations an api key can be created which will allow you to limit access for that integration to only the relevant integration api's. A token can be obtained using an API key as follows:
+### [Loads](/rest/loads)
 
-```
-GET /account/auth?apiKeyId=string
-```
-
-### Authorization Header
-
-Once a valid token has been obtained it must be attached to each subsequent request with the HTTP authorization header in the following format:
-
-```
-Authorization: Bearer [token]
-```
-
-> Note: The token must be prefixed by "Bearer "
-
-### Token Expiration
-
-Tokens expire after a predefined amount of time and will need to be refereshed using your password, pin or api key. For integrations it is recommended that a new token is obtained for each session or unit of work which is performed.
-
-### Refreshing Tokens
-
-It is possible for certain actions to cause a token to be invalidated. When this happens the API will return an updated token in the Authorization header of the response. This updated token should be used for any subsequent requests being performed agains the api.
-
-## Schema
-
-All API access is over HTTPS, and accessed from `https://rest.trackmatic.co.za/api/v2`. All data is sent and received as JSON.
-
-## Hypermedia
-
-All responses are wrapped in an envelope which contains metadata about the data being returned.
-
-### Collections
-
-When collections of items are returned they will usually be returned as a paginated list. Pagination metadata is contained in the `pagination` section of the envelope as shown below. The `data` element of the response will contain the data which corresponds to the current page.
-
-```
-{
-    "pagination": {
-        "page_size": 0,
-        "page_no": 0,
-        "total": 0
-    },
-    "data": [
-        ...
-    ]
-}
-``` 
-
-### Single resource
-
-When returning data for a single resource it takes the following form:
-
-``` 
-{
-    "data": { ... },
-    "links": [{
-        "href": "https://...",
-        "rel": "..."
-    }, ...]
-    ...
-}
-```
-
-## HTTP Methods
-
-HTTP methods are used as per the below table.
-
-| Method | Usage | Idempotent | Notes |
-| ---    | ---   | ---        | ---   |
-| POST   | Create|| Create a new resource |
-| PUT    | Update|X| Update an entire resource |
-| PATCH  | Update|X| Update a partial resource |
-| DELETE | Delete|| Delete an existing resource |
-| GET    | Read |X| Retrieve data |
-
-## Errors
-
-Errors are returned using an appropriate HTTP error code. Some common error codes returned are as follows:
-
-- 401 - Unauthorized (Authentication error)
-- 403 - Forbidden (Authorization error)
-- 400 - Bad request (Validation errors)
-
-### Error responses
-
-When returning an error code it is accompanied by an explanation of the error in the response body. The repsonse content takes the following form:
-
-```
-[{
-    "message": "string",
-    "type": "string", (optional)
-    "code": "string", (optional)
-    "key": "string" (optional)
-}]
-```
-
-- Message - Contains the error message generated by the server
-- Type - Indicates the specific type of error e.g. Validation, Format
-- Code - A unique error code which represents the error being generated
-- Key - Used to link the error to a specific field. Can be used for validation responses.
-
-> Note - The response is always an array of error messages
-
-## Timezones
-
-All date-time values MUST be provided as ISO 8601 UTC date-times and all responses are in the same format.
-
-## Time spans
-
-Time spans (Durations) are represents in the ASP.NET style time spans
-
-```
-1.23:59:59.999 [days.hours:minutes:seconds:milliseconds]
-```
-
-Shorter representations can be used when days and milliseconds are not applicable as follows:
-
-```
-23:59:59 [hours:minutes:seconds]
-```
-
-## Geospatial Coordinates
-
-GPS coordinates are represented by an array of float values where the first item is the longitude and the second value is the latitude `[longitude, latitude]`. Each item in the array is in the decimal degrees (DD) format. See [GEOJson RFC](https://tools.ietf.org/html/rfc7946#section-3.1.1) for further details.
+The loads module provides the nescessary functionality to manage primary distribution concerns. At a high level it deals with planning, dispatch, execution and debriefing of loads.
