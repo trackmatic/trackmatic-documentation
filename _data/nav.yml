@@ -25,6 +25,7 @@
           url: /rest/loads/integration
     - id: blob-storage
       title: Blob Storage
+      url: /rest/blob-storage
     - id: web-hooks
       title: Webhooks
       url: /rest/webhooks
