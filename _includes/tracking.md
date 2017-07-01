@@ -1,0 +1,1 @@
+The tracking module provides visibility into the movement of the fleet. This is done using real time dashboards which represent the geospatial position of an asset on a map in relation to predefined locations and zones.

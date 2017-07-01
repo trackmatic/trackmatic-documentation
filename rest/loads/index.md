@@ -1,5 +1,7 @@
 # Loads Api
 
+{% include loads.md %}
+
 |API Name|Description|   |
 |--------|-----------|---|
 |Drivers|Drivers api|[read more](./drivers/index.md)|
