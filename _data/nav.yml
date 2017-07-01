@@ -1,4 +1,6 @@
-- title: REST Api Documentation
+- title: Home
+  url: /
+- title: REST Api
   url: /rest
   items:
     - id: organisations
@@ -32,7 +34,7 @@
     - id: devices
       title: Devices
       url: /rest/devices
-- title: Webhook Documentation
+- title: Webhooks
   url: /webhooks
   items:
     - id: loads
