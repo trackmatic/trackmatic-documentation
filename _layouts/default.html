@@ -14,8 +14,9 @@
   <body>
     <div class="wrapper">
       <nav>
-        <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        
+        <h1><img style="margin-left: -18px;" alt="{{ site.title | default: site.github.repository_name }}" src="/assets/images/logo.svg" /></h1>
+        <p>Technical Guide</p>
         {% include nav.html %}
       </nav>
       <section>
@@ -23,6 +24,9 @@
       {{ content }}
 
       </section>
+
+      <footer>
+      </footer>
     </div>
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
 
