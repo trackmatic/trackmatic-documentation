@@ -3,7 +3,7 @@
 The blob storage api provides a mechanism for callers to store or retrieve arbitrary unstructured data.
 
 ## Open Api Documentation
-For more information on available calls and messages structure [goto the open api docs](http://secure.trackmatic.co.za/documentation/blob-storage.html)
+For more information on available calls and messages structure [goto the open api docs](./open-api)
 
 ## Storing a file
 

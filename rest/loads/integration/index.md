@@ -5,7 +5,7 @@ The integration API provides a way to upload the complex load structure in a den
 Each message represents a single load along with all of its associated data. Once initial validation has been performed on the message the load is dispatched asynchrnously to be processed by the server. This means that the load may not be available immediately after a 200 response code is received. A web hook can be registered to notify you once the upload is complete.
 
 ## Open Api Documentation
-For more information on available calls and messages structure [goto the open api docs](http://secure.trackmatic.co.za/documentation/loads-integration.html)
+For more information on available calls and messages structure [goto the open api docs](./open-api)
 
 ## Validation
 
