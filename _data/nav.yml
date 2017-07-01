@@ -9,7 +9,7 @@
       url: /rest/fleet
     - id: tracking
       title: Tracking
-      url: /tracking
+      url: /rest/tracking
     - id: loads
       title: Loads
       url: /rest/loads
