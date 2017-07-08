@@ -75,3 +75,73 @@ The payload allows you to upload supporting data in a normalized fashion. Each c
   ...
 
 ``` 
+
+## Consignments
+
+Consignments represent the goods being moved and allow you to defined one or more pickup and dropoff activities for those goods.
+
+The sequence and timing of the pickups and dropoffs are configured in the load travel plan.
+
+## Entities
+
+Entities define the busines entity which can play multiple roles within a load. An entity can either be a consignor, consignee or pickup/dropoff entity.
+
+## Shipping Addresses
+
+Shipping addresses represent the pickup or dropoff address information for the relevant entities. A shipping address is different to a geofence in that it describes the business address where the geofence describes the physical location which th driver will be visiting.
+
+## Geofence
+
+The geofences describes the physical location on the planet which the driver must visit. It requires an entrance and a shape field to be valid. The entrance describe the lon/lat of where the vehicle will enter the geofence, while the shape allows you to draw a boundary around the physical location. The system uses this boundary to determine when the vehicle arrives at or leaves a point of intetrest. The shape can either be defined as a radius or polygon.
+
+## Planned Activities
+
+Planned activities allow you to instruct the driver to perform specifc activities at a given point of interest. The sequence of the planned activities are configured in the load travel plan. 
+
+## Activation & Completion
+
+The actication and completion elements allow you to define requirements which need to be fullfilled when a driver activates or completes a load.
+
+This feature is useful when you require a driver to capture information which is related to any specific point of interest.
+
+## Load
+
+The load is made up of one or more consignments which need to be fulfilled, the allocation of a driver, crew and assets as well as the travel plan.
+
+### Travel Plan
+
+The travel plan describes the sequence of events that the driver should follow in order to execute a load. A plan is made up of 2 or more points of interest. The the driver arrives at a point of interest he will be requested to execute the defined activities.
+
+It is up to you to provide the sequence of the travel plan. You can let the system calculate the travel path between the points of interest or you an provide that information yourself from your own planning tools.
+
+### Activities
+
+Activities describe work to be performed by the driver at a point of interest. There are multiple types of activities namely:
+
+- Pickups
+- Dropoffs
+- Odometer readings
+- Rest stops
+- Fatigue assessments
+- Border crossings
+- Weighbridges
+- Fuel stops
+- Pallet drops
+
+Each activity has zero or more requirements which describes a workflow the the driver must follow in order to complete the activity.
+
+The requirements are intended to allow you to customise the workflow of a visit. Each requirement is a building block which you can use to create more complex workflows. The supported requirements are as follows:
+
+- Signatures
+- Cash on delivery
+- Document scans
+- Image cpature
+- Odometer readings
+- Pallet transfers
+- Pallet drops
+- Service ratings
+- Proof of deliveries
+- Weighbridge readings
+- E-Documents
+
+Each activity can describe a success and failure requirment workflow.
