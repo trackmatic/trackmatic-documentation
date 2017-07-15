@@ -43,7 +43,7 @@ Operators represent the people responsible for executing the load. Like assets t
 
 Opertors must have one or more types namely driver or crew. In the context of a mobile app the operator executing must also be a user so that they have a username and pin granting them access to the system.
 
-Both the user and the operator are backed by a person in the Trackmatic ecosystem. People are managed via the Organisation module and provides a single identity for all the roles that a person may fulfill within the system. Details on the user is outside the scope of this article however you can find out more about this under the [Organisations]([access token]({{'/rest/organisations' | prepend: site.github.url}}) module documentation.
+Both the user and the operator are backed by a person in the Trackmatic ecosystem. People are managed via the Organisation module and provides a single identity for all the roles that a person may fulfill within the system. Details on the user is outside the scope of this article however you can find out more about this under the [Organisations]({{'/rest/organisations' | prepend: site.github.url}}) module documentation.
 
 ### Consignment
 The offical definition of a consignment is as follows:
