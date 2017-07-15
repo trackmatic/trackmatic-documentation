@@ -74,6 +74,4 @@ The payload allows you to upload supporting data in a normalized fashion. Each c
 
   ...
 
-``` 
-
-{% include loads-in-context.md %}
+```
