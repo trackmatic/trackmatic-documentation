@@ -36,9 +36,10 @@
         "load_lock_rails": 0,
         "fuel_card": "string"
       }
-    }
+    },
+    "type": null
   },
-  "when": "2017-06-29T13:34:30.3607343Z",
+  "when": "2017-07-26T15:57:30.2961487Z",
   "where": [
     0.0,
     0.0
@@ -49,7 +50,7 @@
 ## Stop Arrived `load.stop.arrived`
 ```
 {
-  "when": "2017-06-29T13:34:30.359733Z",
+  "when": "2017-07-26T15:57:30.295149Z",
   "where": [
     0.0,
     0.0
@@ -88,7 +89,8 @@
         "load_lock_rails": 0,
         "fuel_card": "string"
       }
-    }
+    },
+    "type": null
   },
   "travel_plan_poi_id": "string",
   "integration_key": "string"
@@ -98,7 +100,7 @@
 ## Stop Departed `load.stop.departed`
 ```
 {
-  "when": "2017-06-29T13:34:30.3607343Z",
+  "when": "2017-07-26T15:57:30.2961487Z",
   "where": [
     0.0,
     0.0
@@ -137,7 +139,8 @@
         "load_lock_rails": 0,
         "fuel_card": "string"
       }
-    }
+    },
+    "type": null
   },
   "travel_plan_poi_id": "string",
   "integration_key": "string"
@@ -147,7 +150,7 @@
 ## Dropoff Started `load.dropoff.started`
 ```
 {
-  "when": "2017-06-29T13:34:30.3617332Z",
+  "when": "2017-07-26T15:57:30.297148Z",
   "where": [
     0.0,
     0.0
@@ -186,7 +189,8 @@
         "load_lock_rails": 0,
         "fuel_card": "string"
       }
-    }
+    },
+    "type": null
   },
   "consignment": {
     "id": "string",
@@ -206,7 +210,7 @@
   },
   "dropoff": {
     "integration_key": "string",
-    "due_at": "2017-06-29T13:34:30.3617332Z",
+    "due_at": "2017-07-26T15:57:30.2981493Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -261,7 +265,7 @@
 ## Dropoff Completed `load.dropoff.completed`
 ```
 {
-  "when": "2017-06-29T13:34:30.3627312Z",
+  "when": "2017-07-26T15:57:30.2981493Z",
   "where": [
     0.0,
     0.0
@@ -300,7 +304,8 @@
         "load_lock_rails": 0,
         "fuel_card": "string"
       }
-    }
+    },
+    "type": null
   },
   "consignment": {
     "id": "string",
@@ -320,7 +325,7 @@
   },
   "dropoff": {
     "integration_key": "string",
-    "due_at": "2017-06-29T13:34:30.363733Z",
+    "due_at": "2017-07-26T15:57:30.2981493Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -487,7 +492,7 @@
 ## Dropoff Failed `load.dropoff.failed`
 ```
 {
-  "when": "2017-06-29T13:34:30.363733Z",
+  "when": "2017-07-26T15:57:30.2991498Z",
   "where": [
     0.0,
     0.0
@@ -526,7 +531,8 @@
         "load_lock_rails": 0,
         "fuel_card": "string"
       }
-    }
+    },
+    "type": null
   },
   "consignment": {
     "id": "string",
@@ -546,7 +552,7 @@
   },
   "dropoff": {
     "integration_key": "string",
-    "due_at": "2017-06-29T13:34:30.363733Z",
+    "due_at": "2017-07-26T15:57:30.2991498Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -714,7 +720,7 @@
 ## Pickup Started `load.pickup.started`
 ```
 {
-  "when": "2017-06-29T13:34:30.363733Z",
+  "when": "2017-07-26T15:57:30.2991498Z",
   "where": [
     0.0,
     0.0
@@ -753,7 +759,8 @@
         "load_lock_rails": 0,
         "fuel_card": "string"
       }
-    }
+    },
+    "type": null
   },
   "consignment": {
     "id": "string",
@@ -773,7 +780,7 @@
   },
   "pickup": {
     "integration_key": "string",
-    "due_at": "2017-06-29T13:34:30.3647351Z",
+    "due_at": "2017-07-26T15:57:30.2991498Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -828,7 +835,7 @@
 ## Pickup Completed `load.pickup.completed`
 ```
 {
-  "when": "2017-06-29T13:34:30.3657323Z",
+  "when": "2017-07-26T15:57:30.3001503Z",
   "where": [
     0.0,
     0.0
@@ -867,7 +874,8 @@
         "load_lock_rails": 0,
         "fuel_card": "string"
       }
-    }
+    },
+    "type": null
   },
   "consignment": {
     "id": "string",
@@ -887,7 +895,7 @@
   },
   "pickup": {
     "integration_key": "string",
-    "due_at": "2017-06-29T13:34:30.3657323Z",
+    "due_at": "2017-07-26T15:57:30.3001503Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -1054,7 +1062,7 @@
 ## Pickup Failed `load.pickup.failed`
 ```
 {
-  "when": "2017-06-29T13:34:30.3657323Z",
+  "when": "2017-07-26T15:57:30.3001503Z",
   "where": [
     0.0,
     0.0
@@ -1093,7 +1101,8 @@
         "load_lock_rails": 0,
         "fuel_card": "string"
       }
-    }
+    },
+    "type": null
   },
   "consignment": {
     "id": "string",
@@ -1113,7 +1122,7 @@
   },
   "pickup": {
     "integration_key": "string",
-    "due_at": "2017-06-29T13:34:30.3657323Z",
+    "due_at": "2017-07-26T15:57:30.3001503Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -1281,7 +1290,7 @@
 ## Rest Stop Started `rest_stop.started`
 ```
 {
-  "when": "2017-06-29T13:34:30.3697339Z",
+  "when": "2017-07-26T15:57:30.3031464Z",
   "where": [
     0.0,
     0.0
@@ -1320,18 +1329,30 @@
         "load_lock_rails": 0,
         "fuel_card": "string"
       }
-    }
+    },
+    "type": null
   },
   "planned_duration": "00:00:00",
   "comments": "string",
-  "reason": "string"
+  "reason": "string",
+  "driver": {
+    "id": "string",
+    "name": "string",
+    "integration_key": "string"
+  },
+  "vehicle": {
+    "id": "string",
+    "integration_key": "string",
+    "registration": "string",
+    "fleet_number": "string"
+  }
 }
 ```
 
 ## Rest Stop Completed `rest_stop.completed`
 ```
 {
-  "when": "2017-06-29T13:34:30.370732Z",
+  "when": "2017-07-26T15:57:30.3041469Z",
   "where": [
     0.0,
     0.0
@@ -1370,7 +1391,8 @@
         "load_lock_rails": 0,
         "fuel_card": "string"
       }
-    }
+    },
+    "type": null
   },
   "planned_duration": "00:00:00",
   "comments": "string",
@@ -1387,6 +1409,17 @@
     "weights": [],
     "forms": [],
     "e_documents": []
+  },
+  "driver": {
+    "id": "string",
+    "name": "string",
+    "integration_key": "string"
+  },
+  "vehicle": {
+    "id": "string",
+    "integration_key": "string",
+    "registration": "string",
+    "fleet_number": "string"
   }
 }
 ```
@@ -1394,7 +1427,7 @@
 ## Rest Stop Failed `rest_stop.failed`
 ```
 {
-  "when": "2017-06-29T13:34:30.3712419Z",
+  "when": "2017-07-26T15:57:30.3041469Z",
   "where": [
     0.0,
     0.0
@@ -1433,7 +1466,8 @@
         "load_lock_rails": 0,
         "fuel_card": "string"
       }
-    }
+    },
+    "type": null
   },
   "outcomes": {
     "signatures": [
@@ -1547,14 +1581,25 @@
     ],
     "e_documents": []
   },
-  "failure_reason": "string"
+  "failure_reason": "string",
+  "driver": {
+    "id": "string",
+    "name": "string",
+    "integration_key": "string"
+  },
+  "vehicle": {
+    "id": "string",
+    "integration_key": "string",
+    "registration": "string",
+    "fleet_number": "string"
+  }
 }
 ```
 
 ## Border Crossing `border_crossing`
 ```
 {
-  "when": "2017-06-29T13:34:30.3657323Z",
+  "when": "2017-07-26T15:57:30.3011479Z",
   "where": [
     0.0,
     0.0
@@ -1593,7 +1638,8 @@
         "load_lock_rails": 0,
         "fuel_card": "string"
       }
-    }
+    },
+    "type": null
   },
   "outcomes": {
     "signatures": [
@@ -1710,14 +1756,25 @@
   "country": "string",
   "name": "string",
   "money_order_number": "string",
-  "border_permit_number": "string"
+  "border_permit_number": "string",
+  "driver": {
+    "id": "string",
+    "name": "string",
+    "integration_key": "string"
+  },
+  "vehicle": {
+    "id": "string",
+    "integration_key": "string",
+    "registration": "string",
+    "fleet_number": "string"
+  }
 }
 ```
 
 ## Border Crossing Failed `border_crossing.failed`
 ```
 {
-  "when": "2017-06-29T13:34:30.366732Z",
+  "when": "2017-07-26T15:57:30.3011479Z",
   "where": [
     0.0,
     0.0
@@ -1756,7 +1813,8 @@
         "load_lock_rails": 0,
         "fuel_card": "string"
       }
-    }
+    },
+    "type": null
   },
   "outcomes": {
     "signatures": [
@@ -1870,14 +1928,25 @@
     ],
     "e_documents": []
   },
-  "failure_reason": "string"
+  "failure_reason": "string",
+  "driver": {
+    "id": "string",
+    "name": "string",
+    "integration_key": "string"
+  },
+  "vehicle": {
+    "id": "string",
+    "integration_key": "string",
+    "registration": "string",
+    "fleet_number": "string"
+  }
 }
 ```
 
 ## Fuel Stop Started `fuel_stop.started`
 ```
 {
-  "when": "2017-06-29T13:34:30.3677329Z",
+  "when": "2017-07-26T15:57:30.3021468Z",
   "where": [
     0.0,
     0.0
@@ -1916,7 +1985,8 @@
         "load_lock_rails": 0,
         "fuel_card": "string"
       }
-    }
+    },
+    "type": null
   },
   "activity_id": null,
   "driver_id": null,
@@ -1926,14 +1996,25 @@
   "vehicle_integration_key": null,
   "driver_integration_key": null,
   "activity_integration_key": null,
-  "authorized_location_geofence_integration_key": null
+  "authorized_location_geofence_integration_key": null,
+  "driver": {
+    "id": "string",
+    "name": "string",
+    "integration_key": "string"
+  },
+  "vehicle": {
+    "id": "string",
+    "integration_key": "string",
+    "registration": "string",
+    "fleet_number": "string"
+  }
 }
 ```
 
 ## Fuel Stop Completed `fuel_stop.completed`
 ```
 {
-  "when": "2017-06-29T13:34:30.3677329Z",
+  "when": "2017-07-26T15:57:30.3021468Z",
   "where": [
     0.0,
     0.0
@@ -1972,7 +2053,8 @@
         "load_lock_rails": 0,
         "fuel_card": "string"
       }
-    }
+    },
+    "type": null
   },
   "outcomes": {
     "signatures": [
@@ -2109,14 +2191,25 @@
   "vehicle_integration_key": null,
   "driver_integration_key": null,
   "activity_integration_key": null,
-  "authorized_location_geofence_integration_key": null
+  "authorized_location_geofence_integration_key": null,
+  "driver": {
+    "id": "string",
+    "name": "string",
+    "integration_key": "string"
+  },
+  "vehicle": {
+    "id": "string",
+    "integration_key": "string",
+    "registration": "string",
+    "fleet_number": "string"
+  }
 }
 ```
 
 ## Fuel Stop Failed `fuel_stop.failed`
 ```
 {
-  "when": "2017-06-29T13:34:30.368733Z",
+  "when": "2017-07-26T15:57:30.3031464Z",
   "where": [
     0.0,
     0.0
@@ -2155,7 +2248,8 @@
         "load_lock_rails": 0,
         "fuel_card": "string"
       }
-    }
+    },
+    "type": null
   },
   "outcomes": {
     "signatures": [
@@ -2269,14 +2363,25 @@
     ],
     "e_documents": []
   },
-  "failure_reason": "string"
+  "failure_reason": "string",
+  "driver": {
+    "id": "string",
+    "name": "string",
+    "integration_key": "string"
+  },
+  "vehicle": {
+    "id": "string",
+    "integration_key": "string",
+    "registration": "string",
+    "fleet_number": "string"
+  }
 }
 ```
 
 ## Odometer `odometer`
 ```
 {
-  "when": "2017-06-29T13:34:30.3717423Z",
+  "when": "2017-07-26T15:57:30.305147Z",
   "where": [
     0.0,
     0.0
@@ -2315,11 +2420,11 @@
         "load_lock_rails": 0,
         "fuel_card": "string"
       }
-    }
+    },
+    "type": null
   },
   "asset_id": "string",
   "asset_integration_key": null,
-  "integration_key": null,
   "meter_reading": 0.0,
   "outcomes": {
     "signatures": [
@@ -2432,6 +2537,18 @@
       }
     ],
     "e_documents": []
+  },
+  "was_planned": false,
+  "driver": {
+    "id": "string",
+    "name": "string",
+    "integration_key": "string"
+  },
+  "vehicle": {
+    "id": "string",
+    "integration_key": "string",
+    "registration": "string",
+    "fleet_number": "string"
   }
 }
 ```
@@ -2439,7 +2556,7 @@
 ## Odometer Failed `odometer.failed`
 ```
 {
-  "when": "2017-06-29T13:34:30.3727424Z",
+  "when": "2017-07-26T15:57:30.30615Z",
   "where": [
     0.0,
     0.0
@@ -2478,7 +2595,8 @@
         "load_lock_rails": 0,
         "fuel_card": "string"
       }
-    }
+    },
+    "type": null
   },
   "outcomes": {
     "signatures": [
@@ -2592,14 +2710,25 @@
     ],
     "e_documents": []
   },
-  "failure_reason": "string"
+  "failure_reason": "string",
+  "driver": {
+    "id": "string",
+    "name": "string",
+    "integration_key": "string"
+  },
+  "vehicle": {
+    "id": "string",
+    "integration_key": "string",
+    "registration": "string",
+    "fleet_number": "string"
+  }
 }
 ```
 
 ## Weighbridge Started `weighbridge.started`
 ```
 {
-  "when": "2017-06-29T13:34:30.3727424Z",
+  "when": "2017-07-26T15:57:30.30615Z",
   "where": [
     0.0,
     0.0
@@ -2638,7 +2767,8 @@
         "load_lock_rails": 0,
         "fuel_card": "string"
       }
-    }
+    },
+    "type": null
   },
   "activity_id": "string",
   "driver_id": "string",
@@ -2647,14 +2777,25 @@
   "weighbridge_name": "string",
   "vehicle_integration_key": "string",
   "driver_integration_key": "string",
-  "activity_integration_key": "string"
+  "activity_integration_key": "string",
+  "driver": {
+    "id": "string",
+    "name": "string",
+    "integration_key": "string"
+  },
+  "vehicle": {
+    "id": "string",
+    "integration_key": "string",
+    "registration": "string",
+    "fleet_number": "string"
+  }
 }
 ```
 
 ## Weighbridge Completed `weighbridge.completed`
 ```
 {
-  "when": "2017-06-29T13:34:30.3737421Z",
+  "when": "2017-07-26T15:57:30.30615Z",
   "where": [
     0.0,
     0.0
@@ -2693,7 +2834,8 @@
         "load_lock_rails": 0,
         "fuel_card": "string"
       }
-    }
+    },
+    "type": null
   },
   "outcomes": {
     "signatures": [
@@ -2822,14 +2964,25 @@
   "vehicle_id": "string",
   "vehicle_integration_key": "string",
   "driver_integration_key": "string",
-  "activity_integration_key": "string"
+  "activity_integration_key": "string",
+  "driver": {
+    "id": "string",
+    "name": "string",
+    "integration_key": "string"
+  },
+  "vehicle": {
+    "id": "string",
+    "integration_key": "string",
+    "registration": "string",
+    "fleet_number": "string"
+  }
 }
 ```
 
 ## Weighbridge Failed `weighbridge.failed`
 ```
 {
-  "when": "2017-06-29T13:34:30.3747418Z",
+  "when": "2017-07-26T15:57:30.307146Z",
   "where": [
     0.0,
     0.0
@@ -2868,7 +3021,8 @@
         "load_lock_rails": 0,
         "fuel_card": "string"
       }
-    }
+    },
+    "type": null
   },
   "outcomes": {
     "signatures": [
@@ -2982,14 +3136,25 @@
     ],
     "e_documents": []
   },
-  "failure_reason": "string"
+  "failure_reason": "string",
+  "driver": {
+    "id": "string",
+    "name": "string",
+    "integration_key": "string"
+  },
+  "vehicle": {
+    "id": "string",
+    "integration_key": "string",
+    "registration": "string",
+    "fleet_number": "string"
+  }
 }
 ```
 
 ## Off Route `off_route`
 ```
 {
-  "when": "2017-06-29T13:34:30.3752422Z",
+  "when": "2017-07-26T15:57:30.308146Z",
   "where": [
     0.0,
     0.0
@@ -3028,7 +3193,8 @@
         "load_lock_rails": 0,
         "fuel_card": "string"
       }
-    }
+    },
+    "type": null
   }
 }
 ```
@@ -3036,7 +3202,7 @@
 ## Breakdown `breakdown`
 ```
 {
-  "when": "2017-06-29T13:34:30.3757411Z",
+  "when": "2017-07-26T15:57:30.308146Z",
   "where": [
     0.0,
     0.0
@@ -3075,8 +3241,10 @@
         "load_lock_rails": 0,
         "fuel_card": "string"
       }
-    }
+    },
+    "type": null
   },
+  "problematic_asset_id": null,
   "reason": null,
   "description": null,
   "outcomes": {
@@ -3193,9 +3361,20 @@
   },
   "driver_id": "string",
   "vehicle_id": "string",
+  "problematic_asset_integration_key": null,
   "vehicle_integration_key": "string",
   "driver_integration_key": "string",
-  "activity_id": "string"
+  "activity_id": "string",
+  "driver": {
+    "id": "string",
+    "name": "string",
+    "integration_key": "string"
+  },
+  "vehicle": {
+    "id": "string",
+    "integration_key": "string",
+    "registration": "string",
+    "fleet_number": "string"
+  }
 }
 ```
-
