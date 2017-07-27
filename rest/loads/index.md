@@ -17,19 +17,19 @@ A shipping address represents the business address of your entities. The relatio
 
 Much like an entity the shipping address is a convenience feature preventing you from having to capture this information over and over again when creating consignments and loads.
 
-### Geofence
+### Location
 
-A geofence represents the physical location of a shipping address marked out on the planet. A geofence has a shape, namely radius or polygon, which is one or more geographical points marked out on a geo spatial map.
+A location represents the physical location of a shipping address marked out on the planet. A location has a shape, namely radius or polygon, which is one or more geographical points marked out on a geo spatial map.
 
-The geofence is attached to a loads point of interest and used to detect when an asset enters or leaves the demarcated area.
+The location is attached to a loads point of interest and used to detect when an asset enters or leaves the demarcated area.
 
-A shipping address is linked to the shipping address as a convenience feature so that when you are creating loads you do not need to recapture the geofence information.
+A shipping address is linked to the shipping address as a convenience feature so that when you are creating loads you do not need to recapture the location information.
 
-When a load is a created the system will look at the entities associated shipping addresses and pull out the geofence information when a point of interest is created on a load.
+When a load is a created the system will look at the entities associated shipping addresses and pull out the location information when a point of interest is created on a load.
 
-The concept of a geofence is an important technical aspect of the Trackmatic system in general. It is the mechanism used to track assets in context. In the Tracking module we have the concept of locations. We have purposefully changed the name from location to geofence in the the Loads module in order draw a distinction between them.
+The concept of a location is an important technical aspect of the Trackmatic system in general. It is the mechanism used to track assets in context. In the Tracking module we have the concept of locations. We have purposefully changed the name from location to location in the the Loads module in order draw a distinction between them.
 
-While a geofence can be backed by a Location in the Tracking module it does not have to be. When it is not backed by an underlying Location it is considered by the loads module as ad-hoc.
+While a location can be backed by a Location in the Tracking module it does not have to be. When it is not backed by an underlying Location it is considered by the loads module as ad-hoc.
 
 In the context of the Tracking module the Location is used to track an asset moving in and out of the pre-defined location, while in the loads module it simply used as a template to facilitate the creation of points of interest.
 
@@ -58,7 +58,7 @@ A consignment must be allocated a Consignee and Consignor where each of these ca
 
 A consignment must be allocated one or more pickups or drop offs. A pickup described where the goods need to be picked up form, while the drop off describes where the goods need to be dropped off at. The pickup and drop off are both activities which will be described in more detail later in this document.
 
-When a consignment is allocated to a load the pickup and drop offs are assigned to one or more points of interest on load. The point of interest is built up from the shipping address and geofence information extracted for the consignments pickups, drop offs and associated entities.
+When a consignment is allocated to a load the pickup and drop offs are assigned to one or more points of interest on load. The point of interest is built up from the shipping address and location information extracted for the consignments pickups, drop offs and associated entities.
 
 ### Activity
 
@@ -108,16 +108,16 @@ Currently the system support the following activities:
 - E-Documents
 
 ### Load
-The load is the most important and complex component of the loads module. The load is where the rubber hits the road in the lieteral sense.
+The load is the most important and complex component of the loads module. The load is where the rubber hits the road in the literal sense.
 
 A load serves as a set of instructions to the driver (type of operator) on how to execute a given load.
 
 A load consists of a collection of consignments and activities arranged within points of interest.
 
 #### Points of Interest
-The point of interest represent a specific place on the planet (Geofence) which the driver needs to drive to in order to perform their pre-defined work (Activities). When they arrive at a point of interest they will be required to interact with various people (Entities) to get their work done.
+The point of interest represent a specific place on the planet (Location) which the driver needs to drive to in order to perform their pre-defined work (Activities). When they arrive at a point of interest they will be required to interact with various people (Entities) to get their work done.
 
-It should be clear that a point of interest can only exist with the context of a load and is the component which bring Entities, Shipping Addresses, Geofences and Activities together as part of a greater Travel Plan.
+It should be clear that a point of interest can only exist with the context of a load and is the component which bring Entities, Shipping Addresses, Locations and Activities together as part of a greater Travel Plan.
 
 The points of interest are connected by a path component. The path represents the physical path which should be followed in order to get to the point of interest. The path is used by the navigation system to direct to the operator to the point of interest. The path has a time and distance component which is used to measure the operators progress while moving between points of interest.
 
