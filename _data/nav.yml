@@ -15,6 +15,9 @@
     - id: tracking
       title: Tracking
       url: /rest/tracking
+    - id: tracking-generic
+      title: Tracking (Generic)
+      url: /rest/tracking-generic
     - id: loads
       title: Loads
       url: /rest/loads
