@@ -337,7 +337,7 @@ A driver must obtain a session before being able to perform any actions on the a
 The following api call will allow you to create a new session which binds the currently logged in user to the asset and device provided. Any attempt to create a new session with any combination of the below will cause an error to be thrown.
 
 ```
-POST /{organiastionId}/sessions
+POST /{organisationId}/sessions
 
 {
     "asset_id": "",
@@ -350,7 +350,7 @@ POST /{organiastionId}/sessions
 If a session was created by mistake or the driver wishes to manually release the session you can do this via the following api call. A reason for revoking the session must be provided.
 
 ```
-PUT /{organiastionId}/sessions{sessionId}/revoke
+PUT /{organisationId}/sessions{sessionId}/revoke
 
 {
     "reason": "",
@@ -362,7 +362,7 @@ PUT /{organiastionId}/sessions{sessionId}/revoke
 A session shoud be closed only once all data has been flushed from the store and forward mechanism. Closing a session before that could result in data loss.
 
 ```
-PUT /{organiastionId}/sessions{sessionId}/close
+PUT /{organisationId}/sessions{sessionId}/close
 ```
 
 ## MQTT
