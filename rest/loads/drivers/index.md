@@ -369,7 +369,7 @@ PUT /{organiastionId}/sessions{sessionId}/close
 
 There are certain scenarios which require server push to notify the app of various events. This is achieved through [MQTT](http://mqtt.org/). The message type is identified via the topic. The available message topics will be documented in this section.
 
-### Session Revoked [`topic: session_revoked`]
+### Session Revoked `topic: session_revoked`
 When a users session is revoked the server will notify the app. The message content contains the id of the session which was revoked
 
 ```
@@ -378,7 +378,7 @@ When a users session is revoked the server will notify the app. The message cont
 }
 ```
 
-### Load Changed [`topic: load_changed`]
+### Load Changed `topic: load_changed`
 If a load is modified in a way which affects the driver the app will be notified. The notification will only contain the load id of the modified load. It is up to the app to pull the load information from the rest api.
 
 ```
@@ -387,7 +387,7 @@ If a load is modified in a way which affects the driver the app will be notified
 }
 ``` 
 
-### Release Load Request [`topic: release_load_request`]
+### Release Load Request `topic: release_load_request`
 If a load transfer is initiated by a controller, a message will be pushed to the app requesting the driver to release the load. The message contains the load id which should be released. If the driver does not respond within a threshold configured by the controller, the load will be automatically released by the server. When this happens the associated session will also be revoked.
 
 ```
