@@ -98,7 +98,7 @@ Currently the system support the following activities:
 - Signatures
 - Cash on delivery
 - Document scans
-- Image cpature
+- Image capture
 - Odometer readings
 - Pallet transfers
 - Pallet drops
@@ -112,17 +112,17 @@ The load is the most important and complex component of the loads module. The lo
 
 A load serves as a set of instructions to the driver (type of operator) on how to execute a given load.
 
-A load consists of a collection of consignments and activities arranged within points of interest.
+A load consists of a collection of consignments and activities arranged within stop.
 
-#### Points of Interest
-The point of interest represent a specific place on the planet (Location) which the driver needs to drive to in order to perform their pre-defined work (Activities). When they arrive at a point of interest they will be required to interact with various people (Entities) to get their work done.
+#### Stops
+The stop represent a specific place on the planet (Location) which the driver needs to drive to in order to perform their pre-defined work (Activities). When they arrive at a stop they will be required to interact with various people (Entities) to get their work done.
 
-It should be clear that a point of interest can only exist with the context of a load and is the component which bring Entities, Shipping Addresses, Locations and Activities together as part of a greater Travel Plan.
+It should be clear that a stop can only exist with the context of a load and is the component which bring Entities, Shipping Addresses, Locations and Activities together as part of a greater Travel Plan.
 
-The points of interest are connected by a path component. The path represents the physical path which should be followed in order to get to the point of interest. The path is used by the navigation system to direct to the operator to the point of interest. The path has a time and distance component which is used to measure the operators progress while moving between points of interest.
+The stop are connected by a path component. The path represents the physical path which should be followed in order to get to the stop. The path is used by the navigation system to direct to the operator to the stop. The path has a time and distance component which is used to measure the operators progress while moving between stop.
 
 #### Travel Plan
-The travel plan consists of two or more points of interest and describes the sequence in which the points of interest should be visited.
+The travel plan consists of two or more stop and describes the sequence in which the stop should be visited.
 
 #### Allocation
 The load allocation represents the components which have been allocated to facilitate the execution of the load. The allocation exists primarily of an operator and a vehicle (the asset assigned to haul the load). Supporting assets can also be allocated to a load to facilitate the management of those assets.
