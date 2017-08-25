@@ -115,11 +115,11 @@ A load serves as a set of instructions to the driver (type of operator) on how t
 A load consists of a collection of consignments and activities arranged within stop.
 
 #### Stops
-The stop represent a specific place on the planet (Location) which the driver needs to drive to in order to perform their pre-defined work (Activities). When they arrive at a stop they will be required to interact with various people (Entities) to get their work done.
+The stop represents a specific place on the planet (Location) which the driver needs to drive to in order to perform their pre-defined work (Activities). When they arrive at a stop they will be required to interact with various people (Entities) to get their work done.
 
-It should be clear that a stop can only exist with the context of a load and is the component which bring Entities, Shipping Addresses, Locations and Activities together as part of a greater Travel Plan.
+It should be clear that a stop can only exist within the context of a load and is the component which bring Entities, Shipping Addresses, Locations and Activities together to form the travel plan.
 
-The stop are connected by a path component. The path represents the physical path which should be followed in order to get to the stop. The path is used by the navigation system to direct to the operator to the stop. The path has a time and distance component which is used to measure the operators progress while moving between stop.
+The stops are connected by a path. The path represents the physical path which should be followed in order to get to the stop. The path is used by the navigation system to direct to the operator to the stop. The path has a time and distance component which is used to measure the operators progress while moving between stops.
 
 #### Travel Plan
 The travel plan consists of two or more stop and describes the sequence in which the stop should be visited.
