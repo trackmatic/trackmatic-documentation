@@ -60,6 +60,14 @@ A consignment must be allocated one or more pickups or drop offs. A pickup descr
 
 When a consignment is allocated to a load the pickup and drop offs are assigned to one or more stops on load. The stop is built up from the shipping address and location information extracted for the consignments pickups, drop offs and associated entities.
 
+A consignment passes through a number of statuses in its life cycle:
+
+|Status|Description|
+|---|---|
+|Draft|When a consignment has been created but not yet made available for allocation to a load. Changes can only be made to a consignment while in draft status|
+|Un-allocated|When a consignment is complete and available to be planned onto a load|
+|Allocated|When a consignment has been allocated to a load|
+
 ### Activity
 
 An activity serves as instructions to the operator on what work to performed at a specified point during the load.
@@ -130,7 +138,7 @@ The load allocation represents the components which have been allocated to facil
 An operator can only ever have one active load at a time however multiple loads can be allocated to a single operator in a planned status. A load can be transferred between assets and operators if necessary.
 
 #### Status
-A load goes through a number of satuses within its life cycle:
+A load goes through a number of statuses within its life cycle:
 
 |Status|Description|
 |---|---|
