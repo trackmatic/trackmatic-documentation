@@ -21,17 +21,17 @@ Much like an entity the shipping address is a convenience feature preventing you
 
 A location represents the physical location of a shipping address marked out on the planet. A location has a shape, namely radius or polygon, which is one or more geographical points marked out on a geo spatial map.
 
-The location is attached to a loads point of interest and used to detect when an asset enters or leaves the demarcated area.
+The location is attached to a loads stop and used to detect when an asset enters or leaves the demarcated area.
 
 A shipping address is linked to the shipping address as a convenience feature so that when you are creating loads you do not need to recapture the location information.
 
-When a load is a created the system will look at the entities associated shipping addresses and pull out the location information when a point of interest is created on a load.
+When a load is a created the system will look at the entities associated shipping addresses and pull out the location information when a stop is created on a load.
 
 The concept of a location is an important technical aspect of the Trackmatic system in general. It is the mechanism used to track assets in context. In the Tracking module we have the concept of locations. We have purposefully changed the name from location to location in the the Loads module in order draw a distinction between them.
 
 While a location can be backed by a Location in the Tracking module it does not have to be. When it is not backed by an underlying Location it is considered by the loads module as ad-hoc.
 
-In the context of the Tracking module the Location is used to track an asset moving in and out of the pre-defined location, while in the loads module it simply used as a template to facilitate the creation of points of interest.
+In the context of the Tracking module the Location is used to track an asset moving in and out of the pre-defined location, while in the loads module it simply used as a template to facilitate the creation of stops.
 
 ### Asset
 
@@ -58,13 +58,13 @@ A consignment must be allocated a Consignee and Consignor where each of these ca
 
 A consignment must be allocated one or more pickups or drop offs. A pickup described where the goods need to be picked up form, while the drop off describes where the goods need to be dropped off at. The pickup and drop off are both activities which will be described in more detail later in this document.
 
-When a consignment is allocated to a load the pickup and drop offs are assigned to one or more points of interest on load. The point of interest is built up from the shipping address and location information extracted for the consignments pickups, drop offs and associated entities.
+When a consignment is allocated to a load the pickup and drop offs are assigned to one or more stops on load. The stop is built up from the shipping address and location information extracted for the consignments pickups, drop offs and associated entities.
 
 ### Activity
 
 An activity serves as instructions to the operator on what work to performed at a specified point during the load.
 
-Activities can be either planned or un-planned. When planned they will be associated with a load at a specific point of interest. When a driver reaches they point of interest they will be requested to perform the associated activities. When unplanned the operator will have the ability to select an activity to perform.
+Activities can be either planned or un-planned. When planned they will be associated with a load at a specific stop. When a driver reaches they stop they will be requested to perform the associated activities. When unplanned the operator will have the ability to select an activity to perform.
 
 There are many types of activities available in the loads module:
 
