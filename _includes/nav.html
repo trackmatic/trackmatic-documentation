@@ -27,7 +27,7 @@
 		{% for post in site.posts %}
 		<div>
 			<b><a href="{{ post.url | prepend: site.github.url }}">{{ post.title }}</a></b>
-			<i>{{ post.excerpt }}</i>
+			<small>{{ post.excerpt }}</small>
 			<br />
 		</div>
 		{% endfor %}

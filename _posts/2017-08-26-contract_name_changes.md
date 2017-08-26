@@ -74,7 +74,7 @@ Within the shipping address there was a a property named `geofence_integration_k
 
 ## Data Ownership
 
-`geofence' property in the data ownership element has been changed to `location`
+`geofence` property in the data ownership element has been changed to `location`
 
 ### Before
 
