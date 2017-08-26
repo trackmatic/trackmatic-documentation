@@ -9,7 +9,7 @@ categories: loads integration
 
 We have made some name changes in order to align the integration API with the rest of the system as it grows.
 
-There are a few areas of the [load import]({{'rest/loads/integration/open-api#operation/Loads_Import' | prepend: site.github.url}}) request which have been affected.
+There are a few areas of the [load import]({{'/rest/loads/integration/open-api#operation/Loads_Import' | prepend: site.github.url}}) request which have been affected.
 
 - "Point of interest" has been changed to "Stop"
 - "Geofence" has been changed to "Location"
