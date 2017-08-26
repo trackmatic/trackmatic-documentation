@@ -6,7 +6,7 @@ categories: loads integration
 excerpt: We have made some name changes in order to align the integration API with the rest of the system as it grows.
 ---
 
-# Contract name changes
+# Contract name changes - 2017-08-26
 
 We have made some name changes in order to align the integration API with the rest of the system as it grows.
 
