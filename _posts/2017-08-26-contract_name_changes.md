@@ -3,9 +3,10 @@ layout: default
 title:  "Contract Name Changes"
 date:   2017-08-26 09:00:00 +0200
 categories: loads integration
+excerpt: We have made some name changes in order to align the integration API with the rest of the system as it grows.
 ---
 
-# Loads Integration Migration
+# Contract name changes
 
 We have made some name changes in order to align the integration API with the rest of the system as it grows.
 
