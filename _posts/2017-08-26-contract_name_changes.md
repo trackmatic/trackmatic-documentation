@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Integration contract migration"
+title:  "Contract Name Changes"
 date:   2017-08-26 09:00:00 +0200
 categories: loads integration
 ---
