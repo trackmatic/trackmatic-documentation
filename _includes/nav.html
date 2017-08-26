@@ -25,7 +25,11 @@
 	<div class="nav-docs-section">
 		<h3><a href="#">Blog</a></h3>
 		{% for post in site.posts %}
-		<a href="{{ post.url | prepend: site.github.url }}">{{ post.title }}</a>
+		<div>
+			<b><a href="{{ post.url | prepend: site.github.url }}">{{ post.title }}</a></b>
+			<i>{{ post.excerpt }}</i>
+			<br />
+		</div>
 		{% endfor %}
 	</div>
 </div>
