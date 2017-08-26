@@ -15,13 +15,19 @@ There are a few areas of the [load import]({{'/rest/loads/integration/open-api#o
 - "Point of interest" has been changed to "Stop"
 - "Geofence" has been changed to "Location"
 
+## Compatibility
+
+The change is backward compatible but will become obsolete after 60 days. The change will need to made on your integrations within 60 days to prevent service interruption.
+
+## Changes
+
 The changes affect the following areas
 
-## Geofences collection
+### Geofences collection
 
 `geofences` collection on the route element has been changed tp `locations`
 
-### Before
+#### Before
 
 ```
 {
@@ -31,7 +37,7 @@ The changes affect the following areas
 }
 ```
 
-### After
+#### After
 
 ```
 {
@@ -41,11 +47,11 @@ The changes affect the following areas
 }
 ```
 
-## Geofence reference in Shipping Address
+### Geofence reference in Shipping Address
 
 Within the shipping address there was a a property named `geofence_integration_key`, this has been changed to `location_integration_key`
 
-### Before
+#### Before
 
 ```
 {
@@ -59,7 +65,7 @@ Within the shipping address there was a a property named `geofence_integration_k
 }
 ```
 
-### After
+#### After
 
 ```
 {
@@ -73,11 +79,11 @@ Within the shipping address there was a a property named `geofence_integration_k
 }
 ```
 
-## Data Ownership
+### Data Ownership
 
 `geofence` property in the data ownership element has been changed to `location`
 
-### Before
+#### Before
 
 ```
 {
@@ -91,7 +97,7 @@ Within the shipping address there was a a property named `geofence_integration_k
 }
 ```
 
-### After
+#### After
 
 ```
 {
@@ -105,11 +111,11 @@ Within the shipping address there was a a property named `geofence_integration_k
 }
 ```
 
-## Points of interest
+### Points of interest
 
 The `points_of_interest` property on the travel plan has been renamed to `stops`
 
-### Before
+#### Before
 
 ```
 {
@@ -125,7 +131,7 @@ The `points_of_interest` property on the travel plan has been renamed to `stops`
 }
 ```
 
-### After
+#### After
 
 ```
 {
@@ -140,7 +146,3 @@ The `points_of_interest` property on the travel plan has been renamed to `stops`
 	...
 }
 ```
-
-## Compatibility
-
-The change is backward compatible but will become obsolete after 60 days. The change will need to made on your integrations within 60 days to prevent service interruption.
