@@ -17,7 +17,7 @@ There are a few areas of the [load import]({{'/rest/loads/integration/open-api#o
 
 ## Compatibility
 
-The change is backward compatible but will become obsolete after 60 days. The change will need to made on your integrations within 60 days to prevent service interruption.
+The change is backward compatible but will become obsolete after 60 days. The change will need to be made on your integrations within 60 days to prevent service interruption.
 
 ## Changes
 
