@@ -148,6 +148,11 @@ A load goes through a number of statuses within its life cycle:
 |Closed|When a driver has completed a load and all tracking and activity data has been captured it goes into the closed status|
 |Cancelled|A planned load can be cancelled which means that it is never intended to be executed|
 
+#### Promptitude
+
+Promptitude is used to describe if the driver was early, late or very late for a given stop or activity. The thresholds to determine the promptitude are configureable at the organisation level.
+
+
 ## Supporting Apis
 
 |API Name|Description|   |
