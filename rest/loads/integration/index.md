@@ -4,6 +4,8 @@ The integration API provides a way to upload the complex load structure in a nor
 
 Each message represents a single load along with all of its associated data. Once initial validation has been performed on the message the load is dispatched asynchrnously to be processed by the server. This means that the load may not be available immediately after a 200 response code is received. A web hook can be registered to notify you once the upload is complete.
 
+This section is intended to provide the details on the technical aspects of the API. For business domain related information please read [loads in context](../)
+
 ## Open Api Documentation
 For more information on available calls and messages structure [goto the open api docs](./open-api)
 
