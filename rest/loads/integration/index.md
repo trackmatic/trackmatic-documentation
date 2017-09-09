@@ -2,7 +2,7 @@
 
 The integration API provides a way to upload the complex load structure in a normalized format. There are many moving parts to a load and care should be taken when building an integration to ensure a reliable and robust result.
 
-Each message represents a single load along with all of its associated data. Once initial validation has been performed on the message the load is dispatched asynchrnously to be processed by the server. This means that the load may not be available immediately after a 200 response code is received. A web hook can be registered to notify you once the upload is complete.
+Each message represents a single load along with all of its associated data. Once initial validation has been performed on the message the load is dispatched asynchronously to be processed by the server. This means that the load may not be available immediately after a 200 response code is received. A web hook can be registered to notify you once the upload is complete.
 
 This section is intended to provide the details on the technical aspects of the API. For business domain related information please read [loads in context](../)
 
@@ -21,19 +21,19 @@ The data ownership component of the message is an important mechanism providing 
 
 - Throw Error - This option will instruct the api to throw an error if the operation is attempted. This is useful when debugging or if you are not certain of the effect that the message will have on the data.
 
-- Ignore - When using this option the api will ignore any data sent by you if the data already exists in Trackmatic. This effectively makes Trackmatic the owner of the data area since once a component is created any further changes made by this api call will be ignored. This is usefull for when you need to allow chanegs to me made through the Trackmatic user interface and not have them overwritten by the integration.
+- Ignore - When using this option the api will ignore any data sent by you if the data already exists in Trackmatic. This effectively makes Trackmatic the owner of the data area since once a component is created any further changes made by this api call will be ignored. This is useful for when you need to allow changes to me made through the Trackmatic user interface and not have them overwritten by the integration.
 
 ## Integration Keys
 
-The integration key properties are intended to represent either your business keys or composite business keys which you created. This is useful for performing updates since you will not be required to call our API to get the trackmatic id, instead you simply send the message again. If the integration keys macthes data which has been previously uploaded an update will be performed. If an integration does not exist in the trackmatic system a create will be performed.
+The integration key properties are intended to represent either your business keys or composite business keys which you create and own. This is useful for performing updates since you will not be required to call our API to retrieve the trackmatic id, instead you simply send the message again. If the integration keys matches data which has been previously uploaded an update will be performed. If an integration key does not exist in the Trackmatic system a create will be performed.
 
-Intgeration keys are mapped to trackmatic id's internally. When working with non integration apis or the Trackamtic web interface you will be working with trackmatic id's.
+Integration keys are mapped to Trackmatic id's internally. When working with non integration apis or the Trackamtic web interface you will be working with trackmatic id's.
 
-When webhooks are created the integration keys are retrieved and populated into the webhook payload so that you can correlate the webhook data with your line of business systems.
+When webhooks are created the integration keys are retrieved and integration keys are inserted into the webhook payload so that you can correlate the webhook data with your line of business systems.
 
 ### Normalization
 
-The payload allows you to upload supporting data in a normalized fashion. Each component can be defined once then referenced in other parts of the message using their integration keys.
+The payload allows you to upload supporting data in a normalized fashion. Each component can be defined once then referenced in other parts of the message using their integration keys. For example
 
 ```
 
