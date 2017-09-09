@@ -7,7 +7,7 @@ The loads module is made up of a number of interconnected components which will 
 
 An Entity represents an organisation, business, customer or individual which you interact with within the context of the loads module.
 
-Entities do not mean a whole lot on their own and are primarily used as a building block of consignments and loads. When creating consignments or loads you will be able to select from a pre-captured list of entities preventing you from having to capture the entity information over and over again.
+Entities do not mean a whole lot on their own and are primarily used as a building block for consignments and loads. When creating consignments or loads you will be able to select from a pre-captured list of entities preventing you from having to capture the entity information from scratch.
 
 The necessary tools are provided to assist you in managing entities by searching them, creating new ones, editing existing ones and deleting unused ones.
 

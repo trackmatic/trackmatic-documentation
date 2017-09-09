@@ -37,16 +37,16 @@ The payload allows you to upload supporting data in a normalized fashion. Each c
 
 ```
 
-  "geofences": [
+  "locations": [
     {
-      "integration_key": "geofence1"
+      "integration_key": "location1"
     }
   ],
 
   "shipping_addresses": [
     {
       "integration_key": "shippingAddress1",
-      "geofence_integration_key": "geofence1"
+      "location_integration_key": "location1"
 
       ...
     }
@@ -77,3 +77,7 @@ The payload allows you to upload supporting data in a normalized fashion. Each c
   ...
 
 ```
+
+### Adhoc Components
+
+Some components such as Locations, Shipping Addresses and Entities have an `is_adhoc` property associated with them. When `is_adhoc` is set to true the component will not be created as master data but will instead only be appended to the load itself. Adhoc components are useful when there is no reliable business key for the component and saving them as master data will cause uncontrolled duplication. Where possible adhoc components should be avoided. In particular adhoc locations become very difficult to manage when the line of business system has unreliable geospatial information since the locations will need to be continuously managed from the Trackmatic front end.
