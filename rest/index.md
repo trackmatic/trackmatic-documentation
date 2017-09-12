@@ -41,6 +41,10 @@ For integrations an api key can be created which will allow you to limit access 
 GET /account/auth?apiKeyId=string
 ```
 
+#### Obtaining an Api key
+
+Api keys are generated from the organisation module via [the web application](http://app.trackmatic.co.za). Organisation administrator rights are required in order to do this. If you do not have administrator rights you will need to ask your organisation administrator to do this on your behalf. An api key is assigned permissions in a similar fashion to a user. Modules, roles and sites are allocated to the api key to allow access to the necessary areas. Generally there will be a specific `Integration` role which will provide access to the specific integration apis, however it is possible to allocate additional permissions to an api key which will give it the same access level as a normal user.
+
 ### Authorization Header
 
 Once a valid token has been obtained it must be attached to each subsequent request with the HTTP authorization header in the following format:
