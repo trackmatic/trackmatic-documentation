@@ -40,6 +40,9 @@
     - id: devices
       title: Devices
       url: /rest/devices
+    - id: pbx
+      title: Pbx
+      url: /rest/pbx
 - title: Webhooks
   url: /webhooks
   items:
