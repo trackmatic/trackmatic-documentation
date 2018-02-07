@@ -6,7 +6,7 @@ categories: loads integration
 excerpt: Introducing timed tasks
 ---
 
-# Remove Timed Tasks - 2018-02-07
+# Timed Tasks - 2018-02-07
 
 Timed tasks have been introduced to the system which will allow you to plan custom timed tasks for the driver to execute at a stop. The timed task works in the same was as most other timed activities, such as Pickups and Dropoffs, but is not related to any other business specific info.
 
