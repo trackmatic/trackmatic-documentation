@@ -2,7 +2,7 @@
 ## Border Crossing `border_crossing`
 ```
 {
-  "when": "2017-10-20T14:08:45.3915778Z",
+  "when": "2018-02-07T05:59:55.8027631Z",
   "where": [
     0.0,
     0.0
@@ -154,7 +154,8 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": []
+    "e_documents": [],
+    "delayed_outcomes": []
   },
   "country": "string",
   "name": "string",
@@ -176,7 +177,7 @@
 ## Border Crossing Failed `border_crossing.failed`
 ```
 {
-  "when": "2017-10-20T14:08:45.3925783Z",
+  "when": "2018-02-07T05:59:55.8037644Z",
   "where": [
     0.0,
     0.0
@@ -328,7 +329,8 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": []
+    "e_documents": [],
+    "delayed_outcomes": []
   },
   "failure_reason": "string",
   "driver": {
@@ -347,7 +349,7 @@
 ## Breakdown `breakdown`
 ```
 {
-  "when": "2017-10-20T14:08:45.399576Z",
+  "when": "2018-02-07T05:59:55.8117635Z",
   "where": [
     0.0,
     0.0
@@ -502,7 +504,8 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": []
+    "e_documents": [],
+    "delayed_outcomes": []
   },
   "driver_id": "string",
   "vehicle_id": "string",
@@ -526,7 +529,7 @@
 ## Dropoff Completed `load.dropoff.completed`
 ```
 {
-  "when": "2017-10-20T14:08:45.38958Z",
+  "when": "2018-02-07T05:59:55.8007633Z",
   "where": [
     0.0,
     0.0
@@ -586,7 +589,7 @@
   },
   "dropoff": {
     "integration_key": "string",
-    "due_at": "2017-10-20T14:08:45.38958Z",
+    "due_at": "2018-02-07T05:59:55.8007633Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -745,14 +748,15 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": []
+    "e_documents": [],
+    "delayed_outcomes": []
   }
 }
 ```
 ## Dropoff Failed `load.dropoff.failed`
 ```
 {
-  "when": "2017-10-20T14:08:45.38958Z",
+  "when": "2018-02-07T05:59:55.8007633Z",
   "where": [
     0.0,
     0.0
@@ -812,7 +816,7 @@
   },
   "dropoff": {
     "integration_key": "string",
-    "due_at": "2017-10-20T14:08:45.3905797Z",
+    "due_at": "2018-02-07T05:59:55.8007633Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -971,7 +975,8 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": []
+    "e_documents": [],
+    "delayed_outcomes": []
   },
   "failure_reason": null
 }
@@ -979,7 +984,7 @@
 ## Dropoff Started `load.dropoff.started`
 ```
 {
-  "when": "2017-10-20T14:08:45.388403Z",
+  "when": "2018-02-07T05:59:55.799764Z",
   "where": [
     0.0,
     0.0
@@ -1039,7 +1044,7 @@
   },
   "dropoff": {
     "integration_key": "string",
-    "due_at": "2017-10-20T14:08:45.38958Z",
+    "due_at": "2018-02-07T05:59:55.799764Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -1093,7 +1098,7 @@
 ## Fuel Stop Completed `fuel_stop.completed`
 ```
 {
-  "when": "2017-10-20T14:08:45.3935788Z",
+  "when": "2018-02-07T05:59:55.8047637Z",
   "where": [
     0.0,
     0.0
@@ -1245,7 +1250,8 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": []
+    "e_documents": [],
+    "delayed_outcomes": []
   },
   "authorized_location_geofence_id": null,
   "was_authorised_fuel_stop": false,
@@ -1287,7 +1293,7 @@
 ## Fuel Stop Failed `fuel_stop.failed`
 ```
 {
-  "when": "2017-10-20T14:08:45.3945801Z",
+  "when": "2018-02-07T05:59:55.8047637Z",
   "where": [
     0.0,
     0.0
@@ -1439,7 +1445,8 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": []
+    "e_documents": [],
+    "delayed_outcomes": []
   },
   "failure_reason": "string",
   "driver": {
@@ -1458,7 +1465,7 @@
 ## Fuel Stop Started `fuel_stop.started`
 ```
 {
-  "when": "2017-10-20T14:08:45.3925783Z",
+  "when": "2018-02-07T05:59:55.8037644Z",
   "where": [
     0.0,
     0.0
@@ -1562,7 +1569,7 @@
     },
     "type": null
   },
-  "when": "2017-10-20T14:08:45.3879054Z",
+  "when": "2018-02-07T05:59:55.7987631Z",
   "where": [
     0.0,
     0.0
@@ -1609,7 +1616,7 @@
     },
     "type": null
   },
-  "when": "2017-10-20T14:08:45.388403Z",
+  "when": "2018-02-07T05:59:55.799764Z",
   "reason": "string"
 }
 ```
@@ -1653,7 +1660,7 @@
     },
     "type": null
   },
-  "when": "2017-10-20T14:08:45.4005765Z",
+  "when": "2018-02-07T05:59:55.8117635Z",
   "where": [
     0.0,
     0.0
@@ -1701,7 +1708,7 @@
     "type": null
   },
   "force_closed": false,
-  "when": "2017-10-20T14:08:45.3879054Z",
+  "when": "2018-02-07T05:59:55.7987631Z",
   "where": [
     0.0,
     0.0
@@ -1748,7 +1755,7 @@
     },
     "type": null
   },
-  "when": "2017-10-20T14:08:45.388403Z"
+  "when": "2018-02-07T05:59:55.7987631Z"
 }
 ```
 ## Load Released `load.released`
@@ -1791,7 +1798,7 @@
     },
     "type": null
   },
-  "when": "2017-10-20T14:08:45.4005765Z",
+  "when": "2018-02-07T05:59:55.8127665Z",
   "where": [
     0.0,
     0.0
@@ -1801,7 +1808,7 @@
 ## Odometer `odometer`
 ```
 {
-  "when": "2017-10-20T14:08:45.3965799Z",
+  "when": "2018-02-07T05:59:55.8077672Z",
   "where": [
     0.0,
     0.0
@@ -1956,7 +1963,8 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": []
+    "e_documents": [],
+    "delayed_outcomes": []
   },
   "was_planned": false,
   "driver": {
@@ -1975,7 +1983,7 @@
 ## Odometer Failed `odometer.failed`
 ```
 {
-  "when": "2017-10-20T14:08:45.3965799Z",
+  "when": "2018-02-07T05:59:55.8077672Z",
   "where": [
     0.0,
     0.0
@@ -2127,7 +2135,8 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": []
+    "e_documents": [],
+    "delayed_outcomes": []
   },
   "failure_reason": "string",
   "driver": {
@@ -2146,7 +2155,7 @@
 ## Off Route `off_route`
 ```
 {
-  "when": "2017-10-20T14:08:45.399576Z",
+  "when": "2018-02-07T05:59:55.8107679Z",
   "where": [
     0.0,
     0.0
@@ -2193,7 +2202,7 @@
 ## Pickup Completed `load.pickup.completed`
 ```
 {
-  "when": "2017-10-20T14:08:45.3915778Z",
+  "when": "2018-02-07T05:59:55.8017634Z",
   "where": [
     0.0,
     0.0
@@ -2253,7 +2262,7 @@
   },
   "pickup": {
     "integration_key": "string",
-    "due_at": "2017-10-20T14:08:45.3915778Z",
+    "due_at": "2018-02-07T05:59:55.8017634Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -2412,14 +2421,15 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": []
+    "e_documents": [],
+    "delayed_outcomes": []
   }
 }
 ```
 ## Pickup Failed `load.pickup.failed`
 ```
 {
-  "when": "2017-10-20T14:08:45.3915778Z",
+  "when": "2018-02-07T05:59:55.8017634Z",
   "where": [
     0.0,
     0.0
@@ -2479,7 +2489,7 @@
   },
   "pickup": {
     "integration_key": "string",
-    "due_at": "2017-10-20T14:08:45.3915778Z",
+    "due_at": "2018-02-07T05:59:55.8027631Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -2638,7 +2648,8 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": []
+    "e_documents": [],
+    "delayed_outcomes": []
   },
   "failure_reason": null
 }
@@ -2646,7 +2657,7 @@
 ## Pickup Started `load.pickup.started`
 ```
 {
-  "when": "2017-10-20T14:08:45.3905797Z",
+  "when": "2018-02-07T05:59:55.8007633Z",
   "where": [
     0.0,
     0.0
@@ -2706,7 +2717,7 @@
   },
   "pickup": {
     "integration_key": "string",
-    "due_at": "2017-10-20T14:08:45.3905797Z",
+    "due_at": "2018-02-07T05:59:55.8017634Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -2760,7 +2771,7 @@
 ## Rest Stop Completed `rest_stop.completed`
 ```
 {
-  "when": "2017-10-20T14:08:45.3955806Z",
+  "when": "2018-02-07T05:59:55.805765Z",
   "where": [
     0.0,
     0.0
@@ -2816,7 +2827,8 @@
     "proof_of_deliveries": [],
     "weights": [],
     "forms": [],
-    "e_documents": []
+    "e_documents": [],
+    "delayed_outcomes": []
   },
   "driver": {
     "id": "string",
@@ -2835,7 +2847,7 @@
 ## Rest Stop Failed `rest_stop.failed`
 ```
 {
-  "when": "2017-10-20T14:08:45.3955806Z",
+  "when": "2018-02-07T05:59:55.8067651Z",
   "where": [
     0.0,
     0.0
@@ -2987,7 +2999,8 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": []
+    "e_documents": [],
+    "delayed_outcomes": []
   },
   "failure_reason": "string",
   "driver": {
@@ -3007,7 +3020,7 @@
 ## Rest Stop Started `rest_stop.started`
 ```
 {
-  "when": "2017-10-20T14:08:45.3945801Z",
+  "when": "2018-02-07T05:59:55.805765Z",
   "where": [
     0.0,
     0.0
@@ -3069,7 +3082,7 @@
 ## Stop Arrived `load.stop.arrived`
 ```
 {
-  "when": "2017-10-20T14:08:45.3869045Z",
+  "when": "2018-02-07T05:59:55.7977634Z",
   "where": [
     0.0,
     0.0
@@ -3118,7 +3131,7 @@
 ## Stop Departed `load.stop.departed`
 ```
 {
-  "when": "2017-10-20T14:08:45.3874058Z",
+  "when": "2018-02-07T05:59:55.7987631Z",
   "where": [
     0.0,
     0.0
@@ -3164,10 +3177,160 @@
   "integration_key": "string"
 }
 ```
+## Timed Task Completed `timed_task.completed`
+```
+{
+  "when": "2018-02-07T05:59:55.8127665Z",
+  "where": [
+    0.0,
+    0.0
+  ],
+  "load": {
+    "id": null,
+    "integration_key": null,
+    "requested_date": "0001-01-01T00:00:00",
+    "reference": null,
+    "allocation": {
+      "driver": {
+        "id": "string",
+        "name": "string",
+        "integration_key": "string"
+      },
+      "vehicle": {
+        "id": "string",
+        "integration_key": "string",
+        "registration": "string",
+        "fleet_number": "string"
+      },
+      "assets": [
+        {
+          "integration_key": "string",
+          "asset_id": "string",
+          "fleet_number": "string",
+          "odometer": {
+            "meter_type": "string",
+            "current_reading": 0.0
+          },
+          "type": "string"
+        }
+      ],
+      "accessories": {
+        "pallet_jack": "string",
+        "load_lock_rails": 0,
+        "fuel_card": "string"
+      }
+    },
+    "type": null
+  },
+  "outcomes": null,
+  "activity_id": "string",
+  "activity_integration_key": "string"
+}
+```
+## Timed Task Failed `timed_task.failed`
+```
+{
+  "when": "2018-02-07T05:59:55.8137674Z",
+  "where": [
+    0.0,
+    0.0
+  ],
+  "load": {
+    "id": null,
+    "integration_key": null,
+    "requested_date": "0001-01-01T00:00:00",
+    "reference": null,
+    "allocation": {
+      "driver": {
+        "id": "string",
+        "name": "string",
+        "integration_key": "string"
+      },
+      "vehicle": {
+        "id": "string",
+        "integration_key": "string",
+        "registration": "string",
+        "fleet_number": "string"
+      },
+      "assets": [
+        {
+          "integration_key": "string",
+          "asset_id": "string",
+          "fleet_number": "string",
+          "odometer": {
+            "meter_type": "string",
+            "current_reading": 0.0
+          },
+          "type": "string"
+        }
+      ],
+      "accessories": {
+        "pallet_jack": "string",
+        "load_lock_rails": 0,
+        "fuel_card": "string"
+      }
+    },
+    "type": null
+  },
+  "outcomes": null,
+  "failure_reason": null,
+  "activity_id": "string",
+  "activity_integration_key": "string"
+}
+```
+## Timed Task Started `timed_task.started`
+```
+{
+  "when": "2018-02-07T05:59:55.8127665Z",
+  "where": [
+    0.0,
+    0.0
+  ],
+  "load": {
+    "id": null,
+    "integration_key": null,
+    "requested_date": "0001-01-01T00:00:00",
+    "reference": null,
+    "allocation": {
+      "driver": {
+        "id": "string",
+        "name": "string",
+        "integration_key": "string"
+      },
+      "vehicle": {
+        "id": "string",
+        "integration_key": "string",
+        "registration": "string",
+        "fleet_number": "string"
+      },
+      "assets": [
+        {
+          "integration_key": "string",
+          "asset_id": "string",
+          "fleet_number": "string",
+          "odometer": {
+            "meter_type": "string",
+            "current_reading": 0.0
+          },
+          "type": "string"
+        }
+      ],
+      "accessories": {
+        "pallet_jack": "string",
+        "load_lock_rails": 0,
+        "fuel_card": "string"
+      }
+    },
+    "type": null
+  },
+  "activity_integration_key": "string",
+  "activity_id": "string"
+}
+```
 ## Weighbridge Completed `weighbridge.completed`
 ```
 {
-  "when": "2017-10-20T14:08:45.3975767Z",
+  "when": "2018-02-07T05:59:55.8087673Z",
   "where": [
     0.0,
     0.0
@@ -3319,7 +3482,8 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": []
+    "e_documents": [],
+    "delayed_outcomes": []
   },
   "was_planned": false,
   "weighbridge_name": "string",
@@ -3353,7 +3517,7 @@
 ## Weighbridge Failed `weighbridge.failed`
 ```
 {
-  "when": "2017-10-20T14:08:45.3985764Z",
+  "when": "2018-02-07T05:59:55.8107679Z",
   "where": [
     0.0,
     0.0
@@ -3505,7 +3669,8 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": []
+    "e_documents": [],
+    "delayed_outcomes": []
   },
   "failure_reason": "string",
   "driver": {
@@ -3524,7 +3689,7 @@
 ## Weighbridge Started `weighbridge.started`
 ```
 {
-  "when": "2017-10-20T14:08:45.3975767Z",
+  "when": "2018-02-07T05:59:55.8077672Z",
   "where": [
     0.0,
     0.0
