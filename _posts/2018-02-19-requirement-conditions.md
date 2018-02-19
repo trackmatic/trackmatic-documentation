@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Timed Tasks"
+title:  "Requirement Conditions"
 date:   2018-02-19 20:00:00 +0200
 categories: loads integration
 excerpt: Introducing requirement conditions
