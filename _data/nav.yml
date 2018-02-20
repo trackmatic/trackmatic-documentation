@@ -31,6 +31,13 @@
         - id: loads-integration
           title: Integration
           url: /rest/loads/integration
+    - id: link
+      title: Link
+      url: /rest/link
+      subitems:
+        - id: link-facilities
+          title: Facilities
+          url: /rest/link/facilities
     - id: blob-storage
       title: Blob Storage
       url: /rest/blob-storage
