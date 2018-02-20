@@ -2,7 +2,7 @@
 ## Border Crossing `border_crossing`
 ```
 {
-  "when": "2018-02-07T05:59:55.8027631Z",
+  "when": "2018-02-20T08:18:58.8223947Z",
   "where": [
     0.0,
     0.0
@@ -177,7 +177,7 @@
 ## Border Crossing Failed `border_crossing.failed`
 ```
 {
-  "when": "2018-02-07T05:59:55.8037644Z",
+  "when": "2018-02-20T08:18:58.8223947Z",
   "where": [
     0.0,
     0.0
@@ -349,7 +349,7 @@
 ## Breakdown `breakdown`
 ```
 {
-  "when": "2018-02-07T05:59:55.8117635Z",
+  "when": "2018-02-20T08:18:58.8313976Z",
   "where": [
     0.0,
     0.0
@@ -529,7 +529,7 @@
 ## Dropoff Completed `load.dropoff.completed`
 ```
 {
-  "when": "2018-02-07T05:59:55.8007633Z",
+  "when": "2018-02-20T08:18:58.8204085Z",
   "where": [
     0.0,
     0.0
@@ -589,7 +589,7 @@
   },
   "dropoff": {
     "integration_key": "string",
-    "due_at": "2018-02-07T05:59:55.8007633Z",
+    "due_at": "2018-02-20T08:18:58.8204085Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -756,7 +756,7 @@
 ## Dropoff Failed `load.dropoff.failed`
 ```
 {
-  "when": "2018-02-07T05:59:55.8007633Z",
+  "when": "2018-02-20T08:18:58.8204085Z",
   "where": [
     0.0,
     0.0
@@ -816,7 +816,7 @@
   },
   "dropoff": {
     "integration_key": "string",
-    "due_at": "2018-02-07T05:59:55.8007633Z",
+    "due_at": "2018-02-20T08:18:58.8214131Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -984,7 +984,7 @@
 ## Dropoff Started `load.dropoff.started`
 ```
 {
-  "when": "2018-02-07T05:59:55.799764Z",
+  "when": "2018-02-20T08:18:58.8194084Z",
   "where": [
     0.0,
     0.0
@@ -1044,7 +1044,7 @@
   },
   "dropoff": {
     "integration_key": "string",
-    "due_at": "2018-02-07T05:59:55.799764Z",
+    "due_at": "2018-02-20T08:18:58.8204085Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -1098,7 +1098,7 @@
 ## Fuel Stop Completed `fuel_stop.completed`
 ```
 {
-  "when": "2018-02-07T05:59:55.8047637Z",
+  "when": "2018-02-20T08:18:58.8233948Z",
   "where": [
     0.0,
     0.0
@@ -1263,6 +1263,7 @@
       "currency": "zar",
       "transaction_level": "full",
       "asset_id": "string",
+      "asset_integration_key": "string",
       "odometer_reading": 0.0,
       "meter_type": null,
       "reference_number": null,
@@ -1293,7 +1294,7 @@
 ## Fuel Stop Failed `fuel_stop.failed`
 ```
 {
-  "when": "2018-02-07T05:59:55.8047637Z",
+  "when": "2018-02-20T08:18:58.8233948Z",
   "where": [
     0.0,
     0.0
@@ -1465,7 +1466,7 @@
 ## Fuel Stop Started `fuel_stop.started`
 ```
 {
-  "when": "2018-02-07T05:59:55.8037644Z",
+  "when": "2018-02-20T08:18:58.8223947Z",
   "where": [
     0.0,
     0.0
@@ -1569,7 +1570,7 @@
     },
     "type": null
   },
-  "when": "2018-02-07T05:59:55.7987631Z",
+  "when": "2018-02-20T08:18:58.8194084Z",
   "where": [
     0.0,
     0.0
@@ -1616,7 +1617,7 @@
     },
     "type": null
   },
-  "when": "2018-02-07T05:59:55.799764Z",
+  "when": "2018-02-20T08:18:58.8194084Z",
   "reason": "string"
 }
 ```
@@ -1660,7 +1661,7 @@
     },
     "type": null
   },
-  "when": "2018-02-07T05:59:55.8117635Z",
+  "when": "2018-02-20T08:18:58.832396Z",
   "where": [
     0.0,
     0.0
@@ -1708,7 +1709,7 @@
     "type": null
   },
   "force_closed": false,
-  "when": "2018-02-07T05:59:55.7987631Z",
+  "when": "2018-02-20T08:18:58.8194084Z",
   "where": [
     0.0,
     0.0
@@ -1755,7 +1756,7 @@
     },
     "type": null
   },
-  "when": "2018-02-07T05:59:55.7987631Z"
+  "when": "2018-02-20T08:18:58.8194084Z"
 }
 ```
 ## Load Released `load.released`
@@ -1798,7 +1799,7 @@
     },
     "type": null
   },
-  "when": "2018-02-07T05:59:55.8127665Z",
+  "when": "2018-02-20T08:18:58.832396Z",
   "where": [
     0.0,
     0.0
@@ -1808,7 +1809,7 @@
 ## Odometer `odometer`
 ```
 {
-  "when": "2018-02-07T05:59:55.8077672Z",
+  "when": "2018-02-20T08:18:58.825395Z",
   "where": [
     0.0,
     0.0
@@ -1983,7 +1984,7 @@
 ## Odometer Failed `odometer.failed`
 ```
 {
-  "when": "2018-02-07T05:59:55.8077672Z",
+  "when": "2018-02-20T08:18:58.8263959Z",
   "where": [
     0.0,
     0.0
@@ -2155,7 +2156,7 @@
 ## Off Route `off_route`
 ```
 {
-  "when": "2018-02-07T05:59:55.8107679Z",
+  "when": "2018-02-20T08:18:58.8313976Z",
   "where": [
     0.0,
     0.0
@@ -2202,7 +2203,7 @@
 ## Pickup Completed `load.pickup.completed`
 ```
 {
-  "when": "2018-02-07T05:59:55.8017634Z",
+  "when": "2018-02-20T08:18:58.8214131Z",
   "where": [
     0.0,
     0.0
@@ -2262,7 +2263,7 @@
   },
   "pickup": {
     "integration_key": "string",
-    "due_at": "2018-02-07T05:59:55.8017634Z",
+    "due_at": "2018-02-20T08:18:58.8214131Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -2429,7 +2430,7 @@
 ## Pickup Failed `load.pickup.failed`
 ```
 {
-  "when": "2018-02-07T05:59:55.8017634Z",
+  "when": "2018-02-20T08:18:58.8223947Z",
   "where": [
     0.0,
     0.0
@@ -2489,7 +2490,7 @@
   },
   "pickup": {
     "integration_key": "string",
-    "due_at": "2018-02-07T05:59:55.8027631Z",
+    "due_at": "2018-02-20T08:18:58.8223947Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -2657,7 +2658,7 @@
 ## Pickup Started `load.pickup.started`
 ```
 {
-  "when": "2018-02-07T05:59:55.8007633Z",
+  "when": "2018-02-20T08:18:58.8214131Z",
   "where": [
     0.0,
     0.0
@@ -2717,7 +2718,7 @@
   },
   "pickup": {
     "integration_key": "string",
-    "due_at": "2018-02-07T05:59:55.8017634Z",
+    "due_at": "2018-02-20T08:18:58.8214131Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -2771,7 +2772,7 @@
 ## Rest Stop Completed `rest_stop.completed`
 ```
 {
-  "when": "2018-02-07T05:59:55.805765Z",
+  "when": "2018-02-20T08:18:58.8243965Z",
   "where": [
     0.0,
     0.0
@@ -2847,7 +2848,7 @@
 ## Rest Stop Failed `rest_stop.failed`
 ```
 {
-  "when": "2018-02-07T05:59:55.8067651Z",
+  "when": "2018-02-20T08:18:58.825395Z",
   "where": [
     0.0,
     0.0
@@ -3020,7 +3021,7 @@
 ## Rest Stop Started `rest_stop.started`
 ```
 {
-  "when": "2018-02-07T05:59:55.805765Z",
+  "when": "2018-02-20T08:18:58.8243965Z",
   "where": [
     0.0,
     0.0
@@ -3082,7 +3083,7 @@
 ## Stop Arrived `load.stop.arrived`
 ```
 {
-  "when": "2018-02-07T05:59:55.7977634Z",
+  "when": "2018-02-20T08:18:58.8184103Z",
   "where": [
     0.0,
     0.0
@@ -3131,7 +3132,7 @@
 ## Stop Departed `load.stop.departed`
 ```
 {
-  "when": "2018-02-07T05:59:55.7987631Z",
+  "when": "2018-02-20T08:18:58.8184103Z",
   "where": [
     0.0,
     0.0
@@ -3177,10 +3178,331 @@
   "integration_key": "string"
 }
 ```
+## Stop Failed `load.stop.failed`
+```
+{
+  "when": "2018-02-20T08:18:58.8283973Z",
+  "where": [
+    0.0,
+    0.0
+  ],
+  "load": {
+    "id": null,
+    "integration_key": null,
+    "requested_date": "0001-01-01T00:00:00",
+    "reference": null,
+    "allocation": {
+      "driver": {
+        "id": "string",
+        "name": "string",
+        "integration_key": "string"
+      },
+      "vehicle": {
+        "id": "string",
+        "integration_key": "string",
+        "registration": "string",
+        "fleet_number": "string"
+      },
+      "assets": [
+        {
+          "integration_key": "string",
+          "asset_id": "string",
+          "fleet_number": "string",
+          "odometer": {
+            "meter_type": "string",
+            "current_reading": 0.0
+          },
+          "type": "string"
+        }
+      ],
+      "accessories": {
+        "pallet_jack": "string",
+        "load_lock_rails": 0,
+        "fuel_card": "string"
+      }
+    },
+    "type": null
+  },
+  "outcomes": {
+    "signatures": [
+      {
+        "image_url": "string",
+        "name": "string",
+        "comment": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "cash_on_deliveries": [
+      {
+        "stock_handed_over": false,
+        "received_by_driver": false,
+        "valid_proof_of_payment_provided": false,
+        "customer_reference": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "document_scans": [
+      {
+        "image_urls": [
+          "string"
+        ],
+        "comment": "string",
+        "type": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "images": [
+      {
+        "image_urls": [
+          "string"
+        ],
+        "comments": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "service_ratings": [
+      {
+        "type": "string",
+        "value": "string",
+        "comment": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "odometer_readings": [
+      {
+        "meter_type": "string",
+        "value": "string",
+        "asset_id": "string",
+        "asset_integration_key": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "pallet_transfers": [
+      {
+        "qty_transfered": 0,
+        "transfer_reference": "string",
+        "comment": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "proof_of_deliveries": [
+      {
+        "document_references": [
+          "string"
+        ],
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "weights": [
+      {
+        "unit": "string",
+        "value": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "forms": [
+      {
+        "fields": [
+          {
+            "integration_key": "string",
+            "label": "string",
+            "value": "string",
+            "data_type": "string"
+          }
+        ],
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "e_documents": [],
+    "delayed_outcomes": []
+  },
+  "failure_reason": "string"
+}
+```
+## Stop Recorded `load.stop.recorded`
+```
+{
+  "when": "2018-02-20T08:18:58.827398Z",
+  "where": [
+    0.0,
+    0.0
+  ],
+  "load": {
+    "id": null,
+    "integration_key": null,
+    "requested_date": "0001-01-01T00:00:00",
+    "reference": null,
+    "allocation": {
+      "driver": {
+        "id": "string",
+        "name": "string",
+        "integration_key": "string"
+      },
+      "vehicle": {
+        "id": "string",
+        "integration_key": "string",
+        "registration": "string",
+        "fleet_number": "string"
+      },
+      "assets": [
+        {
+          "integration_key": "string",
+          "asset_id": "string",
+          "fleet_number": "string",
+          "odometer": {
+            "meter_type": "string",
+            "current_reading": 0.0
+          },
+          "type": "string"
+        }
+      ],
+      "accessories": {
+        "pallet_jack": "string",
+        "load_lock_rails": 0,
+        "fuel_card": "string"
+      }
+    },
+    "type": null
+  },
+  "outcomes": {
+    "signatures": [
+      {
+        "image_url": "string",
+        "name": "string",
+        "comment": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "cash_on_deliveries": [
+      {
+        "stock_handed_over": false,
+        "received_by_driver": false,
+        "valid_proof_of_payment_provided": false,
+        "customer_reference": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "document_scans": [
+      {
+        "image_urls": [
+          "string"
+        ],
+        "comment": "string",
+        "type": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "images": [
+      {
+        "image_urls": [
+          "string"
+        ],
+        "comments": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "service_ratings": [
+      {
+        "type": "string",
+        "value": "string",
+        "comment": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "odometer_readings": [
+      {
+        "meter_type": "string",
+        "value": "string",
+        "asset_id": "string",
+        "asset_integration_key": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "pallet_transfers": [
+      {
+        "qty_transfered": 0,
+        "transfer_reference": "string",
+        "comment": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "proof_of_deliveries": [
+      {
+        "document_references": [
+          "string"
+        ],
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "weights": [
+      {
+        "unit": "string",
+        "value": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "forms": [
+      {
+        "fields": [
+          {
+            "integration_key": "string",
+            "label": "string",
+            "value": "string",
+            "data_type": "string"
+          }
+        ],
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "e_documents": [],
+    "delayed_outcomes": []
+  }
+}
+```
 ## Timed Task Completed `timed_task.completed`
 ```
 {
-  "when": "2018-02-07T05:59:55.8127665Z",
+  "when": "2018-02-20T08:18:58.8333969Z",
   "where": [
     0.0,
     0.0
@@ -3230,7 +3552,7 @@
 ## Timed Task Failed `timed_task.failed`
 ```
 {
-  "when": "2018-02-07T05:59:55.8137674Z",
+  "when": "2018-02-20T08:18:58.8343958Z",
   "where": [
     0.0,
     0.0
@@ -3281,7 +3603,7 @@
 ## Timed Task Started `timed_task.started`
 ```
 {
-  "when": "2018-02-07T05:59:55.8127665Z",
+  "when": "2018-02-20T08:18:58.8333969Z",
   "where": [
     0.0,
     0.0
@@ -3330,7 +3652,7 @@
 ## Weighbridge Completed `weighbridge.completed`
 ```
 {
-  "when": "2018-02-07T05:59:55.8087673Z",
+  "when": "2018-02-20T08:18:58.829397Z",
   "where": [
     0.0,
     0.0
@@ -3517,7 +3839,7 @@
 ## Weighbridge Failed `weighbridge.failed`
 ```
 {
-  "when": "2018-02-07T05:59:55.8107679Z",
+  "when": "2018-02-20T08:18:58.8303963Z",
   "where": [
     0.0,
     0.0
@@ -3689,7 +4011,7 @@
 ## Weighbridge Started `weighbridge.started`
 ```
 {
-  "when": "2018-02-07T05:59:55.8077672Z",
+  "when": "2018-02-20T08:18:58.8283973Z",
   "where": [
     0.0,
     0.0
