@@ -2,7 +2,7 @@
 ## Border Crossing `border_crossing`
 ```
 {
-  "when": "2018-02-20T08:18:58.8223947Z",
+  "when": "2018-03-12T12:47:33.5621232Z",
   "where": [
     0.0,
     0.0
@@ -155,7 +155,16 @@
       }
     ],
     "e_documents": [],
-    "delayed_outcomes": []
+    "delays": [
+      {
+        "is_delayed": false,
+        "reason": "string",
+        "comment": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ]
   },
   "country": "string",
   "name": "string",
@@ -177,7 +186,7 @@
 ## Border Crossing Failed `border_crossing.failed`
 ```
 {
-  "when": "2018-02-20T08:18:58.8223947Z",
+  "when": "2018-03-12T12:47:33.5621232Z",
   "where": [
     0.0,
     0.0
@@ -330,7 +339,16 @@
       }
     ],
     "e_documents": [],
-    "delayed_outcomes": []
+    "delays": [
+      {
+        "is_delayed": false,
+        "reason": "string",
+        "comment": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ]
   },
   "failure_reason": "string",
   "driver": {
@@ -349,7 +367,7 @@
 ## Breakdown `breakdown`
 ```
 {
-  "when": "2018-02-20T08:18:58.8313976Z",
+  "when": "2018-03-12T12:47:33.5671261Z",
   "where": [
     0.0,
     0.0
@@ -505,7 +523,16 @@
       }
     ],
     "e_documents": [],
-    "delayed_outcomes": []
+    "delays": [
+      {
+        "is_delayed": false,
+        "reason": "string",
+        "comment": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ]
   },
   "driver_id": "string",
   "vehicle_id": "string",
@@ -529,7 +556,7 @@
 ## Dropoff Completed `load.dropoff.completed`
 ```
 {
-  "when": "2018-02-20T08:18:58.8204085Z",
+  "when": "2018-03-12T12:47:33.5601398Z",
   "where": [
     0.0,
     0.0
@@ -589,7 +616,7 @@
   },
   "dropoff": {
     "integration_key": "string",
-    "due_at": "2018-02-20T08:18:58.8204085Z",
+    "due_at": "2018-03-12T12:47:33.5601398Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -749,14 +776,23 @@
       }
     ],
     "e_documents": [],
-    "delayed_outcomes": []
+    "delays": [
+      {
+        "is_delayed": false,
+        "reason": "string",
+        "comment": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ]
   }
 }
 ```
 ## Dropoff Failed `load.dropoff.failed`
 ```
 {
-  "when": "2018-02-20T08:18:58.8204085Z",
+  "when": "2018-03-12T12:47:33.5601398Z",
   "where": [
     0.0,
     0.0
@@ -816,7 +852,7 @@
   },
   "dropoff": {
     "integration_key": "string",
-    "due_at": "2018-02-20T08:18:58.8214131Z",
+    "due_at": "2018-03-12T12:47:33.5601398Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -976,7 +1012,16 @@
       }
     ],
     "e_documents": [],
-    "delayed_outcomes": []
+    "delays": [
+      {
+        "is_delayed": false,
+        "reason": "string",
+        "comment": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ]
   },
   "failure_reason": null
 }
@@ -984,7 +1029,7 @@
 ## Dropoff Started `load.dropoff.started`
 ```
 {
-  "when": "2018-02-20T08:18:58.8194084Z",
+  "when": "2018-03-12T12:47:33.559141Z",
   "where": [
     0.0,
     0.0
@@ -1044,7 +1089,7 @@
   },
   "dropoff": {
     "integration_key": "string",
-    "due_at": "2018-02-20T08:18:58.8204085Z",
+    "due_at": "2018-03-12T12:47:33.5601398Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -1098,7 +1143,7 @@
 ## Fuel Stop Completed `fuel_stop.completed`
 ```
 {
-  "when": "2018-02-20T08:18:58.8233948Z",
+  "when": "2018-03-12T12:47:33.5621232Z",
   "where": [
     0.0,
     0.0
@@ -1251,7 +1296,16 @@
       }
     ],
     "e_documents": [],
-    "delayed_outcomes": []
+    "delays": [
+      {
+        "is_delayed": false,
+        "reason": "string",
+        "comment": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ]
   },
   "authorized_location_geofence_id": null,
   "was_authorised_fuel_stop": false,
@@ -1294,7 +1348,7 @@
 ## Fuel Stop Failed `fuel_stop.failed`
 ```
 {
-  "when": "2018-02-20T08:18:58.8233948Z",
+  "when": "2018-03-12T12:47:33.5631245Z",
   "where": [
     0.0,
     0.0
@@ -1447,7 +1501,16 @@
       }
     ],
     "e_documents": [],
-    "delayed_outcomes": []
+    "delays": [
+      {
+        "is_delayed": false,
+        "reason": "string",
+        "comment": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ]
   },
   "failure_reason": "string",
   "driver": {
@@ -1466,7 +1529,7 @@
 ## Fuel Stop Started `fuel_stop.started`
 ```
 {
-  "when": "2018-02-20T08:18:58.8223947Z",
+  "when": "2018-03-12T12:47:33.5621232Z",
   "where": [
     0.0,
     0.0
@@ -1570,7 +1633,7 @@
     },
     "type": null
   },
-  "when": "2018-02-20T08:18:58.8194084Z",
+  "when": "2018-03-12T12:47:33.5581413Z",
   "where": [
     0.0,
     0.0
@@ -1617,7 +1680,7 @@
     },
     "type": null
   },
-  "when": "2018-02-20T08:18:58.8194084Z",
+  "when": "2018-03-12T12:47:33.559141Z",
   "reason": "string"
 }
 ```
@@ -1661,7 +1724,7 @@
     },
     "type": null
   },
-  "when": "2018-02-20T08:18:58.832396Z",
+  "when": "2018-03-12T12:47:33.5681422Z",
   "where": [
     0.0,
     0.0
@@ -1709,7 +1772,7 @@
     "type": null
   },
   "force_closed": false,
-  "when": "2018-02-20T08:18:58.8194084Z",
+  "when": "2018-03-12T12:47:33.559141Z",
   "where": [
     0.0,
     0.0
@@ -1756,7 +1819,7 @@
     },
     "type": null
   },
-  "when": "2018-02-20T08:18:58.8194084Z"
+  "when": "2018-03-12T12:47:33.559141Z"
 }
 ```
 ## Load Released `load.released`
@@ -1799,7 +1862,7 @@
     },
     "type": null
   },
-  "when": "2018-02-20T08:18:58.832396Z",
+  "when": "2018-03-12T12:47:33.5681422Z",
   "where": [
     0.0,
     0.0
@@ -1809,7 +1872,7 @@
 ## Odometer `odometer`
 ```
 {
-  "when": "2018-02-20T08:18:58.825395Z",
+  "when": "2018-03-12T12:47:33.5641226Z",
   "where": [
     0.0,
     0.0
@@ -1965,7 +2028,16 @@
       }
     ],
     "e_documents": [],
-    "delayed_outcomes": []
+    "delays": [
+      {
+        "is_delayed": false,
+        "reason": "string",
+        "comment": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ]
   },
   "was_planned": false,
   "driver": {
@@ -1984,7 +2056,7 @@
 ## Odometer Failed `odometer.failed`
 ```
 {
-  "when": "2018-02-20T08:18:58.8263959Z",
+  "when": "2018-03-12T12:47:33.5651235Z",
   "where": [
     0.0,
     0.0
@@ -2137,7 +2209,16 @@
       }
     ],
     "e_documents": [],
-    "delayed_outcomes": []
+    "delays": [
+      {
+        "is_delayed": false,
+        "reason": "string",
+        "comment": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ]
   },
   "failure_reason": "string",
   "driver": {
@@ -2156,7 +2237,7 @@
 ## Off Route `off_route`
 ```
 {
-  "when": "2018-02-20T08:18:58.8313976Z",
+  "when": "2018-03-12T12:47:33.5671261Z",
   "where": [
     0.0,
     0.0
@@ -2203,7 +2284,7 @@
 ## Pickup Completed `load.pickup.completed`
 ```
 {
-  "when": "2018-02-20T08:18:58.8214131Z",
+  "when": "2018-03-12T12:47:33.5611375Z",
   "where": [
     0.0,
     0.0
@@ -2263,7 +2344,7 @@
   },
   "pickup": {
     "integration_key": "string",
-    "due_at": "2018-02-20T08:18:58.8214131Z",
+    "due_at": "2018-03-12T12:47:33.5611375Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -2423,14 +2504,23 @@
       }
     ],
     "e_documents": [],
-    "delayed_outcomes": []
+    "delays": [
+      {
+        "is_delayed": false,
+        "reason": "string",
+        "comment": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ]
   }
 }
 ```
 ## Pickup Failed `load.pickup.failed`
 ```
 {
-  "when": "2018-02-20T08:18:58.8223947Z",
+  "when": "2018-03-12T12:47:33.5611375Z",
   "where": [
     0.0,
     0.0
@@ -2490,7 +2580,7 @@
   },
   "pickup": {
     "integration_key": "string",
-    "due_at": "2018-02-20T08:18:58.8223947Z",
+    "due_at": "2018-03-12T12:47:33.5611375Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -2650,7 +2740,16 @@
       }
     ],
     "e_documents": [],
-    "delayed_outcomes": []
+    "delays": [
+      {
+        "is_delayed": false,
+        "reason": "string",
+        "comment": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ]
   },
   "failure_reason": null
 }
@@ -2658,7 +2757,7 @@
 ## Pickup Started `load.pickup.started`
 ```
 {
-  "when": "2018-02-20T08:18:58.8214131Z",
+  "when": "2018-03-12T12:47:33.5601398Z",
   "where": [
     0.0,
     0.0
@@ -2718,7 +2817,7 @@
   },
   "pickup": {
     "integration_key": "string",
-    "due_at": "2018-02-20T08:18:58.8214131Z",
+    "due_at": "2018-03-12T12:47:33.5611375Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -2772,7 +2871,7 @@
 ## Rest Stop Completed `rest_stop.completed`
 ```
 {
-  "when": "2018-02-20T08:18:58.8243965Z",
+  "when": "2018-03-12T12:47:33.5641226Z",
   "where": [
     0.0,
     0.0
@@ -2829,7 +2928,7 @@
     "weights": [],
     "forms": [],
     "e_documents": [],
-    "delayed_outcomes": []
+    "delays": []
   },
   "driver": {
     "id": "string",
@@ -2848,7 +2947,7 @@
 ## Rest Stop Failed `rest_stop.failed`
 ```
 {
-  "when": "2018-02-20T08:18:58.825395Z",
+  "when": "2018-03-12T12:47:33.5641226Z",
   "where": [
     0.0,
     0.0
@@ -3001,7 +3100,16 @@
       }
     ],
     "e_documents": [],
-    "delayed_outcomes": []
+    "delays": [
+      {
+        "is_delayed": false,
+        "reason": "string",
+        "comment": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ]
   },
   "failure_reason": "string",
   "driver": {
@@ -3021,7 +3129,7 @@
 ## Rest Stop Started `rest_stop.started`
 ```
 {
-  "when": "2018-02-20T08:18:58.8243965Z",
+  "when": "2018-03-12T12:47:33.5631245Z",
   "where": [
     0.0,
     0.0
@@ -3083,7 +3191,7 @@
 ## Stop Arrived `load.stop.arrived`
 ```
 {
-  "when": "2018-02-20T08:18:58.8184103Z",
+  "when": "2018-03-12T12:47:33.5581413Z",
   "where": [
     0.0,
     0.0
@@ -3132,7 +3240,7 @@
 ## Stop Departed `load.stop.departed`
 ```
 {
-  "when": "2018-02-20T08:18:58.8184103Z",
+  "when": "2018-03-12T12:47:33.5581413Z",
   "where": [
     0.0,
     0.0
@@ -3181,7 +3289,7 @@
 ## Stop Failed `load.stop.failed`
 ```
 {
-  "when": "2018-02-20T08:18:58.8283973Z",
+  "when": "2018-03-12T12:47:33.5651235Z",
   "where": [
     0.0,
     0.0
@@ -3334,7 +3442,16 @@
       }
     ],
     "e_documents": [],
-    "delayed_outcomes": []
+    "delays": [
+      {
+        "is_delayed": false,
+        "reason": "string",
+        "comment": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ]
   },
   "failure_reason": "string"
 }
@@ -3342,7 +3459,7 @@
 ## Stop Recorded `load.stop.recorded`
 ```
 {
-  "when": "2018-02-20T08:18:58.827398Z",
+  "when": "2018-03-12T12:47:33.5651235Z",
   "where": [
     0.0,
     0.0
@@ -3495,14 +3612,23 @@
       }
     ],
     "e_documents": [],
-    "delayed_outcomes": []
+    "delays": [
+      {
+        "is_delayed": false,
+        "reason": "string",
+        "comment": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ]
   }
 }
 ```
 ## Timed Task Completed `timed_task.completed`
 ```
 {
-  "when": "2018-02-20T08:18:58.8333969Z",
+  "when": "2018-03-12T12:47:33.5681422Z",
   "where": [
     0.0,
     0.0
@@ -3552,7 +3678,7 @@
 ## Timed Task Failed `timed_task.failed`
 ```
 {
-  "when": "2018-02-20T08:18:58.8343958Z",
+  "when": "2018-03-12T12:47:33.5681422Z",
   "where": [
     0.0,
     0.0
@@ -3603,7 +3729,7 @@
 ## Timed Task Started `timed_task.started`
 ```
 {
-  "when": "2018-02-20T08:18:58.8333969Z",
+  "when": "2018-03-12T12:47:33.5681422Z",
   "where": [
     0.0,
     0.0
@@ -3652,7 +3778,7 @@
 ## Weighbridge Completed `weighbridge.completed`
 ```
 {
-  "when": "2018-02-20T08:18:58.829397Z",
+  "when": "2018-03-12T12:47:33.5661392Z",
   "where": [
     0.0,
     0.0
@@ -3805,7 +3931,16 @@
       }
     ],
     "e_documents": [],
-    "delayed_outcomes": []
+    "delays": [
+      {
+        "is_delayed": false,
+        "reason": "string",
+        "comment": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ]
   },
   "was_planned": false,
   "weighbridge_name": "string",
@@ -3839,7 +3974,7 @@
 ## Weighbridge Failed `weighbridge.failed`
 ```
 {
-  "when": "2018-02-20T08:18:58.8303963Z",
+  "when": "2018-03-12T12:47:33.5671261Z",
   "where": [
     0.0,
     0.0
@@ -3992,7 +4127,16 @@
       }
     ],
     "e_documents": [],
-    "delayed_outcomes": []
+    "delays": [
+      {
+        "is_delayed": false,
+        "reason": "string",
+        "comment": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ]
   },
   "failure_reason": "string",
   "driver": {
@@ -4011,7 +4155,7 @@
 ## Weighbridge Started `weighbridge.started`
 ```
 {
-  "when": "2018-02-20T08:18:58.8283973Z",
+  "when": "2018-03-12T12:47:33.5661392Z",
   "where": [
     0.0,
     0.0
