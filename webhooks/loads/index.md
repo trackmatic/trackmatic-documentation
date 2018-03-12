@@ -2,7 +2,7 @@
 ## Border Crossing `border_crossing`
 ```
 {
-  "when": "2018-03-12T12:47:33.5621232Z",
+  "when": "2018-03-12T15:00:49.568632Z",
   "where": [
     0.0,
     0.0
@@ -186,7 +186,7 @@
 ## Border Crossing Failed `border_crossing.failed`
 ```
 {
-  "when": "2018-03-12T12:47:33.5621232Z",
+  "when": "2018-03-12T15:00:49.5693303Z",
   "where": [
     0.0,
     0.0
@@ -367,7 +367,7 @@
 ## Breakdown `breakdown`
 ```
 {
-  "when": "2018-03-12T12:47:33.5671261Z",
+  "when": "2018-03-12T15:00:49.5773327Z",
   "where": [
     0.0,
     0.0
@@ -556,7 +556,7 @@
 ## Dropoff Completed `load.dropoff.completed`
 ```
 {
-  "when": "2018-03-12T12:47:33.5601398Z",
+  "when": "2018-03-12T15:00:49.5653328Z",
   "where": [
     0.0,
     0.0
@@ -616,7 +616,7 @@
   },
   "dropoff": {
     "integration_key": "string",
-    "due_at": "2018-03-12T12:47:33.5601398Z",
+    "due_at": "2018-03-12T15:00:49.5653328Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -792,7 +792,7 @@
 ## Dropoff Failed `load.dropoff.failed`
 ```
 {
-  "when": "2018-03-12T12:47:33.5601398Z",
+  "when": "2018-03-12T15:00:49.5653328Z",
   "where": [
     0.0,
     0.0
@@ -852,7 +852,7 @@
   },
   "dropoff": {
     "integration_key": "string",
-    "due_at": "2018-03-12T12:47:33.5601398Z",
+    "due_at": "2018-03-12T15:00:49.5653328Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -1029,7 +1029,7 @@
 ## Dropoff Started `load.dropoff.started`
 ```
 {
-  "when": "2018-03-12T12:47:33.559141Z",
+  "when": "2018-03-12T15:00:49.5643307Z",
   "where": [
     0.0,
     0.0
@@ -1089,7 +1089,7 @@
   },
   "dropoff": {
     "integration_key": "string",
-    "due_at": "2018-03-12T12:47:33.5601398Z",
+    "due_at": "2018-03-12T15:00:49.5653328Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -1143,7 +1143,7 @@
 ## Fuel Stop Completed `fuel_stop.completed`
 ```
 {
-  "when": "2018-03-12T12:47:33.5621232Z",
+  "when": "2018-03-12T15:00:49.5703308Z",
   "where": [
     0.0,
     0.0
@@ -1348,7 +1348,7 @@
 ## Fuel Stop Failed `fuel_stop.failed`
 ```
 {
-  "when": "2018-03-12T12:47:33.5631245Z",
+  "when": "2018-03-12T15:00:49.5713334Z",
   "where": [
     0.0,
     0.0
@@ -1529,7 +1529,7 @@
 ## Fuel Stop Started `fuel_stop.started`
 ```
 {
-  "when": "2018-03-12T12:47:33.5621232Z",
+  "when": "2018-03-12T15:00:49.5693303Z",
   "where": [
     0.0,
     0.0
@@ -1633,7 +1633,7 @@
     },
     "type": null
   },
-  "when": "2018-03-12T12:47:33.5581413Z",
+  "when": "2018-03-12T15:00:49.5633306Z",
   "where": [
     0.0,
     0.0
@@ -1680,7 +1680,7 @@
     },
     "type": null
   },
-  "when": "2018-03-12T12:47:33.559141Z",
+  "when": "2018-03-12T15:00:49.5643307Z",
   "reason": "string"
 }
 ```
@@ -1724,7 +1724,7 @@
     },
     "type": null
   },
-  "when": "2018-03-12T12:47:33.5681422Z",
+  "when": "2018-03-12T15:00:49.5773327Z",
   "where": [
     0.0,
     0.0
@@ -1772,7 +1772,7 @@
     "type": null
   },
   "force_closed": false,
-  "when": "2018-03-12T12:47:33.559141Z",
+  "when": "2018-03-12T15:00:49.5633306Z",
   "where": [
     0.0,
     0.0
@@ -1819,7 +1819,7 @@
     },
     "type": null
   },
-  "when": "2018-03-12T12:47:33.559141Z"
+  "when": "2018-03-12T15:00:49.5643307Z"
 }
 ```
 ## Load Released `load.released`
@@ -1862,7 +1862,7 @@
     },
     "type": null
   },
-  "when": "2018-03-12T12:47:33.5681422Z",
+  "when": "2018-03-12T15:00:49.5773327Z",
   "where": [
     0.0,
     0.0
@@ -1872,7 +1872,7 @@
 ## Odometer `odometer`
 ```
 {
-  "when": "2018-03-12T12:47:33.5641226Z",
+  "when": "2018-03-12T15:00:49.5723335Z",
   "where": [
     0.0,
     0.0
@@ -2056,7 +2056,7 @@
 ## Odometer Failed `odometer.failed`
 ```
 {
-  "when": "2018-03-12T12:47:33.5651235Z",
+  "when": "2018-03-12T15:00:49.5733327Z",
   "where": [
     0.0,
     0.0
@@ -2237,7 +2237,7 @@
 ## Off Route `off_route`
 ```
 {
-  "when": "2018-03-12T12:47:33.5671261Z",
+  "when": "2018-03-12T15:00:49.5763306Z",
   "where": [
     0.0,
     0.0
@@ -2284,7 +2284,7 @@
 ## Pickup Completed `load.pickup.completed`
 ```
 {
-  "when": "2018-03-12T12:47:33.5611375Z",
+  "when": "2018-03-12T15:00:49.5653328Z",
   "where": [
     0.0,
     0.0
@@ -2344,7 +2344,7 @@
   },
   "pickup": {
     "integration_key": "string",
-    "due_at": "2018-03-12T12:47:33.5611375Z",
+    "due_at": "2018-03-12T15:00:49.5653328Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -2520,7 +2520,7 @@
 ## Pickup Failed `load.pickup.failed`
 ```
 {
-  "when": "2018-03-12T12:47:33.5611375Z",
+  "when": "2018-03-12T15:00:49.5653328Z",
   "where": [
     0.0,
     0.0
@@ -2580,7 +2580,7 @@
   },
   "pickup": {
     "integration_key": "string",
-    "due_at": "2018-03-12T12:47:33.5611375Z",
+    "due_at": "2018-03-12T15:00:49.5685281Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -2757,7 +2757,7 @@
 ## Pickup Started `load.pickup.started`
 ```
 {
-  "when": "2018-03-12T12:47:33.5601398Z",
+  "when": "2018-03-12T15:00:49.5653328Z",
   "where": [
     0.0,
     0.0
@@ -2817,7 +2817,7 @@
   },
   "pickup": {
     "integration_key": "string",
-    "due_at": "2018-03-12T12:47:33.5611375Z",
+    "due_at": "2018-03-12T15:00:49.5653328Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -2871,7 +2871,7 @@
 ## Rest Stop Completed `rest_stop.completed`
 ```
 {
-  "when": "2018-03-12T12:47:33.5641226Z",
+  "when": "2018-03-12T15:00:49.5713334Z",
   "where": [
     0.0,
     0.0
@@ -2947,7 +2947,7 @@
 ## Rest Stop Failed `rest_stop.failed`
 ```
 {
-  "when": "2018-03-12T12:47:33.5641226Z",
+  "when": "2018-03-12T15:00:49.5723335Z",
   "where": [
     0.0,
     0.0
@@ -3129,7 +3129,7 @@
 ## Rest Stop Started `rest_stop.started`
 ```
 {
-  "when": "2018-03-12T12:47:33.5631245Z",
+  "when": "2018-03-12T15:00:49.5713334Z",
   "where": [
     0.0,
     0.0
@@ -3191,7 +3191,7 @@
 ## Stop Arrived `load.stop.arrived`
 ```
 {
-  "when": "2018-03-12T12:47:33.5581413Z",
+  "when": "2018-03-12T15:00:49.5623325Z",
   "where": [
     0.0,
     0.0
@@ -3240,7 +3240,7 @@
 ## Stop Departed `load.stop.departed`
 ```
 {
-  "when": "2018-03-12T12:47:33.5581413Z",
+  "when": "2018-03-12T15:00:49.5633306Z",
   "where": [
     0.0,
     0.0
@@ -3289,7 +3289,7 @@
 ## Stop Failed `load.stop.failed`
 ```
 {
-  "when": "2018-03-12T12:47:33.5651235Z",
+  "when": "2018-03-12T15:00:49.5743308Z",
   "where": [
     0.0,
     0.0
@@ -3459,7 +3459,7 @@
 ## Stop Recorded `load.stop.recorded`
 ```
 {
-  "when": "2018-03-12T12:47:33.5651235Z",
+  "when": "2018-03-12T15:00:49.5733327Z",
   "where": [
     0.0,
     0.0
@@ -3622,13 +3622,15 @@
         "status_reason": "string"
       }
     ]
-  }
+  },
+  "travel_plan_poi_id": null,
+  "integration_key": null
 }
 ```
 ## Timed Task Completed `timed_task.completed`
 ```
 {
-  "when": "2018-03-12T12:47:33.5681422Z",
+  "when": "2018-03-12T15:00:49.5783307Z",
   "where": [
     0.0,
     0.0
@@ -3678,7 +3680,7 @@
 ## Timed Task Failed `timed_task.failed`
 ```
 {
-  "when": "2018-03-12T12:47:33.5681422Z",
+  "when": "2018-03-12T15:00:49.5783307Z",
   "where": [
     0.0,
     0.0
@@ -3729,7 +3731,7 @@
 ## Timed Task Started `timed_task.started`
 ```
 {
-  "when": "2018-03-12T12:47:33.5681422Z",
+  "when": "2018-03-12T15:00:49.5773327Z",
   "where": [
     0.0,
     0.0
@@ -3778,7 +3780,7 @@
 ## Weighbridge Completed `weighbridge.completed`
 ```
 {
-  "when": "2018-03-12T12:47:33.5661392Z",
+  "when": "2018-03-12T15:00:49.5753514Z",
   "where": [
     0.0,
     0.0
@@ -3974,7 +3976,7 @@
 ## Weighbridge Failed `weighbridge.failed`
 ```
 {
-  "when": "2018-03-12T12:47:33.5671261Z",
+  "when": "2018-03-12T15:00:49.5763306Z",
   "where": [
     0.0,
     0.0
@@ -4155,7 +4157,7 @@
 ## Weighbridge Started `weighbridge.started`
 ```
 {
-  "when": "2018-03-12T12:47:33.5661392Z",
+  "when": "2018-03-12T15:00:49.5743308Z",
   "where": [
     0.0,
     0.0
