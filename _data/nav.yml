@@ -38,6 +38,9 @@
         - id: link-facilities
           title: Facilities
           url: /rest/link/facilities
+    - id: vortex
+      title: Vortex
+      url: /rest/vortex
     - id: blob-storage
       title: Blob Storage
       url: /rest/blob-storage
