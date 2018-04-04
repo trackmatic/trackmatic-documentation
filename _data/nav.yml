@@ -50,6 +50,9 @@
     - id: pbx
       title: Pbx
       url: /rest/pbx
+    - id: ubd
+      title: Universal Barcode Discovery
+      url: /rest/ubd
 - title: Webhooks
   url: /webhooks
   items:
