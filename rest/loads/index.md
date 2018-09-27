@@ -86,6 +86,7 @@ There are many types of activities available in the loads module:
 - Fuel stops
 - Pallet drops
 - Breakdown
+- Custom
 
 While most activities can be both planned and un-planned there are a few exceptions which prevent them from being used in both contexts.
 
