@@ -1,24 +1,72 @@
+
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>{{page.title}}</title>
-    <!-- needed for adaptive design -->
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/x-icon" href="{{'/favicon.ico' | prepend: site.github.url }}">
-
-    <!--
+<head>
+  <title>{{page.title}} - Redoc</title>
+  <!-- needed for adaptive design -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:300,400,700" rel="stylesheet">
+  <!-- <script src=".\redoc.standalone.js"> </script> -->
+  <script src="https://cdn.jsdelivr.net/npm/redoc/bundles/redoc.standalone.js"> </script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <!--
     ReDoc doesn't change outer page styles
     -->
-    <style>
-      body {
-        margin: 0;
-        padding: 0;
-      }
-    </style>
-  </head>
-  <body>
-    <redoc suppress-warnings spec-url="{{page.open-api-url}}"></redoc>
-    <script src="https://cdn.jsdelivr.net/npm/redoc/bundles/redoc.standalone.js"> </script>
-  </body>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <redoc id="redoc-container"></redoc>
+  <!-- <redoc untrustedSpec spec-url='https://rest.trackmatic.co.za/api/v2/gatekeeper/docs/latest'></redoc> -->
+  <!-- <redoc spec-url='http://petstore.swagger.io/v2/swagger.json'></redoc> -->
+
+</body>
+
 </html>
+
+<script>
+  //const apiUrl = "http://localhost/open-api/petstore.json"
+  //const apiUrl = "http://localhost/open-api/gatekeeper.json"
+  const apiUrl = "https://rest.trackmatic.co.za/api/v2/gatekeeper/docs/latest"
+
+  init()
+
+  function loadDoc() {
+    console.log('loading redoc')
+    Redoc.init(apiJson, {
+      scrollYOffset: 50
+    }, document.getElementById('redoc-container'))
+  }
+
+  function init() {
+    loadJSON(function (response) {
+      // Parse JSON string into object
+      var actual_JSON = JSON.parse(response);
+      console.log("The JSON:")
+      console.log(actual_JSON)
+      apiJson = actual_JSON
+      loadDoc()
+    });
+  }
+
+  function loadJSON(callback) {
+    var xobj = new XMLHttpRequest();
+    xobj.overrideMimeType("application/json");
+    xobj.open('GET', apiUrl, true); // Replace 'my_data' with the path to your file
+    xobj.onreadystatechange = function () {
+      if (xobj.readyState == 4 && xobj.status == "200") {
+        // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+        callback(xobj.responseText);
+      }
+    };
+    xobj.send(null);
+  }
+
+  var apiJson = "{}"
+</script>
