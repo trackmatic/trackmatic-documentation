@@ -43,24 +43,24 @@ These are the fields that need to be recorded at `Checkpoints`. Fields can be ma
 
 ### Checkpoint Field Types
 
-- asset_license:            Scanned asset license disc (encoded)
-- vehicle_registration_no:  Captured vehicle registration number
-- vehicle_odometer:         Captured vehicle odometer reading
-- ctc_documentcapture:      Customer to collect document barcode
-- trailer_registration:     Captured trailer registration number
-- linkfacilities_bookingid: Booking Id
-- driver_id:                Captured driver identity number
-- driver_licenseno:         Captured driver license number
-- driver_license:           Scanned driver license (encoded)
-- driver_contact:           Captured driver contact number
-- crew_id:
-- crew_contact:             Captured crew member contact number
-- load_id:
-- load_contact:
-- person_id:
-- person_name:              Captured person name
-- person_contact:           Captured person contact number
-- temperature:              Captured temperature reading
+- AssetLicense:             Scanned asset license disc (encoded)
+- VehicleRegistrationNo:    Captured vehicle registration number
+- VehicleOdometer:         Captured vehicle odometer reading
+- CtcDocumentcapture:       Customer to collect document barcode
+- TrailerRegistration:      Captured trailer registration number
+- LinkBookingId:            Booking Id
+- DriverId:                 Captured driver identity number
+- DriverLicenseno:          Captured driver license number
+- DriverLicense:            Scanned driver license (encoded)
+- DriverContact:            Captured driver contact number
+- CrewId:
+- CrewContact:              Captured crew member contact number
+- LoadId:
+- LoadContact:
+- PersonId:
+- PersonName:               Captured person name
+- PersonContact:            Captured person contact number
+- Temperature:              Captured temperature reading
 
 ## Operator
 
