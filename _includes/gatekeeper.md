@@ -45,7 +45,7 @@ These are the fields that need to be recorded at `Checkpoints`. Fields can be ma
 
 - AssetLicense:             Scanned asset license disc (encoded)
 - VehicleRegistrationNo:    Captured vehicle registration number
-- VehicleOdometer:         Captured vehicle odometer reading
+- VehicleOdometer:          Captured vehicle odometer reading
 - CtcDocumentcapture:       Customer to collect document barcode
 - TrailerRegistration:      Captured trailer registration number
 - LinkBookingId:            Booking Id
