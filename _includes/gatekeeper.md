@@ -1,7 +1,7 @@
 ## Overview
 
 The pupose of Gatekeeper is to record movements with a purpose in and out of facilities via predefined Gates, and to provide additional instructions to drivers entering the facility for a specific purpose.
-The Gatekeeper module was developed to function as a standalone module or to integrate with other modules like Link-Facilities where bookings are scheduled. 
+The Gatekeeper module was developed to function as a standalone module or to integrate with other modules like Link-Facilities where bookings are scheduled.
 
 ## Facility
 
@@ -9,7 +9,7 @@ Defines the location/area of the organisation being visited.
 
 ## Gate
 
-Point of entry or exit out of the facility. A gate can be setup to allow **Movements** of eith type: `InBound`, `OutBound` or both.
+Point of entry or exit out of the facility. A gate can be setup to allow **Movements** of eith type: `Entry`, `Exit` or both.
 
 ## Visit
 
@@ -20,7 +20,7 @@ A visit groups Movements together at the facility along with a `Purpose`, record
 - Booking: Booking scheduled on the Link-Facilities module.  A gate-pass is issued which facilitates the entry process at the gate by identifying the purpose, and optionally providing instructions for the driver to get to the Bay.
 - Visitor: Visitors at the facility.
 - Ctc: Customer To Collect
-- Utility: Utility run performed consisting of an exit and entry on return.
+- Utility: Utility run performed consisting of a single exit or entry.
 
 ### Visit Statusses
 
@@ -35,7 +35,7 @@ Each entry/exit is recorded as a checkpoint on the `Visit` where various device 
 
 ## (Checkpoint) Configuration
 
-Checkpoint configurations can be configured for combinations of `Facility /MovementType / VisitType` which includes Fields to be captured/scanned.
+Checkpoint configurations can be configured for combinations of `Facility / MovementType / VisitType / VisitSubType` which includes Fields to be captured/scanned.
 
 ### Checkpoint Fields
 
