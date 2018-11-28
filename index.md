@@ -21,3 +21,7 @@ The Trackmatic ecosystem is divided into a number of modules. Each module provid
 ### [Loads](rest/loads)
 
 {% include loads.md %}
+
+### [Routes](rest/routes)
+
+{% include routes.md %}
