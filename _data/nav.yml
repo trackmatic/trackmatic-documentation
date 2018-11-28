@@ -31,6 +31,19 @@
         - id: loads-integration
           title: Integration
           url: /rest/loads/integration
+    - id: routes
+      title: Routes
+      url: /rest/routes
+      subitems:
+        - id: routes-shippers
+          title: Shippers
+          url: /rest/routes/shippers
+        - id: routes-drivers
+          title: Drivers
+          url: /rest/routes/drivers
+        - id: routes-integration
+          title: Integration
+          url: /rest/routes/integration          
     - id: link
       title: Link
       url: /rest/link
