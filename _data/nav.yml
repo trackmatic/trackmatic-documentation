@@ -69,6 +69,9 @@
     - id: pbx
       title: Pbx
       url: /rest/pbx
+    - id: Quotes
+      title: Quotes
+      url: /rest/quotes
     - id: ubd
       title: Universal Barcode Discovery
       url: /rest/ubd

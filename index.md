@@ -25,3 +25,7 @@ The Trackmatic ecosystem is divided into a number of modules. Each module provid
 ### [Routes](rest/routes)
 
 {% include routes.md %}
+
+### [Quotes](rest/quotes)
+
+{% include quotes.md %}
