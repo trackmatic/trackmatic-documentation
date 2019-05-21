@@ -2,4 +2,5 @@
 
 |API Name|Description|   |
 |--------|-----------|---|
-|Facilities|Facilities api|[read more](./facilities/index.md)|
+|Facilities|Facilities Api|[read more](./facilities/index.md)|
+|Portal|Supplier Portal Api|[read more](./portal/index.md)|
