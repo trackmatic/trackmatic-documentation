@@ -51,6 +51,9 @@
         - id: link-facilities
           title: Facilities
           url: /rest/link/facilities
+        - id: link-supplier-portal
+          title: Supplier_Portal
+          url: /rest/link/portal          
     - id: vortex
       title: Vortex
       url: /rest/vortex
