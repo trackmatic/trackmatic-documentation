@@ -2,15 +2,17 @@
 ## Border Crossing `border_crossing`
 ```
 {
-  "when": "2019-04-24T07:26:26.3301766Z",
+  "when": "2019-05-28T12:40:23.8432271Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
+    "site_id": "string",
     "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "date_created": "0001-01-01T00:00:00",
     "reference": null,
     "allocation": {
       "driver": {
@@ -22,7 +24,8 @@
         "id": "string",
         "integration_key": "string",
         "registration": "string",
-        "fleet_number": "string"
+        "fleet_number": "string",
+        "description": "string"
       },
       "assets": [
         {
@@ -42,7 +45,8 @@
         "fuel_card": "string"
       }
     },
-    "type": null
+    "type": null,
+    "created_by": "string"
   },
   "outcomes": {
     "signatures": [
@@ -178,22 +182,25 @@
     "id": "string",
     "integration_key": "string",
     "registration": "string",
-    "fleet_number": "string"
+    "fleet_number": "string",
+    "description": null
   }
 }
 ```
 ## Border Crossing Failed `border_crossing.failed`
 ```
 {
-  "when": "2019-04-24T07:26:26.3311779Z",
+  "when": "2019-05-28T12:40:23.8462503Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
+    "site_id": "string",
     "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "date_created": "0001-01-01T00:00:00",
     "reference": null,
     "allocation": {
       "driver": {
@@ -205,7 +212,8 @@
         "id": "string",
         "integration_key": "string",
         "registration": "string",
-        "fleet_number": "string"
+        "fleet_number": "string",
+        "description": "string"
       },
       "assets": [
         {
@@ -225,7 +233,8 @@
         "fuel_card": "string"
       }
     },
-    "type": null
+    "type": null,
+    "created_by": "string"
   },
   "outcomes": {
     "signatures": [
@@ -358,22 +367,25 @@
     "id": "string",
     "integration_key": "string",
     "registration": "string",
-    "fleet_number": "string"
+    "fleet_number": "string",
+    "description": null
   }
 }
 ```
 ## Breakdown `breakdown`
 ```
 {
-  "when": "2019-04-24T07:26:26.3621758Z",
+  "when": "2019-05-28T12:40:23.9282299Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
+    "site_id": "string",
     "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "date_created": "0001-01-01T00:00:00",
     "reference": null,
     "allocation": {
       "driver": {
@@ -385,7 +397,8 @@
         "id": "string",
         "integration_key": "string",
         "registration": "string",
-        "fleet_number": "string"
+        "fleet_number": "string",
+        "description": "string"
       },
       "assets": [
         {
@@ -405,7 +418,8 @@
         "fuel_card": "string"
       }
     },
-    "type": null
+    "type": null,
+    "created_by": "string"
   },
   "problematic_asset_id": null,
   "reason": null,
@@ -546,22 +560,25 @@
     "id": "string",
     "integration_key": "string",
     "registration": "string",
-    "fleet_number": "string"
+    "fleet_number": "string",
+    "description": null
   }
 }
 ```
 ## Custom Activity Completed `custom_activity.completed`
 ```
 {
-  "when": "2019-04-24T07:26:26.3681755Z",
+  "when": "2019-05-28T12:40:23.942227Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
+    "site_id": "string",
     "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "date_created": "0001-01-01T00:00:00",
     "reference": null,
     "allocation": {
       "driver": {
@@ -573,7 +590,8 @@
         "id": "string",
         "integration_key": "string",
         "registration": "string",
-        "fleet_number": "string"
+        "fleet_number": "string",
+        "description": "string"
       },
       "assets": [
         {
@@ -593,7 +611,8 @@
         "fuel_card": "string"
       }
     },
-    "type": null
+    "type": null,
+    "created_by": "string"
   },
   "outcomes": null,
   "activity_id": "string",
@@ -603,15 +622,17 @@
 ## Custom Activity Started `custom_activity.started`
 ```
 {
-  "when": "2019-04-24T07:26:26.3671759Z",
+  "when": "2019-05-28T12:40:23.9412308Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
+    "site_id": "string",
     "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "date_created": "0001-01-01T00:00:00",
     "reference": null,
     "allocation": {
       "driver": {
@@ -623,7 +644,8 @@
         "id": "string",
         "integration_key": "string",
         "registration": "string",
-        "fleet_number": "string"
+        "fleet_number": "string",
+        "description": "string"
       },
       "assets": [
         {
@@ -643,7 +665,8 @@
         "fuel_card": "string"
       }
     },
-    "type": null
+    "type": null,
+    "created_by": "string"
   },
   "activity_integration_key": "string",
   "activity_id": "string"
@@ -652,15 +675,17 @@
 ## Dropoff Completed `load.dropoff.completed`
 ```
 {
-  "when": "2019-04-24T07:26:26.3161726Z",
+  "when": "2019-05-28T12:40:23.8142314Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
+    "site_id": "string",
     "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "date_created": "0001-01-01T00:00:00",
     "reference": null,
     "allocation": {
       "driver": {
@@ -672,7 +697,8 @@
         "id": "string",
         "integration_key": "string",
         "registration": "string",
-        "fleet_number": "string"
+        "fleet_number": "string",
+        "description": "string"
       },
       "assets": [
         {
@@ -692,7 +718,8 @@
         "fuel_card": "string"
       }
     },
-    "type": null
+    "type": null,
+    "created_by": "string"
   },
   "consignment": {
     "id": "string",
@@ -712,7 +739,7 @@
   },
   "dropoff": {
     "integration_key": "string",
-    "due_at": "2019-04-24T07:26:26.3171738Z",
+    "due_at": "2019-05-28T12:40:23.8182304Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -887,15 +914,17 @@
 ## Dropoff Failed `load.dropoff.failed`
 ```
 {
-  "when": "2019-04-24T07:26:26.3261755Z",
+  "when": "2019-05-28T12:40:23.8392294Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
+    "site_id": "string",
     "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "date_created": "0001-01-01T00:00:00",
     "reference": null,
     "allocation": {
       "driver": {
@@ -907,7 +936,8 @@
         "id": "string",
         "integration_key": "string",
         "registration": "string",
-        "fleet_number": "string"
+        "fleet_number": "string",
+        "description": "string"
       },
       "assets": [
         {
@@ -927,7 +957,8 @@
         "fuel_card": "string"
       }
     },
-    "type": null
+    "type": null,
+    "created_by": "string"
   },
   "consignment": {
     "id": "string",
@@ -947,7 +978,7 @@
   },
   "dropoff": {
     "integration_key": "string",
-    "due_at": "2019-04-24T07:26:26.3271844Z",
+    "due_at": "2019-05-28T12:40:23.8402269Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -1123,15 +1154,17 @@
 ## Dropoff Started `load.dropoff.started`
 ```
 {
-  "when": "2019-04-24T07:26:26.3131754Z",
+  "when": "2019-05-28T12:40:23.804231Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
+    "site_id": "string",
     "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "date_created": "0001-01-01T00:00:00",
     "reference": null,
     "allocation": {
       "driver": {
@@ -1143,7 +1176,8 @@
         "id": "string",
         "integration_key": "string",
         "registration": "string",
-        "fleet_number": "string"
+        "fleet_number": "string",
+        "description": "string"
       },
       "assets": [
         {
@@ -1163,7 +1197,8 @@
         "fuel_card": "string"
       }
     },
-    "type": null
+    "type": null,
+    "created_by": "string"
   },
   "consignment": {
     "id": "string",
@@ -1183,7 +1218,7 @@
   },
   "dropoff": {
     "integration_key": "string",
-    "due_at": "2019-04-24T07:26:26.3151725Z",
+    "due_at": "2019-05-28T12:40:23.8062307Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -1231,21 +1266,144 @@
         }
       }
     }
+  },
+  "outcomes": {
+    "signatures": [
+      {
+        "image_url": "string",
+        "name": "string",
+        "comment": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "cash_on_deliveries": [
+      {
+        "stock_handed_over": false,
+        "reference": "string",
+        "payment_received_by": 0,
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "document_scans": [
+      {
+        "image_urls": [
+          "string"
+        ],
+        "comment": "string",
+        "type": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "images": [
+      {
+        "image_urls": [
+          "string"
+        ],
+        "comments": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "service_ratings": [
+      {
+        "type": "string",
+        "value": "string",
+        "comment": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "odometer_readings": [
+      {
+        "meter_type": "string",
+        "value": "string",
+        "asset_id": "string",
+        "asset_integration_key": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "pallet_transfers": [
+      {
+        "qty_transfered": 0,
+        "transfer_reference": "string",
+        "comment": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "proof_of_deliveries": [
+      {
+        "document_references": [
+          "string"
+        ],
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "weights": [
+      {
+        "unit": "string",
+        "value": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "forms": [
+      {
+        "fields": [
+          {
+            "integration_key": "string",
+            "label": "string",
+            "value": "string",
+            "data_type": "string"
+          }
+        ],
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "e_documents": [],
+    "delays": [
+      {
+        "is_delayed": false,
+        "reason": "string",
+        "comment": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ]
   }
 }
 ```
 ## Fuel Stop Completed `fuel_stop.completed`
 ```
 {
-  "when": "2019-04-24T07:26:26.3331747Z",
+  "when": "2019-05-28T12:40:23.8502295Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
+    "site_id": "string",
     "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "date_created": "0001-01-01T00:00:00",
     "reference": null,
     "allocation": {
       "driver": {
@@ -1257,7 +1415,8 @@
         "id": "string",
         "integration_key": "string",
         "registration": "string",
-        "fleet_number": "string"
+        "fleet_number": "string",
+        "description": "string"
       },
       "assets": [
         {
@@ -1277,7 +1436,8 @@
         "fuel_card": "string"
       }
     },
-    "type": null
+    "type": null,
+    "created_by": "string"
   },
   "outcomes": {
     "signatures": [
@@ -1434,22 +1594,25 @@
     "id": "string",
     "integration_key": "string",
     "registration": "string",
-    "fleet_number": "string"
+    "fleet_number": "string",
+    "description": null
   }
 }
 ```
 ## Fuel Stop Failed `fuel_stop.failed`
 ```
 {
-  "when": "2019-04-24T07:26:26.3401764Z",
+  "when": "2019-05-28T12:40:23.8572258Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
+    "site_id": "string",
     "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "date_created": "0001-01-01T00:00:00",
     "reference": null,
     "allocation": {
       "driver": {
@@ -1461,7 +1624,8 @@
         "id": "string",
         "integration_key": "string",
         "registration": "string",
-        "fleet_number": "string"
+        "fleet_number": "string",
+        "description": "string"
       },
       "assets": [
         {
@@ -1481,7 +1645,8 @@
         "fuel_card": "string"
       }
     },
-    "type": null
+    "type": null,
+    "created_by": "string"
   },
   "outcomes": {
     "signatures": [
@@ -1614,22 +1779,25 @@
     "id": "string",
     "integration_key": "string",
     "registration": "string",
-    "fleet_number": "string"
+    "fleet_number": "string",
+    "description": null
   }
 }
 ```
 ## Fuel Stop Started `fuel_stop.started`
 ```
 {
-  "when": "2019-04-24T07:26:26.3321773Z",
+  "when": "2019-05-28T12:40:23.8482269Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
+    "site_id": "string",
     "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "date_created": "0001-01-01T00:00:00",
     "reference": null,
     "allocation": {
       "driver": {
@@ -1641,7 +1809,8 @@
         "id": "string",
         "integration_key": "string",
         "registration": "string",
-        "fleet_number": "string"
+        "fleet_number": "string",
+        "description": "string"
       },
       "assets": [
         {
@@ -1661,7 +1830,8 @@
         "fuel_card": "string"
       }
     },
-    "type": null
+    "type": null,
+    "created_by": "string"
   },
   "activity_id": null,
   "driver_id": null,
@@ -1681,7 +1851,8 @@
     "id": "string",
     "integration_key": "string",
     "registration": "string",
-    "fleet_number": "string"
+    "fleet_number": "string",
+    "description": null
   }
 }
 ```
@@ -1690,8 +1861,10 @@
 {
   "load": {
     "id": null,
+    "site_id": "string",
     "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "date_created": "0001-01-01T00:00:00",
     "reference": null,
     "allocation": {
       "driver": {
@@ -1703,7 +1876,8 @@
         "id": "string",
         "integration_key": "string",
         "registration": "string",
-        "fleet_number": "string"
+        "fleet_number": "string",
+        "description": "string"
       },
       "assets": [
         {
@@ -1723,9 +1897,11 @@
         "fuel_card": "string"
       }
     },
-    "type": null
+    "type": null,
+    "created_by": "string"
   },
-  "when": "2019-04-24T07:26:26.3121757Z",
+  "consignments_summary": null,
+  "when": "2019-05-28T12:40:23.7722303Z",
   "where": [
     0.0,
     0.0
@@ -1737,8 +1913,10 @@
 {
   "load": {
     "id": null,
+    "site_id": "string",
     "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "date_created": "0001-01-01T00:00:00",
     "reference": null,
     "allocation": {
       "driver": {
@@ -1750,7 +1928,8 @@
         "id": "string",
         "integration_key": "string",
         "registration": "string",
-        "fleet_number": "string"
+        "fleet_number": "string",
+        "description": "string"
       },
       "assets": [
         {
@@ -1770,9 +1949,10 @@
         "fuel_card": "string"
       }
     },
-    "type": null
+    "type": null,
+    "created_by": "string"
   },
-  "when": "2019-04-24T07:26:26.3131754Z",
+  "when": "2019-05-28T12:40:23.8032268Z",
   "reason": "string"
 }
 ```
@@ -1781,8 +1961,10 @@
 {
   "load": {
     "id": null,
+    "site_id": "string",
     "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "date_created": "0001-01-01T00:00:00",
     "reference": null,
     "allocation": {
       "driver": {
@@ -1794,7 +1976,8 @@
         "id": "string",
         "integration_key": "string",
         "registration": "string",
-        "fleet_number": "string"
+        "fleet_number": "string",
+        "description": "string"
       },
       "assets": [
         {
@@ -1814,9 +1997,10 @@
         "fuel_card": "string"
       }
     },
-    "type": null
+    "type": null,
+    "created_by": "string"
   },
-  "when": "2019-04-24T07:26:26.3631757Z",
+  "when": "2019-05-28T12:40:23.9362289Z",
   "where": [
     0.0,
     0.0
@@ -1828,8 +2012,10 @@
 {
   "load": {
     "id": null,
+    "site_id": "string",
     "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "date_created": "0001-01-01T00:00:00",
     "reference": null,
     "allocation": {
       "driver": {
@@ -1841,7 +2027,8 @@
         "id": "string",
         "integration_key": "string",
         "registration": "string",
-        "fleet_number": "string"
+        "fleet_number": "string",
+        "description": "string"
       },
       "assets": [
         {
@@ -1861,10 +2048,11 @@
         "fuel_card": "string"
       }
     },
-    "type": null
+    "type": null,
+    "created_by": "string"
   },
   "force_closed": false,
-  "when": "2019-04-24T07:26:26.3121757Z",
+  "when": "2019-05-28T12:40:23.773229Z",
   "where": [
     0.0,
     0.0
@@ -1876,8 +2064,10 @@
 {
   "load": {
     "id": null,
+    "site_id": "string",
     "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "date_created": "0001-01-01T00:00:00",
     "reference": null,
     "allocation": {
       "driver": {
@@ -1889,7 +2079,8 @@
         "id": "string",
         "integration_key": "string",
         "registration": "string",
-        "fleet_number": "string"
+        "fleet_number": "string",
+        "description": "string"
       },
       "assets": [
         {
@@ -1909,9 +2100,10 @@
         "fuel_card": "string"
       }
     },
-    "type": null
+    "type": null,
+    "created_by": "string"
   },
-  "when": "2019-04-24T07:26:26.3131754Z"
+  "when": "2019-05-28T12:40:23.8022301Z"
 }
 ```
 ## Load Released `load.released`
@@ -1919,8 +2111,10 @@
 {
   "load": {
     "id": null,
+    "site_id": "string",
     "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "date_created": "0001-01-01T00:00:00",
     "reference": null,
     "allocation": {
       "driver": {
@@ -1932,7 +2126,8 @@
         "id": "string",
         "integration_key": "string",
         "registration": "string",
-        "fleet_number": "string"
+        "fleet_number": "string",
+        "description": "string"
       },
       "assets": [
         {
@@ -1952,9 +2147,10 @@
         "fuel_card": "string"
       }
     },
-    "type": null
+    "type": null,
+    "created_by": "string"
   },
-  "when": "2019-04-24T07:26:26.3641758Z",
+  "when": "2019-05-28T12:40:23.9372269Z",
   "where": [
     0.0,
     0.0
@@ -1964,15 +2160,17 @@
 ## Multi Dropoff Completed `load.multidropoff.completed`
 ```
 {
-  "when": "2019-04-24T07:26:26.3201722Z",
+  "when": "2019-05-28T12:40:23.8222324Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
+    "site_id": "string",
     "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "date_created": "0001-01-01T00:00:00",
     "reference": null,
     "allocation": {
       "driver": {
@@ -1984,7 +2182,8 @@
         "id": "string",
         "integration_key": "string",
         "registration": "string",
-        "fleet_number": "string"
+        "fleet_number": "string",
+        "description": "string"
       },
       "assets": [
         {
@@ -2004,7 +2203,8 @@
         "fuel_card": "string"
       }
     },
-    "type": null
+    "type": null,
+    "created_by": "string"
   },
   "consignments": [
     {
@@ -2027,7 +2227,7 @@
   "dropoffs": [
     {
       "integration_key": "string",
-      "due_at": "2019-04-24T07:26:26.3241715Z",
+      "due_at": "2019-05-28T12:40:23.8312314Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -2277,15 +2477,17 @@
 ## Multi Dropoff Started `load.multidropoff.started`
 ```
 {
-  "when": "2019-04-24T07:26:26.3171738Z",
+  "when": "2019-05-28T12:40:23.8182304Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
+    "site_id": "string",
     "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "date_created": "0001-01-01T00:00:00",
     "reference": null,
     "allocation": {
       "driver": {
@@ -2297,7 +2499,8 @@
         "id": "string",
         "integration_key": "string",
         "registration": "string",
-        "fleet_number": "string"
+        "fleet_number": "string",
+        "description": "string"
       },
       "assets": [
         {
@@ -2317,7 +2520,8 @@
         "fuel_card": "string"
       }
     },
-    "type": null
+    "type": null,
+    "created_by": "string"
   },
   "consignments": [
     {
@@ -2340,7 +2544,7 @@
   "dropoffs": [
     {
       "integration_key": "string",
-      "due_at": "2019-04-24T07:26:26.3181765Z",
+      "due_at": "2019-05-28T12:40:23.8192296Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -2389,21 +2593,144 @@
         }
       }
     }
-  ]
+  ],
+  "outcomes": {
+    "signatures": [
+      {
+        "image_url": "string",
+        "name": "string",
+        "comment": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "cash_on_deliveries": [
+      {
+        "stock_handed_over": false,
+        "reference": "string",
+        "payment_received_by": 0,
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "document_scans": [
+      {
+        "image_urls": [
+          "string"
+        ],
+        "comment": "string",
+        "type": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "images": [
+      {
+        "image_urls": [
+          "string"
+        ],
+        "comments": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "service_ratings": [
+      {
+        "type": "string",
+        "value": "string",
+        "comment": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "odometer_readings": [
+      {
+        "meter_type": "string",
+        "value": "string",
+        "asset_id": "string",
+        "asset_integration_key": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "pallet_transfers": [
+      {
+        "qty_transfered": 0,
+        "transfer_reference": "string",
+        "comment": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "proof_of_deliveries": [
+      {
+        "document_references": [
+          "string"
+        ],
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "weights": [
+      {
+        "unit": "string",
+        "value": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "forms": [
+      {
+        "fields": [
+          {
+            "integration_key": "string",
+            "label": "string",
+            "value": "string",
+            "data_type": "string"
+          }
+        ],
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "e_documents": [],
+    "delays": [
+      {
+        "is_delayed": false,
+        "reason": "string",
+        "comment": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ]
+  }
 }
 ```
 ## Multi Pickup Completed `load.multipickup.completed`
 ```
 {
-  "when": "2019-04-24T07:26:26.3251734Z",
+  "when": "2019-05-28T12:40:23.8342278Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
+    "site_id": "string",
     "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "date_created": "0001-01-01T00:00:00",
     "reference": null,
     "allocation": {
       "driver": {
@@ -2415,7 +2742,8 @@
         "id": "string",
         "integration_key": "string",
         "registration": "string",
-        "fleet_number": "string"
+        "fleet_number": "string",
+        "description": "string"
       },
       "assets": [
         {
@@ -2435,7 +2763,8 @@
         "fuel_card": "string"
       }
     },
-    "type": null
+    "type": null,
+    "created_by": "string"
   },
   "consignments": [
     {
@@ -2458,7 +2787,7 @@
   "pickups": [
     {
       "integration_key": "string",
-      "due_at": "2019-04-24T07:26:26.3261755Z",
+      "due_at": "2019-05-28T12:40:23.8352271Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -2645,15 +2974,17 @@
 ## Multi Pickup Started `load.multipickup.started`
 ```
 {
-  "when": "2019-04-24T07:26:26.3181765Z",
+  "when": "2019-05-28T12:40:23.8192296Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
+    "site_id": "string",
     "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "date_created": "0001-01-01T00:00:00",
     "reference": null,
     "allocation": {
       "driver": {
@@ -2665,7 +2996,8 @@
         "id": "string",
         "integration_key": "string",
         "registration": "string",
-        "fleet_number": "string"
+        "fleet_number": "string",
+        "description": "string"
       },
       "assets": [
         {
@@ -2685,7 +3017,8 @@
         "fuel_card": "string"
       }
     },
-    "type": null
+    "type": null,
+    "created_by": "string"
   },
   "consignments": [
     {
@@ -2708,7 +3041,7 @@
   "pickups": [
     {
       "integration_key": "string",
-      "due_at": "2019-04-24T07:26:26.3191743Z",
+      "due_at": "2019-05-28T12:40:23.8202351Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -2757,21 +3090,144 @@
         }
       }
     }
-  ]
+  ],
+  "outcomes": {
+    "signatures": [
+      {
+        "image_url": "string",
+        "name": "string",
+        "comment": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "cash_on_deliveries": [
+      {
+        "stock_handed_over": false,
+        "reference": "string",
+        "payment_received_by": 0,
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "document_scans": [
+      {
+        "image_urls": [
+          "string"
+        ],
+        "comment": "string",
+        "type": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "images": [
+      {
+        "image_urls": [
+          "string"
+        ],
+        "comments": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "service_ratings": [
+      {
+        "type": "string",
+        "value": "string",
+        "comment": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "odometer_readings": [
+      {
+        "meter_type": "string",
+        "value": "string",
+        "asset_id": "string",
+        "asset_integration_key": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "pallet_transfers": [
+      {
+        "qty_transfered": 0,
+        "transfer_reference": "string",
+        "comment": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "proof_of_deliveries": [
+      {
+        "document_references": [
+          "string"
+        ],
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "weights": [
+      {
+        "unit": "string",
+        "value": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "forms": [
+      {
+        "fields": [
+          {
+            "integration_key": "string",
+            "label": "string",
+            "value": "string",
+            "data_type": "string"
+          }
+        ],
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "e_documents": [],
+    "delays": [
+      {
+        "is_delayed": false,
+        "reason": "string",
+        "comment": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ]
+  }
 }
 ```
 ## Odometer `odometer`
 ```
 {
-  "when": "2019-04-24T07:26:26.3481729Z",
+  "when": "2019-05-28T12:40:23.8862272Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
+    "site_id": "string",
     "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "date_created": "0001-01-01T00:00:00",
     "reference": null,
     "allocation": {
       "driver": {
@@ -2783,7 +3239,8 @@
         "id": "string",
         "integration_key": "string",
         "registration": "string",
-        "fleet_number": "string"
+        "fleet_number": "string",
+        "description": "string"
       },
       "assets": [
         {
@@ -2803,7 +3260,8 @@
         "fuel_card": "string"
       }
     },
-    "type": null
+    "type": null,
+    "created_by": "string"
   },
   "asset_id": "string",
   "asset_integration_key": null,
@@ -2939,22 +3397,25 @@
     "id": "string",
     "integration_key": "string",
     "registration": "string",
-    "fleet_number": "string"
+    "fleet_number": "string",
+    "description": null
   }
 }
 ```
 ## Odometer Failed `odometer.failed`
 ```
 {
-  "when": "2019-04-24T07:26:26.3491741Z",
+  "when": "2019-05-28T12:40:23.8882274Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
+    "site_id": "string",
     "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "date_created": "0001-01-01T00:00:00",
     "reference": null,
     "allocation": {
       "driver": {
@@ -2966,7 +3427,8 @@
         "id": "string",
         "integration_key": "string",
         "registration": "string",
-        "fleet_number": "string"
+        "fleet_number": "string",
+        "description": "string"
       },
       "assets": [
         {
@@ -2986,7 +3448,8 @@
         "fuel_card": "string"
       }
     },
-    "type": null
+    "type": null,
+    "created_by": "string"
   },
   "outcomes": {
     "signatures": [
@@ -3119,22 +3582,25 @@
     "id": "string",
     "integration_key": "string",
     "registration": "string",
-    "fleet_number": "string"
+    "fleet_number": "string",
+    "description": null
   }
 }
 ```
 ## Off Route `off_route`
 ```
 {
-  "when": "2019-04-24T07:26:26.361181Z",
+  "when": "2019-05-28T12:40:23.9272265Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
+    "site_id": "string",
     "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "date_created": "0001-01-01T00:00:00",
     "reference": null,
     "allocation": {
       "driver": {
@@ -3146,7 +3612,8 @@
         "id": "string",
         "integration_key": "string",
         "registration": "string",
-        "fleet_number": "string"
+        "fleet_number": "string",
+        "description": "string"
       },
       "assets": [
         {
@@ -3166,22 +3633,25 @@
         "fuel_card": "string"
       }
     },
-    "type": null
+    "type": null,
+    "created_by": "string"
   }
 }
 ```
 ## Pickup Completed `load.pickup.completed`
 ```
 {
-  "when": "2019-04-24T07:26:26.3281741Z",
+  "when": "2019-05-28T12:40:23.8412303Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
+    "site_id": "string",
     "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "date_created": "0001-01-01T00:00:00",
     "reference": null,
     "allocation": {
       "driver": {
@@ -3193,7 +3663,8 @@
         "id": "string",
         "integration_key": "string",
         "registration": "string",
-        "fleet_number": "string"
+        "fleet_number": "string",
+        "description": "string"
       },
       "assets": [
         {
@@ -3213,7 +3684,8 @@
         "fuel_card": "string"
       }
     },
-    "type": null
+    "type": null,
+    "created_by": "string"
   },
   "consignment": {
     "id": "string",
@@ -3233,7 +3705,7 @@
   },
   "pickup": {
     "integration_key": "string",
-    "due_at": "2019-04-24T07:26:26.3291819Z",
+    "due_at": "2019-05-28T12:40:23.8422292Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -3408,15 +3880,17 @@
 ## Pickup Failed `load.pickup.failed`
 ```
 {
-  "when": "2019-04-24T07:26:26.3291819Z",
+  "when": "2019-05-28T12:40:23.8422292Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
+    "site_id": "string",
     "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "date_created": "0001-01-01T00:00:00",
     "reference": null,
     "allocation": {
       "driver": {
@@ -3428,7 +3902,8 @@
         "id": "string",
         "integration_key": "string",
         "registration": "string",
-        "fleet_number": "string"
+        "fleet_number": "string",
+        "description": "string"
       },
       "assets": [
         {
@@ -3448,7 +3923,8 @@
         "fuel_card": "string"
       }
     },
-    "type": null
+    "type": null,
+    "created_by": "string"
   },
   "consignment": {
     "id": "string",
@@ -3468,7 +3944,7 @@
   },
   "pickup": {
     "integration_key": "string",
-    "due_at": "2019-04-24T07:26:26.3301766Z",
+    "due_at": "2019-05-28T12:40:23.8432271Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -3644,15 +4120,17 @@
 ## Pickup Started `load.pickup.started`
 ```
 {
-  "when": "2019-04-24T07:26:26.3271844Z",
+  "when": "2019-05-28T12:40:23.8402269Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
+    "site_id": "string",
     "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "date_created": "0001-01-01T00:00:00",
     "reference": null,
     "allocation": {
       "driver": {
@@ -3664,7 +4142,8 @@
         "id": "string",
         "integration_key": "string",
         "registration": "string",
-        "fleet_number": "string"
+        "fleet_number": "string",
+        "description": "string"
       },
       "assets": [
         {
@@ -3684,7 +4163,8 @@
         "fuel_card": "string"
       }
     },
-    "type": null
+    "type": null,
+    "created_by": "string"
   },
   "consignment": {
     "id": "string",
@@ -3704,7 +4184,7 @@
   },
   "pickup": {
     "integration_key": "string",
-    "due_at": "2019-04-24T07:26:26.3281741Z",
+    "due_at": "2019-05-28T12:40:23.8412303Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -3752,21 +4232,144 @@
         }
       }
     }
+  },
+  "outcomes": {
+    "signatures": [
+      {
+        "image_url": "string",
+        "name": "string",
+        "comment": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "cash_on_deliveries": [
+      {
+        "stock_handed_over": false,
+        "reference": "string",
+        "payment_received_by": 0,
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "document_scans": [
+      {
+        "image_urls": [
+          "string"
+        ],
+        "comment": "string",
+        "type": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "images": [
+      {
+        "image_urls": [
+          "string"
+        ],
+        "comments": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "service_ratings": [
+      {
+        "type": "string",
+        "value": "string",
+        "comment": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "odometer_readings": [
+      {
+        "meter_type": "string",
+        "value": "string",
+        "asset_id": "string",
+        "asset_integration_key": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "pallet_transfers": [
+      {
+        "qty_transfered": 0,
+        "transfer_reference": "string",
+        "comment": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "proof_of_deliveries": [
+      {
+        "document_references": [
+          "string"
+        ],
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "weights": [
+      {
+        "unit": "string",
+        "value": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "forms": [
+      {
+        "fields": [
+          {
+            "integration_key": "string",
+            "label": "string",
+            "value": "string",
+            "data_type": "string"
+          }
+        ],
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ],
+    "e_documents": [],
+    "delays": [
+      {
+        "is_delayed": false,
+        "reason": "string",
+        "comment": "string",
+        "integration_key": "string",
+        "status": "string",
+        "status_reason": "string"
+      }
+    ]
   }
 }
 ```
 ## Rest Stop Completed `rest_stop.completed`
 ```
 {
-  "when": "2019-04-24T07:26:26.3451774Z",
+  "when": "2019-05-28T12:40:23.8842265Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
+    "site_id": "string",
     "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "date_created": "0001-01-01T00:00:00",
     "reference": null,
     "allocation": {
       "driver": {
@@ -3778,7 +4381,8 @@
         "id": "string",
         "integration_key": "string",
         "registration": "string",
-        "fleet_number": "string"
+        "fleet_number": "string",
+        "description": "string"
       },
       "assets": [
         {
@@ -3798,7 +4402,8 @@
         "fuel_card": "string"
       }
     },
-    "type": null
+    "type": null,
+    "created_by": "string"
   },
   "planned_duration": "00:00:00",
   "comments": "string",
@@ -3826,7 +4431,8 @@
     "id": "string",
     "integration_key": "string",
     "registration": "string",
-    "fleet_number": "string"
+    "fleet_number": "string",
+    "description": null
   },
   "reference_number": null
 }
@@ -3834,15 +4440,17 @@
 ## Rest Stop Failed `rest_stop.failed`
 ```
 {
-  "when": "2019-04-24T07:26:26.3461736Z",
+  "when": "2019-05-28T12:40:23.8852294Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
+    "site_id": "string",
     "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "date_created": "0001-01-01T00:00:00",
     "reference": null,
     "allocation": {
       "driver": {
@@ -3854,7 +4462,8 @@
         "id": "string",
         "integration_key": "string",
         "registration": "string",
-        "fleet_number": "string"
+        "fleet_number": "string",
+        "description": "string"
       },
       "assets": [
         {
@@ -3874,7 +4483,8 @@
         "fuel_card": "string"
       }
     },
-    "type": null
+    "type": null,
+    "created_by": "string"
   },
   "outcomes": {
     "signatures": [
@@ -4007,7 +4617,8 @@
     "id": "string",
     "integration_key": "string",
     "registration": "string",
-    "fleet_number": "string"
+    "fleet_number": "string",
+    "description": null
   },
   "reference_number": null
 }
@@ -4015,15 +4626,17 @@
 ## Rest Stop Started `rest_stop.started`
 ```
 {
-  "when": "2019-04-24T07:26:26.3431749Z",
+  "when": "2019-05-28T12:40:23.8822295Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
+    "site_id": "string",
     "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "date_created": "0001-01-01T00:00:00",
     "reference": null,
     "allocation": {
       "driver": {
@@ -4035,7 +4648,8 @@
         "id": "string",
         "integration_key": "string",
         "registration": "string",
-        "fleet_number": "string"
+        "fleet_number": "string",
+        "description": "string"
       },
       "assets": [
         {
@@ -4055,7 +4669,8 @@
         "fuel_card": "string"
       }
     },
-    "type": null
+    "type": null,
+    "created_by": "string"
   },
   "planned_duration": "00:00:00",
   "comments": "string",
@@ -4069,7 +4684,8 @@
     "id": "string",
     "integration_key": "string",
     "registration": "string",
-    "fleet_number": "string"
+    "fleet_number": "string",
+    "description": null
   },
   "reference_number": "string"
 }
@@ -4077,15 +4693,17 @@
 ## Stop Arrived `load.stop.arrived`
 ```
 {
-  "when": "2019-04-24T07:26:26.303176Z",
+  "when": "2019-05-28T12:40:23.7692353Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
+    "site_id": "string",
     "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "date_created": "0001-01-01T00:00:00",
     "reference": null,
     "allocation": {
       "driver": {
@@ -4097,7 +4715,8 @@
         "id": "string",
         "integration_key": "string",
         "registration": "string",
-        "fleet_number": "string"
+        "fleet_number": "string",
+        "description": "string"
       },
       "assets": [
         {
@@ -4117,7 +4736,8 @@
         "fuel_card": "string"
       }
     },
-    "type": null
+    "type": null,
+    "created_by": "string"
   },
   "travel_plan_poi_id": "string",
   "integration_key": "string"
@@ -4126,15 +4746,17 @@
 ## Stop Departed `load.stop.departed`
 ```
 {
-  "when": "2019-04-24T07:26:26.3101729Z",
+  "when": "2019-05-28T12:40:23.7712287Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
+    "site_id": "string",
     "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "date_created": "0001-01-01T00:00:00",
     "reference": null,
     "allocation": {
       "driver": {
@@ -4146,7 +4768,8 @@
         "id": "string",
         "integration_key": "string",
         "registration": "string",
-        "fleet_number": "string"
+        "fleet_number": "string",
+        "description": "string"
       },
       "assets": [
         {
@@ -4166,7 +4789,8 @@
         "fuel_card": "string"
       }
     },
-    "type": null
+    "type": null,
+    "created_by": "string"
   },
   "travel_plan_poi_id": "string",
   "integration_key": "string"
@@ -4175,15 +4799,17 @@
 ## Stop Failed `load.stop.failed`
 ```
 {
-  "when": "2019-04-24T07:26:26.3511749Z",
+  "when": "2019-05-28T12:40:23.9082302Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
+    "site_id": "string",
     "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "date_created": "0001-01-01T00:00:00",
     "reference": null,
     "allocation": {
       "driver": {
@@ -4195,7 +4821,8 @@
         "id": "string",
         "integration_key": "string",
         "registration": "string",
-        "fleet_number": "string"
+        "fleet_number": "string",
+        "description": "string"
       },
       "assets": [
         {
@@ -4215,7 +4842,8 @@
         "fuel_card": "string"
       }
     },
-    "type": null
+    "type": null,
+    "created_by": "string"
   },
   "outcomes": {
     "signatures": [
@@ -4344,15 +4972,17 @@
 ## Stop Recorded `load.stop.recorded`
 ```
 {
-  "when": "2019-04-24T07:26:26.3501745Z",
+  "when": "2019-05-28T12:40:23.8992271Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
+    "site_id": "string",
     "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "date_created": "0001-01-01T00:00:00",
     "reference": null,
     "allocation": {
       "driver": {
@@ -4364,7 +4994,8 @@
         "id": "string",
         "integration_key": "string",
         "registration": "string",
-        "fleet_number": "string"
+        "fleet_number": "string",
+        "description": "string"
       },
       "assets": [
         {
@@ -4384,7 +5015,8 @@
         "fuel_card": "string"
       }
     },
-    "type": null
+    "type": null,
+    "created_by": "string"
   },
   "outcomes": {
     "signatures": [
@@ -4514,15 +5146,17 @@
 ## Timed Task Completed `timed_task.completed`
 ```
 {
-  "when": "2019-04-24T07:26:26.3651776Z",
+  "when": "2019-05-28T12:40:23.9392308Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
+    "site_id": "string",
     "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "date_created": "0001-01-01T00:00:00",
     "reference": null,
     "allocation": {
       "driver": {
@@ -4534,7 +5168,8 @@
         "id": "string",
         "integration_key": "string",
         "registration": "string",
-        "fleet_number": "string"
+        "fleet_number": "string",
+        "description": "string"
       },
       "assets": [
         {
@@ -4554,7 +5189,8 @@
         "fuel_card": "string"
       }
     },
-    "type": null
+    "type": null,
+    "created_by": "string"
   },
   "outcomes": null,
   "activity_id": "string",
@@ -4564,15 +5200,17 @@
 ## Timed Task Failed `timed_task.failed`
 ```
 {
-  "when": "2019-04-24T07:26:26.3661756Z",
+  "when": "2019-05-28T12:40:23.9402304Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
+    "site_id": "string",
     "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "date_created": "0001-01-01T00:00:00",
     "reference": null,
     "allocation": {
       "driver": {
@@ -4584,7 +5222,8 @@
         "id": "string",
         "integration_key": "string",
         "registration": "string",
-        "fleet_number": "string"
+        "fleet_number": "string",
+        "description": "string"
       },
       "assets": [
         {
@@ -4604,7 +5243,8 @@
         "fuel_card": "string"
       }
     },
-    "type": null
+    "type": null,
+    "created_by": "string"
   },
   "outcomes": null,
   "failure_reason": null,
@@ -4615,15 +5255,17 @@
 ## Timed Task Started `timed_task.started`
 ```
 {
-  "when": "2019-04-24T07:26:26.3651776Z",
+  "when": "2019-05-28T12:40:23.9382271Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
+    "site_id": "string",
     "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "date_created": "0001-01-01T00:00:00",
     "reference": null,
     "allocation": {
       "driver": {
@@ -4635,7 +5277,8 @@
         "id": "string",
         "integration_key": "string",
         "registration": "string",
-        "fleet_number": "string"
+        "fleet_number": "string",
+        "description": "string"
       },
       "assets": [
         {
@@ -4655,7 +5298,8 @@
         "fuel_card": "string"
       }
     },
-    "type": null
+    "type": null,
+    "created_by": "string"
   },
   "activity_integration_key": "string",
   "activity_id": "string"
@@ -4664,15 +5308,17 @@
 ## Weighbridge Completed `weighbridge.completed`
 ```
 {
-  "when": "2019-04-24T07:26:26.3581717Z",
+  "when": "2019-05-28T12:40:23.9222266Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
+    "site_id": "string",
     "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "date_created": "0001-01-01T00:00:00",
     "reference": null,
     "allocation": {
       "driver": {
@@ -4684,7 +5330,8 @@
         "id": "string",
         "integration_key": "string",
         "registration": "string",
-        "fleet_number": "string"
+        "fleet_number": "string",
+        "description": "string"
       },
       "assets": [
         {
@@ -4704,7 +5351,8 @@
         "fuel_card": "string"
       }
     },
-    "type": null
+    "type": null,
+    "created_by": "string"
   },
   "outcomes": {
     "signatures": [
@@ -4852,22 +5500,25 @@
     "id": "string",
     "integration_key": "string",
     "registration": "string",
-    "fleet_number": "string"
+    "fleet_number": "string",
+    "description": null
   }
 }
 ```
 ## Weighbridge Failed `weighbridge.failed`
 ```
 {
-  "when": "2019-04-24T07:26:26.3601773Z",
+  "when": "2019-05-28T12:40:23.9262267Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
+    "site_id": "string",
     "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "date_created": "0001-01-01T00:00:00",
     "reference": null,
     "allocation": {
       "driver": {
@@ -4879,7 +5530,8 @@
         "id": "string",
         "integration_key": "string",
         "registration": "string",
-        "fleet_number": "string"
+        "fleet_number": "string",
+        "description": "string"
       },
       "assets": [
         {
@@ -4899,7 +5551,8 @@
         "fuel_card": "string"
       }
     },
-    "type": null
+    "type": null,
+    "created_by": "string"
   },
   "outcomes": {
     "signatures": [
@@ -5032,22 +5685,25 @@
     "id": "string",
     "integration_key": "string",
     "registration": "string",
-    "fleet_number": "string"
+    "fleet_number": "string",
+    "description": null
   }
 }
 ```
 ## Weighbridge Started `weighbridge.started`
 ```
 {
-  "when": "2019-04-24T07:26:26.3511749Z",
+  "when": "2019-05-28T12:40:23.9182273Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": null,
+    "site_id": "string",
     "integration_key": null,
     "requested_date": "0001-01-01T00:00:00",
+    "date_created": "0001-01-01T00:00:00",
     "reference": null,
     "allocation": {
       "driver": {
@@ -5059,7 +5715,8 @@
         "id": "string",
         "integration_key": "string",
         "registration": "string",
-        "fleet_number": "string"
+        "fleet_number": "string",
+        "description": "string"
       },
       "assets": [
         {
@@ -5079,7 +5736,8 @@
         "fuel_card": "string"
       }
     },
-    "type": null
+    "type": null,
+    "created_by": "string"
   },
   "activity_id": "string",
   "driver_id": "string",
@@ -5098,7 +5756,8 @@
     "id": "string",
     "integration_key": "string",
     "registration": "string",
-    "fleet_number": "string"
+    "fleet_number": "string",
+    "description": null
   }
 }
 ```
