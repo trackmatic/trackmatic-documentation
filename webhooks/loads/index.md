@@ -2,7 +2,7 @@
 ## Border Crossing `border_crossing`
 ```
 {
-  "when": "2019-05-28T13:03:41.2027994Z",
+  "when": "2019-05-31T06:22:12.3404542Z",
   "where": [
     0.0,
     0.0
@@ -46,7 +46,8 @@
       }
     },
     "type": "string",
-    "created_by": "string"
+    "created_by": "string",
+    "location_id": null
   },
   "outcomes": {
     "signatures": [
@@ -54,6 +55,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "completed_on": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -157,7 +159,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "string",
+            "document_type": "string",
+            "document_name": "string",
+            "signee_name": "",
+            "comment": "",
+            "completed_on": "2019-05-31T06:22:12.3294941Z"
+          }
+        ],
+        "integration_key": null,
+        "status": null,
+        "status_reason": null
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -190,7 +208,7 @@
 ## Border Crossing Failed `border_crossing.failed`
 ```
 {
-  "when": "2019-05-28T13:03:41.2027994Z",
+  "when": "2019-05-31T06:22:12.3404542Z",
   "where": [
     0.0,
     0.0
@@ -234,7 +252,8 @@
       }
     },
     "type": "string",
-    "created_by": "string"
+    "created_by": "string",
+    "location_id": null
   },
   "outcomes": {
     "signatures": [
@@ -242,6 +261,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "completed_on": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -345,7 +365,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "string",
+            "document_type": "string",
+            "document_name": "string",
+            "signee_name": "",
+            "comment": "",
+            "completed_on": "2019-05-31T06:22:12.3294941Z"
+          }
+        ],
+        "integration_key": null,
+        "status": null,
+        "status_reason": null
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -375,7 +411,7 @@
 ## Breakdown `breakdown`
 ```
 {
-  "when": "2019-05-28T13:03:41.2127635Z",
+  "when": "2019-05-31T06:22:12.3474549Z",
   "where": [
     0.0,
     0.0
@@ -419,7 +455,8 @@
       }
     },
     "type": "string",
-    "created_by": "string"
+    "created_by": "string",
+    "location_id": null
   },
   "problematic_asset_id": null,
   "reason": null,
@@ -430,6 +467,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "completed_on": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -533,7 +571,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "string",
+            "document_type": "string",
+            "document_name": "string",
+            "signee_name": "",
+            "comment": "",
+            "completed_on": "2019-05-31T06:22:12.3294941Z"
+          }
+        ],
+        "integration_key": null,
+        "status": null,
+        "status_reason": null
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -568,7 +622,7 @@
 ## Custom Activity Completed `custom_activity.completed`
 ```
 {
-  "when": "2019-05-28T13:03:41.2147658Z",
+  "when": "2019-05-31T06:22:12.3494624Z",
   "where": [
     0.0,
     0.0
@@ -612,7 +666,8 @@
       }
     },
     "type": "string",
-    "created_by": "string"
+    "created_by": "string",
+    "location_id": null
   },
   "outcomes": null,
   "activity_id": "string",
@@ -622,7 +677,7 @@
 ## Custom Activity Started `custom_activity.started`
 ```
 {
-  "when": "2019-05-28T13:03:41.2147658Z",
+  "when": "2019-05-31T06:22:12.3494624Z",
   "where": [
     0.0,
     0.0
@@ -666,7 +721,8 @@
       }
     },
     "type": "string",
-    "created_by": "string"
+    "created_by": "string",
+    "location_id": null
   },
   "activity_integration_key": "string",
   "activity_id": "string"
@@ -675,7 +731,7 @@
 ## Dropoff Completed `load.dropoff.completed`
 ```
 {
-  "when": "2019-05-28T13:03:41.1967598Z",
+  "when": "2019-05-31T06:22:12.3354553Z",
   "where": [
     0.0,
     0.0
@@ -719,7 +775,8 @@
       }
     },
     "type": "string",
-    "created_by": "string"
+    "created_by": "string",
+    "location_id": null
   },
   "consignment": {
     "id": "string",
@@ -739,7 +796,7 @@
   },
   "dropoff": {
     "integration_key": "string",
-    "due_at": "2019-05-28T13:03:41.1977672Z",
+    "due_at": "2019-05-31T06:22:12.3364543Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -794,6 +851,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "completed_on": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -897,7 +955,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "string",
+            "document_type": "string",
+            "document_name": "string",
+            "signee_name": "",
+            "comment": "",
+            "completed_on": "2019-05-31T06:22:12.3294941Z"
+          }
+        ],
+        "integration_key": null,
+        "status": null,
+        "status_reason": null
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -914,7 +988,7 @@
 ## Dropoff Failed `load.dropoff.failed`
 ```
 {
-  "when": "2019-05-28T13:03:41.2007933Z",
+  "when": "2019-05-31T06:22:12.3394537Z",
   "where": [
     0.0,
     0.0
@@ -958,7 +1032,8 @@
       }
     },
     "type": "string",
-    "created_by": "string"
+    "created_by": "string",
+    "location_id": null
   },
   "consignment": {
     "id": "string",
@@ -978,7 +1053,7 @@
   },
   "dropoff": {
     "integration_key": "string",
-    "due_at": "2019-05-28T13:03:41.2017929Z",
+    "due_at": "2019-05-31T06:22:12.3394537Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -1033,6 +1108,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "completed_on": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -1136,7 +1212,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "string",
+            "document_type": "string",
+            "document_name": "string",
+            "signee_name": "",
+            "comment": "",
+            "completed_on": "2019-05-31T06:22:12.3294941Z"
+          }
+        ],
+        "integration_key": null,
+        "status": null,
+        "status_reason": null
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -1154,7 +1246,7 @@
 ## Dropoff Started `load.dropoff.started`
 ```
 {
-  "when": "2019-05-28T13:03:41.1957583Z",
+  "when": "2019-05-31T06:22:12.3344554Z",
   "where": [
     0.0,
     0.0
@@ -1198,7 +1290,8 @@
       }
     },
     "type": "string",
-    "created_by": "string"
+    "created_by": "string",
+    "location_id": null
   },
   "consignment": {
     "id": "string",
@@ -1218,7 +1311,7 @@
   },
   "dropoff": {
     "integration_key": "string",
-    "due_at": "2019-05-28T13:03:41.1967598Z",
+    "due_at": "2019-05-31T06:22:12.3354553Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -1273,6 +1366,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "completed_on": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -1376,7 +1470,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "string",
+            "document_type": "string",
+            "document_name": "string",
+            "signee_name": "",
+            "comment": "",
+            "completed_on": "2019-05-31T06:22:12.3294941Z"
+          }
+        ],
+        "integration_key": null,
+        "status": null,
+        "status_reason": null
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -1393,7 +1503,7 @@
 ## Fuel Stop Completed `fuel_stop.completed`
 ```
 {
-  "when": "2019-05-28T13:03:41.2038019Z",
+  "when": "2019-05-31T06:22:12.3414534Z",
   "where": [
     0.0,
     0.0
@@ -1437,7 +1547,8 @@
       }
     },
     "type": "string",
-    "created_by": "string"
+    "created_by": "string",
+    "location_id": null
   },
   "outcomes": {
     "signatures": [
@@ -1445,6 +1556,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "completed_on": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -1548,7 +1660,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "string",
+            "document_type": "string",
+            "document_name": "string",
+            "signee_name": "",
+            "comment": "",
+            "completed_on": "2019-05-31T06:22:12.3294941Z"
+          }
+        ],
+        "integration_key": null,
+        "status": null,
+        "status_reason": null
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -1602,7 +1730,7 @@
 ## Fuel Stop Failed `fuel_stop.failed`
 ```
 {
-  "when": "2019-05-28T13:03:41.2057601Z",
+  "when": "2019-05-31T06:22:12.3424604Z",
   "where": [
     0.0,
     0.0
@@ -1646,7 +1774,8 @@
       }
     },
     "type": "string",
-    "created_by": "string"
+    "created_by": "string",
+    "location_id": null
   },
   "outcomes": {
     "signatures": [
@@ -1654,6 +1783,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "completed_on": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -1757,7 +1887,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "string",
+            "document_type": "string",
+            "document_name": "string",
+            "signee_name": "",
+            "comment": "",
+            "completed_on": "2019-05-31T06:22:12.3294941Z"
+          }
+        ],
+        "integration_key": null,
+        "status": null,
+        "status_reason": null
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -1787,7 +1933,7 @@
 ## Fuel Stop Started `fuel_stop.started`
 ```
 {
-  "when": "2019-05-28T13:03:41.2038019Z",
+  "when": "2019-05-31T06:22:12.3414534Z",
   "where": [
     0.0,
     0.0
@@ -1831,7 +1977,8 @@
       }
     },
     "type": "string",
-    "created_by": "string"
+    "created_by": "string",
+    "location_id": null
   },
   "activity_id": null,
   "driver_id": null,
@@ -1898,7 +2045,8 @@
       }
     },
     "type": "string",
-    "created_by": "string"
+    "created_by": "string",
+    "location_id": null
   },
   "consignments_summary": {
     "references": [
@@ -1911,7 +2059,7 @@
     "total_litres": 0.0,
     "total_volume": 0.0
   },
-  "when": "2019-05-28T13:03:41.1947593Z",
+  "when": "2019-05-31T06:22:12.3334551Z",
   "where": [
     0.0,
     0.0
@@ -1960,9 +2108,10 @@
       }
     },
     "type": "string",
-    "created_by": "string"
+    "created_by": "string",
+    "location_id": null
   },
-  "when": "2019-05-28T13:03:41.1957583Z",
+  "when": "2019-05-31T06:22:12.3344554Z",
   "reason": "string"
 }
 ```
@@ -2008,9 +2157,10 @@
       }
     },
     "type": "string",
-    "created_by": "string"
+    "created_by": "string",
+    "location_id": null
   },
-  "when": "2019-05-28T13:03:41.2127635Z",
+  "when": "2019-05-31T06:22:12.3484543Z",
   "where": [
     0.0,
     0.0
@@ -2059,10 +2209,11 @@
       }
     },
     "type": "string",
-    "created_by": "string"
+    "created_by": "string",
+    "location_id": null
   },
   "force_closed": false,
-  "when": "2019-05-28T13:03:41.1947593Z",
+  "when": "2019-05-31T06:22:12.3334551Z",
   "where": [
     0.0,
     0.0
@@ -2111,9 +2262,10 @@
       }
     },
     "type": "string",
-    "created_by": "string"
+    "created_by": "string",
+    "location_id": null
   },
-  "when": "2019-05-28T13:03:41.1957583Z"
+  "when": "2019-05-31T06:22:12.3344554Z"
 }
 ```
 ## Load Planned `load.planned`
@@ -2158,7 +2310,8 @@
       }
     },
     "type": "string",
-    "created_by": "string"
+    "created_by": "string",
+    "location_id": null
   },
   "consignments_summary": {
     "references": [
@@ -2171,7 +2324,7 @@
     "total_litres": 0.0,
     "total_volume": 0.0
   },
-  "when": "2019-05-28T13:03:41.1947593Z",
+  "when": "2019-05-31T06:22:12.3334551Z",
   "where": [
     0.0,
     0.0
@@ -2220,9 +2373,10 @@
       }
     },
     "type": "string",
-    "created_by": "string"
+    "created_by": "string",
+    "location_id": null
   },
-  "when": "2019-05-28T13:03:41.2127635Z",
+  "when": "2019-05-31T06:22:12.3484543Z",
   "where": [
     0.0,
     0.0
@@ -2232,7 +2386,7 @@
 ## Multi Dropoff Completed `load.multidropoff.completed`
 ```
 {
-  "when": "2019-05-28T13:03:41.1988017Z",
+  "when": "2019-05-31T06:22:12.3374535Z",
   "where": [
     0.0,
     0.0
@@ -2276,7 +2430,8 @@
       }
     },
     "type": "string",
-    "created_by": "string"
+    "created_by": "string",
+    "location_id": null
   },
   "consignments": [
     {
@@ -2299,7 +2454,7 @@
   "dropoffs": [
     {
       "integration_key": "string",
-      "due_at": "2019-05-28T13:03:41.1988017Z",
+      "due_at": "2019-05-31T06:22:12.3374535Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -2355,6 +2510,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "completed_on": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -2458,7 +2614,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "string",
+            "document_type": "string",
+            "document_name": "string",
+            "signee_name": "",
+            "comment": "",
+            "completed_on": "2019-05-31T06:22:12.3294941Z"
+          }
+        ],
+        "integration_key": null,
+        "status": null,
+        "status_reason": null
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -2549,7 +2721,7 @@
 ## Multi Dropoff Failed `load.multidropoff.failed`
 ```
 {
-  "when": "2019-05-28T13:03:41.1997928Z",
+  "when": "2019-05-31T06:22:12.3374535Z",
   "where": [
     0.0,
     0.0
@@ -2593,7 +2765,8 @@
       }
     },
     "type": "string",
-    "created_by": "string"
+    "created_by": "string",
+    "location_id": null
   },
   "consignments": [
     {
@@ -2616,7 +2789,7 @@
   "dropoffs": [
     {
       "integration_key": "string",
-      "due_at": "2019-05-28T13:03:41.1997928Z",
+      "due_at": "2019-05-31T06:22:12.3384535Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -2672,6 +2845,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "completed_on": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -2775,7 +2949,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "string",
+            "document_type": "string",
+            "document_name": "string",
+            "signee_name": "",
+            "comment": "",
+            "completed_on": "2019-05-31T06:22:12.3294941Z"
+          }
+        ],
+        "integration_key": null,
+        "status": null,
+        "status_reason": null
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -2867,7 +3057,7 @@
 ## Multi Dropoff Started `load.multidropoff.started`
 ```
 {
-  "when": "2019-05-28T13:03:41.1977672Z",
+  "when": "2019-05-31T06:22:12.3364543Z",
   "where": [
     0.0,
     0.0
@@ -2911,7 +3101,8 @@
       }
     },
     "type": "string",
-    "created_by": "string"
+    "created_by": "string",
+    "location_id": null
   },
   "consignments": [
     {
@@ -2934,7 +3125,7 @@
   "dropoffs": [
     {
       "integration_key": "string",
-      "due_at": "2019-05-28T13:03:41.1977672Z",
+      "due_at": "2019-05-31T06:22:12.3364543Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -2990,6 +3181,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "completed_on": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -3093,7 +3285,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "string",
+            "document_type": "string",
+            "document_name": "string",
+            "signee_name": "",
+            "comment": "",
+            "completed_on": "2019-05-31T06:22:12.3294941Z"
+          }
+        ],
+        "integration_key": null,
+        "status": null,
+        "status_reason": null
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -3110,7 +3318,7 @@
 ## Multi Pickup Completed `load.multipickup.completed`
 ```
 {
-  "when": "2019-05-28T13:03:41.1997928Z",
+  "when": "2019-05-31T06:22:12.3384535Z",
   "where": [
     0.0,
     0.0
@@ -3154,7 +3362,8 @@
       }
     },
     "type": "string",
-    "created_by": "string"
+    "created_by": "string",
+    "location_id": null
   },
   "consignments": [
     {
@@ -3177,7 +3386,7 @@
   "pickups": [
     {
       "integration_key": "string",
-      "due_at": "2019-05-28T13:03:41.2007933Z",
+      "due_at": "2019-05-31T06:22:12.3384535Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -3233,6 +3442,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "completed_on": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -3336,7 +3546,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "string",
+            "document_type": "string",
+            "document_name": "string",
+            "signee_name": "",
+            "comment": "",
+            "completed_on": "2019-05-31T06:22:12.3294941Z"
+          }
+        ],
+        "integration_key": null,
+        "status": null,
+        "status_reason": null
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -3364,7 +3590,7 @@
 ## Multi Pickup Failed `load.multidropoff.failed`
 ```
 {
-  "when": "2019-05-28T13:03:41.1997928Z",
+  "when": "2019-05-31T06:22:12.3374535Z",
   "where": [
     0.0,
     0.0
@@ -3408,7 +3634,8 @@
       }
     },
     "type": "string",
-    "created_by": "string"
+    "created_by": "string",
+    "location_id": null
   },
   "consignments": [
     {
@@ -3431,7 +3658,7 @@
   "dropoffs": [
     {
       "integration_key": "string",
-      "due_at": "2019-05-28T13:03:41.1997928Z",
+      "due_at": "2019-05-31T06:22:12.3384535Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -3487,6 +3714,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "completed_on": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -3590,7 +3818,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "string",
+            "document_type": "string",
+            "document_name": "string",
+            "signee_name": "",
+            "comment": "",
+            "completed_on": "2019-05-31T06:22:12.3294941Z"
+          }
+        ],
+        "integration_key": null,
+        "status": null,
+        "status_reason": null
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -3682,7 +3926,7 @@
 ## Multi Pickup Started `load.multipickup.started`
 ```
 {
-  "when": "2019-05-28T13:03:41.1977672Z",
+  "when": "2019-05-31T06:22:12.3364543Z",
   "where": [
     0.0,
     0.0
@@ -3726,7 +3970,8 @@
       }
     },
     "type": "string",
-    "created_by": "string"
+    "created_by": "string",
+    "location_id": null
   },
   "consignments": [
     {
@@ -3749,7 +3994,7 @@
   "pickups": [
     {
       "integration_key": "string",
-      "due_at": "2019-05-28T13:03:41.1988017Z",
+      "due_at": "2019-05-31T06:22:12.3364543Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -3805,6 +4050,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "completed_on": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -3908,7 +4154,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "string",
+            "document_type": "string",
+            "document_name": "string",
+            "signee_name": "",
+            "comment": "",
+            "completed_on": "2019-05-31T06:22:12.3294941Z"
+          }
+        ],
+        "integration_key": null,
+        "status": null,
+        "status_reason": null
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -3925,7 +4187,7 @@
 ## Odometer `odometer`
 ```
 {
-  "when": "2019-05-28T13:03:41.20776Z",
+  "when": "2019-05-31T06:22:12.3434546Z",
   "where": [
     0.0,
     0.0
@@ -3969,7 +4231,8 @@
       }
     },
     "type": "string",
-    "created_by": "string"
+    "created_by": "string",
+    "location_id": null
   },
   "asset_id": "string",
   "asset_integration_key": null,
@@ -3980,6 +4243,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "completed_on": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -4083,7 +4347,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "string",
+            "document_type": "string",
+            "document_name": "string",
+            "signee_name": "",
+            "comment": "",
+            "completed_on": "2019-05-31T06:22:12.3294941Z"
+          }
+        ],
+        "integration_key": null,
+        "status": null,
+        "status_reason": null
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -4113,7 +4393,7 @@
 ## Odometer Failed `odometer.failed`
 ```
 {
-  "when": "2019-05-28T13:03:41.2087652Z",
+  "when": "2019-05-31T06:22:12.3444531Z",
   "where": [
     0.0,
     0.0
@@ -4157,7 +4437,8 @@
       }
     },
     "type": "string",
-    "created_by": "string"
+    "created_by": "string",
+    "location_id": null
   },
   "outcomes": {
     "signatures": [
@@ -4165,6 +4446,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "completed_on": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -4268,7 +4550,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "string",
+            "document_type": "string",
+            "document_name": "string",
+            "signee_name": "",
+            "comment": "",
+            "completed_on": "2019-05-31T06:22:12.3294941Z"
+          }
+        ],
+        "integration_key": null,
+        "status": null,
+        "status_reason": null
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -4298,7 +4596,7 @@
 ## Off Route `off_route`
 ```
 {
-  "when": "2019-05-28T13:03:41.2117635Z",
+  "when": "2019-05-31T06:22:12.3474549Z",
   "where": [
     0.0,
     0.0
@@ -4342,14 +4640,15 @@
       }
     },
     "type": "string",
-    "created_by": "string"
+    "created_by": "string",
+    "location_id": null
   }
 }
 ```
 ## Pickup Completed `load.pickup.completed`
 ```
 {
-  "when": "2019-05-28T13:03:41.2017929Z",
+  "when": "2019-05-31T06:22:12.3394537Z",
   "where": [
     0.0,
     0.0
@@ -4393,7 +4692,8 @@
       }
     },
     "type": "string",
-    "created_by": "string"
+    "created_by": "string",
+    "location_id": null
   },
   "consignment": {
     "id": "string",
@@ -4413,7 +4713,7 @@
   },
   "pickup": {
     "integration_key": "string",
-    "due_at": "2019-05-28T13:03:41.2017929Z",
+    "due_at": "2019-05-31T06:22:12.3404542Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -4468,6 +4768,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "completed_on": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -4571,7 +4872,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "string",
+            "document_type": "string",
+            "document_name": "string",
+            "signee_name": "",
+            "comment": "",
+            "completed_on": "2019-05-31T06:22:12.3294941Z"
+          }
+        ],
+        "integration_key": null,
+        "status": null,
+        "status_reason": null
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -4588,7 +4905,7 @@
 ## Pickup Failed `load.pickup.failed`
 ```
 {
-  "when": "2019-05-28T13:03:41.2017929Z",
+  "when": "2019-05-31T06:22:12.3404542Z",
   "where": [
     0.0,
     0.0
@@ -4632,7 +4949,8 @@
       }
     },
     "type": "string",
-    "created_by": "string"
+    "created_by": "string",
+    "location_id": null
   },
   "consignment": {
     "id": "string",
@@ -4652,7 +4970,7 @@
   },
   "pickup": {
     "integration_key": "string",
-    "due_at": "2019-05-28T13:03:41.2027994Z",
+    "due_at": "2019-05-31T06:22:12.3404542Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -4707,6 +5025,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "completed_on": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -4810,7 +5129,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "string",
+            "document_type": "string",
+            "document_name": "string",
+            "signee_name": "",
+            "comment": "",
+            "completed_on": "2019-05-31T06:22:12.3294941Z"
+          }
+        ],
+        "integration_key": null,
+        "status": null,
+        "status_reason": null
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -4828,7 +5163,7 @@
 ## Pickup Started `load.pickup.started`
 ```
 {
-  "when": "2019-05-28T13:03:41.2017929Z",
+  "when": "2019-05-31T06:22:12.3394537Z",
   "where": [
     0.0,
     0.0
@@ -4872,7 +5207,8 @@
       }
     },
     "type": "string",
-    "created_by": "string"
+    "created_by": "string",
+    "location_id": null
   },
   "consignment": {
     "id": "string",
@@ -4892,7 +5228,7 @@
   },
   "pickup": {
     "integration_key": "string",
-    "due_at": "2019-05-28T13:03:41.2017929Z",
+    "due_at": "2019-05-31T06:22:12.3394537Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -4947,6 +5283,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "completed_on": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -5050,7 +5387,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "string",
+            "document_type": "string",
+            "document_name": "string",
+            "signee_name": "",
+            "comment": "",
+            "completed_on": "2019-05-31T06:22:12.3294941Z"
+          }
+        ],
+        "integration_key": null,
+        "status": null,
+        "status_reason": null
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -5067,7 +5420,7 @@
 ## Rest Stop Completed `rest_stop.completed`
 ```
 {
-  "when": "2019-05-28T13:03:41.2067635Z",
+  "when": "2019-05-31T06:22:12.3434546Z",
   "where": [
     0.0,
     0.0
@@ -5111,7 +5464,8 @@
       }
     },
     "type": "string",
-    "created_by": "string"
+    "created_by": "string",
+    "location_id": null
   },
   "planned_duration": "00:00:00",
   "comments": "string",
@@ -5148,7 +5502,7 @@
 ## Rest Stop Failed `rest_stop.failed`
 ```
 {
-  "when": "2019-05-28T13:03:41.20776Z",
+  "when": "2019-05-31T06:22:12.3434546Z",
   "where": [
     0.0,
     0.0
@@ -5192,7 +5546,8 @@
       }
     },
     "type": "string",
-    "created_by": "string"
+    "created_by": "string",
+    "location_id": null
   },
   "outcomes": {
     "signatures": [
@@ -5200,6 +5555,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "completed_on": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -5303,7 +5659,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "string",
+            "document_type": "string",
+            "document_name": "string",
+            "signee_name": "",
+            "comment": "",
+            "completed_on": "2019-05-31T06:22:12.3294941Z"
+          }
+        ],
+        "integration_key": null,
+        "status": null,
+        "status_reason": null
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -5334,7 +5706,7 @@
 ## Rest Stop Started `rest_stop.started`
 ```
 {
-  "when": "2019-05-28T13:03:41.2057601Z",
+  "when": "2019-05-31T06:22:12.3424604Z",
   "where": [
     0.0,
     0.0
@@ -5378,7 +5750,8 @@
       }
     },
     "type": "string",
-    "created_by": "string"
+    "created_by": "string",
+    "location_id": null
   },
   "planned_duration": "00:00:00",
   "comments": "string",
@@ -5401,7 +5774,7 @@
 ## Stop Arrived `load.stop.arrived`
 ```
 {
-  "when": "2019-05-28T13:03:41.1937591Z",
+  "when": "2019-05-31T06:22:12.3324945Z",
   "where": [
     0.0,
     0.0
@@ -5445,7 +5818,8 @@
       }
     },
     "type": "string",
-    "created_by": "string"
+    "created_by": "string",
+    "location_id": null
   },
   "travel_plan_poi_id": "string",
   "integration_key": "string"
@@ -5454,7 +5828,7 @@
 ## Stop Departed `load.stop.departed`
 ```
 {
-  "when": "2019-05-28T13:03:41.1947593Z",
+  "when": "2019-05-31T06:22:12.3324945Z",
   "where": [
     0.0,
     0.0
@@ -5498,7 +5872,8 @@
       }
     },
     "type": "string",
-    "created_by": "string"
+    "created_by": "string",
+    "location_id": null
   },
   "travel_plan_poi_id": "string",
   "integration_key": "string"
@@ -5507,7 +5882,7 @@
 ## Stop Failed `load.stop.failed`
 ```
 {
-  "when": "2019-05-28T13:03:41.2097641Z",
+  "when": "2019-05-31T06:22:12.3454684Z",
   "where": [
     0.0,
     0.0
@@ -5551,7 +5926,8 @@
       }
     },
     "type": "string",
-    "created_by": "string"
+    "created_by": "string",
+    "location_id": null
   },
   "outcomes": {
     "signatures": [
@@ -5559,6 +5935,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "completed_on": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -5662,7 +6039,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "string",
+            "document_type": "string",
+            "document_name": "string",
+            "signee_name": "",
+            "comment": "",
+            "completed_on": "2019-05-31T06:22:12.3294941Z"
+          }
+        ],
+        "integration_key": null,
+        "status": null,
+        "status_reason": null
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -5680,7 +6073,7 @@
 ## Stop Recorded `load.stop.recorded`
 ```
 {
-  "when": "2019-05-28T13:03:41.2087652Z",
+  "when": "2019-05-31T06:22:12.3444531Z",
   "where": [
     0.0,
     0.0
@@ -5724,7 +6117,8 @@
       }
     },
     "type": "string",
-    "created_by": "string"
+    "created_by": "string",
+    "location_id": null
   },
   "outcomes": {
     "signatures": [
@@ -5732,6 +6126,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "completed_on": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -5835,7 +6230,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "string",
+            "document_type": "string",
+            "document_name": "string",
+            "signee_name": "",
+            "comment": "",
+            "completed_on": "2019-05-31T06:22:12.3294941Z"
+          }
+        ],
+        "integration_key": null,
+        "status": null,
+        "status_reason": null
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -5854,7 +6265,7 @@
 ## Timed Task Completed `timed_task.completed`
 ```
 {
-  "when": "2019-05-28T13:03:41.2137642Z",
+  "when": "2019-05-31T06:22:12.3484543Z",
   "where": [
     0.0,
     0.0
@@ -5898,7 +6309,8 @@
       }
     },
     "type": "string",
-    "created_by": "string"
+    "created_by": "string",
+    "location_id": null
   },
   "outcomes": null,
   "activity_id": "string",
@@ -5908,7 +6320,7 @@
 ## Timed Task Failed `timed_task.failed`
 ```
 {
-  "when": "2019-05-28T13:03:41.2137642Z",
+  "when": "2019-05-31T06:22:12.3494624Z",
   "where": [
     0.0,
     0.0
@@ -5952,7 +6364,8 @@
       }
     },
     "type": "string",
-    "created_by": "string"
+    "created_by": "string",
+    "location_id": null
   },
   "outcomes": null,
   "failure_reason": null,
@@ -5963,7 +6376,7 @@
 ## Timed Task Started `timed_task.started`
 ```
 {
-  "when": "2019-05-28T13:03:41.2137642Z",
+  "when": "2019-05-31T06:22:12.3484543Z",
   "where": [
     0.0,
     0.0
@@ -6007,7 +6420,8 @@
       }
     },
     "type": "string",
-    "created_by": "string"
+    "created_by": "string",
+    "location_id": null
   },
   "activity_integration_key": "string",
   "activity_id": "string"
@@ -6016,7 +6430,7 @@
 ## Weighbridge Completed `weighbridge.completed`
 ```
 {
-  "when": "2019-05-28T13:03:41.2107636Z",
+  "when": "2019-05-31T06:22:12.3464568Z",
   "where": [
     0.0,
     0.0
@@ -6060,7 +6474,8 @@
       }
     },
     "type": "string",
-    "created_by": "string"
+    "created_by": "string",
+    "location_id": null
   },
   "outcomes": {
     "signatures": [
@@ -6068,6 +6483,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "completed_on": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -6171,7 +6587,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "string",
+            "document_type": "string",
+            "document_name": "string",
+            "signee_name": "",
+            "comment": "",
+            "completed_on": "2019-05-31T06:22:12.3294941Z"
+          }
+        ],
+        "integration_key": null,
+        "status": null,
+        "status_reason": null
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -6216,7 +6648,7 @@
 ## Weighbridge Failed `weighbridge.failed`
 ```
 {
-  "when": "2019-05-28T13:03:41.2117635Z",
+  "when": "2019-05-31T06:22:12.3474549Z",
   "where": [
     0.0,
     0.0
@@ -6260,7 +6692,8 @@
       }
     },
     "type": "string",
-    "created_by": "string"
+    "created_by": "string",
+    "location_id": null
   },
   "outcomes": {
     "signatures": [
@@ -6268,6 +6701,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "completed_on": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -6371,7 +6805,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "string",
+            "document_type": "string",
+            "document_name": "string",
+            "signee_name": "",
+            "comment": "",
+            "completed_on": "2019-05-31T06:22:12.3294941Z"
+          }
+        ],
+        "integration_key": null,
+        "status": null,
+        "status_reason": null
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -6401,7 +6851,7 @@
 ## Weighbridge Started `weighbridge.started`
 ```
 {
-  "when": "2019-05-28T13:03:41.2097641Z",
+  "when": "2019-05-31T06:22:12.3454684Z",
   "where": [
     0.0,
     0.0
@@ -6445,7 +6895,8 @@
       }
     },
     "type": "string",
-    "created_by": "string"
+    "created_by": "string",
+    "location_id": null
   },
   "activity_id": "string",
   "driver_id": "string",
