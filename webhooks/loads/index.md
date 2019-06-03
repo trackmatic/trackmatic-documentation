@@ -2,7 +2,7 @@
 ## Actions Dropoff Attempted `load.actiondropoff.attempted`
 ```
 {
-  "when": "2019-05-31T11:45:46.9283548Z",
+  "when": "2019-06-03T14:29:47.8111608Z",
   "where": [
     0.0,
     0.0
@@ -69,7 +69,7 @@
   "dropoffs": [
     {
       "integration_key": "string",
-      "due_at": "2019-05-31T11:45:46.9283548Z",
+      "due_at": "2019-06-03T14:29:47.8111608Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -96,6 +96,7 @@
         "map_code": "string",
         "geofence": {
           "integration_key": "string",
+          "reference": "string",
           "name": "string",
           "entrance": [
             0.0,
@@ -228,7 +229,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "String",
+            "document_type": "String",
+            "document_name": "String",
+            "signee_name": "String",
+            "comment": "String",
+            "completed_on": "2019-06-03T14:29:47.7871556Z"
+          }
+        ],
+        "integration_key": "String",
+        "status": "String",
+        "status_reason": "String"
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -250,7 +267,7 @@
 ## Actions Dropoff Cancelled `load.actiondropoff.cancelled`
 ```
 {
-  "when": "2019-05-31T11:45:46.9313533Z",
+  "when": "2019-06-03T14:29:47.8111608Z",
   "where": [
     0.0,
     0.0
@@ -317,7 +334,7 @@
   "dropoffs": [
     {
       "integration_key": "string",
-      "due_at": "2019-05-31T11:45:46.9323535Z",
+      "due_at": "2019-06-03T14:29:47.8111608Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -344,6 +361,7 @@
         "map_code": "string",
         "geofence": {
           "integration_key": "string",
+          "reference": "string",
           "name": "string",
           "entrance": [
             0.0,
@@ -476,7 +494,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "String",
+            "document_type": "String",
+            "document_name": "String",
+            "signee_name": "String",
+            "comment": "String",
+            "completed_on": "2019-06-03T14:29:47.7871556Z"
+          }
+        ],
+        "integration_key": "String",
+        "status": "String",
+        "status_reason": "String"
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -498,7 +532,7 @@
 ## Actions Dropoff Completed `load.actiondropoff.completed`
 ```
 {
-  "when": "2019-05-31T11:45:46.9263537Z",
+  "when": "2019-06-03T14:29:47.8101606Z",
   "where": [
     0.0,
     0.0
@@ -565,7 +599,7 @@
   "dropoffs": [
     {
       "integration_key": "string",
-      "due_at": "2019-05-31T11:45:46.9273565Z",
+      "due_at": "2019-06-03T14:29:47.8101606Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -592,6 +626,7 @@
         "map_code": "string",
         "geofence": {
           "integration_key": "string",
+          "reference": "string",
           "name": "string",
           "entrance": [
             0.0,
@@ -724,7 +759,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "String",
+            "document_type": "String",
+            "document_name": "String",
+            "signee_name": "String",
+            "comment": "String",
+            "completed_on": "2019-06-03T14:29:47.7871556Z"
+          }
+        ],
+        "integration_key": "String",
+        "status": "String",
+        "status_reason": "String"
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -758,7 +809,7 @@
 ## Actions Pickup Attempted `load.actionpickup.attempted`
 ```
 {
-  "when": "2019-05-31T11:45:46.934353Z",
+  "when": "2019-06-03T14:29:47.8121608Z",
   "where": [
     0.0,
     0.0
@@ -825,7 +876,7 @@
   "pickups": [
     {
       "integration_key": "string",
-      "due_at": "2019-05-31T11:45:46.9353551Z",
+      "due_at": "2019-06-03T14:29:47.8121608Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -852,6 +903,7 @@
         "map_code": "string",
         "geofence": {
           "integration_key": "string",
+          "reference": "string",
           "name": "string",
           "entrance": [
             0.0,
@@ -984,7 +1036,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "String",
+            "document_type": "String",
+            "document_name": "String",
+            "signee_name": "String",
+            "comment": "String",
+            "completed_on": "2019-06-03T14:29:47.7871556Z"
+          }
+        ],
+        "integration_key": "String",
+        "status": "String",
+        "status_reason": "String"
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -1006,7 +1074,7 @@
 ## Actions Pickup Cancelled `load.actionpickup.cancelled`
 ```
 {
-  "when": "2019-05-31T11:45:46.9413607Z",
+  "when": "2019-06-03T14:29:47.8131563Z",
   "where": [
     0.0,
     0.0
@@ -1073,7 +1141,7 @@
   "pickups": [
     {
       "integration_key": "string",
-      "due_at": "2019-05-31T11:45:46.9423541Z",
+      "due_at": "2019-06-03T14:29:47.8141593Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -1100,6 +1168,7 @@
         "map_code": "string",
         "geofence": {
           "integration_key": "string",
+          "reference": "string",
           "name": "string",
           "entrance": [
             0.0,
@@ -1232,7 +1301,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "String",
+            "document_type": "String",
+            "document_name": "String",
+            "signee_name": "String",
+            "comment": "String",
+            "completed_on": "2019-06-03T14:29:47.7871556Z"
+          }
+        ],
+        "integration_key": "String",
+        "status": "String",
+        "status_reason": "String"
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -1254,7 +1339,7 @@
 ## Actions Pickup Completed `load.actionpickup.completed`
 ```
 {
-  "when": "2019-05-31T11:45:46.9333579Z",
+  "when": "2019-06-03T14:29:47.8121608Z",
   "where": [
     0.0,
     0.0
@@ -1321,7 +1406,7 @@
   "pickups": [
     {
       "integration_key": "string",
-      "due_at": "2019-05-31T11:45:46.934353Z",
+      "due_at": "2019-06-03T14:29:47.8121608Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -1348,6 +1433,7 @@
         "map_code": "string",
         "geofence": {
           "integration_key": "string",
+          "reference": "string",
           "name": "string",
           "entrance": [
             0.0,
@@ -1480,7 +1566,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "String",
+            "document_type": "String",
+            "document_name": "String",
+            "signee_name": "String",
+            "comment": "String",
+            "completed_on": "2019-06-03T14:29:47.7871556Z"
+          }
+        ],
+        "integration_key": "String",
+        "status": "String",
+        "status_reason": "String"
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -1514,7 +1616,7 @@
 ## Border Crossing `border_crossing`
 ```
 {
-  "when": "2019-05-31T11:45:46.8503528Z",
+  "when": "2019-06-03T14:29:47.7991738Z",
   "where": [
     0.0,
     0.0
@@ -1669,7 +1771,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "String",
+            "document_type": "String",
+            "document_name": "String",
+            "signee_name": "String",
+            "comment": "String",
+            "completed_on": "2019-06-03T14:29:47.7871556Z"
+          }
+        ],
+        "integration_key": "String",
+        "status": "String",
+        "status_reason": "String"
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -1702,7 +1820,7 @@
 ## Border Crossing Failed `border_crossing.failed`
 ```
 {
-  "when": "2019-05-31T11:45:46.8513527Z",
+  "when": "2019-06-03T14:29:47.8001907Z",
   "where": [
     0.0,
     0.0
@@ -1857,7 +1975,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "String",
+            "document_type": "String",
+            "document_name": "String",
+            "signee_name": "String",
+            "comment": "String",
+            "completed_on": "2019-06-03T14:29:47.7871556Z"
+          }
+        ],
+        "integration_key": "String",
+        "status": "String",
+        "status_reason": "String"
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -1887,7 +2021,7 @@
 ## Breakdown `breakdown`
 ```
 {
-  "when": "2019-05-31T11:45:46.8793526Z",
+  "when": "2019-06-03T14:29:47.8071615Z",
   "where": [
     0.0,
     0.0
@@ -2045,7 +2179,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "String",
+            "document_type": "String",
+            "document_name": "String",
+            "signee_name": "String",
+            "comment": "String",
+            "completed_on": "2019-06-03T14:29:47.7871556Z"
+          }
+        ],
+        "integration_key": "String",
+        "status": "String",
+        "status_reason": "String"
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -2080,7 +2230,7 @@
 ## Custom Activity Completed `custom_activity.completed`
 ```
 {
-  "when": "2019-05-31T11:45:46.8913565Z",
+  "when": "2019-06-03T14:29:47.8091622Z",
   "where": [
     0.0,
     0.0
@@ -2134,7 +2284,7 @@
 ## Custom Activity Started `custom_activity.started`
 ```
 {
-  "when": "2019-05-31T11:45:46.8903588Z",
+  "when": "2019-06-03T14:29:47.8091622Z",
   "where": [
     0.0,
     0.0
@@ -2187,7 +2337,7 @@
 ## Dropoff Completed `load.dropoff.completed`
 ```
 {
-  "when": "2019-05-31T11:45:46.8343575Z",
+  "when": "2019-06-03T14:29:47.7931608Z",
   "where": [
     0.0,
     0.0
@@ -2251,7 +2401,7 @@
   },
   "dropoff": {
     "integration_key": "string",
-    "due_at": "2019-05-31T11:45:46.8353601Z",
+    "due_at": "2019-06-03T14:29:47.7941611Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -2278,6 +2428,7 @@
       "map_code": "string",
       "geofence": {
         "integration_key": "string",
+        "reference": "string",
         "name": "string",
         "entrance": [
           0.0,
@@ -2409,7 +2560,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "String",
+            "document_type": "String",
+            "document_name": "String",
+            "signee_name": "String",
+            "comment": "String",
+            "completed_on": "2019-06-03T14:29:47.7871556Z"
+          }
+        ],
+        "integration_key": "String",
+        "status": "String",
+        "status_reason": "String"
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -2426,7 +2593,7 @@
 ## Dropoff Failed `load.dropoff.failed`
 ```
 {
-  "when": "2019-05-31T11:45:46.8473603Z",
+  "when": "2019-06-03T14:29:47.7981611Z",
   "where": [
     0.0,
     0.0
@@ -2490,7 +2657,7 @@
   },
   "dropoff": {
     "integration_key": "string",
-    "due_at": "2019-05-31T11:45:46.8473603Z",
+    "due_at": "2019-06-03T14:29:47.7981611Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -2517,6 +2684,7 @@
       "map_code": "string",
       "geofence": {
         "integration_key": "string",
+        "reference": "string",
         "name": "string",
         "entrance": [
           0.0,
@@ -2648,7 +2816,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "String",
+            "document_type": "String",
+            "document_name": "String",
+            "signee_name": "String",
+            "comment": "String",
+            "completed_on": "2019-06-03T14:29:47.7871556Z"
+          }
+        ],
+        "integration_key": "String",
+        "status": "String",
+        "status_reason": "String"
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -2666,7 +2850,7 @@
 ## Dropoff Started `load.dropoff.started`
 ```
 {
-  "when": "2019-05-31T11:45:46.8303577Z",
+  "when": "2019-06-03T14:29:47.7931608Z",
   "where": [
     0.0,
     0.0
@@ -2730,7 +2914,7 @@
   },
   "dropoff": {
     "integration_key": "string",
-    "due_at": "2019-05-31T11:45:46.832358Z",
+    "due_at": "2019-06-03T14:29:47.7931608Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -2757,6 +2941,7 @@
       "map_code": "string",
       "geofence": {
         "integration_key": "string",
+        "reference": "string",
         "name": "string",
         "entrance": [
           0.0,
@@ -2888,7 +3073,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "String",
+            "document_type": "String",
+            "document_name": "String",
+            "signee_name": "String",
+            "comment": "String",
+            "completed_on": "2019-06-03T14:29:47.7871556Z"
+          }
+        ],
+        "integration_key": "String",
+        "status": "String",
+        "status_reason": "String"
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -2905,7 +3106,7 @@
 ## Fuel Stop Completed `fuel_stop.completed`
 ```
 {
-  "when": "2019-05-31T11:45:46.8523524Z",
+  "when": "2019-06-03T14:29:47.8001907Z",
   "where": [
     0.0,
     0.0
@@ -3060,7 +3261,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "String",
+            "document_type": "String",
+            "document_name": "String",
+            "signee_name": "String",
+            "comment": "String",
+            "completed_on": "2019-06-03T14:29:47.7871556Z"
+          }
+        ],
+        "integration_key": "String",
+        "status": "String",
+        "status_reason": "String"
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -3114,7 +3331,7 @@
 ## Fuel Stop Failed `fuel_stop.failed`
 ```
 {
-  "when": "2019-05-31T11:45:46.857357Z",
+  "when": "2019-06-03T14:29:47.8021574Z",
   "where": [
     0.0,
     0.0
@@ -3269,7 +3486,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "String",
+            "document_type": "String",
+            "document_name": "String",
+            "signee_name": "String",
+            "comment": "String",
+            "completed_on": "2019-06-03T14:29:47.7871556Z"
+          }
+        ],
+        "integration_key": "String",
+        "status": "String",
+        "status_reason": "String"
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -3299,7 +3532,7 @@
 ## Fuel Stop Started `fuel_stop.started`
 ```
 {
-  "when": "2019-05-31T11:45:46.8523524Z",
+  "when": "2019-06-03T14:29:47.8001907Z",
   "where": [
     0.0,
     0.0
@@ -3423,7 +3656,7 @@
     "total_litres": 0.0,
     "total_volume": 0.0
   },
-  "when": "2019-05-31T11:45:46.8273606Z",
+  "when": "2019-06-03T14:29:47.7911612Z",
   "where": [
     0.0,
     0.0
@@ -3474,7 +3707,7 @@
     "type": "string",
     "created_by": "string"
   },
-  "when": "2019-05-31T11:45:46.8303577Z",
+  "when": "2019-06-03T14:29:47.7931608Z",
   "reason": "string"
 }
 ```
@@ -3522,7 +3755,7 @@
     "type": "string",
     "created_by": "string"
   },
-  "when": "2019-05-31T11:45:46.8803552Z",
+  "when": "2019-06-03T14:29:47.808161Z",
   "where": [
     0.0,
     0.0
@@ -3574,7 +3807,7 @@
     "created_by": "string"
   },
   "force_closed": false,
-  "when": "2019-05-31T11:45:46.8293608Z",
+  "when": "2019-06-03T14:29:47.7931608Z",
   "where": [
     0.0,
     0.0
@@ -3625,7 +3858,7 @@
     "type": "string",
     "created_by": "string"
   },
-  "when": "2019-05-31T11:45:46.8293608Z"
+  "when": "2019-06-03T14:29:47.7931608Z"
 }
 ```
 ## Load Planned `load.planned`
@@ -3672,18 +3905,145 @@
     "type": "string",
     "created_by": "string"
   },
-  "consignments_summary": {
-    "references": [
-      "string"
-    ],
-    "total_volumetric_mass": 0.0,
-    "total_weight": 0.0,
-    "total_pieces": 0,
-    "total_pallets": 0.0,
-    "total_litres": 0.0,
-    "total_volume": 0.0
+  "travel_plan": {
+    "start": "2019-06-03T14:29:47.7921613Z",
+    "end": "2019-06-03T14:29:47.7921613Z",
+    "pois": [
+      {
+        "travel_plan_poi_id": "String",
+        "due_time": "2019-06-03T14:29:47.7921613Z",
+        "geofence_id": "string",
+        "geofence_name": "string"
+      }
+    ]
   },
-  "when": "2019-05-31T11:45:46.8283609Z",
+  "consignments": [
+    {
+      "id": "string",
+      "cargo_type": "string",
+      "integration_key": "string",
+      "reference": null,
+      "consignor": {
+        "entity_id": "string",
+        "name": "string",
+        "integration_key": "string"
+      },
+      "consignee": {
+        "entity_id": "string",
+        "name": "string",
+        "integration_key": "string"
+      }
+    }
+  ],
+  "pickups": [
+    {
+      "integration_key": "string",
+      "due_at": "2019-06-03T14:29:47.7921613Z",
+      "quantity": {
+        "value": 0.0,
+        "units": "string"
+      },
+      "maximum_service_time": "00:00:00",
+      "entity": {
+        "entity_id": "string",
+        "name": "string",
+        "integration_key": "string",
+        "reference": null
+      },
+      "shipping_address": {
+        "integration_key": "string",
+        "shipping_address_id": "string",
+        "unit_no": "string",
+        "building_name": "string",
+        "street_no": "string",
+        "sub_division_number": "string",
+        "street": "string",
+        "suburb": "string",
+        "city": "string",
+        "province": "string",
+        "postal_code": "string",
+        "map_code": "string",
+        "geofence": {
+          "integration_key": "string",
+          "reference": "string",
+          "name": "string",
+          "entrance": [
+            0.0,
+            0.0
+          ],
+          "shape": {
+            "markers": [
+              [
+                0.0,
+                0.0
+              ]
+            ],
+            "marker": [
+              0.0,
+              0.0
+            ],
+            "size": 0.0,
+            "type": "string"
+          }
+        }
+      }
+    }
+  ],
+  "dropoffs": [
+    {
+      "integration_key": "string",
+      "due_at": "2019-06-03T14:29:47.7911612Z",
+      "quantity": {
+        "value": 0.0,
+        "units": "string"
+      },
+      "maximum_service_time": "00:00:00",
+      "entity": {
+        "entity_id": "string",
+        "name": "string",
+        "integration_key": "string",
+        "reference": null
+      },
+      "shipping_address": {
+        "integration_key": "string",
+        "shipping_address_id": "string",
+        "unit_no": "string",
+        "building_name": "string",
+        "street_no": "string",
+        "sub_division_number": "string",
+        "street": "string",
+        "suburb": "string",
+        "city": "string",
+        "province": "string",
+        "postal_code": "string",
+        "map_code": "string",
+        "geofence": {
+          "integration_key": "string",
+          "reference": "string",
+          "name": "string",
+          "entrance": [
+            0.0,
+            0.0
+          ],
+          "shape": {
+            "markers": [
+              [
+                0.0,
+                0.0
+              ]
+            ],
+            "marker": [
+              0.0,
+              0.0
+            ],
+            "size": 0.0,
+            "type": "string"
+          }
+        }
+      }
+    }
+  ],
+  "when": "2019-06-03T14:29:47.7911612Z",
   "where": [
     0.0,
     0.0
@@ -3734,7 +4094,7 @@
     "type": "string",
     "created_by": "string"
   },
-  "when": "2019-05-31T11:45:46.8813499Z",
+  "when": "2019-06-03T14:29:47.808161Z",
   "where": [
     0.0,
     0.0
@@ -3744,7 +4104,7 @@
 ## Multi Dropoff Completed `load.multidropoff.completed`
 ```
 {
-  "when": "2019-05-31T11:45:46.840357Z",
+  "when": "2019-06-03T14:29:47.7941611Z",
   "where": [
     0.0,
     0.0
@@ -3811,7 +4171,7 @@
   "dropoffs": [
     {
       "integration_key": "string",
-      "due_at": "2019-05-31T11:45:46.8423604Z",
+      "due_at": "2019-06-03T14:29:47.7951608Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -3838,6 +4198,7 @@
         "map_code": "string",
         "geofence": {
           "integration_key": "string",
+          "reference": "string",
           "name": "string",
           "entrance": [
             0.0,
@@ -3970,7 +4331,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "String",
+            "document_type": "String",
+            "document_name": "String",
+            "signee_name": "String",
+            "comment": "String",
+            "completed_on": "2019-06-03T14:29:47.7871556Z"
+          }
+        ],
+        "integration_key": "String",
+        "status": "String",
+        "status_reason": "String"
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -4061,7 +4438,7 @@
 ## Multi Dropoff Failed `load.multidropoff.failed`
 ```
 {
-  "when": "2019-05-31T11:45:46.8423604Z",
+  "when": "2019-06-03T14:29:47.7951608Z",
   "where": [
     0.0,
     0.0
@@ -4128,7 +4505,7 @@
   "dropoffs": [
     {
       "integration_key": "string",
-      "due_at": "2019-05-31T11:45:46.8433569Z",
+      "due_at": "2019-06-03T14:29:47.796156Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -4155,6 +4532,7 @@
         "map_code": "string",
         "geofence": {
           "integration_key": "string",
+          "reference": "string",
           "name": "string",
           "entrance": [
             0.0,
@@ -4287,7 +4665,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "String",
+            "document_type": "String",
+            "document_name": "String",
+            "signee_name": "String",
+            "comment": "String",
+            "completed_on": "2019-06-03T14:29:47.7871556Z"
+          }
+        ],
+        "integration_key": "String",
+        "status": "String",
+        "status_reason": "String"
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -4379,7 +4773,7 @@
 ## Multi Dropoff Started `load.multidropoff.started`
 ```
 {
-  "when": "2019-05-31T11:45:46.836352Z",
+  "when": "2019-06-03T14:29:47.7941611Z",
   "where": [
     0.0,
     0.0
@@ -4446,7 +4840,7 @@
   "dropoffs": [
     {
       "integration_key": "string",
-      "due_at": "2019-05-31T11:45:46.8373543Z",
+      "due_at": "2019-06-03T14:29:47.7941611Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -4473,6 +4867,7 @@
         "map_code": "string",
         "geofence": {
           "integration_key": "string",
+          "reference": "string",
           "name": "string",
           "entrance": [
             0.0,
@@ -4605,7 +5000,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "String",
+            "document_type": "String",
+            "document_name": "String",
+            "signee_name": "String",
+            "comment": "String",
+            "completed_on": "2019-06-03T14:29:47.7871556Z"
+          }
+        ],
+        "integration_key": "String",
+        "status": "String",
+        "status_reason": "String"
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -4622,7 +5033,7 @@
 ## Multi Pickup Completed `load.multipickup.completed`
 ```
 {
-  "when": "2019-05-31T11:45:46.8443583Z",
+  "when": "2019-06-03T14:29:47.796156Z",
   "where": [
     0.0,
     0.0
@@ -4689,7 +5100,7 @@
   "pickups": [
     {
       "integration_key": "string",
-      "due_at": "2019-05-31T11:45:46.8453581Z",
+      "due_at": "2019-06-03T14:29:47.7971574Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -4716,6 +5127,7 @@
         "map_code": "string",
         "geofence": {
           "integration_key": "string",
+          "reference": "string",
           "name": "string",
           "entrance": [
             0.0,
@@ -4848,7 +5260,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "String",
+            "document_type": "String",
+            "document_name": "String",
+            "signee_name": "String",
+            "comment": "String",
+            "completed_on": "2019-06-03T14:29:47.7871556Z"
+          }
+        ],
+        "integration_key": "String",
+        "status": "String",
+        "status_reason": "String"
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -4876,7 +5304,7 @@
 ## Multi Pickup Failed `load.multidropoff.failed`
 ```
 {
-  "when": "2019-05-31T11:45:46.8423604Z",
+  "when": "2019-06-03T14:29:47.7951608Z",
   "where": [
     0.0,
     0.0
@@ -4943,7 +5371,7 @@
   "dropoffs": [
     {
       "integration_key": "string",
-      "due_at": "2019-05-31T11:45:46.8433569Z",
+      "due_at": "2019-06-03T14:29:47.796156Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -4970,6 +5398,7 @@
         "map_code": "string",
         "geofence": {
           "integration_key": "string",
+          "reference": "string",
           "name": "string",
           "entrance": [
             0.0,
@@ -5102,7 +5531,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "String",
+            "document_type": "String",
+            "document_name": "String",
+            "signee_name": "String",
+            "comment": "String",
+            "completed_on": "2019-06-03T14:29:47.7871556Z"
+          }
+        ],
+        "integration_key": "String",
+        "status": "String",
+        "status_reason": "String"
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -5194,7 +5639,7 @@
 ## Multi Pickup Started `load.multipickup.started`
 ```
 {
-  "when": "2019-05-31T11:45:46.8373543Z",
+  "when": "2019-06-03T14:29:47.7941611Z",
   "where": [
     0.0,
     0.0
@@ -5261,7 +5706,7 @@
   "pickups": [
     {
       "integration_key": "string",
-      "due_at": "2019-05-31T11:45:46.8393588Z",
+      "due_at": "2019-06-03T14:29:47.7941611Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -5288,6 +5733,7 @@
         "map_code": "string",
         "geofence": {
           "integration_key": "string",
+          "reference": "string",
           "name": "string",
           "entrance": [
             0.0,
@@ -5420,7 +5866,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "String",
+            "document_type": "String",
+            "document_name": "String",
+            "signee_name": "String",
+            "comment": "String",
+            "completed_on": "2019-06-03T14:29:47.7871556Z"
+          }
+        ],
+        "integration_key": "String",
+        "status": "String",
+        "status_reason": "String"
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -5437,7 +5899,7 @@
 ## Odometer `odometer`
 ```
 {
-  "when": "2019-05-31T11:45:46.8613573Z",
+  "when": "2019-06-03T14:29:47.8041546Z",
   "where": [
     0.0,
     0.0
@@ -5595,7 +6057,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "String",
+            "document_type": "String",
+            "document_name": "String",
+            "signee_name": "String",
+            "comment": "String",
+            "completed_on": "2019-06-03T14:29:47.7871556Z"
+          }
+        ],
+        "integration_key": "String",
+        "status": "String",
+        "status_reason": "String"
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -5625,7 +6103,7 @@
 ## Odometer Failed `odometer.failed`
 ```
 {
-  "when": "2019-05-31T11:45:46.8623557Z",
+  "when": "2019-06-03T14:29:47.8041546Z",
   "where": [
     0.0,
     0.0
@@ -5780,7 +6258,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "String",
+            "document_type": "String",
+            "document_name": "String",
+            "signee_name": "String",
+            "comment": "String",
+            "completed_on": "2019-06-03T14:29:47.7871556Z"
+          }
+        ],
+        "integration_key": "String",
+        "status": "String",
+        "status_reason": "String"
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -5810,7 +6304,7 @@
 ## Off Route `off_route`
 ```
 {
-  "when": "2019-05-31T11:45:46.8783504Z",
+  "when": "2019-06-03T14:29:47.8071615Z",
   "where": [
     0.0,
     0.0
@@ -5861,7 +6355,7 @@
 ## Pickup Completed `load.pickup.completed`
 ```
 {
-  "when": "2019-05-31T11:45:46.8493532Z",
+  "when": "2019-06-03T14:29:47.7991738Z",
   "where": [
     0.0,
     0.0
@@ -5925,7 +6419,7 @@
   },
   "pickup": {
     "integration_key": "string",
-    "due_at": "2019-05-31T11:45:46.8493532Z",
+    "due_at": "2019-06-03T14:29:47.7991738Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -5952,6 +6446,7 @@
       "map_code": "string",
       "geofence": {
         "integration_key": "string",
+        "reference": "string",
         "name": "string",
         "entrance": [
           0.0,
@@ -6083,7 +6578,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "String",
+            "document_type": "String",
+            "document_name": "String",
+            "signee_name": "String",
+            "comment": "String",
+            "completed_on": "2019-06-03T14:29:47.7871556Z"
+          }
+        ],
+        "integration_key": "String",
+        "status": "String",
+        "status_reason": "String"
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -6100,7 +6611,7 @@
 ## Pickup Failed `load.pickup.failed`
 ```
 {
-  "when": "2019-05-31T11:45:46.8493532Z",
+  "when": "2019-06-03T14:29:47.7991738Z",
   "where": [
     0.0,
     0.0
@@ -6164,7 +6675,7 @@
   },
   "pickup": {
     "integration_key": "string",
-    "due_at": "2019-05-31T11:45:46.8503528Z",
+    "due_at": "2019-06-03T14:29:47.7991738Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -6191,6 +6702,7 @@
       "map_code": "string",
       "geofence": {
         "integration_key": "string",
+        "reference": "string",
         "name": "string",
         "entrance": [
           0.0,
@@ -6322,7 +6834,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "String",
+            "document_type": "String",
+            "document_name": "String",
+            "signee_name": "String",
+            "comment": "String",
+            "completed_on": "2019-06-03T14:29:47.7871556Z"
+          }
+        ],
+        "integration_key": "String",
+        "status": "String",
+        "status_reason": "String"
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -6340,7 +6868,7 @@
 ## Pickup Started `load.pickup.started`
 ```
 {
-  "when": "2019-05-31T11:45:46.8483541Z",
+  "when": "2019-06-03T14:29:47.7981611Z",
   "where": [
     0.0,
     0.0
@@ -6404,7 +6932,7 @@
   },
   "pickup": {
     "integration_key": "string",
-    "due_at": "2019-05-31T11:45:46.8483541Z",
+    "due_at": "2019-06-03T14:29:47.7981611Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -6431,6 +6959,7 @@
       "map_code": "string",
       "geofence": {
         "integration_key": "string",
+        "reference": "string",
         "name": "string",
         "entrance": [
           0.0,
@@ -6562,7 +7091,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "String",
+            "document_type": "String",
+            "document_name": "String",
+            "signee_name": "String",
+            "comment": "String",
+            "completed_on": "2019-06-03T14:29:47.7871556Z"
+          }
+        ],
+        "integration_key": "String",
+        "status": "String",
+        "status_reason": "String"
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -6579,7 +7124,7 @@
 ## Rest Stop Completed `rest_stop.completed`
 ```
 {
-  "when": "2019-05-31T11:45:46.8593569Z",
+  "when": "2019-06-03T14:29:47.8031903Z",
   "where": [
     0.0,
     0.0
@@ -6660,7 +7205,7 @@
 ## Rest Stop Failed `rest_stop.failed`
 ```
 {
-  "when": "2019-05-31T11:45:46.8603557Z",
+  "when": "2019-06-03T14:29:47.8031903Z",
   "where": [
     0.0,
     0.0
@@ -6815,7 +7360,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "String",
+            "document_type": "String",
+            "document_name": "String",
+            "signee_name": "String",
+            "comment": "String",
+            "completed_on": "2019-06-03T14:29:47.7871556Z"
+          }
+        ],
+        "integration_key": "String",
+        "status": "String",
+        "status_reason": "String"
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -6846,7 +7407,7 @@
 ## Rest Stop Started `rest_stop.started`
 ```
 {
-  "when": "2019-05-31T11:45:46.8583591Z",
+  "when": "2019-06-03T14:29:47.8031903Z",
   "where": [
     0.0,
     0.0
@@ -6913,7 +7474,7 @@
 ## Stop Arrived `load.stop.arrived`
 ```
 {
-  "when": "2019-05-31T11:45:46.8253557Z",
+  "when": "2019-06-03T14:29:47.7901632Z",
   "where": [
     0.0,
     0.0
@@ -6966,7 +7527,7 @@
 ## Stop Departed `load.stop.departed`
 ```
 {
-  "when": "2019-05-31T11:45:46.8263547Z",
+  "when": "2019-06-03T14:29:47.7901632Z",
   "where": [
     0.0,
     0.0
@@ -7019,7 +7580,7 @@
 ## Stop Failed `load.stop.failed`
 ```
 {
-  "when": "2019-05-31T11:45:46.8643534Z",
+  "when": "2019-06-03T14:29:47.8051547Z",
   "where": [
     0.0,
     0.0
@@ -7174,7 +7735,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "String",
+            "document_type": "String",
+            "document_name": "String",
+            "signee_name": "String",
+            "comment": "String",
+            "completed_on": "2019-06-03T14:29:47.7871556Z"
+          }
+        ],
+        "integration_key": "String",
+        "status": "String",
+        "status_reason": "String"
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -7192,7 +7769,7 @@
 ## Stop Recorded `load.stop.recorded`
 ```
 {
-  "when": "2019-05-31T11:45:46.863355Z",
+  "when": "2019-06-03T14:29:47.8051547Z",
   "where": [
     0.0,
     0.0
@@ -7347,7 +7924,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "String",
+            "document_type": "String",
+            "document_name": "String",
+            "signee_name": "String",
+            "comment": "String",
+            "completed_on": "2019-06-03T14:29:47.7871556Z"
+          }
+        ],
+        "integration_key": "String",
+        "status": "String",
+        "status_reason": "String"
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -7366,7 +7959,7 @@
 ## Timed Task Completed `timed_task.completed`
 ```
 {
-  "when": "2019-05-31T11:45:46.8873569Z",
+  "when": "2019-06-03T14:29:47.808161Z",
   "where": [
     0.0,
     0.0
@@ -7420,7 +8013,7 @@
 ## Timed Task Failed `timed_task.failed`
 ```
 {
-  "when": "2019-05-31T11:45:46.8883568Z",
+  "when": "2019-06-03T14:29:47.8091622Z",
   "where": [
     0.0,
     0.0
@@ -7475,7 +8068,7 @@
 ## Timed Task Started `timed_task.started`
 ```
 {
-  "when": "2019-05-31T11:45:46.8863546Z",
+  "when": "2019-06-03T14:29:47.808161Z",
   "where": [
     0.0,
     0.0
@@ -7528,7 +8121,7 @@
 ## Weighbridge Completed `weighbridge.completed`
 ```
 {
-  "when": "2019-05-31T11:45:46.8673543Z",
+  "when": "2019-06-03T14:29:47.806157Z",
   "where": [
     0.0,
     0.0
@@ -7683,7 +8276,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "String",
+            "document_type": "String",
+            "document_name": "String",
+            "signee_name": "String",
+            "comment": "String",
+            "completed_on": "2019-06-03T14:29:47.7871556Z"
+          }
+        ],
+        "integration_key": "String",
+        "status": "String",
+        "status_reason": "String"
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -7728,7 +8337,7 @@
 ## Weighbridge Failed `weighbridge.failed`
 ```
 {
-  "when": "2019-05-31T11:45:46.8773541Z",
+  "when": "2019-06-03T14:29:47.8071615Z",
   "where": [
     0.0,
     0.0
@@ -7883,7 +8492,23 @@
         "status_reason": "string"
       }
     ],
-    "e_documents": [],
+    "e_documents": [
+      {
+        "documents": [
+          {
+            "key": "String",
+            "document_type": "String",
+            "document_name": "String",
+            "signee_name": "String",
+            "comment": "String",
+            "completed_on": "2019-06-03T14:29:47.7871556Z"
+          }
+        ],
+        "integration_key": "String",
+        "status": "String",
+        "status_reason": "String"
+      }
+    ],
     "delays": [
       {
         "is_delayed": false,
@@ -7913,7 +8538,7 @@
 ## Weighbridge Started `weighbridge.started`
 ```
 {
-  "when": "2019-05-31T11:45:46.8653557Z",
+  "when": "2019-06-03T14:29:47.8051547Z",
   "where": [
     0.0,
     0.0
