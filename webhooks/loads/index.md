@@ -2,7 +2,7 @@
 ## Actions Dropoff Attempted `load.actiondropoff.attempted`
 ```
 {
-  "when": "2019-06-06T08:16:43.1795533Z",
+  "when": "2019-06-06T08:21:36.5551975Z",
   "where": [
     0.0,
     0.0
@@ -69,12 +69,24 @@
   "dropoffs": [
     {
       "integration_key": "string",
-      "due_at": "2019-06-06T08:16:43.1805539Z",
+      "due_at": "2019-06-06T08:21:36.5551975Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
       },
-      "dimensions": null,
+      "dimensions": {
+        "volumetric_mass": 0.0,
+        "weight": 0.0,
+        "pieces": 0,
+        "pallets": 0.0,
+        "volume": {
+          "length": 0.0,
+          "width": 0.0,
+          "height": 0.0,
+          "volume": 0.0
+        },
+        "litres": 0.0
+      },
       "maximum_service_time": "00:00:00",
       "entity": {
         "entity_id": "string",
@@ -239,7 +251,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:16:43.1445525Z"
+            "completed_on": "2019-06-06T08:21:36.5271966Z"
           }
         ],
         "integration_key": "String",
@@ -268,7 +280,7 @@
 ## Actions Dropoff Cancelled `load.actiondropoff.cancelled`
 ```
 {
-  "when": "2019-06-06T08:16:43.1805539Z",
+  "when": "2019-06-06T08:21:36.556198Z",
   "where": [
     0.0,
     0.0
@@ -335,12 +347,24 @@
   "dropoffs": [
     {
       "integration_key": "string",
-      "due_at": "2019-06-06T08:16:43.1805539Z",
+      "due_at": "2019-06-06T08:21:36.556198Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
       },
-      "dimensions": null,
+      "dimensions": {
+        "volumetric_mass": 0.0,
+        "weight": 0.0,
+        "pieces": 0,
+        "pallets": 0.0,
+        "volume": {
+          "length": 0.0,
+          "width": 0.0,
+          "height": 0.0,
+          "volume": 0.0
+        },
+        "litres": 0.0
+      },
       "maximum_service_time": "00:00:00",
       "entity": {
         "entity_id": "string",
@@ -505,7 +529,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:16:43.1445525Z"
+            "completed_on": "2019-06-06T08:21:36.5271966Z"
           }
         ],
         "integration_key": "String",
@@ -534,7 +558,7 @@
 ## Actions Dropoff Completed `load.actiondropoff.completed`
 ```
 {
-  "when": "2019-06-06T08:16:43.1795533Z",
+  "when": "2019-06-06T08:21:36.5541976Z",
   "where": [
     0.0,
     0.0
@@ -601,12 +625,24 @@
   "dropoffs": [
     {
       "integration_key": "string",
-      "due_at": "2019-06-06T08:16:43.1795533Z",
+      "due_at": "2019-06-06T08:21:36.5551975Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
       },
-      "dimensions": null,
+      "dimensions": {
+        "volumetric_mass": 0.0,
+        "weight": 0.0,
+        "pieces": 0,
+        "pallets": 0.0,
+        "volume": {
+          "length": 0.0,
+          "width": 0.0,
+          "height": 0.0,
+          "volume": 0.0
+        },
+        "litres": 0.0
+      },
       "maximum_service_time": "00:00:00",
       "entity": {
         "entity_id": "string",
@@ -771,7 +807,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:16:43.1445525Z"
+            "completed_on": "2019-06-06T08:21:36.5271966Z"
           }
         ],
         "integration_key": "String",
@@ -812,7 +848,7 @@
 ## Actions Pickup Attempted `load.actionpickup.attempted`
 ```
 {
-  "when": "2019-06-06T08:16:43.1815556Z",
+  "when": "2019-06-06T08:21:36.5571975Z",
   "where": [
     0.0,
     0.0
@@ -879,12 +915,24 @@
   "pickups": [
     {
       "integration_key": "string",
-      "due_at": "2019-06-06T08:16:43.1825524Z",
+      "due_at": "2019-06-06T08:21:36.5571975Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
       },
-      "dimensions": null,
+      "dimensions": {
+        "volumetric_mass": 0.0,
+        "weight": 0.0,
+        "pieces": 0,
+        "pallets": 0.0,
+        "volume": {
+          "length": 0.0,
+          "width": 0.0,
+          "height": 0.0,
+          "volume": 0.0
+        },
+        "litres": 0.0
+      },
       "maximum_service_time": "00:00:00",
       "entity": {
         "entity_id": "string",
@@ -1049,7 +1097,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:16:43.1445525Z"
+            "completed_on": "2019-06-06T08:21:36.5271966Z"
           }
         ],
         "integration_key": "String",
@@ -1078,7 +1126,7 @@
 ## Actions Pickup Cancelled `load.actionpickup.cancelled`
 ```
 {
-  "when": "2019-06-06T08:16:43.1825524Z",
+  "when": "2019-06-06T08:21:36.5571975Z",
   "where": [
     0.0,
     0.0
@@ -1145,12 +1193,24 @@
   "pickups": [
     {
       "integration_key": "string",
-      "due_at": "2019-06-06T08:16:43.1825524Z",
+      "due_at": "2019-06-06T08:21:36.5581977Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
       },
-      "dimensions": null,
+      "dimensions": {
+        "volumetric_mass": 0.0,
+        "weight": 0.0,
+        "pieces": 0,
+        "pallets": 0.0,
+        "volume": {
+          "length": 0.0,
+          "width": 0.0,
+          "height": 0.0,
+          "volume": 0.0
+        },
+        "litres": 0.0
+      },
       "maximum_service_time": "00:00:00",
       "entity": {
         "entity_id": "string",
@@ -1315,7 +1375,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:16:43.1445525Z"
+            "completed_on": "2019-06-06T08:21:36.5271966Z"
           }
         ],
         "integration_key": "String",
@@ -1344,7 +1404,7 @@
 ## Actions Pickup Completed `load.actionpickup.completed`
 ```
 {
-  "when": "2019-06-06T08:16:43.1815556Z",
+  "when": "2019-06-06T08:21:36.556198Z",
   "where": [
     0.0,
     0.0
@@ -1411,12 +1471,24 @@
   "pickups": [
     {
       "integration_key": "string",
-      "due_at": "2019-06-06T08:16:43.1815556Z",
+      "due_at": "2019-06-06T08:21:36.556198Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
       },
-      "dimensions": null,
+      "dimensions": {
+        "volumetric_mass": 0.0,
+        "weight": 0.0,
+        "pieces": 0,
+        "pallets": 0.0,
+        "volume": {
+          "length": 0.0,
+          "width": 0.0,
+          "height": 0.0,
+          "volume": 0.0
+        },
+        "litres": 0.0
+      },
       "maximum_service_time": "00:00:00",
       "entity": {
         "entity_id": "string",
@@ -1581,7 +1653,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:16:43.1445525Z"
+            "completed_on": "2019-06-06T08:21:36.5271966Z"
           }
         ],
         "integration_key": "String",
@@ -1622,7 +1694,7 @@
 ## Border Crossing `border_crossing`
 ```
 {
-  "when": "2019-06-06T08:16:43.1625553Z",
+  "when": "2019-06-06T08:21:36.5421957Z",
   "where": [
     0.0,
     0.0
@@ -1786,7 +1858,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:16:43.1445525Z"
+            "completed_on": "2019-06-06T08:21:36.5271966Z"
           }
         ],
         "integration_key": "String",
@@ -1826,7 +1898,7 @@
 ## Border Crossing Failed `border_crossing.failed`
 ```
 {
-  "when": "2019-06-06T08:16:43.1625553Z",
+  "when": "2019-06-06T08:21:36.5431957Z",
   "where": [
     0.0,
     0.0
@@ -1990,7 +2062,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:16:43.1445525Z"
+            "completed_on": "2019-06-06T08:21:36.5271966Z"
           }
         ],
         "integration_key": "String",
@@ -2027,7 +2099,7 @@
 ## Breakdown `breakdown`
 ```
 {
-  "when": "2019-06-06T08:16:43.1745568Z",
+  "when": "2019-06-06T08:21:36.5511977Z",
   "where": [
     0.0,
     0.0
@@ -2194,7 +2266,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:16:43.1445525Z"
+            "completed_on": "2019-06-06T08:21:36.5271966Z"
           }
         ],
         "integration_key": "String",
@@ -2236,7 +2308,7 @@
 ## Custom Activity Completed `custom_activity.completed`
 ```
 {
-  "when": "2019-06-06T08:16:43.1775603Z",
+  "when": "2019-06-06T08:21:36.5531976Z",
   "where": [
     0.0,
     0.0
@@ -2290,7 +2362,7 @@
 ## Custom Activity Started `custom_activity.started`
 ```
 {
-  "when": "2019-06-06T08:16:43.1775603Z",
+  "when": "2019-06-06T08:21:36.5531976Z",
   "where": [
     0.0,
     0.0
@@ -2343,7 +2415,7 @@
 ## Dropoff Completed `load.dropoff.completed`
 ```
 {
-  "when": "2019-06-06T08:16:43.1555566Z",
+  "when": "2019-06-06T08:21:36.5351959Z",
   "where": [
     0.0,
     0.0
@@ -2407,12 +2479,24 @@
   },
   "dropoff": {
     "integration_key": "string",
-    "due_at": "2019-06-06T08:16:43.1555566Z",
+    "due_at": "2019-06-06T08:21:36.5351959Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
     },
-    "dimensions": null,
+    "dimensions": {
+      "volumetric_mass": 0.0,
+      "weight": 0.0,
+      "pieces": 0,
+      "pallets": 0.0,
+      "volume": {
+        "length": 0.0,
+        "width": 0.0,
+        "height": 0.0,
+        "volume": 0.0
+      },
+      "litres": 0.0
+    },
     "maximum_service_time": "00:00:00",
     "entity": {
       "entity_id": "string",
@@ -2576,7 +2660,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:16:43.1445525Z"
+            "completed_on": "2019-06-06T08:21:36.5271966Z"
           }
         ],
         "integration_key": "String",
@@ -2600,7 +2684,7 @@
 ## Dropoff Failed `load.dropoff.failed`
 ```
 {
-  "when": "2019-06-06T08:16:43.159556Z",
+  "when": "2019-06-06T08:21:36.5411964Z",
   "where": [
     0.0,
     0.0
@@ -2664,12 +2748,24 @@
   },
   "dropoff": {
     "integration_key": "string",
-    "due_at": "2019-06-06T08:16:43.1605556Z",
+    "due_at": "2019-06-06T08:21:36.5411964Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
     },
-    "dimensions": null,
+    "dimensions": {
+      "volumetric_mass": 0.0,
+      "weight": 0.0,
+      "pieces": 0,
+      "pallets": 0.0,
+      "volume": {
+        "length": 0.0,
+        "width": 0.0,
+        "height": 0.0,
+        "volume": 0.0
+      },
+      "litres": 0.0
+    },
     "maximum_service_time": "00:00:00",
     "entity": {
       "entity_id": "string",
@@ -2833,7 +2929,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:16:43.1445525Z"
+            "completed_on": "2019-06-06T08:21:36.5271966Z"
           }
         ],
         "integration_key": "String",
@@ -2858,7 +2954,7 @@
 ## Dropoff Started `load.dropoff.started`
 ```
 {
-  "when": "2019-06-06T08:16:43.1555566Z",
+  "when": "2019-06-06T08:21:36.5351959Z",
   "where": [
     0.0,
     0.0
@@ -2922,12 +3018,24 @@
   },
   "dropoff": {
     "integration_key": "string",
-    "due_at": "2019-06-06T08:16:43.1555566Z",
+    "due_at": "2019-06-06T08:21:36.5351959Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
     },
-    "dimensions": null,
+    "dimensions": {
+      "volumetric_mass": 0.0,
+      "weight": 0.0,
+      "pieces": 0,
+      "pallets": 0.0,
+      "volume": {
+        "length": 0.0,
+        "width": 0.0,
+        "height": 0.0,
+        "volume": 0.0
+      },
+      "litres": 0.0
+    },
     "maximum_service_time": "00:00:00",
     "entity": {
       "entity_id": "string",
@@ -3091,7 +3199,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:16:43.1445525Z"
+            "completed_on": "2019-06-06T08:21:36.5271966Z"
           }
         ],
         "integration_key": "String",
@@ -3115,7 +3223,7 @@
 ## Fuel Stop Completed `fuel_stop.completed`
 ```
 {
-  "when": "2019-06-06T08:16:43.164555Z",
+  "when": "2019-06-06T08:21:36.5431957Z",
   "where": [
     0.0,
     0.0
@@ -3279,7 +3387,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:16:43.1445525Z"
+            "completed_on": "2019-06-06T08:21:36.5271966Z"
           }
         ],
         "integration_key": "String",
@@ -3340,7 +3448,7 @@
 ## Fuel Stop Failed `fuel_stop.failed`
 ```
 {
-  "when": "2019-06-06T08:16:43.1655586Z",
+  "when": "2019-06-06T08:21:36.5441956Z",
   "where": [
     0.0,
     0.0
@@ -3504,7 +3612,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:16:43.1445525Z"
+            "completed_on": "2019-06-06T08:21:36.5271966Z"
           }
         ],
         "integration_key": "String",
@@ -3541,7 +3649,7 @@
 ## Fuel Stop Started `fuel_stop.started`
 ```
 {
-  "when": "2019-06-06T08:16:43.1635555Z",
+  "when": "2019-06-06T08:21:36.5431957Z",
   "where": [
     0.0,
     0.0
@@ -3665,7 +3773,7 @@
     "total_litres": 0.0,
     "total_volume": 0.0
   },
-  "when": "2019-06-06T08:16:43.1495554Z",
+  "when": "2019-06-06T08:21:36.5321991Z",
   "where": [
     0.0,
     0.0
@@ -3716,7 +3824,7 @@
     "type": "string",
     "created_by": "string"
   },
-  "when": "2019-06-06T08:16:43.154556Z",
+  "when": "2019-06-06T08:21:36.5341965Z",
   "reason": "string"
 }
 ```
@@ -3764,7 +3872,7 @@
     "type": "string",
     "created_by": "string"
   },
-  "when": "2019-06-06T08:16:43.1745568Z",
+  "when": "2019-06-06T08:21:36.5511977Z",
   "where": [
     0.0,
     0.0
@@ -3816,7 +3924,7 @@
     "created_by": "string"
   },
   "force_closed": false,
-  "when": "2019-06-06T08:16:43.154556Z",
+  "when": "2019-06-06T08:21:36.5341965Z",
   "where": [
     0.0,
     0.0
@@ -3867,7 +3975,7 @@
     "type": "string",
     "created_by": "string"
   },
-  "when": "2019-06-06T08:16:43.154556Z"
+  "when": "2019-06-06T08:21:36.5341965Z"
 }
 ```
 ## Load Planned `load.planned`
@@ -3915,12 +4023,12 @@
     "created_by": "string"
   },
   "travel_plan": {
-    "start": "2019-06-06T08:16:43.1535563Z",
-    "end": "2019-06-06T08:16:43.1535563Z",
+    "start": "2019-06-06T08:21:36.5341965Z",
+    "end": "2019-06-06T08:21:36.5341965Z",
     "pois": [
       {
         "travel_plan_poi_id": "String",
-        "due_time": "2019-06-06T08:16:43.1535563Z",
+        "due_time": "2019-06-06T08:21:36.5341965Z",
         "geofence_id": "string",
         "geofence_name": "string"
       }
@@ -3947,12 +4055,24 @@
   "pickups": [
     {
       "integration_key": "string",
-      "due_at": "2019-06-06T08:16:43.1525551Z",
+      "due_at": "2019-06-06T08:21:36.5331987Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
       },
-      "dimensions": null,
+      "dimensions": {
+        "volumetric_mass": 0.0,
+        "weight": 0.0,
+        "pieces": 0,
+        "pallets": 0.0,
+        "volume": {
+          "length": 0.0,
+          "width": 0.0,
+          "height": 0.0,
+          "volume": 0.0
+        },
+        "litres": 0.0
+      },
       "maximum_service_time": "00:00:00",
       "entity": {
         "entity_id": "string",
@@ -4002,12 +4122,24 @@
   "dropoffs": [
     {
       "integration_key": "string",
-      "due_at": "2019-06-06T08:16:43.1515607Z",
+      "due_at": "2019-06-06T08:21:36.5331987Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
       },
-      "dimensions": null,
+      "dimensions": {
+        "volumetric_mass": 0.0,
+        "weight": 0.0,
+        "pieces": 0,
+        "pallets": 0.0,
+        "volume": {
+          "length": 0.0,
+          "width": 0.0,
+          "height": 0.0,
+          "volume": 0.0
+        },
+        "litres": 0.0
+      },
       "maximum_service_time": "00:00:00",
       "entity": {
         "entity_id": "string",
@@ -4054,7 +4186,7 @@
       }
     }
   ],
-  "when": "2019-06-06T08:16:43.1505556Z",
+  "when": "2019-06-06T08:21:36.5321991Z",
   "where": [
     0.0,
     0.0
@@ -4105,7 +4237,7 @@
     "type": "string",
     "created_by": "string"
   },
-  "when": "2019-06-06T08:16:43.1755558Z",
+  "when": "2019-06-06T08:21:36.5521981Z",
   "where": [
     0.0,
     0.0
@@ -4115,7 +4247,7 @@
 ## Multi Dropoff Completed `load.multidropoff.completed`
 ```
 {
-  "when": "2019-06-06T08:16:43.1565575Z",
+  "when": "2019-06-06T08:21:36.5371988Z",
   "where": [
     0.0,
     0.0
@@ -4182,12 +4314,24 @@
   "dropoffs": [
     {
       "integration_key": "string",
-      "due_at": "2019-06-06T08:16:43.1575563Z",
+      "due_at": "2019-06-06T08:21:36.5382008Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
       },
-      "dimensions": null,
+      "dimensions": {
+        "volumetric_mass": 0.0,
+        "weight": 0.0,
+        "pieces": 0,
+        "pallets": 0.0,
+        "volume": {
+          "length": 0.0,
+          "width": 0.0,
+          "height": 0.0,
+          "volume": 0.0
+        },
+        "litres": 0.0
+      },
       "maximum_service_time": "00:00:00",
       "entity": {
         "entity_id": "string",
@@ -4352,7 +4496,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:16:43.1445525Z"
+            "completed_on": "2019-06-06T08:21:36.5271966Z"
           }
         ],
         "integration_key": "String",
@@ -4450,7 +4594,7 @@
 ## Multi Dropoff Failed `load.multidropoff.failed`
 ```
 {
-  "when": "2019-06-06T08:16:43.1575563Z",
+  "when": "2019-06-06T08:21:36.5382008Z",
   "where": [
     0.0,
     0.0
@@ -4517,12 +4661,24 @@
   "dropoffs": [
     {
       "integration_key": "string",
-      "due_at": "2019-06-06T08:16:43.1575563Z",
+      "due_at": "2019-06-06T08:21:36.5391993Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
       },
-      "dimensions": null,
+      "dimensions": {
+        "volumetric_mass": 0.0,
+        "weight": 0.0,
+        "pieces": 0,
+        "pallets": 0.0,
+        "volume": {
+          "length": 0.0,
+          "width": 0.0,
+          "height": 0.0,
+          "volume": 0.0
+        },
+        "litres": 0.0
+      },
       "maximum_service_time": "00:00:00",
       "entity": {
         "entity_id": "string",
@@ -4687,7 +4843,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:16:43.1445525Z"
+            "completed_on": "2019-06-06T08:21:36.5271966Z"
           }
         ],
         "integration_key": "String",
@@ -4786,7 +4942,7 @@
 ## Multi Dropoff Started `load.multidropoff.started`
 ```
 {
-  "when": "2019-06-06T08:16:43.1555566Z",
+  "when": "2019-06-06T08:21:36.5351959Z",
   "where": [
     0.0,
     0.0
@@ -4853,12 +5009,24 @@
   "dropoffs": [
     {
       "integration_key": "string",
-      "due_at": "2019-06-06T08:16:43.1565575Z",
+      "due_at": "2019-06-06T08:21:36.5362308Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
       },
-      "dimensions": null,
+      "dimensions": {
+        "volumetric_mass": 0.0,
+        "weight": 0.0,
+        "pieces": 0,
+        "pallets": 0.0,
+        "volume": {
+          "length": 0.0,
+          "width": 0.0,
+          "height": 0.0,
+          "volume": 0.0
+        },
+        "litres": 0.0
+      },
       "maximum_service_time": "00:00:00",
       "entity": {
         "entity_id": "string",
@@ -5023,7 +5191,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:16:43.1445525Z"
+            "completed_on": "2019-06-06T08:21:36.5271966Z"
           }
         ],
         "integration_key": "String",
@@ -5047,7 +5215,7 @@
 ## Multi Pickup Completed `load.multipickup.completed`
 ```
 {
-  "when": "2019-06-06T08:16:43.158558Z",
+  "when": "2019-06-06T08:21:36.5391993Z",
   "where": [
     0.0,
     0.0
@@ -5114,12 +5282,24 @@
   "pickups": [
     {
       "integration_key": "string",
-      "due_at": "2019-06-06T08:16:43.158558Z",
+      "due_at": "2019-06-06T08:21:36.5402155Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
       },
-      "dimensions": null,
+      "dimensions": {
+        "volumetric_mass": 0.0,
+        "weight": 0.0,
+        "pieces": 0,
+        "pallets": 0.0,
+        "volume": {
+          "length": 0.0,
+          "width": 0.0,
+          "height": 0.0,
+          "volume": 0.0
+        },
+        "litres": 0.0
+      },
       "maximum_service_time": "00:00:00",
       "entity": {
         "entity_id": "string",
@@ -5284,7 +5464,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:16:43.1445525Z"
+            "completed_on": "2019-06-06T08:21:36.5271966Z"
           }
         ],
         "integration_key": "String",
@@ -5319,7 +5499,7 @@
 ## Multi Pickup Failed `load.multidropoff.failed`
 ```
 {
-  "when": "2019-06-06T08:16:43.1575563Z",
+  "when": "2019-06-06T08:21:36.5382008Z",
   "where": [
     0.0,
     0.0
@@ -5386,12 +5566,24 @@
   "dropoffs": [
     {
       "integration_key": "string",
-      "due_at": "2019-06-06T08:16:43.1575563Z",
+      "due_at": "2019-06-06T08:21:36.5391993Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
       },
-      "dimensions": null,
+      "dimensions": {
+        "volumetric_mass": 0.0,
+        "weight": 0.0,
+        "pieces": 0,
+        "pallets": 0.0,
+        "volume": {
+          "length": 0.0,
+          "width": 0.0,
+          "height": 0.0,
+          "volume": 0.0
+        },
+        "litres": 0.0
+      },
       "maximum_service_time": "00:00:00",
       "entity": {
         "entity_id": "string",
@@ -5556,7 +5748,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:16:43.1445525Z"
+            "completed_on": "2019-06-06T08:21:36.5271966Z"
           }
         ],
         "integration_key": "String",
@@ -5655,7 +5847,7 @@
 ## Multi Pickup Started `load.multipickup.started`
 ```
 {
-  "when": "2019-06-06T08:16:43.1565575Z",
+  "when": "2019-06-06T08:21:36.5371988Z",
   "where": [
     0.0,
     0.0
@@ -5722,12 +5914,24 @@
   "pickups": [
     {
       "integration_key": "string",
-      "due_at": "2019-06-06T08:16:43.1565575Z",
+      "due_at": "2019-06-06T08:21:36.5371988Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
       },
-      "dimensions": null,
+      "dimensions": {
+        "volumetric_mass": 0.0,
+        "weight": 0.0,
+        "pieces": 0,
+        "pallets": 0.0,
+        "volume": {
+          "length": 0.0,
+          "width": 0.0,
+          "height": 0.0,
+          "volume": 0.0
+        },
+        "litres": 0.0
+      },
       "maximum_service_time": "00:00:00",
       "entity": {
         "entity_id": "string",
@@ -5892,7 +6096,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:16:43.1445525Z"
+            "completed_on": "2019-06-06T08:21:36.5271966Z"
           }
         ],
         "integration_key": "String",
@@ -5916,7 +6120,7 @@
 ## Odometer `odometer`
 ```
 {
-  "when": "2019-06-06T08:16:43.1685571Z",
+  "when": "2019-06-06T08:21:36.5472014Z",
   "where": [
     0.0,
     0.0
@@ -6083,7 +6287,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:16:43.1445525Z"
+            "completed_on": "2019-06-06T08:21:36.5271966Z"
           }
         ],
         "integration_key": "String",
@@ -6120,7 +6324,7 @@
 ## Odometer Failed `odometer.failed`
 ```
 {
-  "when": "2019-06-06T08:16:43.1685571Z",
+  "when": "2019-06-06T08:21:36.5472014Z",
   "where": [
     0.0,
     0.0
@@ -6284,7 +6488,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:16:43.1445525Z"
+            "completed_on": "2019-06-06T08:21:36.5271966Z"
           }
         ],
         "integration_key": "String",
@@ -6321,7 +6525,7 @@
 ## Off Route `off_route`
 ```
 {
-  "when": "2019-06-06T08:16:43.1735578Z",
+  "when": "2019-06-06T08:21:36.5511977Z",
   "where": [
     0.0,
     0.0
@@ -6372,7 +6576,7 @@
 ## Pickup Completed `load.pickup.completed`
 ```
 {
-  "when": "2019-06-06T08:16:43.1605556Z",
+  "when": "2019-06-06T08:21:36.5411964Z",
   "where": [
     0.0,
     0.0
@@ -6436,12 +6640,24 @@
   },
   "pickup": {
     "integration_key": "string",
-    "due_at": "2019-06-06T08:16:43.1615556Z",
+    "due_at": "2019-06-06T08:21:36.5421957Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
     },
-    "dimensions": null,
+    "dimensions": {
+      "volumetric_mass": 0.0,
+      "weight": 0.0,
+      "pieces": 0,
+      "pallets": 0.0,
+      "volume": {
+        "length": 0.0,
+        "width": 0.0,
+        "height": 0.0,
+        "volume": 0.0
+      },
+      "litres": 0.0
+    },
     "maximum_service_time": "00:00:00",
     "entity": {
       "entity_id": "string",
@@ -6605,7 +6821,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:16:43.1445525Z"
+            "completed_on": "2019-06-06T08:21:36.5271966Z"
           }
         ],
         "integration_key": "String",
@@ -6629,7 +6845,7 @@
 ## Pickup Failed `load.pickup.failed`
 ```
 {
-  "when": "2019-06-06T08:16:43.1615556Z",
+  "when": "2019-06-06T08:21:36.5421957Z",
   "where": [
     0.0,
     0.0
@@ -6693,12 +6909,24 @@
   },
   "pickup": {
     "integration_key": "string",
-    "due_at": "2019-06-06T08:16:43.1615556Z",
+    "due_at": "2019-06-06T08:21:36.5421957Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
     },
-    "dimensions": null,
+    "dimensions": {
+      "volumetric_mass": 0.0,
+      "weight": 0.0,
+      "pieces": 0,
+      "pallets": 0.0,
+      "volume": {
+        "length": 0.0,
+        "width": 0.0,
+        "height": 0.0,
+        "volume": 0.0
+      },
+      "litres": 0.0
+    },
     "maximum_service_time": "00:00:00",
     "entity": {
       "entity_id": "string",
@@ -6862,7 +7090,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:16:43.1445525Z"
+            "completed_on": "2019-06-06T08:21:36.5271966Z"
           }
         ],
         "integration_key": "String",
@@ -6887,7 +7115,7 @@
 ## Pickup Started `load.pickup.started`
 ```
 {
-  "when": "2019-06-06T08:16:43.1605556Z",
+  "when": "2019-06-06T08:21:36.5411964Z",
   "where": [
     0.0,
     0.0
@@ -6951,12 +7179,24 @@
   },
   "pickup": {
     "integration_key": "string",
-    "due_at": "2019-06-06T08:16:43.1605556Z",
+    "due_at": "2019-06-06T08:21:36.5411964Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
     },
-    "dimensions": null,
+    "dimensions": {
+      "volumetric_mass": 0.0,
+      "weight": 0.0,
+      "pieces": 0,
+      "pallets": 0.0,
+      "volume": {
+        "length": 0.0,
+        "width": 0.0,
+        "height": 0.0,
+        "volume": 0.0
+      },
+      "litres": 0.0
+    },
     "maximum_service_time": "00:00:00",
     "entity": {
       "entity_id": "string",
@@ -7120,7 +7360,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:16:43.1445525Z"
+            "completed_on": "2019-06-06T08:21:36.5271966Z"
           }
         ],
         "integration_key": "String",
@@ -7144,7 +7384,7 @@
 ## Rest Stop Completed `rest_stop.completed`
 ```
 {
-  "when": "2019-06-06T08:16:43.1665578Z",
+  "when": "2019-06-06T08:21:36.5451962Z",
   "where": [
     0.0,
     0.0
@@ -7225,7 +7465,7 @@
 ## Rest Stop Failed `rest_stop.failed`
 ```
 {
-  "when": "2019-06-06T08:16:43.1675569Z",
+  "when": "2019-06-06T08:21:36.5461956Z",
   "where": [
     0.0,
     0.0
@@ -7389,7 +7629,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:16:43.1445525Z"
+            "completed_on": "2019-06-06T08:21:36.5271966Z"
           }
         ],
         "integration_key": "String",
@@ -7427,7 +7667,7 @@
 ## Rest Stop Started `rest_stop.started`
 ```
 {
-  "when": "2019-06-06T08:16:43.1665578Z",
+  "when": "2019-06-06T08:21:36.5451962Z",
   "where": [
     0.0,
     0.0
@@ -7494,7 +7734,7 @@
 ## Stop Arrived `load.stop.arrived`
 ```
 {
-  "when": "2019-06-06T08:16:43.1485555Z",
+  "when": "2019-06-06T08:21:36.5312433Z",
   "where": [
     0.0,
     0.0
@@ -7547,7 +7787,7 @@
 ## Stop Departed `load.stop.departed`
 ```
 {
-  "when": "2019-06-06T08:16:43.1495554Z",
+  "when": "2019-06-06T08:21:36.5312433Z",
   "where": [
     0.0,
     0.0
@@ -7600,7 +7840,7 @@
 ## Stop Failed `load.stop.failed`
 ```
 {
-  "when": "2019-06-06T08:16:43.1695566Z",
+  "when": "2019-06-06T08:21:36.5482001Z",
   "where": [
     0.0,
     0.0
@@ -7764,7 +8004,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:16:43.1445525Z"
+            "completed_on": "2019-06-06T08:21:36.5271966Z"
           }
         ],
         "integration_key": "String",
@@ -7789,7 +8029,7 @@
 ## Stop Recorded `load.stop.recorded`
 ```
 {
-  "when": "2019-06-06T08:16:43.1695566Z",
+  "when": "2019-06-06T08:21:36.5482001Z",
   "where": [
     0.0,
     0.0
@@ -7953,7 +8193,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:16:43.1445525Z"
+            "completed_on": "2019-06-06T08:21:36.5271966Z"
           }
         ],
         "integration_key": "String",
@@ -7979,7 +8219,7 @@
 ## Timed Task Completed `timed_task.completed`
 ```
 {
-  "when": "2019-06-06T08:16:43.1765579Z",
+  "when": "2019-06-06T08:21:36.5521981Z",
   "where": [
     0.0,
     0.0
@@ -8033,7 +8273,7 @@
 ## Timed Task Failed `timed_task.failed`
 ```
 {
-  "when": "2019-06-06T08:16:43.1765579Z",
+  "when": "2019-06-06T08:21:36.5531976Z",
   "where": [
     0.0,
     0.0
@@ -8088,7 +8328,7 @@
 ## Timed Task Started `timed_task.started`
 ```
 {
-  "when": "2019-06-06T08:16:43.1755558Z",
+  "when": "2019-06-06T08:21:36.5521981Z",
   "where": [
     0.0,
     0.0
@@ -8141,7 +8381,7 @@
 ## Weighbridge Completed `weighbridge.completed`
 ```
 {
-  "when": "2019-06-06T08:16:43.1715567Z",
+  "when": "2019-06-06T08:21:36.5491982Z",
   "where": [
     0.0,
     0.0
@@ -8305,7 +8545,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:16:43.1445525Z"
+            "completed_on": "2019-06-06T08:21:36.5271966Z"
           }
         ],
         "integration_key": "String",
@@ -8357,7 +8597,7 @@
 ## Weighbridge Failed `weighbridge.failed`
 ```
 {
-  "when": "2019-06-06T08:16:43.1735578Z",
+  "when": "2019-06-06T08:21:36.5501979Z",
   "where": [
     0.0,
     0.0
@@ -8521,7 +8761,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:16:43.1445525Z"
+            "completed_on": "2019-06-06T08:21:36.5271966Z"
           }
         ],
         "integration_key": "String",
@@ -8558,7 +8798,7 @@
 ## Weighbridge Started `weighbridge.started`
 ```
 {
-  "when": "2019-06-06T08:16:43.1705617Z",
+  "when": "2019-06-06T08:21:36.5482001Z",
   "where": [
     0.0,
     0.0
