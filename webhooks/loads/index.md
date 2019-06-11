@@ -2,7 +2,7 @@
 ## Actions Dropoff Attempted `load.actiondropoff.attempted`
 ```
 {
-  "when": "2019-06-06T08:21:36.5551975Z",
+  "when": "2019-06-11T14:06:34.7899069Z",
   "where": [
     0.0,
     0.0
@@ -53,7 +53,13 @@
       "id": "string",
       "cargo_type": "string",
       "integration_key": "string",
-      "reference": null,
+      "reference": "string",
+      "pickup_ids": [
+        "string"
+      ],
+      "dropoff_ids": [
+        "string"
+      ],
       "consignor": {
         "entity_id": "string",
         "name": "string",
@@ -69,7 +75,7 @@
   "dropoffs": [
     {
       "integration_key": "string",
-      "due_at": "2019-06-06T08:21:36.5551975Z",
+      "due_at": "2019-06-11T14:06:34.7909035Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -251,7 +257,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:21:36.5271966Z"
+            "completed_on": "2019-06-11T14:06:34.7589134Z"
           }
         ],
         "integration_key": "String",
@@ -280,7 +286,7 @@
 ## Actions Dropoff Cancelled `load.actiondropoff.cancelled`
 ```
 {
-  "when": "2019-06-06T08:21:36.556198Z",
+  "when": "2019-06-11T14:06:34.7909035Z",
   "where": [
     0.0,
     0.0
@@ -331,7 +337,13 @@
       "id": "string",
       "cargo_type": "string",
       "integration_key": "string",
-      "reference": null,
+      "reference": "string",
+      "pickup_ids": [
+        "string"
+      ],
+      "dropoff_ids": [
+        "string"
+      ],
       "consignor": {
         "entity_id": "string",
         "name": "string",
@@ -347,7 +359,7 @@
   "dropoffs": [
     {
       "integration_key": "string",
-      "due_at": "2019-06-06T08:21:36.556198Z",
+      "due_at": "2019-06-11T14:06:34.7919365Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -529,7 +541,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:21:36.5271966Z"
+            "completed_on": "2019-06-11T14:06:34.7589134Z"
           }
         ],
         "integration_key": "String",
@@ -558,7 +570,7 @@
 ## Actions Dropoff Completed `load.actiondropoff.completed`
 ```
 {
-  "when": "2019-06-06T08:21:36.5541976Z",
+  "when": "2019-06-11T14:06:34.7899069Z",
   "where": [
     0.0,
     0.0
@@ -609,7 +621,13 @@
       "id": "string",
       "cargo_type": "string",
       "integration_key": "string",
-      "reference": null,
+      "reference": "string",
+      "pickup_ids": [
+        "string"
+      ],
+      "dropoff_ids": [
+        "string"
+      ],
       "consignor": {
         "entity_id": "string",
         "name": "string",
@@ -625,7 +643,7 @@
   "dropoffs": [
     {
       "integration_key": "string",
-      "due_at": "2019-06-06T08:21:36.5551975Z",
+      "due_at": "2019-06-11T14:06:34.7899069Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -807,7 +825,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:21:36.5271966Z"
+            "completed_on": "2019-06-11T14:06:34.7589134Z"
           }
         ],
         "integration_key": "String",
@@ -848,7 +866,7 @@
 ## Actions Pickup Attempted `load.actionpickup.attempted`
 ```
 {
-  "when": "2019-06-06T08:21:36.5571975Z",
+  "when": "2019-06-11T14:06:34.7929065Z",
   "where": [
     0.0,
     0.0
@@ -899,7 +917,13 @@
       "id": "string",
       "cargo_type": "string",
       "integration_key": "string",
-      "reference": null,
+      "reference": "string",
+      "pickup_ids": [
+        "string"
+      ],
+      "dropoff_ids": [
+        "string"
+      ],
       "consignor": {
         "entity_id": "string",
         "name": "string",
@@ -915,7 +939,7 @@
   "pickups": [
     {
       "integration_key": "string",
-      "due_at": "2019-06-06T08:21:36.5571975Z",
+      "due_at": "2019-06-11T14:06:34.7929065Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -1097,7 +1121,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:21:36.5271966Z"
+            "completed_on": "2019-06-11T14:06:34.7589134Z"
           }
         ],
         "integration_key": "String",
@@ -1126,7 +1150,7 @@
 ## Actions Pickup Cancelled `load.actionpickup.cancelled`
 ```
 {
-  "when": "2019-06-06T08:21:36.5571975Z",
+  "when": "2019-06-11T14:06:34.7939388Z",
   "where": [
     0.0,
     0.0
@@ -1177,7 +1201,13 @@
       "id": "string",
       "cargo_type": "string",
       "integration_key": "string",
-      "reference": null,
+      "reference": "string",
+      "pickup_ids": [
+        "string"
+      ],
+      "dropoff_ids": [
+        "string"
+      ],
       "consignor": {
         "entity_id": "string",
         "name": "string",
@@ -1193,7 +1223,7 @@
   "pickups": [
     {
       "integration_key": "string",
-      "due_at": "2019-06-06T08:21:36.5581977Z",
+      "due_at": "2019-06-11T14:06:34.7939388Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -1375,7 +1405,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:21:36.5271966Z"
+            "completed_on": "2019-06-11T14:06:34.7589134Z"
           }
         ],
         "integration_key": "String",
@@ -1404,7 +1434,7 @@
 ## Actions Pickup Completed `load.actionpickup.completed`
 ```
 {
-  "when": "2019-06-06T08:21:36.556198Z",
+  "when": "2019-06-11T14:06:34.7919365Z",
   "where": [
     0.0,
     0.0
@@ -1455,7 +1485,13 @@
       "id": "string",
       "cargo_type": "string",
       "integration_key": "string",
-      "reference": null,
+      "reference": "string",
+      "pickup_ids": [
+        "string"
+      ],
+      "dropoff_ids": [
+        "string"
+      ],
       "consignor": {
         "entity_id": "string",
         "name": "string",
@@ -1471,7 +1507,7 @@
   "pickups": [
     {
       "integration_key": "string",
-      "due_at": "2019-06-06T08:21:36.556198Z",
+      "due_at": "2019-06-11T14:06:34.7919365Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -1653,7 +1689,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:21:36.5271966Z"
+            "completed_on": "2019-06-11T14:06:34.7589134Z"
           }
         ],
         "integration_key": "String",
@@ -1694,7 +1730,7 @@
 ## Border Crossing `border_crossing`
 ```
 {
-  "when": "2019-06-06T08:21:36.5421957Z",
+  "when": "2019-06-11T14:06:34.7739045Z",
   "where": [
     0.0,
     0.0
@@ -1858,7 +1894,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:21:36.5271966Z"
+            "completed_on": "2019-06-11T14:06:34.7589134Z"
           }
         ],
         "integration_key": "String",
@@ -1898,7 +1934,7 @@
 ## Border Crossing Failed `border_crossing.failed`
 ```
 {
-  "when": "2019-06-06T08:21:36.5431957Z",
+  "when": "2019-06-11T14:06:34.7749065Z",
   "where": [
     0.0,
     0.0
@@ -2062,7 +2098,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:21:36.5271966Z"
+            "completed_on": "2019-06-11T14:06:34.7589134Z"
           }
         ],
         "integration_key": "String",
@@ -2099,7 +2135,7 @@
 ## Breakdown `breakdown`
 ```
 {
-  "when": "2019-06-06T08:21:36.5511977Z",
+  "when": "2019-06-11T14:06:34.7859008Z",
   "where": [
     0.0,
     0.0
@@ -2266,7 +2302,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:21:36.5271966Z"
+            "completed_on": "2019-06-11T14:06:34.7589134Z"
           }
         ],
         "integration_key": "String",
@@ -2308,7 +2344,7 @@
 ## Custom Activity Completed `custom_activity.completed`
 ```
 {
-  "when": "2019-06-06T08:21:36.5531976Z",
+  "when": "2019-06-11T14:06:34.7879012Z",
   "where": [
     0.0,
     0.0
@@ -2362,7 +2398,7 @@
 ## Custom Activity Started `custom_activity.started`
 ```
 {
-  "when": "2019-06-06T08:21:36.5531976Z",
+  "when": "2019-06-11T14:06:34.7879012Z",
   "where": [
     0.0,
     0.0
@@ -2415,7 +2451,7 @@
 ## Dropoff Completed `load.dropoff.completed`
 ```
 {
-  "when": "2019-06-06T08:21:36.5351959Z",
+  "when": "2019-06-11T14:06:34.7669063Z",
   "where": [
     0.0,
     0.0
@@ -2465,7 +2501,13 @@
     "id": "string",
     "cargo_type": "string",
     "integration_key": "string",
-    "reference": null,
+    "reference": "string",
+    "pickup_ids": [
+      "string"
+    ],
+    "dropoff_ids": [
+      "string"
+    ],
     "consignor": {
       "entity_id": "string",
       "name": "string",
@@ -2479,7 +2521,7 @@
   },
   "dropoff": {
     "integration_key": "string",
-    "due_at": "2019-06-06T08:21:36.5351959Z",
+    "due_at": "2019-06-11T14:06:34.7669063Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -2660,7 +2702,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:21:36.5271966Z"
+            "completed_on": "2019-06-11T14:06:34.7589134Z"
           }
         ],
         "integration_key": "String",
@@ -2684,7 +2726,7 @@
 ## Dropoff Failed `load.dropoff.failed`
 ```
 {
-  "when": "2019-06-06T08:21:36.5411964Z",
+  "when": "2019-06-11T14:06:34.7709068Z",
   "where": [
     0.0,
     0.0
@@ -2734,7 +2776,13 @@
     "id": "string",
     "cargo_type": "string",
     "integration_key": "string",
-    "reference": null,
+    "reference": "string",
+    "pickup_ids": [
+      "string"
+    ],
+    "dropoff_ids": [
+      "string"
+    ],
     "consignor": {
       "entity_id": "string",
       "name": "string",
@@ -2748,7 +2796,7 @@
   },
   "dropoff": {
     "integration_key": "string",
-    "due_at": "2019-06-06T08:21:36.5411964Z",
+    "due_at": "2019-06-11T14:06:34.7719074Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -2929,7 +2977,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:21:36.5271966Z"
+            "completed_on": "2019-06-11T14:06:34.7589134Z"
           }
         ],
         "integration_key": "String",
@@ -2954,7 +3002,7 @@
 ## Dropoff Started `load.dropoff.started`
 ```
 {
-  "when": "2019-06-06T08:21:36.5351959Z",
+  "when": "2019-06-11T14:06:34.7669063Z",
   "where": [
     0.0,
     0.0
@@ -3004,7 +3052,13 @@
     "id": "string",
     "cargo_type": "string",
     "integration_key": "string",
-    "reference": null,
+    "reference": "string",
+    "pickup_ids": [
+      "string"
+    ],
+    "dropoff_ids": [
+      "string"
+    ],
     "consignor": {
       "entity_id": "string",
       "name": "string",
@@ -3018,7 +3072,7 @@
   },
   "dropoff": {
     "integration_key": "string",
-    "due_at": "2019-06-06T08:21:36.5351959Z",
+    "due_at": "2019-06-11T14:06:34.7669063Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -3199,7 +3253,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:21:36.5271966Z"
+            "completed_on": "2019-06-11T14:06:34.7589134Z"
           }
         ],
         "integration_key": "String",
@@ -3223,7 +3277,7 @@
 ## Fuel Stop Completed `fuel_stop.completed`
 ```
 {
-  "when": "2019-06-06T08:21:36.5431957Z",
+  "when": "2019-06-11T14:06:34.775903Z",
   "where": [
     0.0,
     0.0
@@ -3387,7 +3441,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:21:36.5271966Z"
+            "completed_on": "2019-06-11T14:06:34.7589134Z"
           }
         ],
         "integration_key": "String",
@@ -3448,7 +3502,7 @@
 ## Fuel Stop Failed `fuel_stop.failed`
 ```
 {
-  "when": "2019-06-06T08:21:36.5441956Z",
+  "when": "2019-06-11T14:06:34.7769021Z",
   "where": [
     0.0,
     0.0
@@ -3612,7 +3666,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:21:36.5271966Z"
+            "completed_on": "2019-06-11T14:06:34.7589134Z"
           }
         ],
         "integration_key": "String",
@@ -3649,7 +3703,7 @@
 ## Fuel Stop Started `fuel_stop.started`
 ```
 {
-  "when": "2019-06-06T08:21:36.5431957Z",
+  "when": "2019-06-11T14:06:34.7749065Z",
   "where": [
     0.0,
     0.0
@@ -3773,7 +3827,7 @@
     "total_litres": 0.0,
     "total_volume": 0.0
   },
-  "when": "2019-06-06T08:21:36.5321991Z",
+  "when": "2019-06-11T14:06:34.7629106Z",
   "where": [
     0.0,
     0.0
@@ -3824,7 +3878,7 @@
     "type": "string",
     "created_by": "string"
   },
-  "when": "2019-06-06T08:21:36.5341965Z",
+  "when": "2019-06-11T14:06:34.7659064Z",
   "reason": "string"
 }
 ```
@@ -3872,7 +3926,7 @@
     "type": "string",
     "created_by": "string"
   },
-  "when": "2019-06-06T08:21:36.5511977Z",
+  "when": "2019-06-11T14:06:34.7859008Z",
   "where": [
     0.0,
     0.0
@@ -3924,7 +3978,7 @@
     "created_by": "string"
   },
   "force_closed": false,
-  "when": "2019-06-06T08:21:36.5341965Z",
+  "when": "2019-06-11T14:06:34.7659064Z",
   "where": [
     0.0,
     0.0
@@ -3975,7 +4029,7 @@
     "type": "string",
     "created_by": "string"
   },
-  "when": "2019-06-06T08:21:36.5341965Z"
+  "when": "2019-06-11T14:06:34.7659064Z"
 }
 ```
 ## Load Planned `load.planned`
@@ -4023,12 +4077,12 @@
     "created_by": "string"
   },
   "travel_plan": {
-    "start": "2019-06-06T08:21:36.5341965Z",
-    "end": "2019-06-06T08:21:36.5341965Z",
+    "start": "2019-06-11T14:06:34.7649068Z",
+    "end": "2019-06-11T14:06:34.7659064Z",
     "pois": [
       {
         "travel_plan_poi_id": "String",
-        "due_time": "2019-06-06T08:21:36.5341965Z",
+        "due_time": "2019-06-11T14:06:34.7659064Z",
         "geofence_id": "string",
         "geofence_name": "string"
       }
@@ -4039,7 +4093,13 @@
       "id": "string",
       "cargo_type": "string",
       "integration_key": "string",
-      "reference": null,
+      "reference": "string",
+      "pickup_ids": [
+        "string"
+      ],
+      "dropoff_ids": [
+        "string"
+      ],
       "consignor": {
         "entity_id": "string",
         "name": "string",
@@ -4055,7 +4115,7 @@
   "pickups": [
     {
       "integration_key": "string",
-      "due_at": "2019-06-06T08:21:36.5331987Z",
+      "due_at": "2019-06-11T14:06:34.7649068Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -4122,7 +4182,7 @@
   "dropoffs": [
     {
       "integration_key": "string",
-      "due_at": "2019-06-06T08:21:36.5331987Z",
+      "due_at": "2019-06-11T14:06:34.7639071Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -4186,7 +4246,7 @@
       }
     }
   ],
-  "when": "2019-06-06T08:21:36.5321991Z",
+  "when": "2019-06-11T14:06:34.7639071Z",
   "where": [
     0.0,
     0.0
@@ -4237,7 +4297,7 @@
     "type": "string",
     "created_by": "string"
   },
-  "when": "2019-06-06T08:21:36.5521981Z",
+  "when": "2019-06-11T14:06:34.7869018Z",
   "where": [
     0.0,
     0.0
@@ -4247,7 +4307,7 @@
 ## Multi Dropoff Completed `load.multidropoff.completed`
 ```
 {
-  "when": "2019-06-06T08:21:36.5371988Z",
+  "when": "2019-06-11T14:06:34.7679065Z",
   "where": [
     0.0,
     0.0
@@ -4298,7 +4358,13 @@
       "id": "string",
       "cargo_type": "string",
       "integration_key": "string",
-      "reference": null,
+      "reference": "string",
+      "pickup_ids": [
+        "string"
+      ],
+      "dropoff_ids": [
+        "string"
+      ],
       "consignor": {
         "entity_id": "string",
         "name": "string",
@@ -4314,7 +4380,7 @@
   "dropoffs": [
     {
       "integration_key": "string",
-      "due_at": "2019-06-06T08:21:36.5382008Z",
+      "due_at": "2019-06-11T14:06:34.7689079Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -4496,7 +4562,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:21:36.5271966Z"
+            "completed_on": "2019-06-11T14:06:34.7589134Z"
           }
         ],
         "integration_key": "String",
@@ -4594,7 +4660,7 @@
 ## Multi Dropoff Failed `load.multidropoff.failed`
 ```
 {
-  "when": "2019-06-06T08:21:36.5382008Z",
+  "when": "2019-06-11T14:06:34.7689079Z",
   "where": [
     0.0,
     0.0
@@ -4645,7 +4711,13 @@
       "id": "string",
       "cargo_type": "string",
       "integration_key": "string",
-      "reference": null,
+      "reference": "string",
+      "pickup_ids": [
+        "string"
+      ],
+      "dropoff_ids": [
+        "string"
+      ],
       "consignor": {
         "entity_id": "string",
         "name": "string",
@@ -4661,7 +4733,7 @@
   "dropoffs": [
     {
       "integration_key": "string",
-      "due_at": "2019-06-06T08:21:36.5391993Z",
+      "due_at": "2019-06-11T14:06:34.7699063Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -4843,7 +4915,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:21:36.5271966Z"
+            "completed_on": "2019-06-11T14:06:34.7589134Z"
           }
         ],
         "integration_key": "String",
@@ -4942,7 +5014,7 @@
 ## Multi Dropoff Started `load.multidropoff.started`
 ```
 {
-  "when": "2019-06-06T08:21:36.5351959Z",
+  "when": "2019-06-11T14:06:34.7669063Z",
   "where": [
     0.0,
     0.0
@@ -4993,7 +5065,13 @@
       "id": "string",
       "cargo_type": "string",
       "integration_key": "string",
-      "reference": null,
+      "reference": "string",
+      "pickup_ids": [
+        "string"
+      ],
+      "dropoff_ids": [
+        "string"
+      ],
       "consignor": {
         "entity_id": "string",
         "name": "string",
@@ -5009,7 +5087,7 @@
   "dropoffs": [
     {
       "integration_key": "string",
-      "due_at": "2019-06-06T08:21:36.5362308Z",
+      "due_at": "2019-06-11T14:06:34.7679065Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -5191,7 +5269,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:21:36.5271966Z"
+            "completed_on": "2019-06-11T14:06:34.7589134Z"
           }
         ],
         "integration_key": "String",
@@ -5215,7 +5293,7 @@
 ## Multi Pickup Completed `load.multipickup.completed`
 ```
 {
-  "when": "2019-06-06T08:21:36.5391993Z",
+  "when": "2019-06-11T14:06:34.7699063Z",
   "where": [
     0.0,
     0.0
@@ -5266,7 +5344,13 @@
       "id": "string",
       "cargo_type": "string",
       "integration_key": "string",
-      "reference": null,
+      "reference": "string",
+      "pickup_ids": [
+        "string"
+      ],
+      "dropoff_ids": [
+        "string"
+      ],
       "consignor": {
         "entity_id": "string",
         "name": "string",
@@ -5282,7 +5366,7 @@
   "pickups": [
     {
       "integration_key": "string",
-      "due_at": "2019-06-06T08:21:36.5402155Z",
+      "due_at": "2019-06-11T14:06:34.7699063Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -5464,7 +5548,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:21:36.5271966Z"
+            "completed_on": "2019-06-11T14:06:34.7589134Z"
           }
         ],
         "integration_key": "String",
@@ -5499,7 +5583,7 @@
 ## Multi Pickup Failed `load.multidropoff.failed`
 ```
 {
-  "when": "2019-06-06T08:21:36.5382008Z",
+  "when": "2019-06-11T14:06:34.7689079Z",
   "where": [
     0.0,
     0.0
@@ -5550,7 +5634,13 @@
       "id": "string",
       "cargo_type": "string",
       "integration_key": "string",
-      "reference": null,
+      "reference": "string",
+      "pickup_ids": [
+        "string"
+      ],
+      "dropoff_ids": [
+        "string"
+      ],
       "consignor": {
         "entity_id": "string",
         "name": "string",
@@ -5566,7 +5656,7 @@
   "dropoffs": [
     {
       "integration_key": "string",
-      "due_at": "2019-06-06T08:21:36.5391993Z",
+      "due_at": "2019-06-11T14:06:34.7699063Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -5748,7 +5838,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:21:36.5271966Z"
+            "completed_on": "2019-06-11T14:06:34.7589134Z"
           }
         ],
         "integration_key": "String",
@@ -5847,7 +5937,7 @@
 ## Multi Pickup Started `load.multipickup.started`
 ```
 {
-  "when": "2019-06-06T08:21:36.5371988Z",
+  "when": "2019-06-11T14:06:34.7679065Z",
   "where": [
     0.0,
     0.0
@@ -5898,7 +5988,13 @@
       "id": "string",
       "cargo_type": "string",
       "integration_key": "string",
-      "reference": null,
+      "reference": "string",
+      "pickup_ids": [
+        "string"
+      ],
+      "dropoff_ids": [
+        "string"
+      ],
       "consignor": {
         "entity_id": "string",
         "name": "string",
@@ -5914,7 +6010,7 @@
   "pickups": [
     {
       "integration_key": "string",
-      "due_at": "2019-06-06T08:21:36.5371988Z",
+      "due_at": "2019-06-11T14:06:34.7679065Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -6096,7 +6192,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:21:36.5271966Z"
+            "completed_on": "2019-06-11T14:06:34.7589134Z"
           }
         ],
         "integration_key": "String",
@@ -6120,7 +6216,7 @@
 ## Odometer `odometer`
 ```
 {
-  "when": "2019-06-06T08:21:36.5472014Z",
+  "when": "2019-06-11T14:06:34.7799009Z",
   "where": [
     0.0,
     0.0
@@ -6287,7 +6383,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:21:36.5271966Z"
+            "completed_on": "2019-06-11T14:06:34.7589134Z"
           }
         ],
         "integration_key": "String",
@@ -6324,7 +6420,7 @@
 ## Odometer Failed `odometer.failed`
 ```
 {
-  "when": "2019-06-06T08:21:36.5472014Z",
+  "when": "2019-06-11T14:06:34.7819026Z",
   "where": [
     0.0,
     0.0
@@ -6488,7 +6584,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:21:36.5271966Z"
+            "completed_on": "2019-06-11T14:06:34.7589134Z"
           }
         ],
         "integration_key": "String",
@@ -6525,7 +6621,7 @@
 ## Off Route `off_route`
 ```
 {
-  "when": "2019-06-06T08:21:36.5511977Z",
+  "when": "2019-06-11T14:06:34.7859008Z",
   "where": [
     0.0,
     0.0
@@ -6576,7 +6672,7 @@
 ## Pickup Completed `load.pickup.completed`
 ```
 {
-  "when": "2019-06-06T08:21:36.5411964Z",
+  "when": "2019-06-11T14:06:34.7719074Z",
   "where": [
     0.0,
     0.0
@@ -6626,7 +6722,13 @@
     "id": "string",
     "cargo_type": "string",
     "integration_key": "string",
-    "reference": null,
+    "reference": "string",
+    "pickup_ids": [
+      "string"
+    ],
+    "dropoff_ids": [
+      "string"
+    ],
     "consignor": {
       "entity_id": "string",
       "name": "string",
@@ -6640,7 +6742,7 @@
   },
   "pickup": {
     "integration_key": "string",
-    "due_at": "2019-06-06T08:21:36.5421957Z",
+    "due_at": "2019-06-11T14:06:34.7729059Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -6821,7 +6923,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:21:36.5271966Z"
+            "completed_on": "2019-06-11T14:06:34.7589134Z"
           }
         ],
         "integration_key": "String",
@@ -6845,7 +6947,7 @@
 ## Pickup Failed `load.pickup.failed`
 ```
 {
-  "when": "2019-06-06T08:21:36.5421957Z",
+  "when": "2019-06-11T14:06:34.7729059Z",
   "where": [
     0.0,
     0.0
@@ -6895,7 +6997,13 @@
     "id": "string",
     "cargo_type": "string",
     "integration_key": "string",
-    "reference": null,
+    "reference": "string",
+    "pickup_ids": [
+      "string"
+    ],
+    "dropoff_ids": [
+      "string"
+    ],
     "consignor": {
       "entity_id": "string",
       "name": "string",
@@ -6909,7 +7017,7 @@
   },
   "pickup": {
     "integration_key": "string",
-    "due_at": "2019-06-06T08:21:36.5421957Z",
+    "due_at": "2019-06-11T14:06:34.7729059Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -7090,7 +7198,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:21:36.5271966Z"
+            "completed_on": "2019-06-11T14:06:34.7589134Z"
           }
         ],
         "integration_key": "String",
@@ -7115,7 +7223,7 @@
 ## Pickup Started `load.pickup.started`
 ```
 {
-  "when": "2019-06-06T08:21:36.5411964Z",
+  "when": "2019-06-11T14:06:34.7719074Z",
   "where": [
     0.0,
     0.0
@@ -7165,7 +7273,13 @@
     "id": "string",
     "cargo_type": "string",
     "integration_key": "string",
-    "reference": null,
+    "reference": "string",
+    "pickup_ids": [
+      "string"
+    ],
+    "dropoff_ids": [
+      "string"
+    ],
     "consignor": {
       "entity_id": "string",
       "name": "string",
@@ -7179,7 +7293,7 @@
   },
   "pickup": {
     "integration_key": "string",
-    "due_at": "2019-06-06T08:21:36.5411964Z",
+    "due_at": "2019-06-11T14:06:34.7719074Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -7360,7 +7474,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:21:36.5271966Z"
+            "completed_on": "2019-06-11T14:06:34.7589134Z"
           }
         ],
         "integration_key": "String",
@@ -7384,7 +7498,7 @@
 ## Rest Stop Completed `rest_stop.completed`
 ```
 {
-  "when": "2019-06-06T08:21:36.5451962Z",
+  "when": "2019-06-11T14:06:34.7789353Z",
   "where": [
     0.0,
     0.0
@@ -7465,7 +7579,7 @@
 ## Rest Stop Failed `rest_stop.failed`
 ```
 {
-  "when": "2019-06-06T08:21:36.5461956Z",
+  "when": "2019-06-11T14:06:34.7799009Z",
   "where": [
     0.0,
     0.0
@@ -7629,7 +7743,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:21:36.5271966Z"
+            "completed_on": "2019-06-11T14:06:34.7589134Z"
           }
         ],
         "integration_key": "String",
@@ -7667,7 +7781,7 @@
 ## Rest Stop Started `rest_stop.started`
 ```
 {
-  "when": "2019-06-06T08:21:36.5451962Z",
+  "when": "2019-06-11T14:06:34.777942Z",
   "where": [
     0.0,
     0.0
@@ -7734,7 +7848,7 @@
 ## Stop Arrived `load.stop.arrived`
 ```
 {
-  "when": "2019-06-06T08:21:36.5312433Z",
+  "when": "2019-06-11T14:06:34.7619117Z",
   "where": [
     0.0,
     0.0
@@ -7787,7 +7901,7 @@
 ## Stop Departed `load.stop.departed`
 ```
 {
-  "when": "2019-06-06T08:21:36.5312433Z",
+  "when": "2019-06-11T14:06:34.7629106Z",
   "where": [
     0.0,
     0.0
@@ -7840,7 +7954,7 @@
 ## Stop Failed `load.stop.failed`
 ```
 {
-  "when": "2019-06-06T08:21:36.5482001Z",
+  "when": "2019-06-11T14:06:34.7829058Z",
   "where": [
     0.0,
     0.0
@@ -8004,7 +8118,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:21:36.5271966Z"
+            "completed_on": "2019-06-11T14:06:34.7589134Z"
           }
         ],
         "integration_key": "String",
@@ -8029,7 +8143,7 @@
 ## Stop Recorded `load.stop.recorded`
 ```
 {
-  "when": "2019-06-06T08:21:36.5482001Z",
+  "when": "2019-06-11T14:06:34.7819026Z",
   "where": [
     0.0,
     0.0
@@ -8193,7 +8307,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:21:36.5271966Z"
+            "completed_on": "2019-06-11T14:06:34.7589134Z"
           }
         ],
         "integration_key": "String",
@@ -8219,7 +8333,7 @@
 ## Timed Task Completed `timed_task.completed`
 ```
 {
-  "when": "2019-06-06T08:21:36.5521981Z",
+  "when": "2019-06-11T14:06:34.7869018Z",
   "where": [
     0.0,
     0.0
@@ -8273,7 +8387,7 @@
 ## Timed Task Failed `timed_task.failed`
 ```
 {
-  "when": "2019-06-06T08:21:36.5531976Z",
+  "when": "2019-06-11T14:06:34.7879012Z",
   "where": [
     0.0,
     0.0
@@ -8328,7 +8442,7 @@
 ## Timed Task Started `timed_task.started`
 ```
 {
-  "when": "2019-06-06T08:21:36.5521981Z",
+  "when": "2019-06-11T14:06:34.7869018Z",
   "where": [
     0.0,
     0.0
@@ -8381,7 +8495,7 @@
 ## Weighbridge Completed `weighbridge.completed`
 ```
 {
-  "when": "2019-06-06T08:21:36.5491982Z",
+  "when": "2019-06-11T14:06:34.7839042Z",
   "where": [
     0.0,
     0.0
@@ -8545,7 +8659,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:21:36.5271966Z"
+            "completed_on": "2019-06-11T14:06:34.7589134Z"
           }
         ],
         "integration_key": "String",
@@ -8597,7 +8711,7 @@
 ## Weighbridge Failed `weighbridge.failed`
 ```
 {
-  "when": "2019-06-06T08:21:36.5501979Z",
+  "when": "2019-06-11T14:06:34.7849013Z",
   "where": [
     0.0,
     0.0
@@ -8761,7 +8875,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2019-06-06T08:21:36.5271966Z"
+            "completed_on": "2019-06-11T14:06:34.7589134Z"
           }
         ],
         "integration_key": "String",
@@ -8798,7 +8912,7 @@
 ## Weighbridge Started `weighbridge.started`
 ```
 {
-  "when": "2019-06-06T08:21:36.5482001Z",
+  "when": "2019-06-11T14:06:34.7829058Z",
   "where": [
     0.0,
     0.0
