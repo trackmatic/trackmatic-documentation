@@ -75,6 +75,9 @@
     - id: Quotes
       title: Quotes
       url: /rest/quotes
+    - id: Reporting
+      title: Reporting
+      url: /rest/reporting
     - id: ubd
       title: Universal Barcode Discovery
       url: /rest/ubd
