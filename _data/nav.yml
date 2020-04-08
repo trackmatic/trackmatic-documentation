@@ -78,6 +78,9 @@
     - id: Reporting
       title: Reporting
       url: /rest/reporting
+    - id: Insights
+      title: Insights
+      url: /rest/insights
     - id: ubd
       title: Universal Barcode Discovery
       url: /rest/ubd
