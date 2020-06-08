@@ -12,7 +12,7 @@ Requirement conditions have been introduced to allow you to control when the dri
 
 ## Confirmations
 
-A confirmation condition allows you to specify a question to ask a driver, if the answer the driver answers yes to the question then the requirement need to be executed, if the answer is no then the requirement will be skipped.
+A confirmation condition allows you to specify a question to ask a driver, if the driver answers yes to the question then the requirement needs to be executed, if the answer is no then the requirement will be skipped.
 
 You have the ability to specify the question as well as the confirm text and reject text.
 
@@ -39,7 +39,7 @@ For example, if the driver was delayed and you want him to provide a reason for 
 			"label": "What caused the delays?",
 			"conditions": {
 				"confirmations": [{
-					"question": "Where there any delays?",
+					"question": "Were there any delays?",
 					"confirm_text": "Yes",
 					"reject_text": "No"
 				}]
@@ -51,7 +51,7 @@ For example, if the driver was delayed and you want him to provide a reason for 
 
 ## Late Arrivals
 
-The late arrival condition allows you to specify that a requirement which is only fulfilled if the driver arrived late and outside of the supplied threshold.
+The late arrival condition allows you to specify a requirement which is only fulfilled if the driver arrived late and outside of the supplied threshold.
 
 ```
 {
@@ -62,7 +62,6 @@ The late arrival condition allows you to specify that a requirement which is onl
 	}
 }
 ```
-
 
 For example, if you wanted the driver to provide a reason for arriving at the stop late but only if he arrived 30 mins after the planned, then you could model this as follows:
 
@@ -83,7 +82,7 @@ For example, if you wanted the driver to provide a reason for arriving at the st
 }
 ```
 
-Requirements have been also been added to stops to support the executing a requirement on arrival at a stop. This is done via the travel plan as follows:
+Requirements have also been added to stops to support executing a requirement on arrival at a stop. This is done via the travel plan as follows:
 
 ```
 {
