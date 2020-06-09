@@ -93,3 +93,6 @@
     - id: fleet
       title: Fleet
       url: /webhooks/fleet
+    - id: link
+      title: Link
+      url: /webhooks/Link
