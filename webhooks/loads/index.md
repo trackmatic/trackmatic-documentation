@@ -2,19 +2,21 @@
 ## Actions Dropoff Attempted `load.actiondropoff.attempted`
 ```
 {
-  "when": "2020-04-22T06:53:01.2014546Z",
+  "when": "2020-08-05T12:35:28.0411048Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -79,14 +81,17 @@
         "name": "string",
         "integration_key": "string"
       },
+      "status": null,
       "extension_property": null
     }
   ],
   "dropoffs": [
     {
+      "id": null,
       "integration_key": "string",
+      "reference": null,
       "internal_reference": null,
-      "due_at": "2020-04-22T06:53:01.2014546Z",
+      "due_at": "2020-08-05T12:35:28.0411048Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -128,6 +133,7 @@
         "postal_code": "string",
         "map_code": "string",
         "geofence": {
+          "id": null,
           "integration_key": "string",
           "reference": "string",
           "name": "string",
@@ -162,6 +168,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -172,6 +179,7 @@
         "stock_handed_over": false,
         "reference": "string",
         "payment_received_by": 0,
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -184,6 +192,7 @@
         ],
         "comment": "string",
         "type": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -195,6 +204,7 @@
           "string"
         ],
         "comments": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -205,6 +215,7 @@
         "type": "string",
         "value": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -216,6 +227,7 @@
         "value": "string",
         "asset_id": "string",
         "asset_integration_key": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -226,6 +238,7 @@
         "qty_transfered": 0,
         "transfer_reference": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -236,6 +249,7 @@
         "document_references": [
           "string"
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -245,6 +259,7 @@
       {
         "unit": "string",
         "value": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -260,6 +275,7 @@
             "data_type": "string"
           }
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -274,9 +290,10 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-04-22T06:53:01.1725323Z"
+            "completed_on": "2020-08-05T12:35:28.0081905Z"
           }
         ],
+        "outcome_type": null,
         "integration_key": "String",
         "status": "String",
         "status_reason": "String"
@@ -287,11 +304,13 @@
         "is_delayed": false,
         "reason": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
-    ]
+    ],
+    "contactless_confirmations": []
   },
   "started_at": "0001-01-01T00:00:00",
   "ended_at": "0001-01-01T00:00:00",
@@ -303,19 +322,21 @@
 ## Actions Dropoff Cancelled `load.actiondropoff.cancelled`
 ```
 {
-  "when": "2020-04-22T06:53:01.2024526Z",
+  "when": "2020-08-05T12:35:28.0420981Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -380,14 +401,17 @@
         "name": "string",
         "integration_key": "string"
       },
+      "status": null,
       "extension_property": null
     }
   ],
   "dropoffs": [
     {
+      "id": null,
       "integration_key": "string",
+      "reference": null,
       "internal_reference": null,
-      "due_at": "2020-04-22T06:53:01.2024526Z",
+      "due_at": "2020-08-05T12:35:28.0420981Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -429,6 +453,7 @@
         "postal_code": "string",
         "map_code": "string",
         "geofence": {
+          "id": null,
           "integration_key": "string",
           "reference": "string",
           "name": "string",
@@ -463,6 +488,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -473,6 +499,7 @@
         "stock_handed_over": false,
         "reference": "string",
         "payment_received_by": 0,
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -485,6 +512,7 @@
         ],
         "comment": "string",
         "type": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -496,6 +524,7 @@
           "string"
         ],
         "comments": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -506,6 +535,7 @@
         "type": "string",
         "value": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -517,6 +547,7 @@
         "value": "string",
         "asset_id": "string",
         "asset_integration_key": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -527,6 +558,7 @@
         "qty_transfered": 0,
         "transfer_reference": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -537,6 +569,7 @@
         "document_references": [
           "string"
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -546,6 +579,7 @@
       {
         "unit": "string",
         "value": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -561,6 +595,7 @@
             "data_type": "string"
           }
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -575,9 +610,10 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-04-22T06:53:01.1725323Z"
+            "completed_on": "2020-08-05T12:35:28.0081905Z"
           }
         ],
+        "outcome_type": null,
         "integration_key": "String",
         "status": "String",
         "status_reason": "String"
@@ -588,11 +624,13 @@
         "is_delayed": false,
         "reason": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
-    ]
+    ],
+    "contactless_confirmations": []
   },
   "started_at": "0001-01-01T00:00:00",
   "ended_at": "0001-01-01T00:00:00",
@@ -604,19 +642,21 @@
 ## Actions Dropoff Completed `load.actiondropoff.completed`
 ```
 {
-  "when": "2020-04-22T06:53:01.2004574Z",
+  "when": "2020-08-05T12:35:28.0401037Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -682,14 +722,17 @@
         "name": "string",
         "integration_key": "string"
       },
+      "status": null,
       "extension_property": null
     }
   ],
   "dropoffs": [
     {
+      "id": null,
       "integration_key": "string",
+      "reference": null,
       "internal_reference": null,
-      "due_at": "2020-04-22T06:53:01.2014546Z",
+      "due_at": "2020-08-05T12:35:28.0411048Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -731,6 +774,7 @@
         "postal_code": "string",
         "map_code": "string",
         "geofence": {
+          "id": null,
           "integration_key": "string",
           "reference": "string",
           "name": "string",
@@ -765,6 +809,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -775,6 +820,7 @@
         "stock_handed_over": false,
         "reference": "string",
         "payment_received_by": 0,
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -787,6 +833,7 @@
         ],
         "comment": "string",
         "type": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -798,6 +845,7 @@
           "string"
         ],
         "comments": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -808,6 +856,7 @@
         "type": "string",
         "value": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -819,6 +868,7 @@
         "value": "string",
         "asset_id": "string",
         "asset_integration_key": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -829,6 +879,7 @@
         "qty_transfered": 0,
         "transfer_reference": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -839,6 +890,7 @@
         "document_references": [
           "string"
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -848,6 +900,7 @@
       {
         "unit": "string",
         "value": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -863,6 +916,7 @@
             "data_type": "string"
           }
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -877,9 +931,10 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-04-22T06:53:01.1725323Z"
+            "completed_on": "2020-08-05T12:35:28.0081905Z"
           }
         ],
+        "outcome_type": null,
         "integration_key": "String",
         "status": "String",
         "status_reason": "String"
@@ -890,11 +945,13 @@
         "is_delayed": false,
         "reason": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
-    ]
+    ],
+    "contactless_confirmations": []
   },
   "resolutions": [
     {
@@ -918,19 +975,21 @@
 ## Actions Pickup Attempted `load.actionpickup.attempted`
 ```
 {
-  "when": "2020-04-22T06:53:01.2044471Z",
+  "when": "2020-08-05T12:35:28.0430953Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -995,13 +1054,16 @@
         "name": "string",
         "integration_key": "string"
       },
+      "status": null,
       "extension_property": null
     }
   ],
   "pickups": [
     {
+      "id": null,
       "integration_key": "string",
-      "due_at": "2020-04-22T06:53:01.2044471Z",
+      "reference": null,
+      "due_at": "2020-08-05T12:35:28.0430953Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -1043,6 +1105,7 @@
         "postal_code": "string",
         "map_code": "string",
         "geofence": {
+          "id": null,
           "integration_key": "string",
           "reference": "string",
           "name": "string",
@@ -1076,6 +1139,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -1086,6 +1150,7 @@
         "stock_handed_over": false,
         "reference": "string",
         "payment_received_by": 0,
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -1098,6 +1163,7 @@
         ],
         "comment": "string",
         "type": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -1109,6 +1175,7 @@
           "string"
         ],
         "comments": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -1119,6 +1186,7 @@
         "type": "string",
         "value": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -1130,6 +1198,7 @@
         "value": "string",
         "asset_id": "string",
         "asset_integration_key": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -1140,6 +1209,7 @@
         "qty_transfered": 0,
         "transfer_reference": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -1150,6 +1220,7 @@
         "document_references": [
           "string"
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -1159,6 +1230,7 @@
       {
         "unit": "string",
         "value": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -1174,6 +1246,7 @@
             "data_type": "string"
           }
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -1188,9 +1261,10 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-04-22T06:53:01.1725323Z"
+            "completed_on": "2020-08-05T12:35:28.0081905Z"
           }
         ],
+        "outcome_type": null,
         "integration_key": "String",
         "status": "String",
         "status_reason": "String"
@@ -1201,11 +1275,13 @@
         "is_delayed": false,
         "reason": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
-    ]
+    ],
+    "contactless_confirmations": []
   },
   "started_at": "0001-01-01T00:00:00",
   "ended_at": "0001-01-01T00:00:00",
@@ -1217,19 +1293,21 @@
 ## Actions Pickup Cancelled `load.actionpickup.cancelled`
 ```
 {
-  "when": "2020-04-22T06:53:01.2044471Z",
+  "when": "2020-08-05T12:35:28.0430953Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -1294,13 +1372,16 @@
         "name": "string",
         "integration_key": "string"
       },
+      "status": null,
       "extension_property": null
     }
   ],
   "pickups": [
     {
+      "id": null,
       "integration_key": "string",
-      "due_at": "2020-04-22T06:53:01.2054443Z",
+      "reference": null,
+      "due_at": "2020-08-05T12:35:28.0440925Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -1342,6 +1423,7 @@
         "postal_code": "string",
         "map_code": "string",
         "geofence": {
+          "id": null,
           "integration_key": "string",
           "reference": "string",
           "name": "string",
@@ -1375,6 +1457,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -1385,6 +1468,7 @@
         "stock_handed_over": false,
         "reference": "string",
         "payment_received_by": 0,
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -1397,6 +1481,7 @@
         ],
         "comment": "string",
         "type": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -1408,6 +1493,7 @@
           "string"
         ],
         "comments": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -1418,6 +1504,7 @@
         "type": "string",
         "value": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -1429,6 +1516,7 @@
         "value": "string",
         "asset_id": "string",
         "asset_integration_key": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -1439,6 +1527,7 @@
         "qty_transfered": 0,
         "transfer_reference": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -1449,6 +1538,7 @@
         "document_references": [
           "string"
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -1458,6 +1548,7 @@
       {
         "unit": "string",
         "value": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -1473,6 +1564,7 @@
             "data_type": "string"
           }
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -1487,9 +1579,10 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-04-22T06:53:01.1725323Z"
+            "completed_on": "2020-08-05T12:35:28.0081905Z"
           }
         ],
+        "outcome_type": null,
         "integration_key": "String",
         "status": "String",
         "status_reason": "String"
@@ -1500,11 +1593,13 @@
         "is_delayed": false,
         "reason": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
-    ]
+    ],
+    "contactless_confirmations": []
   },
   "started_at": "0001-01-01T00:00:00",
   "ended_at": "0001-01-01T00:00:00",
@@ -1516,19 +1611,21 @@
 ## Actions Pickup Completed `load.actionpickup.completed`
 ```
 {
-  "when": "2020-04-22T06:53:01.2034497Z",
+  "when": "2020-08-05T12:35:28.0420981Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -1594,13 +1691,16 @@
         "name": "string",
         "integration_key": "string"
       },
+      "status": null,
       "extension_property": null
     }
   ],
   "pickups": [
     {
+      "id": null,
       "integration_key": "string",
-      "due_at": "2020-04-22T06:53:01.2034497Z",
+      "reference": null,
+      "due_at": "2020-08-05T12:35:28.0420981Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -1642,6 +1742,7 @@
         "postal_code": "string",
         "map_code": "string",
         "geofence": {
+          "id": null,
           "integration_key": "string",
           "reference": "string",
           "name": "string",
@@ -1675,6 +1776,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -1685,6 +1787,7 @@
         "stock_handed_over": false,
         "reference": "string",
         "payment_received_by": 0,
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -1697,6 +1800,7 @@
         ],
         "comment": "string",
         "type": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -1708,6 +1812,7 @@
           "string"
         ],
         "comments": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -1718,6 +1823,7 @@
         "type": "string",
         "value": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -1729,6 +1835,7 @@
         "value": "string",
         "asset_id": "string",
         "asset_integration_key": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -1739,6 +1846,7 @@
         "qty_transfered": 0,
         "transfer_reference": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -1749,6 +1857,7 @@
         "document_references": [
           "string"
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -1758,6 +1867,7 @@
       {
         "unit": "string",
         "value": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -1773,6 +1883,7 @@
             "data_type": "string"
           }
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -1787,9 +1898,10 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-04-22T06:53:01.1725323Z"
+            "completed_on": "2020-08-05T12:35:28.0081905Z"
           }
         ],
+        "outcome_type": null,
         "integration_key": "String",
         "status": "String",
         "status_reason": "String"
@@ -1800,11 +1912,13 @@
         "is_delayed": false,
         "reason": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
-    ]
+    ],
+    "contactless_confirmations": []
   },
   "resolutions": [
     {
@@ -1828,19 +1942,21 @@
 ## Border Crossing `border_crossing`
 ```
 {
-  "when": "2020-04-22T06:53:01.1874929Z",
+  "when": "2020-08-05T12:35:28.0251438Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -1893,6 +2009,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -1903,6 +2020,7 @@
         "stock_handed_over": false,
         "reference": "string",
         "payment_received_by": 0,
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -1915,6 +2033,7 @@
         ],
         "comment": "string",
         "type": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -1926,6 +2045,7 @@
           "string"
         ],
         "comments": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -1936,6 +2056,7 @@
         "type": "string",
         "value": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -1947,6 +2068,7 @@
         "value": "string",
         "asset_id": "string",
         "asset_integration_key": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -1957,6 +2079,7 @@
         "qty_transfered": 0,
         "transfer_reference": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -1967,6 +2090,7 @@
         "document_references": [
           "string"
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -1976,6 +2100,7 @@
       {
         "unit": "string",
         "value": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -1991,6 +2116,7 @@
             "data_type": "string"
           }
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -2005,9 +2131,10 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-04-22T06:53:01.1725323Z"
+            "completed_on": "2020-08-05T12:35:28.0081905Z"
           }
         ],
+        "outcome_type": null,
         "integration_key": "String",
         "status": "String",
         "status_reason": "String"
@@ -2018,11 +2145,13 @@
         "is_delayed": false,
         "reason": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
-    ]
+    ],
+    "contactless_confirmations": []
   },
   "country": "string",
   "name": "string",
@@ -2048,19 +2177,21 @@
 ## Border Crossing Failed `border_crossing.failed`
 ```
 {
-  "when": "2020-04-22T06:53:01.1884909Z",
+  "when": "2020-08-05T12:35:28.0261409Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -2113,6 +2244,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -2123,6 +2255,7 @@
         "stock_handed_over": false,
         "reference": "string",
         "payment_received_by": 0,
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -2135,6 +2268,7 @@
         ],
         "comment": "string",
         "type": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -2146,6 +2280,7 @@
           "string"
         ],
         "comments": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -2156,6 +2291,7 @@
         "type": "string",
         "value": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -2167,6 +2303,7 @@
         "value": "string",
         "asset_id": "string",
         "asset_integration_key": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -2177,6 +2314,7 @@
         "qty_transfered": 0,
         "transfer_reference": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -2187,6 +2325,7 @@
         "document_references": [
           "string"
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -2196,6 +2335,7 @@
       {
         "unit": "string",
         "value": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -2211,6 +2351,7 @@
             "data_type": "string"
           }
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -2225,9 +2366,10 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-04-22T06:53:01.1725323Z"
+            "completed_on": "2020-08-05T12:35:28.0081905Z"
           }
         ],
+        "outcome_type": null,
         "integration_key": "String",
         "status": "String",
         "status_reason": "String"
@@ -2238,11 +2380,13 @@
         "is_delayed": false,
         "reason": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
-    ]
+    ],
+    "contactless_confirmations": []
   },
   "failure_reason": "string",
   "driver": {
@@ -2265,19 +2409,21 @@
 ## Breakdown `breakdown`
 ```
 {
-  "when": "2020-04-22T06:53:01.1964697Z",
+  "when": "2020-08-05T12:35:28.0351175Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -2333,6 +2479,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -2343,6 +2490,7 @@
         "stock_handed_over": false,
         "reference": "string",
         "payment_received_by": 0,
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -2355,6 +2503,7 @@
         ],
         "comment": "string",
         "type": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -2366,6 +2515,7 @@
           "string"
         ],
         "comments": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -2376,6 +2526,7 @@
         "type": "string",
         "value": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -2387,6 +2538,7 @@
         "value": "string",
         "asset_id": "string",
         "asset_integration_key": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -2397,6 +2549,7 @@
         "qty_transfered": 0,
         "transfer_reference": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -2407,6 +2560,7 @@
         "document_references": [
           "string"
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -2416,6 +2570,7 @@
       {
         "unit": "string",
         "value": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -2431,6 +2586,7 @@
             "data_type": "string"
           }
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -2445,9 +2601,10 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-04-22T06:53:01.1725323Z"
+            "completed_on": "2020-08-05T12:35:28.0081905Z"
           }
         ],
+        "outcome_type": null,
         "integration_key": "String",
         "status": "String",
         "status_reason": "String"
@@ -2458,11 +2615,13 @@
         "is_delayed": false,
         "reason": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
-    ]
+    ],
+    "contactless_confirmations": []
   },
   "driver_id": "string",
   "vehicle_id": "string",
@@ -2490,7 +2649,7 @@
 ## Collection Completed `collection.completed`
 ```
 {
-  "when": "2020-04-22T06:53:01.2064425Z",
+  "when": "2020-08-05T12:35:28.0460878Z",
   "where": [
     0.0
   ],
@@ -2513,17 +2672,20 @@
         "name": "string",
         "integration_key": "string"
       },
+      "status": null,
       "extension_property": null
     }
   ],
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -2579,6 +2741,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -2594,6 +2757,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -2629,6 +2793,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -2662,6 +2827,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -2694,6 +2860,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -2711,6 +2878,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -2722,7 +2890,7 @@
 ## Consignment Created `load.consignment.created`
 ```
 {
-  "when": "2020-04-22T06:53:01.2064425Z",
+  "when": "2020-08-05T12:35:28.0460878Z",
   "site_refrence": "string",
   "consignment": {
     "id": "string",
@@ -2732,8 +2900,10 @@
     "status": null,
     "pickups": [
       {
+        "id": null,
         "integration_key": "string",
-        "due_at": "2020-04-22T06:53:01.2074397Z",
+        "reference": null,
+        "due_at": "2020-08-05T12:35:28.0460878Z",
         "quantity": {
           "value": 0.0,
           "units": "string"
@@ -2775,6 +2945,7 @@
           "postal_code": "string",
           "map_code": "string",
           "geofence": {
+            "id": null,
             "integration_key": "string",
             "reference": "string",
             "name": "string",
@@ -2831,9 +3002,11 @@
     ],
     "dropoffs": [
       {
+        "id": null,
         "integration_key": "string",
+        "reference": null,
         "internal_reference": null,
-        "due_at": "2020-04-22T06:53:01.2074397Z",
+        "due_at": "2020-08-05T12:35:28.0460878Z",
         "quantity": {
           "value": 0.0,
           "units": "string"
@@ -2875,6 +3048,243 @@
           "postal_code": "string",
           "map_code": "string",
           "geofence": {
+            "id": null,
+            "integration_key": "string",
+            "reference": "string",
+            "name": "string",
+            "entrance": [
+              0.0,
+              0.0
+            ],
+            "shape": {
+              "markers": [
+                [
+                  0.0,
+                  0.0
+                ]
+              ],
+              "marker": [
+                0.0,
+                0.0
+              ],
+              "size": 0.0,
+              "type": "string"
+            }
+          }
+        },
+        "contacts": null,
+        "handling_units": [
+          {
+            "integrationkey": "string",
+            "reference": "string",
+            "description": "String",
+            "customer_reference": "String",
+            "internal_reference": "string",
+            "barcode": "string",
+            "dimensions": {
+              "volumetric_mass": 0.0,
+              "weight": 0.0,
+              "pieces": 0,
+              "pallets": 0.0,
+              "volume": {
+                "length": 0.0,
+                "width": 0.0,
+                "height": 0.0,
+                "volume": 0.0
+              },
+              "litres": 0.0
+            },
+            "status": "string",
+            "unit_of_measure": "string",
+            "is_specified": null,
+            "code": "string",
+            "model": "String"
+          }
+        ],
+        "requirements": null
+      }
+    ],
+    "consignor": {
+      "entity_id": "string",
+      "name": "string",
+      "integration_key": "string"
+    },
+    "consignee": {
+      "entity_id": "string",
+      "name": "string",
+      "integration_key": "string"
+    },
+    "extension_property": [
+      {
+        "key": "string",
+        "value": "string"
+      }
+    ]
+  }
+}
+```
+## Consignment Status Changed `load.consignment.status.changed`
+```
+{
+  "when": "2020-08-05T12:35:28.0480823Z",
+  "site_refrence": "string",
+  "consignment": {
+    "id": "string",
+    "cargo_type": "string",
+    "integration_key": "string",
+    "reference": "string",
+    "status": "string",
+    "pickups": [
+      {
+        "id": null,
+        "integration_key": "string",
+        "reference": null,
+        "due_at": "2020-08-05T12:35:28.0480823Z",
+        "quantity": {
+          "value": 0.0,
+          "units": "string"
+        },
+        "dimensions": {
+          "volumetric_mass": 0.0,
+          "weight": 0.0,
+          "pieces": 0,
+          "pallets": 0.0,
+          "volume": {
+            "length": 0.0,
+            "width": 0.0,
+            "height": 0.0,
+            "volume": 0.0
+          },
+          "litres": 0.0
+        },
+        "financial": null,
+        "maximum_service_time": "00:00:00",
+        "entity": {
+          "entity_id": "string",
+          "name": "string",
+          "integration_key": "string",
+          "reference": null
+        },
+        "shipping_address": {
+          "integration_key": "string",
+          "name": null,
+          "refernce": null,
+          "shipping_address_id": "string",
+          "unit_no": "string",
+          "building_name": "string",
+          "street_no": "string",
+          "sub_division_number": "string",
+          "street": "string",
+          "suburb": "string",
+          "city": "string",
+          "province": "string",
+          "postal_code": "string",
+          "map_code": "string",
+          "geofence": {
+            "id": null,
+            "integration_key": "string",
+            "reference": "string",
+            "name": "string",
+            "entrance": [
+              0.0,
+              0.0
+            ],
+            "shape": {
+              "markers": [
+                [
+                  0.0,
+                  0.0
+                ]
+              ],
+              "marker": [
+                0.0,
+                0.0
+              ],
+              "size": 0.0,
+              "type": "string"
+            }
+          }
+        },
+        "contacts": null,
+        "handling_units": [
+          {
+            "integrationkey": "string",
+            "reference": "string",
+            "description": "String",
+            "customer_reference": "String",
+            "internal_reference": "string",
+            "barcode": "string",
+            "dimensions": {
+              "volumetric_mass": 0.0,
+              "weight": 0.0,
+              "pieces": 0,
+              "pallets": 0.0,
+              "volume": {
+                "length": 0.0,
+                "width": 0.0,
+                "height": 0.0,
+                "volume": 0.0
+              },
+              "litres": 0.0
+            },
+            "status": "string",
+            "unit_of_measure": "string",
+            "is_specified": false,
+            "code": "string",
+            "model": "String"
+          }
+        ]
+      }
+    ],
+    "dropoffs": [
+      {
+        "id": null,
+        "integration_key": "string",
+        "reference": null,
+        "internal_reference": null,
+        "due_at": "2020-08-05T12:35:28.0480823Z",
+        "quantity": {
+          "value": 0.0,
+          "units": "string"
+        },
+        "dimensions": {
+          "volumetric_mass": 0.0,
+          "weight": 0.0,
+          "pieces": 0,
+          "pallets": 0.0,
+          "volume": {
+            "length": 0.0,
+            "width": 0.0,
+            "height": 0.0,
+            "volume": 0.0
+          },
+          "litres": 0.0
+        },
+        "financial": null,
+        "maximum_service_time": "00:00:00",
+        "entity": {
+          "entity_id": "string",
+          "name": "string",
+          "integration_key": "string",
+          "reference": null
+        },
+        "shipping_address": {
+          "integration_key": "string",
+          "name": null,
+          "refernce": null,
+          "shipping_address_id": "string",
+          "unit_no": "string",
+          "building_name": "string",
+          "street_no": "string",
+          "sub_division_number": "string",
+          "street": "string",
+          "suburb": "string",
+          "city": "string",
+          "province": "string",
+          "postal_code": "string",
+          "map_code": "string",
+          "geofence": {
+            "id": null,
             "integration_key": "string",
             "reference": "string",
             "name": "string",
@@ -2952,19 +3362,21 @@
 ## Custom Activity Completed `custom_activity.completed`
 ```
 {
-  "when": "2020-04-22T06:53:01.1994604Z",
+  "when": "2020-08-05T12:35:28.0391058Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -3019,19 +3431,21 @@
 ## Custom Activity Started `custom_activity.started`
 ```
 {
-  "when": "2020-04-22T06:53:01.1994604Z",
+  "when": "2020-08-05T12:35:28.0381088Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -3085,19 +3499,21 @@
 ## Dropoff Completed `load.dropoff.completed`
 ```
 {
-  "when": "2020-04-22T06:53:01.1815081Z",
+  "when": "2020-08-05T12:35:28.0191603Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -3161,12 +3577,15 @@
       "name": "string",
       "integration_key": "string"
     },
+    "status": null,
     "extension_property": null
   },
   "dropoff": {
+    "id": null,
     "integration_key": "string",
+    "reference": null,
     "internal_reference": null,
-    "due_at": "2020-04-22T06:53:01.1815081Z",
+    "due_at": "2020-08-05T12:35:28.0191603Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -3208,6 +3627,7 @@
       "postal_code": "string",
       "map_code": "string",
       "geofence": {
+        "id": null,
         "integration_key": "string",
         "reference": "string",
         "name": "string",
@@ -3268,6 +3688,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -3278,6 +3699,7 @@
         "stock_handed_over": false,
         "reference": "string",
         "payment_received_by": 0,
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -3290,6 +3712,7 @@
         ],
         "comment": "string",
         "type": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -3301,6 +3724,7 @@
           "string"
         ],
         "comments": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -3311,6 +3735,7 @@
         "type": "string",
         "value": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -3322,6 +3747,7 @@
         "value": "string",
         "asset_id": "string",
         "asset_integration_key": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -3332,6 +3758,7 @@
         "qty_transfered": 0,
         "transfer_reference": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -3342,6 +3769,7 @@
         "document_references": [
           "string"
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -3351,6 +3779,7 @@
       {
         "unit": "string",
         "value": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -3366,6 +3795,7 @@
             "data_type": "string"
           }
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -3380,9 +3810,10 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-04-22T06:53:01.1725323Z"
+            "completed_on": "2020-08-05T12:35:28.0081905Z"
           }
         ],
+        "outcome_type": null,
         "integration_key": "String",
         "status": "String",
         "status_reason": "String"
@@ -3393,30 +3824,34 @@
         "is_delayed": false,
         "reason": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
-    ]
+    ],
+    "contactless_confirmations": []
   }
 }
 ```
 ## Dropoff Failed `load.dropoff.failed`
 ```
 {
-  "when": "2020-04-22T06:53:01.1854988Z",
+  "when": "2020-08-05T12:35:28.0221522Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -3480,12 +3915,15 @@
       "name": "string",
       "integration_key": "string"
     },
+    "status": null,
     "extension_property": null
   },
   "dropoff": {
+    "id": null,
     "integration_key": "string",
+    "reference": null,
     "internal_reference": null,
-    "due_at": "2020-04-22T06:53:01.1864966Z",
+    "due_at": "2020-08-05T12:35:28.0231489Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -3527,6 +3965,7 @@
       "postal_code": "string",
       "map_code": "string",
       "geofence": {
+        "id": null,
         "integration_key": "string",
         "reference": "string",
         "name": "string",
@@ -3587,6 +4026,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -3597,6 +4037,7 @@
         "stock_handed_over": false,
         "reference": "string",
         "payment_received_by": 0,
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -3609,6 +4050,7 @@
         ],
         "comment": "string",
         "type": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -3620,6 +4062,7 @@
           "string"
         ],
         "comments": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -3630,6 +4073,7 @@
         "type": "string",
         "value": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -3641,6 +4085,7 @@
         "value": "string",
         "asset_id": "string",
         "asset_integration_key": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -3651,6 +4096,7 @@
         "qty_transfered": 0,
         "transfer_reference": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -3661,6 +4107,7 @@
         "document_references": [
           "string"
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -3670,6 +4117,7 @@
       {
         "unit": "string",
         "value": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -3685,6 +4133,7 @@
             "data_type": "string"
           }
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -3699,9 +4148,10 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-04-22T06:53:01.1725323Z"
+            "completed_on": "2020-08-05T12:35:28.0081905Z"
           }
         ],
+        "outcome_type": null,
         "integration_key": "String",
         "status": "String",
         "status_reason": "String"
@@ -3712,11 +4162,13 @@
         "is_delayed": false,
         "reason": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
-    ]
+    ],
+    "contactless_confirmations": []
   },
   "failure_reason": null
 }
@@ -3724,19 +4176,21 @@
 ## Dropoff Started `load.dropoff.started`
 ```
 {
-  "when": "2020-04-22T06:53:01.1815081Z",
+  "when": "2020-08-05T12:35:28.018162Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -3800,12 +4254,15 @@
       "name": "string",
       "integration_key": "string"
     },
+    "status": null,
     "extension_property": null
   },
   "dropoff": {
+    "id": null,
     "integration_key": "string",
+    "reference": null,
     "internal_reference": null,
-    "due_at": "2020-04-22T06:53:01.1815081Z",
+    "due_at": "2020-08-05T12:35:28.018162Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -3847,6 +4304,7 @@
       "postal_code": "string",
       "map_code": "string",
       "geofence": {
+        "id": null,
         "integration_key": "string",
         "reference": "string",
         "name": "string",
@@ -3880,6 +4338,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -3890,6 +4349,7 @@
         "stock_handed_over": false,
         "reference": "string",
         "payment_received_by": 0,
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -3902,6 +4362,7 @@
         ],
         "comment": "string",
         "type": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -3913,6 +4374,7 @@
           "string"
         ],
         "comments": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -3923,6 +4385,7 @@
         "type": "string",
         "value": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -3934,6 +4397,7 @@
         "value": "string",
         "asset_id": "string",
         "asset_integration_key": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -3944,6 +4408,7 @@
         "qty_transfered": 0,
         "transfer_reference": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -3954,6 +4419,7 @@
         "document_references": [
           "string"
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -3963,6 +4429,7 @@
       {
         "unit": "string",
         "value": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -3978,6 +4445,7 @@
             "data_type": "string"
           }
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -3992,9 +4460,10 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-04-22T06:53:01.1725323Z"
+            "completed_on": "2020-08-05T12:35:28.0081905Z"
           }
         ],
+        "outcome_type": null,
         "integration_key": "String",
         "status": "String",
         "status_reason": "String"
@@ -4005,30 +4474,34 @@
         "is_delayed": false,
         "reason": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
-    ]
+    ],
+    "contactless_confirmations": []
   }
 }
 ```
 ## Fuel Stop Completed `fuel_stop.completed`
 ```
 {
-  "when": "2020-04-22T06:53:01.1894884Z",
+  "when": "2020-08-05T12:35:28.0271379Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -4081,6 +4554,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -4091,6 +4565,7 @@
         "stock_handed_over": false,
         "reference": "string",
         "payment_received_by": 0,
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -4103,6 +4578,7 @@
         ],
         "comment": "string",
         "type": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -4114,6 +4590,7 @@
           "string"
         ],
         "comments": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -4124,6 +4601,7 @@
         "type": "string",
         "value": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -4135,6 +4613,7 @@
         "value": "string",
         "asset_id": "string",
         "asset_integration_key": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -4145,6 +4624,7 @@
         "qty_transfered": 0,
         "transfer_reference": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -4155,6 +4635,7 @@
         "document_references": [
           "string"
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -4164,6 +4645,7 @@
       {
         "unit": "string",
         "value": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -4179,6 +4661,7 @@
             "data_type": "string"
           }
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -4193,9 +4676,10 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-04-22T06:53:01.1725323Z"
+            "completed_on": "2020-08-05T12:35:28.0081905Z"
           }
         ],
+        "outcome_type": null,
         "integration_key": "String",
         "status": "String",
         "status_reason": "String"
@@ -4206,11 +4690,13 @@
         "is_delayed": false,
         "reason": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
-    ]
+    ],
+    "contactless_confirmations": []
   },
   "authorized_location_geofence_id": null,
   "was_authorised_fuel_stop": false,
@@ -4257,19 +4743,21 @@
 ## Fuel Stop Failed `fuel_stop.failed`
 ```
 {
-  "when": "2020-04-22T06:53:01.1904856Z",
+  "when": "2020-08-05T12:35:28.0281363Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -4322,6 +4810,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -4332,6 +4821,7 @@
         "stock_handed_over": false,
         "reference": "string",
         "payment_received_by": 0,
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -4344,6 +4834,7 @@
         ],
         "comment": "string",
         "type": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -4355,6 +4846,7 @@
           "string"
         ],
         "comments": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -4365,6 +4857,7 @@
         "type": "string",
         "value": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -4376,6 +4869,7 @@
         "value": "string",
         "asset_id": "string",
         "asset_integration_key": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -4386,6 +4880,7 @@
         "qty_transfered": 0,
         "transfer_reference": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -4396,6 +4891,7 @@
         "document_references": [
           "string"
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -4405,6 +4901,7 @@
       {
         "unit": "string",
         "value": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -4420,6 +4917,7 @@
             "data_type": "string"
           }
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -4434,9 +4932,10 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-04-22T06:53:01.1725323Z"
+            "completed_on": "2020-08-05T12:35:28.0081905Z"
           }
         ],
+        "outcome_type": null,
         "integration_key": "String",
         "status": "String",
         "status_reason": "String"
@@ -4447,11 +4946,13 @@
         "is_delayed": false,
         "reason": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
-    ]
+    ],
+    "contactless_confirmations": []
   },
   "failure_reason": "string",
   "driver": {
@@ -4474,19 +4975,21 @@
 ## Fuel Stop Started `fuel_stop.started`
 ```
 {
-  "when": "2020-04-22T06:53:01.1884909Z",
+  "when": "2020-08-05T12:35:28.0261409Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -4564,12 +5067,14 @@
 {
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -4627,7 +5132,7 @@
     "total_litres": 0.0,
     "total_volume": 0.0
   },
-  "when": "2020-04-22T06:53:01.1775197Z",
+  "when": "2020-08-05T12:35:28.0131755Z",
   "where": [
     0.0,
     0.0
@@ -4639,12 +5144,14 @@
 {
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -4691,7 +5198,7 @@
     "type": "string",
     "created_by": "string"
   },
-  "when": "2020-04-22T06:53:01.1805108Z",
+  "when": "2020-08-05T12:35:28.018162Z",
   "reason": "string"
 }
 ```
@@ -4700,12 +5207,14 @@
 {
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -4752,7 +5261,7 @@
     "type": "string",
     "created_by": "string"
   },
-  "when": "2020-04-22T06:53:01.1974668Z",
+  "when": "2020-08-05T12:35:28.0361137Z",
   "where": [
     0.0,
     0.0
@@ -4764,12 +5273,14 @@
 {
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -4816,8 +5327,13 @@
     "type": "string",
     "created_by": "string"
   },
+  "travel_plan": null,
+  "consignments": null,
+  "pickups": null,
+  "dropoffs": null,
+  "execution": null,
   "force_closed": false,
-  "when": "2020-04-22T06:53:01.1805108Z",
+  "when": "2020-08-05T12:35:28.0171645Z",
   "where": [
     0.0,
     0.0
@@ -4829,12 +5345,14 @@
 {
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -4881,7 +5399,7 @@
     "type": "string",
     "created_by": "string"
   },
-  "when": "2020-04-22T06:53:01.1805108Z"
+  "when": "2020-08-05T12:35:28.0171645Z"
 }
 ```
 ## Load Planned `load.planned`
@@ -4889,12 +5407,14 @@
 {
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -4942,18 +5462,20 @@
     "created_by": "string"
   },
   "travel_plan": {
-    "start": "2020-04-22T06:53:01.1805108Z",
-    "end": "2020-04-22T06:53:01.1805108Z",
+    "start": "2020-08-05T12:35:28.0171645Z",
+    "end": "2020-08-05T12:35:28.0171645Z",
     "pois": [
       {
         "travel_plan_poi_id": "String",
-        "due_time": "2020-04-22T06:53:01.1805108Z",
+        "due_time": "2020-08-05T12:35:28.0171645Z",
+        "geofence_trackmatic_id": null,
         "geofence_id": "string",
         "geofence_name": "string",
         "tags": null,
         "activity_ids": null,
         "pickup_ids": null,
-        "dropoff_ids": null
+        "dropoff_ids": null,
+        "activities": null
       }
     ]
   },
@@ -4975,13 +5497,16 @@
         "name": "string",
         "integration_key": "string"
       },
+      "status": null,
       "extension_property": null
     }
   ],
   "pickups": [
     {
+      "id": null,
       "integration_key": "string",
-      "due_at": "2020-04-22T06:53:01.1795135Z",
+      "reference": null,
+      "due_at": "2020-08-05T12:35:28.0161675Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -5023,6 +5548,7 @@
         "postal_code": "string",
         "map_code": "string",
         "geofence": {
+          "id": null,
           "integration_key": "string",
           "reference": "string",
           "name": "string",
@@ -5079,9 +5605,11 @@
   ],
   "dropoffs": [
     {
+      "id": null,
       "integration_key": "string",
+      "reference": null,
       "internal_reference": null,
-      "due_at": "2020-04-22T06:53:01.1785162Z",
+      "due_at": "2020-08-05T12:35:28.0141724Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -5123,6 +5651,7 @@
         "postal_code": "string",
         "map_code": "string",
         "geofence": {
+          "id": null,
           "integration_key": "string",
           "reference": "string",
           "name": "string",
@@ -5178,7 +5707,7 @@
       "requirements": null
     }
   ],
-  "when": "2020-04-22T06:53:01.1775197Z",
+  "when": "2020-08-05T12:35:28.0131755Z",
   "where": [
     0.0,
     0.0
@@ -5190,12 +5719,14 @@
 {
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -5242,7 +5773,7 @@
     "type": "string",
     "created_by": "string"
   },
-  "when": "2020-04-22T06:53:01.1974668Z",
+  "when": "2020-08-05T12:35:28.037111Z",
   "where": [
     0.0,
     0.0
@@ -5252,19 +5783,21 @@
 ## Multi Dropoff Completed `load.multidropoff.completed`
 ```
 {
-  "when": "2020-04-22T06:53:01.1825057Z",
+  "when": "2020-08-05T12:35:28.020157Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -5330,14 +5863,17 @@
         "name": "string",
         "integration_key": "string"
       },
+      "status": null,
       "extension_property": null
     }
   ],
   "dropoffs": [
     {
+      "id": null,
       "integration_key": "string",
+      "reference": null,
       "internal_reference": null,
-      "due_at": "2020-04-22T06:53:01.1835027Z",
+      "due_at": "2020-08-05T12:35:28.020157Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -5379,6 +5915,7 @@
         "postal_code": "string",
         "map_code": "string",
         "geofence": {
+          "id": null,
           "integration_key": "string",
           "reference": "string",
           "name": "string",
@@ -5440,6 +5977,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -5450,6 +5988,7 @@
         "stock_handed_over": false,
         "reference": "string",
         "payment_received_by": 0,
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -5462,6 +6001,7 @@
         ],
         "comment": "string",
         "type": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -5473,6 +6013,7 @@
           "string"
         ],
         "comments": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -5483,6 +6024,7 @@
         "type": "string",
         "value": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -5494,6 +6036,7 @@
         "value": "string",
         "asset_id": "string",
         "asset_integration_key": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -5504,6 +6047,7 @@
         "qty_transfered": 0,
         "transfer_reference": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -5514,6 +6058,7 @@
         "document_references": [
           "string"
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -5523,6 +6068,7 @@
       {
         "unit": "string",
         "value": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -5538,6 +6084,7 @@
             "data_type": "string"
           }
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -5552,9 +6099,10 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-04-22T06:53:01.1725323Z"
+            "completed_on": "2020-08-05T12:35:28.0081905Z"
           }
         ],
+        "outcome_type": null,
         "integration_key": "String",
         "status": "String",
         "status_reason": "String"
@@ -5565,11 +6113,13 @@
         "is_delayed": false,
         "reason": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
-    ]
+    ],
+    "contactless_confirmations": []
   },
   "resolutions": [
     {
@@ -5652,19 +6202,21 @@
 ## Multi Dropoff Failed `load.multidropoff.failed`
 ```
 {
-  "when": "2020-04-22T06:53:01.1835027Z",
+  "when": "2020-08-05T12:35:28.020157Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -5729,14 +6281,17 @@
         "name": "string",
         "integration_key": "string"
       },
+      "status": null,
       "extension_property": null
     }
   ],
   "dropoffs": [
     {
+      "id": null,
       "integration_key": "string",
+      "reference": null,
       "internal_reference": null,
-      "due_at": "2020-04-22T06:53:01.1835027Z",
+      "due_at": "2020-08-05T12:35:28.0211539Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -5778,6 +6333,7 @@
         "postal_code": "string",
         "map_code": "string",
         "geofence": {
+          "id": null,
           "integration_key": "string",
           "reference": "string",
           "name": "string",
@@ -5839,6 +6395,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -5849,6 +6406,7 @@
         "stock_handed_over": false,
         "reference": "string",
         "payment_received_by": 0,
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -5861,6 +6419,7 @@
         ],
         "comment": "string",
         "type": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -5872,6 +6431,7 @@
           "string"
         ],
         "comments": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -5882,6 +6442,7 @@
         "type": "string",
         "value": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -5893,6 +6454,7 @@
         "value": "string",
         "asset_id": "string",
         "asset_integration_key": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -5903,6 +6465,7 @@
         "qty_transfered": 0,
         "transfer_reference": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -5913,6 +6476,7 @@
         "document_references": [
           "string"
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -5922,6 +6486,7 @@
       {
         "unit": "string",
         "value": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -5937,6 +6502,7 @@
             "data_type": "string"
           }
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -5951,9 +6517,10 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-04-22T06:53:01.1725323Z"
+            "completed_on": "2020-08-05T12:35:28.0081905Z"
           }
         ],
+        "outcome_type": null,
         "integration_key": "String",
         "status": "String",
         "status_reason": "String"
@@ -5964,11 +6531,13 @@
         "is_delayed": false,
         "reason": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
-    ]
+    ],
+    "contactless_confirmations": []
   },
   "resolutions": [
     {
@@ -6051,19 +6620,21 @@
 ## Multi Dropoff Started `load.multidropoff.started`
 ```
 {
-  "when": "2020-04-22T06:53:01.1815081Z",
+  "when": "2020-08-05T12:35:28.0191603Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -6128,14 +6699,17 @@
         "name": "string",
         "integration_key": "string"
       },
+      "status": null,
       "extension_property": null
     }
   ],
   "dropoffs": [
     {
+      "id": null,
       "integration_key": "string",
+      "reference": null,
       "internal_reference": null,
-      "due_at": "2020-04-22T06:53:01.1825057Z",
+      "due_at": "2020-08-05T12:35:28.0191603Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -6177,6 +6751,7 @@
         "postal_code": "string",
         "map_code": "string",
         "geofence": {
+          "id": null,
           "integration_key": "string",
           "reference": "string",
           "name": "string",
@@ -6211,6 +6786,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -6221,6 +6797,7 @@
         "stock_handed_over": false,
         "reference": "string",
         "payment_received_by": 0,
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -6233,6 +6810,7 @@
         ],
         "comment": "string",
         "type": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -6244,6 +6822,7 @@
           "string"
         ],
         "comments": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -6254,6 +6833,7 @@
         "type": "string",
         "value": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -6265,6 +6845,7 @@
         "value": "string",
         "asset_id": "string",
         "asset_integration_key": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -6275,6 +6856,7 @@
         "qty_transfered": 0,
         "transfer_reference": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -6285,6 +6867,7 @@
         "document_references": [
           "string"
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -6294,6 +6877,7 @@
       {
         "unit": "string",
         "value": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -6309,6 +6893,7 @@
             "data_type": "string"
           }
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -6323,9 +6908,10 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-04-22T06:53:01.1725323Z"
+            "completed_on": "2020-08-05T12:35:28.0081905Z"
           }
         ],
+        "outcome_type": null,
         "integration_key": "String",
         "status": "String",
         "status_reason": "String"
@@ -6336,30 +6922,34 @@
         "is_delayed": false,
         "reason": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
-    ]
+    ],
+    "contactless_confirmations": []
   }
 }
 ```
 ## Multi Pickup Completed `load.multipickup.completed`
 ```
 {
-  "when": "2020-04-22T06:53:01.1854988Z",
+  "when": "2020-08-05T12:35:28.0221522Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -6425,13 +7015,16 @@
         "name": "string",
         "integration_key": "string"
       },
+      "status": null,
       "extension_property": null
     }
   ],
   "pickups": [
     {
+      "id": null,
       "integration_key": "string",
-      "due_at": "2020-04-22T06:53:01.1854988Z",
+      "reference": null,
+      "due_at": "2020-08-05T12:35:28.0221522Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -6473,6 +7066,7 @@
         "postal_code": "string",
         "map_code": "string",
         "geofence": {
+          "id": null,
           "integration_key": "string",
           "reference": "string",
           "name": "string",
@@ -6533,6 +7127,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -6543,6 +7138,7 @@
         "stock_handed_over": false,
         "reference": "string",
         "payment_received_by": 0,
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -6555,6 +7151,7 @@
         ],
         "comment": "string",
         "type": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -6566,6 +7163,7 @@
           "string"
         ],
         "comments": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -6576,6 +7174,7 @@
         "type": "string",
         "value": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -6587,6 +7186,7 @@
         "value": "string",
         "asset_id": "string",
         "asset_integration_key": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -6597,6 +7197,7 @@
         "qty_transfered": 0,
         "transfer_reference": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -6607,6 +7208,7 @@
         "document_references": [
           "string"
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -6616,6 +7218,7 @@
       {
         "unit": "string",
         "value": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -6631,6 +7234,7 @@
             "data_type": "string"
           }
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -6645,9 +7249,10 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-04-22T06:53:01.1725323Z"
+            "completed_on": "2020-08-05T12:35:28.0081905Z"
           }
         ],
+        "outcome_type": null,
         "integration_key": "String",
         "status": "String",
         "status_reason": "String"
@@ -6658,11 +7263,13 @@
         "is_delayed": false,
         "reason": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
-    ]
+    ],
+    "contactless_confirmations": []
   },
   "resolutions": [
     {
@@ -6680,19 +7287,21 @@
 ## Multi Pickup Failed `load.multipickup.failed`
 ```
 {
-  "when": "2020-04-22T06:53:01.1854988Z",
+  "when": "2020-08-05T12:35:28.0221522Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -6757,13 +7366,16 @@
         "name": "string",
         "integration_key": "string"
       },
+      "status": null,
       "extension_property": null
     }
   ],
   "pickups": [
     {
+      "id": null,
       "integration_key": "string",
-      "due_at": "2020-04-22T06:53:01.1854988Z",
+      "reference": null,
+      "due_at": "2020-08-05T12:35:28.0221522Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -6805,6 +7417,7 @@
         "postal_code": "string",
         "map_code": "string",
         "geofence": {
+          "id": null,
           "integration_key": "string",
           "reference": "string",
           "name": "string",
@@ -6865,6 +7478,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -6875,6 +7489,7 @@
         "stock_handed_over": false,
         "reference": "string",
         "payment_received_by": 0,
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -6887,6 +7502,7 @@
         ],
         "comment": "string",
         "type": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -6898,6 +7514,7 @@
           "string"
         ],
         "comments": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -6908,6 +7525,7 @@
         "type": "string",
         "value": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -6919,6 +7537,7 @@
         "value": "string",
         "asset_id": "string",
         "asset_integration_key": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -6929,6 +7548,7 @@
         "qty_transfered": 0,
         "transfer_reference": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -6939,6 +7559,7 @@
         "document_references": [
           "string"
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -6948,6 +7569,7 @@
       {
         "unit": "string",
         "value": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -6963,6 +7585,7 @@
             "data_type": "string"
           }
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -6977,9 +7600,10 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-04-22T06:53:01.1725323Z"
+            "completed_on": "2020-08-05T12:35:28.0081905Z"
           }
         ],
+        "outcome_type": null,
         "integration_key": "String",
         "status": "String",
         "status_reason": "String"
@@ -6990,11 +7614,13 @@
         "is_delayed": false,
         "reason": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
-    ]
+    ],
+    "contactless_confirmations": []
   },
   "resolutions": [
     {
@@ -7065,19 +7691,21 @@
 ## Multi Pickup Started `load.multipickup.started`
 ```
 {
-  "when": "2020-04-22T06:53:01.1825057Z",
+  "when": "2020-08-05T12:35:28.0191603Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -7142,13 +7770,16 @@
         "name": "string",
         "integration_key": "string"
       },
+      "status": null,
       "extension_property": null
     }
   ],
   "pickups": [
     {
+      "id": null,
       "integration_key": "string",
-      "due_at": "2020-04-22T06:53:01.1825057Z",
+      "reference": null,
+      "due_at": "2020-08-05T12:35:28.020157Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -7190,6 +7821,7 @@
         "postal_code": "string",
         "map_code": "string",
         "geofence": {
+          "id": null,
           "integration_key": "string",
           "reference": "string",
           "name": "string",
@@ -7223,6 +7855,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -7233,6 +7866,7 @@
         "stock_handed_over": false,
         "reference": "string",
         "payment_received_by": 0,
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -7245,6 +7879,7 @@
         ],
         "comment": "string",
         "type": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -7256,6 +7891,7 @@
           "string"
         ],
         "comments": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -7266,6 +7902,7 @@
         "type": "string",
         "value": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -7277,6 +7914,7 @@
         "value": "string",
         "asset_id": "string",
         "asset_integration_key": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -7287,6 +7925,7 @@
         "qty_transfered": 0,
         "transfer_reference": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -7297,6 +7936,7 @@
         "document_references": [
           "string"
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -7306,6 +7946,7 @@
       {
         "unit": "string",
         "value": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -7321,6 +7962,7 @@
             "data_type": "string"
           }
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -7335,9 +7977,10 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-04-22T06:53:01.1725323Z"
+            "completed_on": "2020-08-05T12:35:28.0081905Z"
           }
         ],
+        "outcome_type": null,
         "integration_key": "String",
         "status": "String",
         "status_reason": "String"
@@ -7348,11 +7991,13 @@
         "is_delayed": false,
         "reason": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
-    ]
+    ],
+    "contactless_confirmations": []
   }
 }
 ```
@@ -7361,19 +8006,21 @@
 {
   "id": null,
   "activity_id": null,
-  "when": "2020-04-22T06:53:01.192479Z",
+  "when": "2020-08-05T12:35:28.0301314Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -7429,6 +8076,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -7439,6 +8087,7 @@
         "stock_handed_over": false,
         "reference": "string",
         "payment_received_by": 0,
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -7451,6 +8100,7 @@
         ],
         "comment": "string",
         "type": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -7462,6 +8112,7 @@
           "string"
         ],
         "comments": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -7472,6 +8123,7 @@
         "type": "string",
         "value": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -7483,6 +8135,7 @@
         "value": "string",
         "asset_id": "string",
         "asset_integration_key": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -7493,6 +8146,7 @@
         "qty_transfered": 0,
         "transfer_reference": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -7503,6 +8157,7 @@
         "document_references": [
           "string"
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -7512,6 +8167,7 @@
       {
         "unit": "string",
         "value": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -7527,6 +8183,7 @@
             "data_type": "string"
           }
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -7541,9 +8198,10 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-04-22T06:53:01.1725323Z"
+            "completed_on": "2020-08-05T12:35:28.0081905Z"
           }
         ],
+        "outcome_type": null,
         "integration_key": "String",
         "status": "String",
         "status_reason": "String"
@@ -7554,11 +8212,13 @@
         "is_delayed": false,
         "reason": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
-    ]
+    ],
+    "contactless_confirmations": []
   },
   "was_planned": false,
   "driver": {
@@ -7581,19 +8241,21 @@
 ## Odometer Failed `odometer.failed`
 ```
 {
-  "when": "2020-04-22T06:53:01.192479Z",
+  "when": "2020-08-05T12:35:28.0311275Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -7646,6 +8308,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -7656,6 +8319,7 @@
         "stock_handed_over": false,
         "reference": "string",
         "payment_received_by": 0,
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -7668,6 +8332,7 @@
         ],
         "comment": "string",
         "type": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -7679,6 +8344,7 @@
           "string"
         ],
         "comments": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -7689,6 +8355,7 @@
         "type": "string",
         "value": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -7700,6 +8367,7 @@
         "value": "string",
         "asset_id": "string",
         "asset_integration_key": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -7710,6 +8378,7 @@
         "qty_transfered": 0,
         "transfer_reference": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -7720,6 +8389,7 @@
         "document_references": [
           "string"
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -7729,6 +8399,7 @@
       {
         "unit": "string",
         "value": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -7744,6 +8415,7 @@
             "data_type": "string"
           }
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -7758,9 +8430,10 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-04-22T06:53:01.1725323Z"
+            "completed_on": "2020-08-05T12:35:28.0081905Z"
           }
         ],
+        "outcome_type": null,
         "integration_key": "String",
         "status": "String",
         "status_reason": "String"
@@ -7771,11 +8444,13 @@
         "is_delayed": false,
         "reason": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
-    ]
+    ],
+    "contactless_confirmations": []
   },
   "failure_reason": "string",
   "driver": {
@@ -7798,19 +8473,21 @@
 ## Off Route `off_route`
 ```
 {
-  "when": "2020-04-22T06:53:01.1964697Z",
+  "when": "2020-08-05T12:35:28.0351175Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -7862,19 +8539,21 @@
 ## Pickup Completed `load.pickup.completed`
 ```
 {
-  "when": "2020-04-22T06:53:01.1864966Z",
+  "when": "2020-08-05T12:35:28.0241494Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -7938,11 +8617,14 @@
       "name": "string",
       "integration_key": "string"
     },
+    "status": null,
     "extension_property": null
   },
   "pickup": {
+    "id": null,
     "integration_key": "string",
-    "due_at": "2020-04-22T06:53:01.1874929Z",
+    "reference": null,
+    "due_at": "2020-08-05T12:35:28.0241494Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -7984,6 +8666,7 @@
       "postal_code": "string",
       "map_code": "string",
       "geofence": {
+        "id": null,
         "integration_key": "string",
         "reference": "string",
         "name": "string",
@@ -8043,6 +8726,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -8053,6 +8737,7 @@
         "stock_handed_over": false,
         "reference": "string",
         "payment_received_by": 0,
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -8065,6 +8750,7 @@
         ],
         "comment": "string",
         "type": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -8076,6 +8762,7 @@
           "string"
         ],
         "comments": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -8086,6 +8773,7 @@
         "type": "string",
         "value": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -8097,6 +8785,7 @@
         "value": "string",
         "asset_id": "string",
         "asset_integration_key": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -8107,6 +8796,7 @@
         "qty_transfered": 0,
         "transfer_reference": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -8117,6 +8807,7 @@
         "document_references": [
           "string"
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -8126,6 +8817,7 @@
       {
         "unit": "string",
         "value": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -8141,6 +8833,7 @@
             "data_type": "string"
           }
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -8155,9 +8848,10 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-04-22T06:53:01.1725323Z"
+            "completed_on": "2020-08-05T12:35:28.0081905Z"
           }
         ],
+        "outcome_type": null,
         "integration_key": "String",
         "status": "String",
         "status_reason": "String"
@@ -8168,30 +8862,34 @@
         "is_delayed": false,
         "reason": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
-    ]
+    ],
+    "contactless_confirmations": []
   }
 }
 ```
 ## Pickup Failed `load.pickup.failed`
 ```
 {
-  "when": "2020-04-22T06:53:01.1874929Z",
+  "when": "2020-08-05T12:35:28.0251438Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -8255,11 +8953,14 @@
       "name": "string",
       "integration_key": "string"
     },
+    "status": null,
     "extension_property": null
   },
   "pickup": {
+    "id": null,
     "integration_key": "string",
-    "due_at": "2020-04-22T06:53:01.1874929Z",
+    "reference": null,
+    "due_at": "2020-08-05T12:35:28.0251438Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -8301,6 +9002,7 @@
       "postal_code": "string",
       "map_code": "string",
       "geofence": {
+        "id": null,
         "integration_key": "string",
         "reference": "string",
         "name": "string",
@@ -8360,6 +9062,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -8370,6 +9073,7 @@
         "stock_handed_over": false,
         "reference": "string",
         "payment_received_by": 0,
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -8382,6 +9086,7 @@
         ],
         "comment": "string",
         "type": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -8393,6 +9098,7 @@
           "string"
         ],
         "comments": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -8403,6 +9109,7 @@
         "type": "string",
         "value": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -8414,6 +9121,7 @@
         "value": "string",
         "asset_id": "string",
         "asset_integration_key": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -8424,6 +9132,7 @@
         "qty_transfered": 0,
         "transfer_reference": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -8434,6 +9143,7 @@
         "document_references": [
           "string"
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -8443,6 +9153,7 @@
       {
         "unit": "string",
         "value": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -8458,6 +9169,7 @@
             "data_type": "string"
           }
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -8472,9 +9184,10 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-04-22T06:53:01.1725323Z"
+            "completed_on": "2020-08-05T12:35:28.0081905Z"
           }
         ],
+        "outcome_type": null,
         "integration_key": "String",
         "status": "String",
         "status_reason": "String"
@@ -8485,11 +9198,13 @@
         "is_delayed": false,
         "reason": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
-    ]
+    ],
+    "contactless_confirmations": []
   },
   "failure_reason": null
 }
@@ -8497,19 +9212,21 @@
 ## Pickup Started `load.pickup.started`
 ```
 {
-  "when": "2020-04-22T06:53:01.1864966Z",
+  "when": "2020-08-05T12:35:28.0231489Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -8573,11 +9290,14 @@
       "name": "string",
       "integration_key": "string"
     },
+    "status": null,
     "extension_property": null
   },
   "pickup": {
+    "id": null,
     "integration_key": "string",
-    "due_at": "2020-04-22T06:53:01.1864966Z",
+    "reference": null,
+    "due_at": "2020-08-05T12:35:28.0241494Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -8619,6 +9339,7 @@
       "postal_code": "string",
       "map_code": "string",
       "geofence": {
+        "id": null,
         "integration_key": "string",
         "reference": "string",
         "name": "string",
@@ -8651,6 +9372,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -8661,6 +9383,7 @@
         "stock_handed_over": false,
         "reference": "string",
         "payment_received_by": 0,
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -8673,6 +9396,7 @@
         ],
         "comment": "string",
         "type": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -8684,6 +9408,7 @@
           "string"
         ],
         "comments": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -8694,6 +9419,7 @@
         "type": "string",
         "value": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -8705,6 +9431,7 @@
         "value": "string",
         "asset_id": "string",
         "asset_integration_key": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -8715,6 +9442,7 @@
         "qty_transfered": 0,
         "transfer_reference": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -8725,6 +9453,7 @@
         "document_references": [
           "string"
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -8734,6 +9463,7 @@
       {
         "unit": "string",
         "value": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -8749,6 +9479,7 @@
             "data_type": "string"
           }
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -8763,9 +9494,10 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-04-22T06:53:01.1725323Z"
+            "completed_on": "2020-08-05T12:35:28.0081905Z"
           }
         ],
+        "outcome_type": null,
         "integration_key": "String",
         "status": "String",
         "status_reason": "String"
@@ -8776,18 +9508,20 @@
         "is_delayed": false,
         "reason": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
-    ]
+    ],
+    "contactless_confirmations": []
   }
 }
 ```
 ## Process Edocs Response `edoc.process.response`
 ```
 {
-  "when": "2020-04-22T06:53:01.2054443Z",
+  "when": "2020-08-05T12:35:28.0440925Z",
   "where": [
     0.0,
     0.0
@@ -8805,19 +9539,21 @@
 ## Rest Stop Completed `rest_stop.completed`
 ```
 {
-  "when": "2020-04-22T06:53:01.1914817Z",
+  "when": "2020-08-05T12:35:28.0291331Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -8879,7 +9615,8 @@
     "weights": [],
     "forms": [],
     "e_documents": [],
-    "delays": []
+    "delays": [],
+    "contactless_confirmations": []
   },
   "driver": {
     "id": "string",
@@ -8902,19 +9639,21 @@
 ## Rest Stop Failed `rest_stop.failed`
 ```
 {
-  "when": "2020-04-22T06:53:01.1914817Z",
+  "when": "2020-08-05T12:35:28.0301314Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -8967,6 +9706,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -8977,6 +9717,7 @@
         "stock_handed_over": false,
         "reference": "string",
         "payment_received_by": 0,
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -8989,6 +9730,7 @@
         ],
         "comment": "string",
         "type": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -9000,6 +9742,7 @@
           "string"
         ],
         "comments": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -9010,6 +9753,7 @@
         "type": "string",
         "value": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -9021,6 +9765,7 @@
         "value": "string",
         "asset_id": "string",
         "asset_integration_key": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -9031,6 +9776,7 @@
         "qty_transfered": 0,
         "transfer_reference": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -9041,6 +9787,7 @@
         "document_references": [
           "string"
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -9050,6 +9797,7 @@
       {
         "unit": "string",
         "value": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -9065,6 +9813,7 @@
             "data_type": "string"
           }
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -9079,9 +9828,10 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-04-22T06:53:01.1725323Z"
+            "completed_on": "2020-08-05T12:35:28.0081905Z"
           }
         ],
+        "outcome_type": null,
         "integration_key": "String",
         "status": "String",
         "status_reason": "String"
@@ -9092,11 +9842,13 @@
         "is_delayed": false,
         "reason": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
-    ]
+    ],
+    "contactless_confirmations": []
   },
   "failure_reason": "string",
   "driver": {
@@ -9120,19 +9872,21 @@
 ## Rest Stop Started `rest_stop.started`
 ```
 {
-  "when": "2020-04-22T06:53:01.1904856Z",
+  "when": "2020-08-05T12:35:28.0291331Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -9203,19 +9957,21 @@
 ## Stop Arrived `load.stop.arrived`
 ```
 {
-  "when": "2020-04-22T06:53:01.1765229Z",
+  "when": "2020-08-05T12:35:28.0121789Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -9271,19 +10027,21 @@
 ## Stop Departed `load.stop.departed`
 ```
 {
-  "when": "2020-04-22T06:53:01.1765229Z",
+  "when": "2020-08-05T12:35:28.0131755Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -9339,19 +10097,21 @@
 ## Stop Failed `load.stop.failed`
 ```
 {
-  "when": "2020-04-22T06:53:01.1934762Z",
+  "when": "2020-08-05T12:35:28.0321244Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -9404,6 +10164,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -9414,6 +10175,7 @@
         "stock_handed_over": false,
         "reference": "string",
         "payment_received_by": 0,
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -9426,6 +10188,7 @@
         ],
         "comment": "string",
         "type": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -9437,6 +10200,7 @@
           "string"
         ],
         "comments": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -9447,6 +10211,7 @@
         "type": "string",
         "value": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -9458,6 +10223,7 @@
         "value": "string",
         "asset_id": "string",
         "asset_integration_key": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -9468,6 +10234,7 @@
         "qty_transfered": 0,
         "transfer_reference": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -9478,6 +10245,7 @@
         "document_references": [
           "string"
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -9487,6 +10255,7 @@
       {
         "unit": "string",
         "value": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -9502,6 +10271,7 @@
             "data_type": "string"
           }
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -9516,9 +10286,10 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-04-22T06:53:01.1725323Z"
+            "completed_on": "2020-08-05T12:35:28.0081905Z"
           }
         ],
+        "outcome_type": null,
         "integration_key": "String",
         "status": "String",
         "status_reason": "String"
@@ -9529,11 +10300,13 @@
         "is_delayed": false,
         "reason": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
-    ]
+    ],
+    "contactless_confirmations": []
   },
   "failure_reason": "string"
 }
@@ -9541,19 +10314,21 @@
 ## Stop Recorded `load.stop.recorded`
 ```
 {
-  "when": "2020-04-22T06:53:01.1934762Z",
+  "when": "2020-08-05T12:35:28.0311275Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -9606,6 +10381,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -9616,6 +10392,7 @@
         "stock_handed_over": false,
         "reference": "string",
         "payment_received_by": 0,
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -9628,6 +10405,7 @@
         ],
         "comment": "string",
         "type": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -9639,6 +10417,7 @@
           "string"
         ],
         "comments": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -9649,6 +10428,7 @@
         "type": "string",
         "value": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -9660,6 +10440,7 @@
         "value": "string",
         "asset_id": "string",
         "asset_integration_key": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -9670,6 +10451,7 @@
         "qty_transfered": 0,
         "transfer_reference": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -9680,6 +10462,7 @@
         "document_references": [
           "string"
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -9689,6 +10472,7 @@
       {
         "unit": "string",
         "value": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -9704,6 +10488,7 @@
             "data_type": "string"
           }
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -9718,9 +10503,10 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-04-22T06:53:01.1725323Z"
+            "completed_on": "2020-08-05T12:35:28.0081905Z"
           }
         ],
+        "outcome_type": null,
         "integration_key": "String",
         "status": "String",
         "status_reason": "String"
@@ -9731,11 +10517,13 @@
         "is_delayed": false,
         "reason": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
-    ]
+    ],
+    "contactless_confirmations": []
   },
   "travel_plan_poi_id": null,
   "integration_key": null
@@ -9744,19 +10532,21 @@
 ## Timed Task Completed `timed_task.completed`
 ```
 {
-  "when": "2020-04-22T06:53:01.1984691Z",
+  "when": "2020-08-05T12:35:28.037111Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -9811,19 +10601,21 @@
 ## Timed Task Failed `timed_task.failed`
 ```
 {
-  "when": "2020-04-22T06:53:01.1984691Z",
+  "when": "2020-08-05T12:35:28.0381088Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -9879,19 +10671,21 @@
 ## Timed Task Started `timed_task.started`
 ```
 {
-  "when": "2020-04-22T06:53:01.1974668Z",
+  "when": "2020-08-05T12:35:28.037111Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -9947,12 +10741,14 @@
 {
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -10000,40 +10796,44 @@
     "created_by": "string"
   },
   "travel_plan": {
-    "start": "2020-04-22T06:53:01.2084363Z",
-    "end": "2020-04-22T06:53:01.2084363Z",
+    "start": "2020-08-05T12:35:28.0470847Z",
+    "end": "2020-08-05T12:35:28.0470847Z",
     "pois": [
       {
         "travel_plan_poi_id": "string",
-        "due_time": "2020-04-22T06:53:01.2084363Z",
+        "due_time": "2020-08-05T12:35:28.0470847Z",
+        "geofence_trackmatic_id": null,
         "geofence_id": "string",
         "geofence_name": "string",
         "tags": [],
         "activity_ids": [],
         "pickup_ids": [],
-        "dropoff_ids": []
+        "dropoff_ids": [],
+        "activities": null
       }
     ]
   },
-  "when": "2020-04-22T06:53:01.2084363Z"
+  "when": "2020-08-05T12:35:28.0470847Z"
 }
 ```
 ## Weighbridge Completed `weighbridge.completed`
 ```
 {
-  "when": "2020-04-22T06:53:01.1944735Z",
+  "when": "2020-08-05T12:35:28.033122Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -10086,6 +10886,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -10096,6 +10897,7 @@
         "stock_handed_over": false,
         "reference": "string",
         "payment_received_by": 0,
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -10108,6 +10910,7 @@
         ],
         "comment": "string",
         "type": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -10119,6 +10922,7 @@
           "string"
         ],
         "comments": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -10129,6 +10933,7 @@
         "type": "string",
         "value": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -10140,6 +10945,7 @@
         "value": "string",
         "asset_id": "string",
         "asset_integration_key": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -10150,6 +10956,7 @@
         "qty_transfered": 0,
         "transfer_reference": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -10160,6 +10967,7 @@
         "document_references": [
           "string"
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -10169,6 +10977,7 @@
       {
         "unit": "string",
         "value": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -10184,6 +10993,7 @@
             "data_type": "string"
           }
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -10198,9 +11008,10 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-04-22T06:53:01.1725323Z"
+            "completed_on": "2020-08-05T12:35:28.0081905Z"
           }
         ],
+        "outcome_type": null,
         "integration_key": "String",
         "status": "String",
         "status_reason": "String"
@@ -10211,11 +11022,13 @@
         "is_delayed": false,
         "reason": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
-    ]
+    ],
+    "contactless_confirmations": []
   },
   "was_planned": false,
   "weighbridge_name": "string",
@@ -10253,19 +11066,21 @@
 ## Weighbridge Failed `weighbridge.failed`
 ```
 {
-  "when": "2020-04-22T06:53:01.1954707Z",
+  "when": "2020-08-05T12:35:28.0341196Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
@@ -10318,6 +11133,7 @@
         "image_url": "string",
         "name": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -10328,6 +11144,7 @@
         "stock_handed_over": false,
         "reference": "string",
         "payment_received_by": 0,
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -10340,6 +11157,7 @@
         ],
         "comment": "string",
         "type": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -10351,6 +11169,7 @@
           "string"
         ],
         "comments": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -10361,6 +11180,7 @@
         "type": "string",
         "value": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -10372,6 +11192,7 @@
         "value": "string",
         "asset_id": "string",
         "asset_integration_key": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -10382,6 +11203,7 @@
         "qty_transfered": 0,
         "transfer_reference": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -10392,6 +11214,7 @@
         "document_references": [
           "string"
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -10401,6 +11224,7 @@
       {
         "unit": "string",
         "value": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -10416,6 +11240,7 @@
             "data_type": "string"
           }
         ],
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
@@ -10430,9 +11255,10 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-04-22T06:53:01.1725323Z"
+            "completed_on": "2020-08-05T12:35:28.0081905Z"
           }
         ],
+        "outcome_type": null,
         "integration_key": "String",
         "status": "String",
         "status_reason": "String"
@@ -10443,11 +11269,13 @@
         "is_delayed": false,
         "reason": "string",
         "comment": "string",
+        "outcome_type": null,
         "integration_key": "string",
         "status": "string",
         "status_reason": "string"
       }
-    ]
+    ],
+    "contactless_confirmations": []
   },
   "failure_reason": "string",
   "driver": {
@@ -10470,19 +11298,21 @@
 ## Weighbridge Started `weighbridge.started`
 ```
 {
-  "when": "2020-04-22T06:53:01.1934762Z",
+  "when": "2020-08-05T12:35:28.0321244Z",
   "where": [
     0.0,
     0.0
   ],
   "load": {
     "id": "string",
+    "organisation_id": null,
     "site_id": "string",
     "site_name": null,
     "integration_key": "string",
     "requested_date": "0001-01-01T00:00:00",
     "date_created": "0001-01-01T00:00:00",
     "reference": "string",
+    "name": null,
     "allocation": {
       "driver": {
         "id": "string",
