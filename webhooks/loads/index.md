@@ -2,7 +2,7 @@
 ## Actions Dropoff Attempted `load.actiondropoff.attempted`
 ```
 {
-  "when": "2020-08-12T15:52:44.3394072Z",
+  "when": "2020-09-02T14:58:00.2800755Z",
   "where": [
     0.0,
     0.0
@@ -74,11 +74,13 @@
       "consignor": {
         "entity_id": "string",
         "name": "string",
+        "reference": null,
         "integration_key": "string"
       },
       "consignee": {
         "entity_id": "string",
         "name": "string",
+        "reference": null,
         "integration_key": "string"
       },
       "status": null,
@@ -91,7 +93,7 @@
       "integration_key": "string",
       "reference": null,
       "internal_reference": null,
-      "due_at": "2020-08-12T15:52:44.3394072Z",
+      "due_at": "2020-09-02T14:58:00.2810723Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -290,7 +292,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-08-12T15:52:44.3114816Z"
+            "completed_on": "2020-09-02T14:58:00.250154Z"
           }
         ],
         "outcome_type": null,
@@ -310,7 +312,8 @@
         "status_reason": "string"
       }
     ],
-    "contactless_confirmations": []
+    "contactless_confirmations": [],
+    "terms_and_conditions_debriefs": []
   },
   "started_at": "0001-01-01T00:00:00",
   "ended_at": "0001-01-01T00:00:00",
@@ -322,7 +325,7 @@
 ## Actions Dropoff Cancelled `load.actiondropoff.cancelled`
 ```
 {
-  "when": "2020-08-12T15:52:44.3404058Z",
+  "when": "2020-09-02T14:58:00.2810723Z",
   "where": [
     0.0,
     0.0
@@ -394,11 +397,13 @@
       "consignor": {
         "entity_id": "string",
         "name": "string",
+        "reference": null,
         "integration_key": "string"
       },
       "consignee": {
         "entity_id": "string",
         "name": "string",
+        "reference": null,
         "integration_key": "string"
       },
       "status": null,
@@ -411,7 +416,7 @@
       "integration_key": "string",
       "reference": null,
       "internal_reference": null,
-      "due_at": "2020-08-12T15:52:44.3404058Z",
+      "due_at": "2020-09-02T14:58:00.2820698Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -610,7 +615,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-08-12T15:52:44.3114816Z"
+            "completed_on": "2020-09-02T14:58:00.250154Z"
           }
         ],
         "outcome_type": null,
@@ -630,7 +635,8 @@
         "status_reason": "string"
       }
     ],
-    "contactless_confirmations": []
+    "contactless_confirmations": [],
+    "terms_and_conditions_debriefs": []
   },
   "started_at": "0001-01-01T00:00:00",
   "ended_at": "0001-01-01T00:00:00",
@@ -642,7 +648,7 @@
 ## Actions Dropoff Completed `load.actiondropoff.completed`
 ```
 {
-  "when": "2020-08-12T15:52:44.3374139Z",
+  "when": "2020-09-02T14:58:00.2800755Z",
   "where": [
     0.0,
     0.0
@@ -715,11 +721,13 @@
       "consignor": {
         "entity_id": "string",
         "name": "string",
+        "reference": null,
         "integration_key": "string"
       },
       "consignee": {
         "entity_id": "string",
         "name": "string",
+        "reference": null,
         "integration_key": "string"
       },
       "status": null,
@@ -732,7 +740,7 @@
       "integration_key": "string",
       "reference": null,
       "internal_reference": null,
-      "due_at": "2020-08-12T15:52:44.3394072Z",
+      "due_at": "2020-09-02T14:58:00.2800755Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -931,7 +939,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-08-12T15:52:44.3114816Z"
+            "completed_on": "2020-09-02T14:58:00.250154Z"
           }
         ],
         "outcome_type": null,
@@ -951,7 +959,8 @@
         "status_reason": "string"
       }
     ],
-    "contactless_confirmations": []
+    "contactless_confirmations": [],
+    "terms_and_conditions_debriefs": []
   },
   "resolutions": [
     {
@@ -975,7 +984,7 @@
 ## Actions Pickup Attempted `load.actionpickup.attempted`
 ```
 {
-  "when": "2020-08-12T15:52:44.341403Z",
+  "when": "2020-09-02T14:58:00.2820698Z",
   "where": [
     0.0,
     0.0
@@ -1047,11 +1056,13 @@
       "consignor": {
         "entity_id": "string",
         "name": "string",
+        "reference": null,
         "integration_key": "string"
       },
       "consignee": {
         "entity_id": "string",
         "name": "string",
+        "reference": null,
         "integration_key": "string"
       },
       "status": null,
@@ -1063,7 +1074,7 @@
       "id": null,
       "integration_key": "string",
       "reference": null,
-      "due_at": "2020-08-12T15:52:44.341403Z",
+      "due_at": "2020-09-02T14:58:00.2830686Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -1261,7 +1272,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-08-12T15:52:44.3114816Z"
+            "completed_on": "2020-09-02T14:58:00.250154Z"
           }
         ],
         "outcome_type": null,
@@ -1281,7 +1292,8 @@
         "status_reason": "string"
       }
     ],
-    "contactless_confirmations": []
+    "contactless_confirmations": [],
+    "terms_and_conditions_debriefs": []
   },
   "started_at": "0001-01-01T00:00:00",
   "ended_at": "0001-01-01T00:00:00",
@@ -1293,7 +1305,7 @@
 ## Actions Pickup Cancelled `load.actionpickup.cancelled`
 ```
 {
-  "when": "2020-08-12T15:52:44.341403Z",
+  "when": "2020-09-02T14:58:00.2830686Z",
   "where": [
     0.0,
     0.0
@@ -1365,11 +1377,13 @@
       "consignor": {
         "entity_id": "string",
         "name": "string",
+        "reference": null,
         "integration_key": "string"
       },
       "consignee": {
         "entity_id": "string",
         "name": "string",
+        "reference": null,
         "integration_key": "string"
       },
       "status": null,
@@ -1381,7 +1395,7 @@
       "id": null,
       "integration_key": "string",
       "reference": null,
-      "due_at": "2020-08-12T15:52:44.3424043Z",
+      "due_at": "2020-09-02T14:58:00.2830686Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -1579,7 +1593,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-08-12T15:52:44.3114816Z"
+            "completed_on": "2020-09-02T14:58:00.250154Z"
           }
         ],
         "outcome_type": null,
@@ -1599,7 +1613,8 @@
         "status_reason": "string"
       }
     ],
-    "contactless_confirmations": []
+    "contactless_confirmations": [],
+    "terms_and_conditions_debriefs": []
   },
   "started_at": "0001-01-01T00:00:00",
   "ended_at": "0001-01-01T00:00:00",
@@ -1611,7 +1626,7 @@
 ## Actions Pickup Completed `load.actionpickup.completed`
 ```
 {
-  "when": "2020-08-12T15:52:44.3404058Z",
+  "when": "2020-09-02T14:58:00.2820698Z",
   "where": [
     0.0,
     0.0
@@ -1684,11 +1699,13 @@
       "consignor": {
         "entity_id": "string",
         "name": "string",
+        "reference": null,
         "integration_key": "string"
       },
       "consignee": {
         "entity_id": "string",
         "name": "string",
+        "reference": null,
         "integration_key": "string"
       },
       "status": null,
@@ -1700,7 +1717,7 @@
       "id": null,
       "integration_key": "string",
       "reference": null,
-      "due_at": "2020-08-12T15:52:44.341403Z",
+      "due_at": "2020-09-02T14:58:00.2820698Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -1898,7 +1915,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-08-12T15:52:44.3114816Z"
+            "completed_on": "2020-09-02T14:58:00.250154Z"
           }
         ],
         "outcome_type": null,
@@ -1918,7 +1935,8 @@
         "status_reason": "string"
       }
     ],
-    "contactless_confirmations": []
+    "contactless_confirmations": [],
+    "terms_and_conditions_debriefs": []
   },
   "resolutions": [
     {
@@ -1942,7 +1960,7 @@
 ## Border Crossing `border_crossing`
 ```
 {
-  "when": "2020-08-12T15:52:44.3254514Z",
+  "when": "2020-09-02T14:58:00.2661131Z",
   "where": [
     0.0,
     0.0
@@ -2131,7 +2149,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-08-12T15:52:44.3114816Z"
+            "completed_on": "2020-09-02T14:58:00.250154Z"
           }
         ],
         "outcome_type": null,
@@ -2151,7 +2169,8 @@
         "status_reason": "string"
       }
     ],
-    "contactless_confirmations": []
+    "contactless_confirmations": [],
+    "terms_and_conditions_debriefs": []
   },
   "country": "string",
   "name": "string",
@@ -2177,7 +2196,7 @@
 ## Border Crossing Failed `border_crossing.failed`
 ```
 {
-  "when": "2020-08-12T15:52:44.3264417Z",
+  "when": "2020-09-02T14:58:00.2661131Z",
   "where": [
     0.0,
     0.0
@@ -2366,7 +2385,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-08-12T15:52:44.3114816Z"
+            "completed_on": "2020-09-02T14:58:00.250154Z"
           }
         ],
         "outcome_type": null,
@@ -2386,7 +2405,8 @@
         "status_reason": "string"
       }
     ],
-    "contactless_confirmations": []
+    "contactless_confirmations": [],
+    "terms_and_conditions_debriefs": []
   },
   "failure_reason": "string",
   "driver": {
@@ -2409,7 +2429,7 @@
 ## Breakdown `breakdown`
 ```
 {
-  "when": "2020-08-12T15:52:44.3334231Z",
+  "when": "2020-09-02T14:58:00.2770837Z",
   "where": [
     0.0,
     0.0
@@ -2601,7 +2621,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-08-12T15:52:44.3114816Z"
+            "completed_on": "2020-09-02T14:58:00.250154Z"
           }
         ],
         "outcome_type": null,
@@ -2621,7 +2641,8 @@
         "status_reason": "string"
       }
     ],
-    "contactless_confirmations": []
+    "contactless_confirmations": [],
+    "terms_and_conditions_debriefs": []
   },
   "driver_id": "string",
   "vehicle_id": "string",
@@ -2649,7 +2670,7 @@
 ## Collection Completed `collection.completed`
 ```
 {
-  "when": "2020-08-12T15:52:44.3443946Z",
+  "when": "2020-09-02T14:58:00.2860594Z",
   "where": [
     0.0
   ],
@@ -2665,11 +2686,13 @@
       "consignor": {
         "entity_id": "string",
         "name": "string",
+        "reference": null,
         "integration_key": "string"
       },
       "consignee": {
         "entity_id": "string",
         "name": "string",
+        "reference": null,
         "integration_key": "string"
       },
       "status": null,
@@ -2890,7 +2913,7 @@
 ## Collection Started `load.collection.started`
 ```
 {
-  "when": "2020-08-12T15:52:44.343398Z",
+  "when": "2020-09-02T14:58:00.2840657Z",
   "where": [
     0.0,
     0.0
@@ -2962,11 +2985,13 @@
       "consignor": {
         "entity_id": "string",
         "name": "string",
+        "reference": null,
         "integration_key": "string"
       },
       "consignee": {
         "entity_id": "string",
         "name": "string",
+        "reference": null,
         "integration_key": "string"
       },
       "status": null,
@@ -2978,7 +3003,7 @@
       "id": "string",
       "integration_key": "string",
       "reference": "string",
-      "due_at": "2020-08-12T15:52:44.343398Z",
+      "due_at": "2020-09-02T14:58:00.2850622Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -3093,7 +3118,7 @@
 ## Consignment Created `load.consignment.created`
 ```
 {
-  "when": "2020-08-12T15:52:44.3443946Z",
+  "when": "2020-09-02T14:58:00.2860594Z",
   "site_refrence": "string",
   "consignment": {
     "id": "string",
@@ -3106,7 +3131,7 @@
         "id": null,
         "integration_key": "string",
         "reference": null,
-        "due_at": "2020-08-12T15:52:44.3453918Z",
+        "due_at": "2020-09-02T14:58:00.2870566Z",
         "quantity": {
           "value": 0.0,
           "units": "string"
@@ -3209,7 +3234,7 @@
         "integration_key": "string",
         "reference": null,
         "internal_reference": null,
-        "due_at": "2020-08-12T15:52:44.3453918Z",
+        "due_at": "2020-09-02T14:58:00.2870566Z",
         "quantity": {
           "value": 0.0,
           "units": "string"
@@ -3310,11 +3335,13 @@
     "consignor": {
       "entity_id": "string",
       "name": "string",
+      "reference": null,
       "integration_key": "string"
     },
     "consignee": {
       "entity_id": "string",
       "name": "string",
+      "reference": null,
       "integration_key": "string"
     },
     "extension_property": [
@@ -3326,10 +3353,10 @@
   }
 }
 ```
-## Consignment Status Changed `load.consignment.status.changed`
+## Consignment Expanded Status Changed `load.consignment.expanded.status.changed`
 ```
 {
-  "when": "2020-08-12T15:52:44.3463896Z",
+  "when": "2020-09-02T14:58:00.2880546Z",
   "site_refrence": "string",
   "consignment": {
     "id": "string",
@@ -3342,7 +3369,7 @@
         "id": null,
         "integration_key": "string",
         "reference": null,
-        "due_at": "2020-08-12T15:52:44.3453918Z",
+        "due_at": "2020-09-02T14:58:00.2880546Z",
         "quantity": {
           "value": 0.0,
           "units": "string"
@@ -3445,7 +3472,7 @@
         "integration_key": "string",
         "reference": null,
         "internal_reference": null,
-        "due_at": "2020-08-12T15:52:44.3453918Z",
+        "due_at": "2020-09-02T14:58:00.2880546Z",
         "quantity": {
           "value": 0.0,
           "units": "string"
@@ -3546,11 +3573,259 @@
     "consignor": {
       "entity_id": "string",
       "name": "string",
+      "reference": null,
       "integration_key": "string"
     },
     "consignee": {
       "entity_id": "string",
       "name": "string",
+      "reference": null,
+      "integration_key": "string"
+    },
+    "extension_property": [
+      {
+        "key": "string",
+        "value": "string"
+      }
+    ]
+  },
+  "load_id": "string",
+  "load_status": "string",
+  "activityid": "string",
+  "activity_status": "string",
+  "common_status": "string",
+  "reason_id": "string",
+  "reason": "string",
+  "reason_reference": "string"
+}
+```
+## Consignment Status Changed `load.consignment.status.changed`
+```
+{
+  "when": "2020-09-02T14:58:00.2880546Z",
+  "site_refrence": "string",
+  "consignment": {
+    "id": "string",
+    "cargo_type": "string",
+    "integration_key": "string",
+    "reference": "string",
+    "status": "string",
+    "pickups": [
+      {
+        "id": null,
+        "integration_key": "string",
+        "reference": null,
+        "due_at": "2020-09-02T14:58:00.2880546Z",
+        "quantity": {
+          "value": 0.0,
+          "units": "string"
+        },
+        "dimensions": {
+          "volumetric_mass": 0.0,
+          "weight": 0.0,
+          "pieces": 0,
+          "pallets": 0.0,
+          "volume": {
+            "length": 0.0,
+            "width": 0.0,
+            "height": 0.0,
+            "volume": 0.0
+          },
+          "litres": 0.0
+        },
+        "financial": null,
+        "maximum_service_time": "00:00:00",
+        "entity": {
+          "entity_id": "string",
+          "name": "string",
+          "integration_key": "string",
+          "reference": null
+        },
+        "shipping_address": {
+          "integration_key": "string",
+          "name": null,
+          "refernce": null,
+          "shipping_address_id": "string",
+          "unit_no": "string",
+          "building_name": "string",
+          "street_no": "string",
+          "sub_division_number": "string",
+          "street": "string",
+          "suburb": "string",
+          "city": "string",
+          "province": "string",
+          "postal_code": "string",
+          "map_code": "string",
+          "geofence": {
+            "id": null,
+            "integration_key": "string",
+            "reference": "string",
+            "name": "string",
+            "entrance": [
+              0.0,
+              0.0
+            ],
+            "shape": {
+              "markers": [
+                [
+                  0.0,
+                  0.0
+                ]
+              ],
+              "marker": [
+                0.0,
+                0.0
+              ],
+              "size": 0.0,
+              "type": "string"
+            }
+          }
+        },
+        "contacts": null,
+        "handling_units": [
+          {
+            "integrationkey": "string",
+            "reference": "string",
+            "description": "String",
+            "customer_reference": "String",
+            "internal_reference": "string",
+            "barcode": "string",
+            "dimensions": {
+              "volumetric_mass": 0.0,
+              "weight": 0.0,
+              "pieces": 0,
+              "pallets": 0.0,
+              "volume": {
+                "length": 0.0,
+                "width": 0.0,
+                "height": 0.0,
+                "volume": 0.0
+              },
+              "litres": 0.0
+            },
+            "status": "string",
+            "unit_of_measure": "string",
+            "is_specified": false,
+            "code": "string",
+            "model": "String"
+          }
+        ]
+      }
+    ],
+    "dropoffs": [
+      {
+        "id": null,
+        "integration_key": "string",
+        "reference": null,
+        "internal_reference": null,
+        "due_at": "2020-09-02T14:58:00.2880546Z",
+        "quantity": {
+          "value": 0.0,
+          "units": "string"
+        },
+        "dimensions": {
+          "volumetric_mass": 0.0,
+          "weight": 0.0,
+          "pieces": 0,
+          "pallets": 0.0,
+          "volume": {
+            "length": 0.0,
+            "width": 0.0,
+            "height": 0.0,
+            "volume": 0.0
+          },
+          "litres": 0.0
+        },
+        "financial": null,
+        "maximum_service_time": "00:00:00",
+        "entity": {
+          "entity_id": "string",
+          "name": "string",
+          "integration_key": "string",
+          "reference": null
+        },
+        "shipping_address": {
+          "integration_key": "string",
+          "name": null,
+          "refernce": null,
+          "shipping_address_id": "string",
+          "unit_no": "string",
+          "building_name": "string",
+          "street_no": "string",
+          "sub_division_number": "string",
+          "street": "string",
+          "suburb": "string",
+          "city": "string",
+          "province": "string",
+          "postal_code": "string",
+          "map_code": "string",
+          "geofence": {
+            "id": null,
+            "integration_key": "string",
+            "reference": "string",
+            "name": "string",
+            "entrance": [
+              0.0,
+              0.0
+            ],
+            "shape": {
+              "markers": [
+                [
+                  0.0,
+                  0.0
+                ]
+              ],
+              "marker": [
+                0.0,
+                0.0
+              ],
+              "size": 0.0,
+              "type": "string"
+            }
+          }
+        },
+        "contacts": null,
+        "handling_units": [
+          {
+            "integrationkey": "string",
+            "reference": "string",
+            "description": "String",
+            "customer_reference": "String",
+            "internal_reference": "string",
+            "barcode": "string",
+            "dimensions": {
+              "volumetric_mass": 0.0,
+              "weight": 0.0,
+              "pieces": 0,
+              "pallets": 0.0,
+              "volume": {
+                "length": 0.0,
+                "width": 0.0,
+                "height": 0.0,
+                "volume": 0.0
+              },
+              "litres": 0.0
+            },
+            "status": "string",
+            "unit_of_measure": "string",
+            "is_specified": null,
+            "code": "string",
+            "model": "String"
+          }
+        ],
+        "requirements": null
+      }
+    ],
+    "consignor": {
+      "entity_id": "string",
+      "name": "string",
+      "reference": null,
+      "integration_key": "string"
+    },
+    "consignee": {
+      "entity_id": "string",
+      "name": "string",
+      "reference": null,
       "integration_key": "string"
     },
     "extension_property": [
@@ -3565,7 +3840,7 @@
 ## Custom Activity Completed `custom_activity.completed`
 ```
 {
-  "when": "2020-08-12T15:52:44.336415Z",
+  "when": "2020-09-02T14:58:00.2790786Z",
   "where": [
     0.0,
     0.0
@@ -3634,7 +3909,7 @@
 ## Custom Activity Started `custom_activity.started`
 ```
 {
-  "when": "2020-08-12T15:52:44.336415Z",
+  "when": "2020-09-02T14:58:00.2780845Z",
   "where": [
     0.0,
     0.0
@@ -3702,7 +3977,7 @@
 ## Dropoff Completed `load.dropoff.completed`
 ```
 {
-  "when": "2020-08-12T15:52:44.3194617Z",
+  "when": "2020-09-02T14:58:00.2611269Z",
   "where": [
     0.0,
     0.0
@@ -3773,11 +4048,13 @@
     "consignor": {
       "entity_id": "string",
       "name": "string",
+      "reference": null,
       "integration_key": "string"
     },
     "consignee": {
       "entity_id": "string",
       "name": "string",
+      "reference": null,
       "integration_key": "string"
     },
     "status": null,
@@ -3788,7 +4065,7 @@
     "integration_key": "string",
     "reference": null,
     "internal_reference": null,
-    "due_at": "2020-08-12T15:52:44.3204581Z",
+    "due_at": "2020-09-02T14:58:00.2611269Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -4013,7 +4290,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-08-12T15:52:44.3114816Z"
+            "completed_on": "2020-09-02T14:58:00.250154Z"
           }
         ],
         "outcome_type": null,
@@ -4033,14 +4310,15 @@
         "status_reason": "string"
       }
     ],
-    "contactless_confirmations": []
+    "contactless_confirmations": [],
+    "terms_and_conditions_debriefs": []
   }
 }
 ```
 ## Dropoff Failed `load.dropoff.failed`
 ```
 {
-  "when": "2020-08-12T15:52:44.3244472Z",
+  "when": "2020-09-02T14:58:00.2641185Z",
   "where": [
     0.0,
     0.0
@@ -4111,11 +4389,13 @@
     "consignor": {
       "entity_id": "string",
       "name": "string",
+      "reference": null,
       "integration_key": "string"
     },
     "consignee": {
       "entity_id": "string",
       "name": "string",
+      "reference": null,
       "integration_key": "string"
     },
     "status": null,
@@ -4126,7 +4406,7 @@
     "integration_key": "string",
     "reference": null,
     "internal_reference": null,
-    "due_at": "2020-08-12T15:52:44.3244472Z",
+    "due_at": "2020-09-02T14:58:00.265116Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -4351,7 +4631,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-08-12T15:52:44.3114816Z"
+            "completed_on": "2020-09-02T14:58:00.250154Z"
           }
         ],
         "outcome_type": null,
@@ -4371,7 +4651,8 @@
         "status_reason": "string"
       }
     ],
-    "contactless_confirmations": []
+    "contactless_confirmations": [],
+    "terms_and_conditions_debriefs": []
   },
   "failure_reason": null
 }
@@ -4379,7 +4660,7 @@
 ## Dropoff Started `load.dropoff.started`
 ```
 {
-  "when": "2020-08-12T15:52:44.3194617Z",
+  "when": "2020-09-02T14:58:00.2601294Z",
   "where": [
     0.0,
     0.0
@@ -4450,11 +4731,13 @@
     "consignor": {
       "entity_id": "string",
       "name": "string",
+      "reference": null,
       "integration_key": "string"
     },
     "consignee": {
       "entity_id": "string",
       "name": "string",
+      "reference": null,
       "integration_key": "string"
     },
     "status": null,
@@ -4465,7 +4748,7 @@
     "integration_key": "string",
     "reference": null,
     "internal_reference": null,
-    "due_at": "2020-08-12T15:52:44.3194617Z",
+    "due_at": "2020-09-02T14:58:00.2611269Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -4663,7 +4946,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-08-12T15:52:44.3114816Z"
+            "completed_on": "2020-09-02T14:58:00.250154Z"
           }
         ],
         "outcome_type": null,
@@ -4683,14 +4966,15 @@
         "status_reason": "string"
       }
     ],
-    "contactless_confirmations": []
+    "contactless_confirmations": [],
+    "terms_and_conditions_debriefs": []
   }
 }
 ```
 ## Fuel Stop Completed `fuel_stop.completed`
 ```
 {
-  "when": "2020-08-12T15:52:44.3264417Z",
+  "when": "2020-09-02T14:58:00.2671102Z",
   "where": [
     0.0,
     0.0
@@ -4879,7 +5163,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-08-12T15:52:44.3114816Z"
+            "completed_on": "2020-09-02T14:58:00.250154Z"
           }
         ],
         "outcome_type": null,
@@ -4899,7 +5183,8 @@
         "status_reason": "string"
       }
     ],
-    "contactless_confirmations": []
+    "contactless_confirmations": [],
+    "terms_and_conditions_debriefs": []
   },
   "authorized_location_geofence_id": null,
   "was_authorised_fuel_stop": false,
@@ -4946,7 +5231,7 @@
 ## Fuel Stop Failed `fuel_stop.failed`
 ```
 {
-  "when": "2020-08-12T15:52:44.3284359Z",
+  "when": "2020-09-02T14:58:00.2701015Z",
   "where": [
     0.0,
     0.0
@@ -5135,7 +5420,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-08-12T15:52:44.3114816Z"
+            "completed_on": "2020-09-02T14:58:00.250154Z"
           }
         ],
         "outcome_type": null,
@@ -5155,7 +5440,8 @@
         "status_reason": "string"
       }
     ],
-    "contactless_confirmations": []
+    "contactless_confirmations": [],
+    "terms_and_conditions_debriefs": []
   },
   "failure_reason": "string",
   "driver": {
@@ -5178,7 +5464,7 @@
 ## Fuel Stop Started `fuel_stop.started`
 ```
 {
-  "when": "2020-08-12T15:52:44.3264417Z",
+  "when": "2020-09-02T14:58:00.2671102Z",
   "where": [
     0.0,
     0.0
@@ -5335,7 +5621,9 @@
     "total_litres": 0.0,
     "total_volume": 0.0
   },
-  "when": "2020-08-12T15:52:44.3154725Z",
+  "travel_plan": null,
+  "consignments": null,
+  "when": "2020-09-02T14:58:00.2551429Z",
   "where": [
     0.0,
     0.0
@@ -5401,7 +5689,7 @@
     "type": "string",
     "created_by": "string"
   },
-  "when": "2020-08-12T15:52:44.3194617Z",
+  "when": "2020-09-02T14:58:00.2601294Z",
   "reason": "string"
 }
 ```
@@ -5464,7 +5752,7 @@
     "type": "string",
     "created_by": "string"
   },
-  "when": "2020-08-12T15:52:44.3344204Z",
+  "when": "2020-09-02T14:58:00.2770837Z",
   "where": [
     0.0,
     0.0
@@ -5536,7 +5824,7 @@
   "dropoffs": null,
   "execution": null,
   "force_closed": false,
-  "when": "2020-08-12T15:52:44.3184647Z",
+  "when": "2020-09-02T14:58:00.2601294Z",
   "where": [
     0.0,
     0.0
@@ -5602,7 +5890,7 @@
     "type": "string",
     "created_by": "string"
   },
-  "when": "2020-08-12T15:52:44.3184647Z"
+  "when": "2020-09-02T14:58:00.2601294Z"
 }
 ```
 ## Load Planned `load.planned`
@@ -5665,12 +5953,12 @@
     "created_by": "string"
   },
   "travel_plan": {
-    "start": "2020-08-12T15:52:44.3184647Z",
-    "end": "2020-08-12T15:52:44.3184647Z",
+    "start": "2020-09-02T14:58:00.2591316Z",
+    "end": "2020-09-02T14:58:00.2591316Z",
     "pois": [
       {
         "travel_plan_poi_id": "String",
-        "due_time": "2020-08-12T15:52:44.3184647Z",
+        "due_time": "2020-09-02T14:58:00.2591316Z",
         "geofence_trackmatic_id": null,
         "geofence_id": "string",
         "geofence_name": "string",
@@ -5693,11 +5981,13 @@
       "consignor": {
         "entity_id": "string",
         "name": "string",
+        "reference": null,
         "integration_key": "string"
       },
       "consignee": {
         "entity_id": "string",
         "name": "string",
+        "reference": null,
         "integration_key": "string"
       },
       "status": null,
@@ -5709,7 +5999,7 @@
       "id": null,
       "integration_key": "string",
       "reference": null,
-      "due_at": "2020-08-12T15:52:44.3174669Z",
+      "due_at": "2020-09-02T14:58:00.2591316Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -5812,7 +6102,7 @@
       "integration_key": "string",
       "reference": null,
       "internal_reference": null,
-      "due_at": "2020-08-12T15:52:44.3164733Z",
+      "due_at": "2020-09-02T14:58:00.2571363Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -5910,7 +6200,7 @@
       "requirements": null
     }
   ],
-  "when": "2020-08-12T15:52:44.3154725Z",
+  "when": "2020-09-02T14:58:00.2561386Z",
   "where": [
     0.0,
     0.0
@@ -5976,7 +6266,7 @@
     "type": "string",
     "created_by": "string"
   },
-  "when": "2020-08-12T15:52:44.3344204Z",
+  "when": "2020-09-02T14:58:00.2770837Z",
   "where": [
     0.0,
     0.0
@@ -5986,7 +6276,7 @@
 ## Multi Dropoff Completed `load.multidropoff.completed`
 ```
 {
-  "when": "2020-08-12T15:52:44.3224527Z",
+  "when": "2020-09-02T14:58:00.2621313Z",
   "where": [
     0.0,
     0.0
@@ -6059,11 +6349,13 @@
       "consignor": {
         "entity_id": "string",
         "name": "string",
+        "reference": null,
         "integration_key": "string"
       },
       "consignee": {
         "entity_id": "string",
         "name": "string",
+        "reference": null,
         "integration_key": "string"
       },
       "status": null,
@@ -6076,7 +6368,7 @@
       "integration_key": "string",
       "reference": null,
       "internal_reference": null,
-      "due_at": "2020-08-12T15:52:44.3224527Z",
+      "due_at": "2020-09-02T14:58:00.2631209Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -6302,7 +6594,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-08-12T15:52:44.3114816Z"
+            "completed_on": "2020-09-02T14:58:00.250154Z"
           }
         ],
         "outcome_type": null,
@@ -6322,7 +6614,8 @@
         "status_reason": "string"
       }
     ],
-    "contactless_confirmations": []
+    "contactless_confirmations": [],
+    "terms_and_conditions_debriefs": []
   },
   "resolutions": [
     {
@@ -6405,7 +6698,7 @@
 ## Multi Dropoff Failed `load.multidropoff.failed`
 ```
 {
-  "when": "2020-08-12T15:52:44.3224527Z",
+  "when": "2020-09-02T14:58:00.2631209Z",
   "where": [
     0.0,
     0.0
@@ -6477,11 +6770,13 @@
       "consignor": {
         "entity_id": "string",
         "name": "string",
+        "reference": null,
         "integration_key": "string"
       },
       "consignee": {
         "entity_id": "string",
         "name": "string",
+        "reference": null,
         "integration_key": "string"
       },
       "status": null,
@@ -6494,7 +6789,7 @@
       "integration_key": "string",
       "reference": null,
       "internal_reference": null,
-      "due_at": "2020-08-12T15:52:44.3234495Z",
+      "due_at": "2020-09-02T14:58:00.2631209Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -6720,7 +7015,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-08-12T15:52:44.3114816Z"
+            "completed_on": "2020-09-02T14:58:00.250154Z"
           }
         ],
         "outcome_type": null,
@@ -6740,7 +7035,8 @@
         "status_reason": "string"
       }
     ],
-    "contactless_confirmations": []
+    "contactless_confirmations": [],
+    "terms_and_conditions_debriefs": []
   },
   "resolutions": [
     {
@@ -6823,7 +7119,7 @@
 ## Multi Dropoff Started `load.multidropoff.started`
 ```
 {
-  "when": "2020-08-12T15:52:44.3204581Z",
+  "when": "2020-09-02T14:58:00.2611269Z",
   "where": [
     0.0,
     0.0
@@ -6895,11 +7191,13 @@
       "consignor": {
         "entity_id": "string",
         "name": "string",
+        "reference": null,
         "integration_key": "string"
       },
       "consignee": {
         "entity_id": "string",
         "name": "string",
+        "reference": null,
         "integration_key": "string"
       },
       "status": null,
@@ -6912,7 +7210,7 @@
       "integration_key": "string",
       "reference": null,
       "internal_reference": null,
-      "due_at": "2020-08-12T15:52:44.3214551Z",
+      "due_at": "2020-09-02T14:58:00.2621313Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -7111,7 +7409,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-08-12T15:52:44.3114816Z"
+            "completed_on": "2020-09-02T14:58:00.250154Z"
           }
         ],
         "outcome_type": null,
@@ -7131,14 +7429,15 @@
         "status_reason": "string"
       }
     ],
-    "contactless_confirmations": []
+    "contactless_confirmations": [],
+    "terms_and_conditions_debriefs": []
   }
 }
 ```
 ## Multi Pickup Completed `load.multipickup.completed`
 ```
 {
-  "when": "2020-08-12T15:52:44.3244472Z",
+  "when": "2020-09-02T14:58:00.2641185Z",
   "where": [
     0.0,
     0.0
@@ -7211,11 +7510,13 @@
       "consignor": {
         "entity_id": "string",
         "name": "string",
+        "reference": null,
         "integration_key": "string"
       },
       "consignee": {
         "entity_id": "string",
         "name": "string",
+        "reference": null,
         "integration_key": "string"
       },
       "status": null,
@@ -7227,7 +7528,7 @@
       "id": null,
       "integration_key": "string",
       "reference": null,
-      "due_at": "2020-08-12T15:52:44.3244472Z",
+      "due_at": "2020-09-02T14:58:00.2641185Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -7452,7 +7753,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-08-12T15:52:44.3114816Z"
+            "completed_on": "2020-09-02T14:58:00.250154Z"
           }
         ],
         "outcome_type": null,
@@ -7472,7 +7773,8 @@
         "status_reason": "string"
       }
     ],
-    "contactless_confirmations": []
+    "contactless_confirmations": [],
+    "terms_and_conditions_debriefs": []
   },
   "resolutions": [
     {
@@ -7490,7 +7792,7 @@
 ## Multi Pickup Failed `load.multipickup.failed`
 ```
 {
-  "when": "2020-08-12T15:52:44.3244472Z",
+  "when": "2020-09-02T14:58:00.2641185Z",
   "where": [
     0.0,
     0.0
@@ -7562,11 +7864,13 @@
       "consignor": {
         "entity_id": "string",
         "name": "string",
+        "reference": null,
         "integration_key": "string"
       },
       "consignee": {
         "entity_id": "string",
         "name": "string",
+        "reference": null,
         "integration_key": "string"
       },
       "status": null,
@@ -7578,7 +7882,7 @@
       "id": null,
       "integration_key": "string",
       "reference": null,
-      "due_at": "2020-08-12T15:52:44.3244472Z",
+      "due_at": "2020-09-02T14:58:00.2641185Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -7803,7 +8107,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-08-12T15:52:44.3114816Z"
+            "completed_on": "2020-09-02T14:58:00.250154Z"
           }
         ],
         "outcome_type": null,
@@ -7823,7 +8127,8 @@
         "status_reason": "string"
       }
     ],
-    "contactless_confirmations": []
+    "contactless_confirmations": [],
+    "terms_and_conditions_debriefs": []
   },
   "resolutions": [
     {
@@ -7894,7 +8199,7 @@
 ## Multi Pickup Started `load.multipickup.started`
 ```
 {
-  "when": "2020-08-12T15:52:44.3214551Z",
+  "when": "2020-09-02T14:58:00.2621313Z",
   "where": [
     0.0,
     0.0
@@ -7966,11 +8271,13 @@
       "consignor": {
         "entity_id": "string",
         "name": "string",
+        "reference": null,
         "integration_key": "string"
       },
       "consignee": {
         "entity_id": "string",
         "name": "string",
+        "reference": null,
         "integration_key": "string"
       },
       "status": null,
@@ -7982,7 +8289,7 @@
       "id": null,
       "integration_key": "string",
       "reference": null,
-      "due_at": "2020-08-12T15:52:44.3224527Z",
+      "due_at": "2020-09-02T14:58:00.2621313Z",
       "quantity": {
         "value": 0.0,
         "units": "string"
@@ -8180,7 +8487,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-08-12T15:52:44.3114816Z"
+            "completed_on": "2020-09-02T14:58:00.250154Z"
           }
         ],
         "outcome_type": null,
@@ -8200,7 +8507,8 @@
         "status_reason": "string"
       }
     ],
-    "contactless_confirmations": []
+    "contactless_confirmations": [],
+    "terms_and_conditions_debriefs": []
   }
 }
 ```
@@ -8209,7 +8517,7 @@
 {
   "id": null,
   "activity_id": null,
-  "when": "2020-08-12T15:52:44.3294329Z",
+  "when": "2020-09-02T14:58:00.2720982Z",
   "where": [
     0.0,
     0.0
@@ -8401,7 +8709,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-08-12T15:52:44.3114816Z"
+            "completed_on": "2020-09-02T14:58:00.250154Z"
           }
         ],
         "outcome_type": null,
@@ -8421,7 +8729,8 @@
         "status_reason": "string"
       }
     ],
-    "contactless_confirmations": []
+    "contactless_confirmations": [],
+    "terms_and_conditions_debriefs": []
   },
   "was_planned": false,
   "driver": {
@@ -8444,7 +8753,7 @@
 ## Odometer Failed `odometer.failed`
 ```
 {
-  "when": "2020-08-12T15:52:44.3304303Z",
+  "when": "2020-09-02T14:58:00.2730948Z",
   "where": [
     0.0,
     0.0
@@ -8633,7 +8942,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-08-12T15:52:44.3114816Z"
+            "completed_on": "2020-09-02T14:58:00.250154Z"
           }
         ],
         "outcome_type": null,
@@ -8653,7 +8962,8 @@
         "status_reason": "string"
       }
     ],
-    "contactless_confirmations": []
+    "contactless_confirmations": [],
+    "terms_and_conditions_debriefs": []
   },
   "failure_reason": "string",
   "driver": {
@@ -8676,7 +8986,7 @@
 ## Off Route `off_route`
 ```
 {
-  "when": "2020-08-12T15:52:44.3334231Z",
+  "when": "2020-09-02T14:58:00.2760865Z",
   "where": [
     0.0,
     0.0
@@ -8742,7 +9052,7 @@
 ## Pickup Completed `load.pickup.completed`
 ```
 {
-  "when": "2020-08-12T15:52:44.3254514Z",
+  "when": "2020-09-02T14:58:00.265116Z",
   "where": [
     0.0,
     0.0
@@ -8813,11 +9123,13 @@
     "consignor": {
       "entity_id": "string",
       "name": "string",
+      "reference": null,
       "integration_key": "string"
     },
     "consignee": {
       "entity_id": "string",
       "name": "string",
+      "reference": null,
       "integration_key": "string"
     },
     "status": null,
@@ -8827,7 +9139,7 @@
     "id": null,
     "integration_key": "string",
     "reference": null,
-    "due_at": "2020-08-12T15:52:44.3254514Z",
+    "due_at": "2020-09-02T14:58:00.265116Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -9051,7 +9363,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-08-12T15:52:44.3114816Z"
+            "completed_on": "2020-09-02T14:58:00.250154Z"
           }
         ],
         "outcome_type": null,
@@ -9071,14 +9383,15 @@
         "status_reason": "string"
       }
     ],
-    "contactless_confirmations": []
+    "contactless_confirmations": [],
+    "terms_and_conditions_debriefs": []
   }
 }
 ```
 ## Pickup Failed `load.pickup.failed`
 ```
 {
-  "when": "2020-08-12T15:52:44.3254514Z",
+  "when": "2020-09-02T14:58:00.265116Z",
   "where": [
     0.0,
     0.0
@@ -9149,11 +9462,13 @@
     "consignor": {
       "entity_id": "string",
       "name": "string",
+      "reference": null,
       "integration_key": "string"
     },
     "consignee": {
       "entity_id": "string",
       "name": "string",
+      "reference": null,
       "integration_key": "string"
     },
     "status": null,
@@ -9163,7 +9478,7 @@
     "id": null,
     "integration_key": "string",
     "reference": null,
-    "due_at": "2020-08-12T15:52:44.3254514Z",
+    "due_at": "2020-09-02T14:58:00.2661131Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -9387,7 +9702,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-08-12T15:52:44.3114816Z"
+            "completed_on": "2020-09-02T14:58:00.250154Z"
           }
         ],
         "outcome_type": null,
@@ -9407,7 +9722,8 @@
         "status_reason": "string"
       }
     ],
-    "contactless_confirmations": []
+    "contactless_confirmations": [],
+    "terms_and_conditions_debriefs": []
   },
   "failure_reason": null
 }
@@ -9415,7 +9731,7 @@
 ## Pickup Started `load.pickup.started`
 ```
 {
-  "when": "2020-08-12T15:52:44.3244472Z",
+  "when": "2020-09-02T14:58:00.265116Z",
   "where": [
     0.0,
     0.0
@@ -9486,11 +9802,13 @@
     "consignor": {
       "entity_id": "string",
       "name": "string",
+      "reference": null,
       "integration_key": "string"
     },
     "consignee": {
       "entity_id": "string",
       "name": "string",
+      "reference": null,
       "integration_key": "string"
     },
     "status": null,
@@ -9500,7 +9818,7 @@
     "id": null,
     "integration_key": "string",
     "reference": null,
-    "due_at": "2020-08-12T15:52:44.3254514Z",
+    "due_at": "2020-09-02T14:58:00.265116Z",
     "quantity": {
       "value": 0.0,
       "units": "string"
@@ -9697,7 +10015,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-08-12T15:52:44.3114816Z"
+            "completed_on": "2020-09-02T14:58:00.250154Z"
           }
         ],
         "outcome_type": null,
@@ -9717,14 +10035,15 @@
         "status_reason": "string"
       }
     ],
-    "contactless_confirmations": []
+    "contactless_confirmations": [],
+    "terms_and_conditions_debriefs": []
   }
 }
 ```
 ## Process Edocs Response `edoc.process.response`
 ```
 {
-  "when": "2020-08-12T15:52:44.3424043Z",
+  "when": "2020-09-02T14:58:00.2840657Z",
   "where": [
     0.0,
     0.0
@@ -9742,7 +10061,7 @@
 ## Rest Stop Completed `rest_stop.completed`
 ```
 {
-  "when": "2020-08-12T15:52:44.3284359Z",
+  "when": "2020-09-02T14:58:00.2710995Z",
   "where": [
     0.0,
     0.0
@@ -9819,7 +10138,8 @@
     "forms": [],
     "e_documents": [],
     "delays": [],
-    "contactless_confirmations": []
+    "contactless_confirmations": [],
+    "terms_and_conditions_debriefs": []
   },
   "driver": {
     "id": "string",
@@ -9842,7 +10162,7 @@
 ## Rest Stop Failed `rest_stop.failed`
 ```
 {
-  "when": "2020-08-12T15:52:44.3294329Z",
+  "when": "2020-09-02T14:58:00.2720982Z",
   "where": [
     0.0,
     0.0
@@ -10031,7 +10351,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-08-12T15:52:44.3114816Z"
+            "completed_on": "2020-09-02T14:58:00.250154Z"
           }
         ],
         "outcome_type": null,
@@ -10051,7 +10371,8 @@
         "status_reason": "string"
       }
     ],
-    "contactless_confirmations": []
+    "contactless_confirmations": [],
+    "terms_and_conditions_debriefs": []
   },
   "failure_reason": "string",
   "driver": {
@@ -10075,7 +10396,7 @@
 ## Rest Stop Started `rest_stop.started`
 ```
 {
-  "when": "2020-08-12T15:52:44.3284359Z",
+  "when": "2020-09-02T14:58:00.2701015Z",
   "where": [
     0.0,
     0.0
@@ -10160,7 +10481,7 @@
 ## Stop Arrived `load.stop.arrived`
 ```
 {
-  "when": "2020-08-12T15:52:44.314476Z",
+  "when": "2020-09-02T14:58:00.2541439Z",
   "where": [
     0.0,
     0.0
@@ -10224,13 +10545,15 @@
   "travel_plan_poi_id": "string",
   "activity_ids": null,
   "shipping_addresses": null,
+  "pickups": null,
+  "dropoffs": null,
   "integration_key": "string"
 }
 ```
 ## Stop Departed `load.stop.departed`
 ```
 {
-  "when": "2020-08-12T15:52:44.3154725Z",
+  "when": "2020-09-02T14:58:00.2551429Z",
   "where": [
     0.0,
     0.0
@@ -10300,7 +10623,7 @@
 ## Stop Failed `load.stop.failed`
 ```
 {
-  "when": "2020-08-12T15:52:44.3304303Z",
+  "when": "2020-09-02T14:58:00.2730948Z",
   "where": [
     0.0,
     0.0
@@ -10489,7 +10812,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-08-12T15:52:44.3114816Z"
+            "completed_on": "2020-09-02T14:58:00.250154Z"
           }
         ],
         "outcome_type": null,
@@ -10509,7 +10832,8 @@
         "status_reason": "string"
       }
     ],
-    "contactless_confirmations": []
+    "contactless_confirmations": [],
+    "terms_and_conditions_debriefs": []
   },
   "failure_reason": "string"
 }
@@ -10517,7 +10841,7 @@
 ## Stop Recorded `load.stop.recorded`
 ```
 {
-  "when": "2020-08-12T15:52:44.3304303Z",
+  "when": "2020-09-02T14:58:00.2730948Z",
   "where": [
     0.0,
     0.0
@@ -10706,7 +11030,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-08-12T15:52:44.3114816Z"
+            "completed_on": "2020-09-02T14:58:00.250154Z"
           }
         ],
         "outcome_type": null,
@@ -10726,7 +11050,8 @@
         "status_reason": "string"
       }
     ],
-    "contactless_confirmations": []
+    "contactless_confirmations": [],
+    "terms_and_conditions_debriefs": []
   },
   "travel_plan_poi_id": null,
   "integration_key": null
@@ -10735,7 +11060,7 @@
 ## Timed Task Completed `timed_task.completed`
 ```
 {
-  "when": "2020-08-12T15:52:44.335418Z",
+  "when": "2020-09-02T14:58:00.2780845Z",
   "where": [
     0.0,
     0.0
@@ -10804,7 +11129,7 @@
 ## Timed Task Failed `timed_task.failed`
 ```
 {
-  "when": "2020-08-12T15:52:44.335418Z",
+  "when": "2020-09-02T14:58:00.2780845Z",
   "where": [
     0.0,
     0.0
@@ -10874,7 +11199,7 @@
 ## Timed Task Started `timed_task.started`
 ```
 {
-  "when": "2020-08-12T15:52:44.3344204Z",
+  "when": "2020-09-02T14:58:00.2780845Z",
   "where": [
     0.0,
     0.0
@@ -10999,12 +11324,12 @@
     "created_by": "string"
   },
   "travel_plan": {
-    "start": "2020-08-12T15:52:44.3453918Z",
-    "end": "2020-08-12T15:52:44.3453918Z",
+    "start": "2020-09-02T14:58:00.2870566Z",
+    "end": "2020-09-02T14:58:00.2870566Z",
     "pois": [
       {
         "travel_plan_poi_id": "string",
-        "due_time": "2020-08-12T15:52:44.3453918Z",
+        "due_time": "2020-09-02T14:58:00.2870566Z",
         "geofence_trackmatic_id": null,
         "geofence_id": "string",
         "geofence_name": "string",
@@ -11016,13 +11341,13 @@
       }
     ]
   },
-  "when": "2020-08-12T15:52:44.3453918Z"
+  "when": "2020-09-02T14:58:00.2870566Z"
 }
 ```
 ## Weighbridge Completed `weighbridge.completed`
 ```
 {
-  "when": "2020-08-12T15:52:44.3314279Z",
+  "when": "2020-09-02T14:58:00.2740927Z",
   "where": [
     0.0,
     0.0
@@ -11211,7 +11536,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-08-12T15:52:44.3114816Z"
+            "completed_on": "2020-09-02T14:58:00.250154Z"
           }
         ],
         "outcome_type": null,
@@ -11231,7 +11556,8 @@
         "status_reason": "string"
       }
     ],
-    "contactless_confirmations": []
+    "contactless_confirmations": [],
+    "terms_and_conditions_debriefs": []
   },
   "was_planned": false,
   "weighbridge_name": "string",
@@ -11269,7 +11595,7 @@
 ## Weighbridge Failed `weighbridge.failed`
 ```
 {
-  "when": "2020-08-12T15:52:44.3324261Z",
+  "when": "2020-09-02T14:58:00.2760865Z",
   "where": [
     0.0,
     0.0
@@ -11458,7 +11784,7 @@
             "document_name": "String",
             "signee_name": "String",
             "comment": "String",
-            "completed_on": "2020-08-12T15:52:44.3114816Z"
+            "completed_on": "2020-09-02T14:58:00.250154Z"
           }
         ],
         "outcome_type": null,
@@ -11478,7 +11804,8 @@
         "status_reason": "string"
       }
     ],
-    "contactless_confirmations": []
+    "contactless_confirmations": [],
+    "terms_and_conditions_debriefs": []
   },
   "failure_reason": "string",
   "driver": {
@@ -11501,7 +11828,7 @@
 ## Weighbridge Started `weighbridge.started`
 ```
 {
-  "when": "2020-08-12T15:52:44.3304303Z",
+  "when": "2020-09-02T14:58:00.2740927Z",
   "where": [
     0.0,
     0.0
