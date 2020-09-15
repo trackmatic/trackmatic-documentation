@@ -34,3 +34,7 @@ The Trackmatic ecosystem is divided into a number of modules. Each module provid
 ### [Reporting](rest/reporting)
 
 {% include reporting.md %}
+
+### [Insights](rest/insights)
+
+{% include insights.md %}

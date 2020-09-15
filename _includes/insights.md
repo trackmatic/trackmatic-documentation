@@ -1,0 +1,1 @@
+The insights module provides the nescessary functionality to provide insights.

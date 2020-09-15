@@ -78,6 +78,9 @@
     - id: Reporting
       title: Reporting
       url: /rest/reporting
+    - id: Insights
+      title: Insights
+      url: /rest/insights
     - id: ubd
       title: Universal Barcode Discovery
       url: /rest/ubd
@@ -90,3 +93,6 @@
     - id: fleet
       title: Fleet
       url: /webhooks/fleet
+    - id: link
+      title: Link
+      url: /webhooks/link
