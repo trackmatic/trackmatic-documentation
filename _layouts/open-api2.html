@@ -42,6 +42,7 @@
   function init() {
     loadJSON(function (response) {
       // Parse JSON string into object
+      console.log(response);
       var actual_JSON = JSON.parse(response);
       console.log("The JSON:")
       console.log(actual_JSON)
